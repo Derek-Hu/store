@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import multipleEntryPlugin from 'react-app-rewire-multiple-entry';
+
+console.log(multipleEntryPlugin);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
