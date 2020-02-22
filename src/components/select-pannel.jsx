@@ -38,7 +38,7 @@ export default class Sider extends React.Component {
         defaultSelectedKeys={['1']}
         defaultOpenKeys={['sub1']}
         mode="inline"
-        theme="dark"
+        // theme="dark"
       >
         <SubMenu
           key="sub1"

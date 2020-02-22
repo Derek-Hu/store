@@ -7,7 +7,7 @@ export default class Graph extends React.Component {
 
   render() {
     return (
-      <div id="components-button-demo-" style={{padding: '1em'}}>
+      <div className="components-button-demo-" style={{padding: '1em', borderRight: '1px solid #ddd'}}>
         <ButtonExample></ButtonExample>
       </div>
     );
