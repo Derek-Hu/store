@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export const ContainerName = 'dragula-container';
 
 export const ContainerHints = 'drag-hints';
@@ -16,6 +15,5 @@ DragContainer.NoDragElement = (props) => {
         })}
     </>;
 }
-
 
 export default DragContainer;

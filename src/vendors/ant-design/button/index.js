@@ -16,11 +16,11 @@ export default class ButtonExample extends React.Component {
                 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。
             </Paragraph>
             <DragContainer>
-                <NoDragElement>
-                    <Button type="primary">Primary</Button>
-                </NoDragElement>
                 <Button>Default</Button>
                 <Button type="dashed">Dashed</Button>
+                {/* <NoDragElement> */}
+                    <Button type="primary">Primary</Button>
+                {/* </NoDragElement> */}
                 <Button type="danger">Danger</Button>
                 <Button type="link">Link</Button>
             </DragContainer>
@@ -83,9 +83,9 @@ export default class ButtonExample extends React.Component {
                     <Button>OK</Button>
                 </ButtonGroup>
                 <ButtonGroup style={{ margin: '0 1em' }}>
-                    <Button disabled>L</Button>
-                    <Button disabled>M</Button>
-                    <Button disabled>R</Button>
+                    <Button>L</Button>
+                    <Button>M</Button>
+                    <Button>R</Button>
                 </ButtonGroup>
                 <ButtonGroup>
                     <Button type="primary">
