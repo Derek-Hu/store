@@ -5,7 +5,7 @@ import Graph from './components/graph.jsx';
 import IFrame from './components/iframe';
 import Desktop from './components/desktop';
 import { Menu, Icon } from 'antd';
-import { Layout, Switch } from 'antd';
+import { Layout } from 'antd';
 
 const { SubMenu } = Menu;
 
@@ -49,7 +49,7 @@ const App = () => {
       </Header>
       <Layout >
         <Sider><SelectPannel></SelectPannel></Sider>
-        <Content style={{ background: '#fff' }}><Graph></Graph></Content>
+        <Content className="elements-container" style={{ background: '#fff' }}><Graph></Graph></Content>
         <Layout style={{width: '50%'}}>
           <Content style={{ background: '#fff'}} ><Desktop></Desktop></Content>
         </Layout>
