@@ -6,7 +6,7 @@ import DragContainer from 'src/components/ElementContainer';
 
 const ButtonGroup = Button.Group;
 const { Paragraph } = Typography;
-const {NoDragElement } = DragContainer;
+// const {NoDragElement } = DragContainer;
 
 export default class ButtonExample extends React.Component {
 

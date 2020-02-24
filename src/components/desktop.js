@@ -26,19 +26,25 @@ export default class Graph extends React.Component {
         return el.classList.contains(ContainerHints); // elements are always draggable by default
       },
       accepts: function (el, target, source, sibling) {
-        console.log('accept', el, el.classList, target, source, sibling);
+        // console.log('accept', el, el.classList, target, source, sibling);
+        // const isAccept = !target.classList.contains(TargetContainer);
         if(!target.classList.contains(TargetContainer)){
           return false;
         }
+        console.log('accept')
         return true; // elements can be dropped in any of the `containers` by default
       },
     });
-    this.t.on('dragend', (el, target) => {
-      console.log('dragend', el, target);
+    this.t.on('drop', (el, target, source, sibling) => {
+      console.log('drop', el, target, source, sibling);
       this.setState({
         // el
       })
-    })
+
+    });
+    this.t.on('shadow', (el, container) => {
+      console.log('shadow', el, container);
+    });
   }
   componentWillUnmount(){
     this.t && this.t.destroy();
