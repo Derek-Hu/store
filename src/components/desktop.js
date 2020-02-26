@@ -3,6 +3,7 @@ import './graph.less';
 import dragula from 'dragula';
 import 'dragula/dist/dragula.min.css';
 import {ContainerName, ContainerHints} from 'src/components/ElementContainer';
+import DynamicForm from 'src/components/form/example';
 
 const TargetContainer = 'desktop-container';
 export default class Graph extends React.Component {
@@ -52,6 +53,7 @@ export default class Graph extends React.Component {
   render() {
     return (
       <div className="desktop-container" style={{padding: '1em', height: '100%'}}>
+        <DynamicForm></DynamicForm>
       </div>
     );
   }
