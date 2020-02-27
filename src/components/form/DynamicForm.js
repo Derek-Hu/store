@@ -9,7 +9,28 @@ const renderField = (field, parentProps) => {
     {getFieldDecorator(key, decorator)(<Component {...componentProps} />)}
   </Form.Item>;
 }
-export default Form.create()(props => {
+export default Form.create({
+  onFieldsChange(props, changedFields, allFields) {
+    props.onFieldsChange && props.onFieldsChange(changedFields, allFields);
+  },
+  mapPropsToFields(props) {
+    const { settings: { fields } } = props;
+    if(fields){
+      return fields.reduce((formFields, field) => {
+        const formData = props.fields;
+        const fieldData = formData ? formData[field.key] : null;
+        formFields[field.key] = Form.createFormField({
+          ...fieldData,
+          value: fieldData ? fieldData.value : undefined,
+        });
+        return formFields;
+      }, {});
+    }
+  },
+  onValuesChange(props, changedValues, allValues) {
+    props.onValuesChange && props.onValuesChange(changedValues, allValues);
+  },
+})(props => {
   const { settings: { props: fromProps, fields }, render, children } = props;
 
   if (!fields || !fields.length) {
