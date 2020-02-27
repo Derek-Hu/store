@@ -1,5 +1,4 @@
 import { Input } from 'antd';
-import BasicInfoLayout from './layout'
 /*
  * 1. 素数
  * 2. 中间渲染
@@ -7,16 +6,33 @@ import BasicInfoLayout from './layout'
  * 4. Visible
  */
 export default {
-    template: BasicInfoLayout,
     // props: {
 
     // },
     fields: [
         {
             key: 'name',
-            props: {
-                label: '资金方名称',
+            // props: {
+            //     label: '资金方名称',
+            // },
+            component: [Input, {
+                placeholder: '请输入',
+                maxLength: 2500,
+            }],
+            decorator: {
+                rules: [
+                    {
+                        required: true,
+                        message: 'Error',
+                    },
+                ],
             },
+        },
+        {
+            key: 'password',
+            // props: {
+            //     label: '资金方名称',
+            // },
             component: [Input, {
                 placeholder: '请输入',
                 maxLength: 2500,

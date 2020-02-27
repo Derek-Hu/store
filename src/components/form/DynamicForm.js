@@ -1,82 +1,77 @@
 import React from 'react';
 import { Form } from 'antd';
 
-class Graph extends React.Component {
+const renderField = (field, parentProps) => {
+  const { getFieldDecorator } = parentProps.form;
+  const { key, props, component, decorator } = field;
+  const [Component, componentProps] = Array.isArray(component) ? component : [component]
+  return <Form.Item {...props} key={key}>
+    {getFieldDecorator(key, decorator)(<Component {...componentProps} />)}
+  </Form.Item>;
+}
+export default Form.create()(props => {
+  const { settings: { props: fromProps, fields }, render, children } = props;
 
-  renderField = (field) => {
-    const { getFieldDecorator } = this.props.form;
-    const { key, props, component, decorator } = field;
-    const [Component, componentProps] = Array.isArray(component) ? component : [component]
-    return <Form.Item {...props} key={key}>
-      {getFieldDecorator(key, decorator)(<Component {...componentProps} />)}
-    </Form.Item>;
+  if (!fields || !fields.length) {
+    return null;
   }
+  const keyArgs = {};
+  const FieldInstances = {};
+  const batchKeys = {};
+  let currentBatchNumber = -1;
+  const FormFieldsGetter = {};
+  const totalKey = {};
 
-  render() {
-    const { settings: { props, fields }, render, children } = this.props;
-    if (!fields || !fields.length) {
-      return;
-    }
-    const keyArgs = {};
-    const totalKey = fields.reduce((keys, field) => {
-      keys[field.key] = true;
-      keyArgs[field.key] = field.key;
-      return keys;
-    }, {});
-    const keys = Object.keys(totalKey);
-    const FieldInstances = fields.reduce((instances, field) => {
-      instances[field.key] = this.renderField(field);
-      return instances;
-    }, {});
-    
-    const batchKeys = {};
-    let currentBatchNumber = -1;
-    const FormFieldsGetter = {};
-
-    keys.forEach((key)=>{
-      Object.defineProperty(FormFieldsGetter, key, {
-        get: function(){
-          if(!(key in totalKey)){
-            return null;
-          }
-          if (!batchKeys[currentBatchNumber]) {
-            batchKeys[currentBatchNumber] = [];
-          }
-          batchKeys[currentBatchNumber].push(key);
-          return FieldInstances[key];
+  fields.forEach(field => {
+    const key = field.key;
+    totalKey[key] = true;
+    FieldInstances[key] = renderField(field, props);
+    keyArgs[key] = key;
+    Object.defineProperty(FormFieldsGetter, key, {
+      get: function () {
+        if (!(key in keyArgs)) {
+          return null;
         }
-      });
-    })
-
-    const interceptors = render ? render.filter(child => typeof child === 'function') : null;
-
-    const CustomItems = interceptors ? interceptors.map((interceptor, index) => {
-      currentBatchNumber = index;
-      return interceptor(keyArgs, FormFieldsGetter);
-    }) : null;
-
-    const batchKeyGraph = Object.keys(batchKeys).reduce((graph, batchIndex)=> {
-      const batch = batchKeys[batchIndex];
-      graph[batch[0]] = { index: batchIndex, args: batch };
-      return graph;
-    }, {});
-
-    const formItems = keys.map((key) => {
-      if(!totalKey[key]) { 
-        return;
+        if (!batchKeys[currentBatchNumber]) {
+          batchKeys[currentBatchNumber] = [];
+        }
+        batchKeys[currentBatchNumber].push(key);
+        return FieldInstances[key];
       }
-      if ((key in batchKeyGraph)) {
-        batchKeyGraph[key].args.forEach(batchKey => {
+    });
+  });
+
+  const interceptors = render ? render.filter(child => typeof child === 'function') : null;
+  const CustomItems = interceptors ? interceptors.map((interceptor, index) => {
+    currentBatchNumber = index;
+    return React.cloneElement(interceptor(keyArgs, FormFieldsGetter), {key: `batch_${index}`});
+  }) : null;
+
+  const batchKeyGraph = Object.keys(batchKeys).reduce((graph, batchIndex) => {
+    const batch = batchKeys[batchIndex];
+    if (!graph[batch[0]]) {
+      graph[batch[0]] = [];
+    }
+    graph[batch[0]].push({ index: batchIndex, args: batch });
+    return graph;
+  }, {});
+
+  const formItems = fields.map((field) => {
+    const key = field.key;
+    if (!totalKey[key]) {
+      return null;
+    }
+    if ((key in batchKeyGraph)) {
+      return batchKeyGraph[key].map(batch => {
+        batch.args.forEach(batchKey => {
           totalKey[batchKey] = false;
         });
-        return CustomItems[batchKeyGraph[key].index];
-      }
-      return FieldInstances[key];
-    });
-    return (
-      <Form {...props}>{formItems}{children}</Form>
-    );
-  }
-}
-
-export default Form.create()(Graph);
+        return CustomItems[batch.index];
+      });
+    }
+    return FieldInstances[key];
+  });
+  return (
+    <Form {...fromProps}>{formItems}{children}</Form>
+  );
+});
