@@ -14,7 +14,6 @@ const settings = {
         placeholder: "Username"
       }],
       props: {
-        validateStatus: '',
       },
       decorator: {
         rules: [{ required: true, message: 'Please input your Password!' }],
@@ -36,28 +35,32 @@ function hasErrors(fieldsError) {
   return Object.keys(fieldsError).some(field => fieldsError[field]);
 }
 
-@Form.create()
 export default class Example extends React.Component {
 
   state = {
     fields: {
       username: {
-        value: 'benjycui',
+        // value: 'benjycui',
       },
       password: {
-        value: 'password',
+        // value: 'password',
       },
     },
   };
 
   componentDidMount() {
     // To disable submit button at the beginning.
-    // this.props.form.validateFields();
+    // this.formRef.form.validateFields();
+    console.log(this.formRef)
   }
+
+  saveFormRef = formRef => {
+    this.formRef = formRef;
+  };
 
   handleSubmit = e => {
     e.preventDefault();
-    this.props.form.validateFields((err, values) => {
+    this.formRef.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values);
       }
@@ -74,8 +77,9 @@ export default class Example extends React.Component {
   onValuesChange = (changedValues, allValues) => {
     console.log(changedValues, allValues);
   }
+
   render() {
-    // const { getFieldDecorator, getFieldsError, getFieldError, isFieldTouched } = this.props.form;
+    // const { getFieldDecorator, getFieldsError, getFieldError, isFieldTouched } = this.formRef.form;
     const { fields } = this.state;
 
     // Only show error after a field is touched.
@@ -84,7 +88,12 @@ export default class Example extends React.Component {
 
     // console.log(getFieldsError());
     return (
-      <DynamicForm settings={settings} fields={fields} onValuesChange={this.onValuesChange} onFieldsChange={this.onFieldsChange}>
+      <DynamicForm
+        wrappedComponentRef={this.saveFormRef}
+        settings={settings}
+        fields={fields}
+        onValuesChange={this.onValuesChange}
+        onFieldsChange={this.onFieldsChange}>
         <Form.Item>
           <Button type="primary" htmlType="submit" onClick={this.handleSubmit}
           // disabled={hasErrors(getFieldsError())}

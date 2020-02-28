@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { forwardRef, useImperativeHandle } from 'react';
 import { Form } from 'antd';
 
 const renderField = (field, parentProps) => {
   const { getFieldDecorator } = parentProps.form;
-  const { key, props, component, decorator } = field;
-  const [Component, componentProps] = Array.isArray(component) ? component : [component]
-  return <Form.Item {...props} key={key}>
-    {getFieldDecorator(key, decorator)(<Component {...componentProps} />)}
-  </Form.Item>;
+  const { key, component, decorator } = field;
+  const [Component, componentProps] = Array.isArray(component) ? component : [component];
+  const {children} = componentProps;
+  return getFieldDecorator(key, decorator)(<Component {...componentProps}>{children}</Component>);
 }
 export default Form.create({
   onFieldsChange(props, changedFields, allFields) {
@@ -30,8 +29,13 @@ export default Form.create({
   onValuesChange(props, changedValues, allValues) {
     props.onValuesChange && props.onValuesChange(changedValues, allValues);
   },
-})(props => {
-  const { settings: { props: fromProps, fields }, render, children } = props;
+})(forwardRef((props, ref) => {
+
+  useImperativeHandle(ref, () => ({
+    form: props.form,
+  }));
+
+  const { settings: { props: fromProps, fields }, render, children, onSubmit } = props;
 
   if (!fields || !fields.length) {
     return null;
@@ -43,6 +47,12 @@ export default Form.create({
   const FormFieldsGetter = {};
   const totalKey = {};
 
+  Object.defineProperty(FormFieldsGetter, 'undefined', {
+    get: function(){
+      console.error(`Key not match in render params: <DynamicForm render={[({key}, fields) => Component ]} />`)
+      return null;
+    }
+  });
   fields.forEach(field => {
     const key = field.key;
     totalKey[key] = true;
@@ -50,9 +60,6 @@ export default Form.create({
     keyArgs[key] = key;
     Object.defineProperty(FormFieldsGetter, key, {
       get: function () {
-        if (!(key in keyArgs)) {
-          return null;
-        }
         if (!batchKeys[currentBatchNumber]) {
           batchKeys[currentBatchNumber] = [];
         }
@@ -62,10 +69,15 @@ export default Form.create({
     });
   });
 
-  const interceptors = render ? render.filter(child => typeof child === 'function') : null;
-  const CustomItems = interceptors ? interceptors.map((interceptor, index) => {
+  const interceptors = (Array.isArray(render) ? render : [render]).filter(child => typeof child === 'function');
+  const CustomItems = interceptors && interceptors.length ? interceptors.map((interceptor, index) => {
     currentBatchNumber = index;
-    return React.cloneElement(interceptor(keyArgs, FormFieldsGetter), {key: `batch_${index}`});
+    const customs = interceptor(keyArgs, FormFieldsGetter);
+    if(!customs){
+      console.error(`Should return Component: <DynamicForm render={[({key}, fields) => Component]} />`);
+      return null;
+    }
+    return React.cloneElement(customs, {key: `batch_${index}`});
   }) : null;
 
   const batchKeyGraph = Object.keys(batchKeys).reduce((graph, batchIndex) => {
@@ -78,7 +90,7 @@ export default Form.create({
   }, {});
 
   const formItems = fields.map((field) => {
-    const key = field.key;
+    const { key, props } = field;
     if (!totalKey[key]) {
       return null;
     }
@@ -90,9 +102,9 @@ export default Form.create({
         return CustomItems[batch.index];
       });
     }
-    return FieldInstances[key];
+    return <Form.Item {...props} key={key}>{FieldInstances[key]}</Form.Item>;
   });
   return (
-    <Form {...fromProps}>{formItems}{children}</Form>
+    <Form {...fromProps} onSubmit={onSubmit}>{formItems}{children}</Form>
   );
-});
+}));
