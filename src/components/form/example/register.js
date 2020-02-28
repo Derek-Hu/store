@@ -15,6 +15,7 @@ import {
 } from 'antd';
 
 const { Option } = Select;
+const InputGroup = Input.Group;
 const AutoCompleteOption = AutoComplete.Option;
 const residences = [
     {
@@ -79,6 +80,21 @@ export default class Example extends React.Component {
     state = {
         confirmDirty: false,
         autoCompleteResult: [],
+        fields: {
+            prefix: {
+                value: '86'
+            }
+        }
+    };
+
+    handleWebsiteChange = value => {
+        let autoCompleteResult;
+        if (!value) {
+            autoCompleteResult = [];
+        } else {
+            autoCompleteResult = ['.com', '.org', '.net'].map(domain => `${value}${domain}`);
+        }
+        this.setState({ autoCompleteResult });
     };
 
     compareToFirstPassword = (rule, value, callback) => {
@@ -105,108 +121,9 @@ export default class Example extends React.Component {
         this.setState({ confirmDirty: this.state.confirmDirty || !!value });
     };
 
-    settings = {
-        props: {
-            ...formItemLayout,
-        },
-        fields: [
-            {
-                key: 'email',
-                component: [Input, {
-                    prefix: <Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />,
-                    placeholder: "Username"
-                }],
-                props: {
-                    label: 'E-mail'
-                },
-                decorator: {
-                    rules: [
-                        { type: 'email', message: 'The input is not valid E-mail!' },
-                        { required: true, message: 'Please input your E-mail!' },
-                    ],
-                },
-            }, {
-                key: 'password',
-                component: Input.Password,
-                props: {
-                    label: 'Password',
-                    hasFeedback: true,
-                },
-                decorator: {
-                    rules: [
-                        { required: true, message: 'Please input your password!' },
-                        { validator: this.validateToNextPassword },
-                    ],
-                },
-            }, {
-                key: 'confirm',
-                component: [Input.Password, {
-                    onBlur: this.handleConfirmBlur
-                }],
-                props: {
-                    label: 'Confirm Password',
-                    hasFeedback: true,
-                },
-                decorator: {
-                    rules: [
-                        { required: true, message: 'Please confirm your password!' },
-                        { validator: this.compareToFirstPassword },
-                    ],
-                },
-            }, {
-                key: 'nickname',
-                component: Input,
-                props: {
-                    label: <span>Nickname&nbsp;
-                        <Tooltip title="What do you want others to call you?">
-                            <Icon type="question-circle-o" />
-                        </Tooltip>
-                    </span>,
-                },
-                decorator: {
-                    rules: [{ required: true, message: 'Please input your nickname!', whitespace: true }],
-                },
-            }, {
-                key: 'residence',
-                component: [Cascader, {
-                    options: residences
-                }],
-                props: {
-                    label: 'Habitual Residence',
-                },
-                decorator: {
-                    initialValue: ['zhejiang', 'hangzhou', 'xihu'],
-                    rules: [
-                        { type: 'array', required: true, message: 'Please select your habitual residence!' },
-                    ],
-                },
-            }, {
-                key: 'phone',
-                component: [Input, {
-                    // addonBefore: prefixSelector,
-                    style: { width: '100%' }
-                }],
-                props: {
-                    label: 'Phone Number',
-                },
-                decorator: {
-                    rules: [{ required: true, message: 'Please input your phone number!' }],
-                },
-            }, {
-                key: 'prefix',
-                component: [Select, {
-                    style: { width: 70 },
-                    children: <>
-                        <Option value="86">+86</Option>
-                        <Option value="87">+87</Option>
-                    </>
-                }],
-                decorator: {
-                    initialValue: '86',
-                },
-            }
-        ]
-    };
+    getWebsiteOptions = () => this.state.autoCompleteResult.map(website => (
+        <AutoCompleteOption key={website}>{website}</AutoCompleteOption>
+    ));
 
     componentDidMount() {
         console.log(this.formRef)
@@ -227,6 +144,9 @@ export default class Example extends React.Component {
 
     onFieldsChange = (changedFields, allFields) => {
         console.log(changedFields, allFields);
+        this.setState(({ fields }) => ({
+            fields: { ...fields, ...changedFields },
+        }));
     }
 
     onValuesChange = (changedValues, allValues) => {
@@ -235,22 +155,172 @@ export default class Example extends React.Component {
 
     render() {
         const { fields } = this.state;
+        const settings = {
+            props: {
+                ...formItemLayout,
+            },
+            fields: [
+                {
+                    key: 'email',
+                    component: [Input, {
+                        prefix: <Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />,
+                        placeholder: "Username"
+                    }],
+                    props: {
+                        label: 'E-mail'
+                    },
+                    decorator: {
+                        rules: [
+                            { type: 'email', message: 'The input is not valid E-mail!' },
+                            { required: true, message: 'Please input your E-mail!' },
+                        ],
+                    },
+                }, {
+                    key: 'password',
+                    component: Input.Password,
+                    props: {
+                        label: 'Password',
+                        hasFeedback: true,
+                    },
+                    decorator: {
+                        rules: [
+                            { required: true, message: 'Please input your password!' },
+                            { validator: this.validateToNextPassword },
+                        ],
+                    },
+                }, {
+                    key: 'confirm',
+                    component: [Input.Password, {
+                        onBlur: this.handleConfirmBlur
+                    }],
+                    props: {
+                        label: 'Confirm Password',
+                        hasFeedback: true,
+                    },
+                    decorator: {
+                        rules: [
+                            { required: true, message: 'Please confirm your password!' },
+                            { validator: this.compareToFirstPassword },
+                        ],
+                    },
+                }, {
+                    key: 'nickname',
+                    component: Input,
+                    props: {
+                        label: <span>Nickname&nbsp;
+                            <Tooltip title="What do you want others to call you?">
+                                <Icon type="question-circle-o" />
+                            </Tooltip>
+                        </span>,
+                    },
+                    decorator: {
+                        rules: [{ required: true, message: 'Please input your nickname!', whitespace: true }],
+                    },
+                }, {
+                    key: 'residence',
+                    component: [Cascader, {
+                        options: residences
+                    }],
+                    props: {
+                        label: 'Habitual Residence',
+                    },
+                    decorator: {
+                        initialValue: ['zhejiang', 'hangzhou', 'xihu'],
+                        rules: [
+                            { type: 'array', required: true, message: 'Please select your habitual residence!' },
+                        ],
+                    },
+                }, {
+                    key: 'phone',
+                    component: [Input, {
+                        // addonBefore: prefixSelector,
+                        style: { width: '100%' }
+                    }],
+                    props: {
+                        label: 'Phone Number',
+                    },
+                    decorator: {
+                        rules: [{ required: true, message: 'Please input your phone number!' }],
+                    },
+                }, {
+                    key: 'prefix',
+                    component: [Select, {
+                        style: { width: 70 },
+                        children: [
+                            <Option key="86" value="86">+86</Option>,
+                            <Option key="87" value="87">+87</Option>
+                        ],
+                    }],
+                    decorator: {
+                        initialValue: "86"
+                    },
+                }, {
+                    key: 'website',
+                    component: [AutoComplete, {
+                        dataSource: this.getWebsiteOptions(),
+                        onChange: this.handleWebsiteChange,
+                        placeholder: "website"
+                    }],
+                    props: {
+                        label: 'Website'
+                    },
+                    decorator: {
+                        initialValue: "86"
+                    },
+                }, {
+                    key: 'captcha',
+                    component: [Input, {
+                    }],
+                    decorator: {
+                        rules: [{ required: true, message: 'Please input the captcha you got!' }],
+                    },
+                }, {
+                    key: 'agreement',
+                    component: [Checkbox, {
+                        children: <>
+                            I have read the <a href="">agreement</a>
+                        </>
+                    }],
+                    props: {
+                        ...tailFormItemLayout,
+                    },
+                    decorator: {
+                        valuePropName: 'checked',
+                        rules: [{ required: true, message: 'Please input the captcha you got!' }],
+                    },
+                }
+            ]
+        };
         return (
             <DynamicForm
                 wrappedComponentRef={this.saveFormRef}
-                settings={this.settings}
+                settings={settings}
                 fields={fields}
                 onSubmit={this.handleSubmit}
                 onValuesChange={this.onValuesChange}
                 onFieldsChange={this.onFieldsChange}
-                render={[({ prefix, phone }, fields) => <Form.Item>
-                    
-                </Form.Item>]}>
-                <Button type="primary" htmlType="submit">
-                    Log in
-                </Button>
-                <Form.Item>
-                    Or <a href="">register now!</a>
+                render={[
+                    ({ captcha }, fields) => <Form.Item label="Captcha" extra="We must make sure that your are a human.">
+                        <Row gutter={8}>
+                            <Col span={12}>
+                                {fields[captcha]}
+                            </Col>
+                            <Col span={12}>
+                                <Button>Get captcha</Button>
+                            </Col>
+                        </Row>
+                    </Form.Item>,
+                    ({ phone, prefix }, fields) => <Form.Item label="Phone Number" required={true}>
+                        <InputGroup compact>
+                            <Form.Item>{fields[prefix]}</Form.Item>
+                            <Form.Item>{fields[phone]}</Form.Item>
+                        </InputGroup>
+                    </Form.Item>
+                ]}>
+                <Form.Item {...tailFormItemLayout}>
+                    <Button type="primary" htmlType="submit">
+                        Register
+                    </Button>
                 </Form.Item>
             </DynamicForm>
         );
