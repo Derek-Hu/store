@@ -5,7 +5,7 @@ const renderField = (field, parentProps) => {
   const { getFieldDecorator } = parentProps.form;
   const { key, component, decorator } = field;
   const [Component, componentProps] = Array.isArray(component) ? component : [component];
-  const {children} = componentProps;
+  const {children} = componentProps || {};
   return getFieldDecorator(key, decorator)(<Component {...componentProps}>{children}</Component>);
 }
 export default Form.create({
@@ -55,6 +55,10 @@ export default Form.create({
   });
   fields.forEach(field => {
     const key = field.key;
+    if(key in totalKey){
+      console.error(`Duplicate Key '${key}' props settings, <Dynamic settings={settings} />`)
+      return;
+    }
     totalKey[key] = true;
     FieldInstances[key] = renderField(field, props);
     keyArgs[key] = key;
