@@ -135,9 +135,9 @@ export default class Example extends React.Component {
         this.formRef = formRef;
     };
 
-    handleSubmit = e => {
+    handleSubmit = (e, formRef) => {
         e.preventDefault();
-        this.formRef.form.validateFields((err, values) => {
+        formRef.validateFields((err, values) => {
             if (!err) {
                 console.log('Received values of form: ', values);
             }
@@ -302,7 +302,6 @@ export default class Example extends React.Component {
                 settings={settings}
                 fields={fields}
                 onSubmit={this.handleSubmit}
-                onValuesChange={this.onValuesChange}
                 onFieldsChange={this.onFieldsChange}
                 render={[
                     ({ captcha }, fields) => <Form.Item label="Captcha" extra="We must make sure that your are a human.">

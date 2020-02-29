@@ -43,10 +43,14 @@ export default Form.create({
     form: props.form,
   }));
 
-  const { settings: { props: fromProps, fields }, render, children, onSubmit } = props;
+  const { settings: { props: fromProps, fields }, render, children, onSubmit, onFieldsChange, fields: formData } = props;
 
   if (!fields || !fields.length) {
     return null;
+  }
+
+  if(onFieldsChange && !formData){
+    console.error(`Missing prop 'fields' when 'onFieldsChange' exists in <DynamicForm onFieldsChange={() => {}} fields={}/>`)
   }
   const keyArgs = {};
   const FieldInstances = {};
