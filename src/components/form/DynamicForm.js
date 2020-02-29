@@ -1,6 +1,7 @@
 import React, { forwardRef, useImperativeHandle } from 'react';
 import { Form } from 'antd';
 
+const ComponentName = 'DynamicForm';
 const renderField = (field, parentProps) => {
   const { getFieldDecorator } = parentProps.form;
   const { key, component, decorator } = field;
@@ -50,7 +51,7 @@ export default Form.create({
   }
 
   if(onFieldsChange && !formData){
-    console.error(`Missing prop 'fields' when 'onFieldsChange' exists in <DynamicForm onFieldsChange={() => {}} fields={}/>`)
+    console.error(`Missing prop 'fields' when 'onFieldsChange' exists in <${ComponentName} onFieldsChange={() => {}} fields={}/>`)
   }
   const keyArgs = {};
   const FieldInstances = {};
@@ -61,7 +62,7 @@ export default Form.create({
 
   Object.defineProperty(FormFieldsGetter, 'undefined', {
     get: function () {
-      console.error(`Key not match in render params: <DynamicForm render={[({key}, fields) => Component ]} />`)
+      console.error(`Key not match in render params: <${ComponentName} render={[({key}, fields) => Component ]} />`)
       return null;
     }
   });
@@ -73,7 +74,7 @@ export default Form.create({
     }
     const key = field.key;
     if (key in totalKey) {
-      console.error(`Duplicate Key '${key}' props settings, <Dynamic settings={settings} />`)
+      console.error(`Duplicate Key '${key}' props settings, <${ComponentName} settings={settings} />`)
       return;
     }
     FieldMap[key] = field;
@@ -96,7 +97,7 @@ export default Form.create({
     currentBatchNumber = index;
     const customs = interceptor(keyArgs, FormFieldsGetter, props, FieldMap);
     if (!customs) {
-      console.error(`Should return Component: <DynamicForm render={[({key}, fields) => Component]} />`);
+      console.error(`Should return Component: <${ComponentName} render={[({key}, fields) => Component]} />`);
       return null;
     }
     return React.cloneElement(customs, { key: `batch_${index}` });
@@ -115,7 +116,6 @@ export default Form.create({
     return allKeys.concat(batchKeys[index]);
   }, []);
 
-  // debugger;
   const formItems = fields.map((field) => {
     const { key, props } = field;
     if (!totalKey[key]) {
@@ -137,31 +137,5 @@ export default Form.create({
   if(onSubmit){
     submitProps.onSubmit = (e) => onSubmit(e, props.form);
   }
-  return (
-    <Form {...fromProps} {...submitProps}>{formItems}{children}</Form>
-  );
+  return <Form {...fromProps} {...submitProps}>{formItems}{children}</Form>;
 }));
-
-// class T extends React.Component {
-
-//   state = {};
-
-//   onFieldsChange = (changedFields, allFields) => {
-//     this.setState(({ fields }) => ({
-//       fields: { ...fields, ...changedFields },
-//     }));
-//     this.props.onFieldsChange && this.props.onFieldsChange(changedFields, allFields);
-//   }
-
-//   onValuesChange = (changedValues, allValues) => {
-//     this.props.onValuesChange && this.props.onValuesChange(changedValues, allValues);
-//   }
-
-//   render() {
-//     <DynamicForm
-//       {...this.props}
-//       onValuesChange={this.onValuesChange}
-//       onFieldsChange={this.onFieldsChange}
-//     ></DynamicForm>
-//   }
-// }
