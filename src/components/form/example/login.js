@@ -72,6 +72,9 @@ export default class Example extends React.Component {
 
     onFieldsChange = (changedFields, allFields) => {
         console.log(changedFields, allFields);
+        this.setState(({ fields }) => ({
+            fields: { ...fields, ...changedFields },
+        }));
     }
 
     onValuesChange = (changedValues, allValues) => {

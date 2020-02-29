@@ -33,6 +33,9 @@ export default class Example extends React.Component {
 
     onFieldsChange = (changedFields, allFields) => {
         console.log(changedFields, allFields);
+        this.setState(({ fields }) => ({
+            fields: { ...fields, ...changedFields },
+        }));
     }
 
     onValuesChange = (changedValues, allValues) => {
@@ -41,7 +44,7 @@ export default class Example extends React.Component {
 
     render() {
         const { fields } = this.state;
-        const count = [0,1,2,3,4,5,6,7,8,9];
+        const count = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
         const settings = {
             props: {
                 layout: 'horizontal',
