@@ -15,7 +15,6 @@ import {
 } from 'antd';
 
 const { Option } = Select;
-const InputGroup = Input.Group;
 const AutoCompleteOption = AutoComplete.Option;
 const residences = [
     {
@@ -83,6 +82,9 @@ export default class Example extends React.Component {
         fields: {
             prefix: {
                 value: '86'
+            },
+            phone: {
+                value: '',
             }
         }
     };
@@ -155,6 +157,21 @@ export default class Example extends React.Component {
 
     render() {
         const { fields } = this.state;
+        // debugger;
+        const phoneSettings = {
+            key: 'phone',
+            component: [Input, {
+                style: { width: '100%' }
+            }],
+            props: {
+                label: 'Phone Number',
+            },
+            decorator: {
+                initialValue: fields.phone.value,
+                rules: [{ required: true, message: 'Please input your phone number!' }],
+            },
+        };
+
         const settings = {
             props: {
                 ...formItemLayout,
@@ -231,18 +248,6 @@ export default class Example extends React.Component {
                         ],
                     },
                 }, {
-                    key: 'phone',
-                    component: [Input, {
-                        // addonBefore: prefixSelector,
-                        style: { width: '100%' }
-                    }],
-                    props: {
-                        label: 'Phone Number',
-                    },
-                    decorator: {
-                        rules: [{ required: true, message: 'Please input your phone number!' }],
-                    },
-                }, {
                     key: 'prefix',
                     component: [Select, {
                         style: { width: 70 },
@@ -285,8 +290,7 @@ export default class Example extends React.Component {
                         ...tailFormItemLayout,
                     },
                     decorator: {
-                        valuePropName: 'checked',
-                        rules: [{ required: true, message: 'Please input the captcha you got!' }],
+                        valuePropName: 'checked'
                     },
                 }
             ]
@@ -310,11 +314,8 @@ export default class Example extends React.Component {
                             </Col>
                         </Row>
                     </Form.Item>,
-                    ({ phone, prefix }, fields) => <Form.Item label="Phone Number" required={true}>
-                        <InputGroup compact>
-                            <Form.Item>{fields[prefix]}</Form.Item>
-                            <Form.Item>{fields[phone]}</Form.Item>
-                        </InputGroup>
+                    ({ prefix }, fields, ref) => <Form.Item {...phoneSettings.props}>
+                        {ref.form.getFieldDecorator(phoneSettings.key, phoneSettings.decorator)(<Input {...phoneSettings.component[1]} addonBefore={fields[prefix]} />)}
                     </Form.Item>
                 ]}>
                 <Form.Item {...tailFormItemLayout}>

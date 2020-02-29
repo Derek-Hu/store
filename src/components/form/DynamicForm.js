@@ -76,7 +76,7 @@ export default Form.create({
   const interceptors = (Array.isArray(render) ? render : [render]).filter(child => typeof child === 'function');
   const CustomItems = interceptors && interceptors.length ? interceptors.map((interceptor, index) => {
     currentBatchNumber = index;
-    const customs = interceptor(keyArgs, FormFieldsGetter);
+    const customs = interceptor(keyArgs, FormFieldsGetter, props);
     if(!customs){
       console.error(`Should return Component: <DynamicForm render={[({key}, fields) => Component]} />`);
       return null;
@@ -93,10 +93,18 @@ export default Form.create({
     return graph;
   }, {});
 
+  const allInterceptorKeys = Object.keys(batchKeys).reduce((allKeys, index) => {
+    return allKeys.concat(batchKeys[index]);
+  }, []);
+
+  // debugger;
   const formItems = fields.map((field) => {
     const { key, props } = field;
     if (!totalKey[key]) {
       return null;
+    }
+    if(allInterceptorKeys.indexOf(key)===-1){
+      return <Form.Item {...props} key={key}>{FieldInstances[key]}</Form.Item>;
     }
     if ((key in batchKeyGraph)) {
       return batchKeyGraph[key].map(batch => {
@@ -106,7 +114,6 @@ export default Form.create({
         return CustomItems[batch.index];
       });
     }
-    return <Form.Item {...props} key={key}>{FieldInstances[key]}</Form.Item>;
   });
   return (
     <Form {...fromProps} onSubmit={onSubmit}>{formItems}{children}</Form>
