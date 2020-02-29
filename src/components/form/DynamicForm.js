@@ -12,7 +12,7 @@ const renderField = (field, parentProps) => {
 
 export default Form.create({
   onFieldsChange(props, changedFields, allFields) {
-    props.onFieldsChange && props.onFieldsChange(changedFields, allFields);
+    props.onFieldsChange && props.onFieldsChange(changedFields, allFields, props.form);
   },
   mapPropsToFields(props) {
     const { settings: { fields } } = props;
@@ -36,7 +36,7 @@ export default Form.create({
     }, {});
   },
   onValuesChange(props, changedValues, allValues) {
-    props.onValuesChange && props.onValuesChange(changedValues, allValues);
+    props.onValuesChange && props.onValuesChange(changedValues, allValues, props.form);
   },
 })(forwardRef((props, ref) => {
 
