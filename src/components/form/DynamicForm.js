@@ -53,12 +53,18 @@ export default Form.create({
       return null;
     }
   });
+
+  const FieldMap = {};
   fields.forEach(field => {
+    if(field.hidden){
+      return;
+    }
     const key = field.key;
     if(key in totalKey){
       console.error(`Duplicate Key '${key}' props settings, <Dynamic settings={settings} />`)
       return;
     }
+    FieldMap[key] = field;
     totalKey[key] = true;
     FieldInstances[key] = renderField(field, props);
     keyArgs[key] = key;
@@ -76,7 +82,7 @@ export default Form.create({
   const interceptors = (Array.isArray(render) ? render : [render]).filter(child => typeof child === 'function');
   const CustomItems = interceptors && interceptors.length ? interceptors.map((interceptor, index) => {
     currentBatchNumber = index;
-    const customs = interceptor(keyArgs, FormFieldsGetter, props);
+    const customs = interceptor(keyArgs, FormFieldsGetter, props, FieldMap);
     if(!customs){
       console.error(`Should return Component: <DynamicForm render={[({key}, fields) => Component]} />`);
       return null;

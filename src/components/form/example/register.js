@@ -183,8 +183,9 @@ export default class Example extends React.Component {
                         prefix: <Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />,
                         placeholder: "Username"
                     }],
+                    hidden: true,
                     props: {
-                        label: 'E-mail'
+                        label: 'E-mail',
                     },
                     decorator: {
                         rules: [
