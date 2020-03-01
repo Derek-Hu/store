@@ -1,6 +1,9 @@
 import React from 'react';
 import DynamicForm from '~/components/form/DynamicForm';
-import { Input, Form, Button, Checkbox } from 'antd';
+import { Input, Form, Button, Checkbox, Select } from 'antd';
+
+
+const { Option } = Select;
 
 const formItemLayout = {
     labelCol: { span: 4 },
@@ -23,30 +26,30 @@ export default class Example extends React.Component {
 
     handleSubmit = (e, form) => {
         e.preventDefault();
-        form.validateFields(err => {
-
+        form.validateFields((err, values) => {
             if (!err) {
-                console.info('success');
+                console.info('success', values);
             }else{
                 console.error(err);
             }
         });
     };
-
-    onValuesChange = (_, __, form) => {
-        form.validateFields(['nickname'], { force: true });
+    
+    onValuesChange=(_, __, form) => {
+        setTimeout(()=>{
+            form.validateFields(['nickname'], {force: true});
+        });
     }
-
-    onFieldsChange = (changedFields, allFields) => {
-        console.log(changedFields, allFields);
+    
+    onFieldsChange = (changedFields) => {
         this.setState(({ fields }) => ({
             fields: { ...fields, ...changedFields },
         }));
     }
-
+    
     render() {
         const { fields } = this.state;
-
+        const options = fields.checkNick.value ? ['male', 'female'] : ['male', 'female', 'others']
         const settings = {
             fields: [
                 {
@@ -86,13 +89,28 @@ export default class Example extends React.Component {
                 }, {
                     key: 'checkNick',
                     component: [Checkbox, {
-                        children: 'Nickname is required'
+                        children: 'Nickname is required',
                     }],
                     props: {
                         ...formTailLayout
                     },
                     decorator: {
                         valuePropName: 'checked',
+                    }
+                }, {
+                    key: 'gender',
+                    component: [Select, {
+                        allowClear: true,
+                        placeholder: "Select a option and change input text above",
+                        onChange: this.handleSelectChange,
+                        children: options.map(option => <Option key={option} value={option} >{option}</Option>)
+                    }],
+                    props: {
+                        ...formItemLayout,
+                        label: 'Gender',
+                    },
+                    decorator: {
+                        rules: [{ required: true, message: 'Please select your gender!' }],
                     }
                 }
             ]
