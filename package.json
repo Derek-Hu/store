@@ -1,7 +1,6 @@
 {
   "name": "rc-form-dynamic",
   "version": "0.1.0",
-  "private": true,
   "main": "src/components/form/DynamicForm.js",
   "module": "src/components/form/DynamicForm.js",
   "peerDependencies": {
