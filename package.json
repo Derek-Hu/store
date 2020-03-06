@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "main": "src/rc-form-dynamic/index.js",
   "module": "src/rc-form-dynamic/index.js",
+  "homepage": "https://derek-hu.github.io/rc-form-dynamic",
   "keywords": [
     "react",
     "rc-form",
@@ -32,6 +33,7 @@
     "cross-env": "^7.0.0",
     "customize-cra": "^0.9.1",
     "dragula": "^3.7.2",
+    "gh-pages": "^2.2.0",
     "git-rev-sync": "^2.0.0",
     "jsonml.js": "^0.1.0",
     "less": "^3.11.1",
@@ -55,8 +57,9 @@
   },
   "scripts": {
     "start": "cross-env react-app-rewired start",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
+    "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

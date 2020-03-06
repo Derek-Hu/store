@@ -120,7 +120,7 @@ export default class Main extends React.Component {
         <Header style={{ background: '#fff', height: '48px' }}>
           <Menu mode="horizontal">
             <Menu.Item key="alipay">
-              <a href="https://www.npmjs.com/package/rc-form-dynamic" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Derek-Hu/rc-form-dynamic" target="_blank" rel="noopener noreferrer">
                 <Icon type="github" />
                 Github
               </a>

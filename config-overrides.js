@@ -21,7 +21,7 @@ const {
 module.exports = {
   webpack: override(
     addDecoratorsLegacy(),
-    fixBabelImports('import-antd', {
+    fixBabelImports('antd', {
       libraryName: 'antd',
       libraryDirectory: 'es',
       style: true,

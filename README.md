@@ -4,6 +4,8 @@
 npm install --save rc-form-dynamic
 ```
 
+Demo: [https://derek-hu.github.io/rc-form-dynamic/](https://derek-hu.github.io/rc-form-dynamic/)
+
 Form Configuration Example: 
 ```js
 import DynamicForm from 'rc-form-dynamic';
