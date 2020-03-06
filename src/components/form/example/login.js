@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicForm from '~/components/form/DynamicForm';
+import DynamicForm from 'rc-form-dynamic';
 import { Icon, Input, Form, Button, Checkbox } from 'antd';
 import styles from './login.module.less';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicForm from '~/components/form/DynamicForm';
+import DynamicForm from 'rc-form-dynamic';
 import { Icon, Input, Form, Button } from 'antd';
 
 const settings = {
@@ -31,9 +31,6 @@ const settings = {
     }
   ]
 };
-function hasErrors(fieldsError) {
-  return Object.keys(fieldsError).some(field => fieldsError[field]);
-}
 
 export default class Example extends React.Component {
 

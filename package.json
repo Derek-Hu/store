@@ -1,8 +1,8 @@
 {
   "name": "rc-form-dynamic",
-  "version": "0.1.1",
-  "main": "src/components/form/DynamicForm.js",
-  "module": "src/components/form/DynamicForm.js",
+  "version": "0.1.2",
+  "main": "src/rc-form-dynamic/index.js",
+  "module": "src/rc-form-dynamic/index.js",
   "keywords": [
     "react",
     "rc-form",
@@ -14,8 +14,11 @@
     "dynamic"
   ],
   "peerDependencies": {
-    "antd": "",
+    "antd": "3.x",
     "rc-form": ""
+  },
+  "repository": {
+    "url": "https://github.com/Derek-Hu/rc-form-dynamic.git"
   },
   "devDependencies": {
     "@ant-design/icons": "^2.1.1",
@@ -39,6 +42,7 @@
     "markdown-it-front-matter": "^0.2.1",
     "marked": "^0.8.0",
     "moment-locales-webpack-plugin": "^1.1.2",
+    "preval.macro": "^4.0.0",
     "react": "^16.13.0",
     "react-app-rewire-multiple-entry": "^2.1.0",
     "react-app-rewired": "^2.1.5",
@@ -69,5 +73,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "antd": "^3.26.12",
+    "babel-plugin-codegen": "^3.1.0",
+    "moment": "^2.24.0",
+    "react-markdown": "^4.3.1",
+    "react-syntax-highlighter": "^12.2.1"
   }
 }

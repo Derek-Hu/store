@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicForm from '~/components/form/DynamicForm';
+import DynamicForm from 'rc-form-dynamic';
 import { Form, DatePicker, TimePicker, Button } from 'antd';
 
 const { MonthPicker, RangePicker } = DatePicker;

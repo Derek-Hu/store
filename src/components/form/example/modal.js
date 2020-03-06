@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicForm from '~/components/form/DynamicForm';
+import DynamicForm from 'rc-form-dynamic';
 import { Input, Radio, Button, Modal } from 'antd';
 
 class CollectionCreateForm extends React.Component {

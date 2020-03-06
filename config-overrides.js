@@ -31,6 +31,7 @@ module.exports = {
       '~': path.resolve(__dirname, 'src/'),
       src: path.resolve(__dirname, 'src/'),
       root: path.resolve(__dirname, 'src/'),
+      'rc-form-dynamic': path.resolve(__dirname, 'src/rc-form-dynamic/'),
     }),
     // addBundleVisualizer(),
     multipleEntry.addMultiEntry,
