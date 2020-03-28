@@ -4,7 +4,6 @@ import './index.css';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PlayStore from './PlayStore';
 import ProjectPage from './pages/ProjectPage';
-import './store.css';
 
 ReactDOM.render(
     <Router>

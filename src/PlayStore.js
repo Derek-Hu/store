@@ -16,8 +16,6 @@ export default class Main extends React.Component {
   }
   onSelect = ({key}) => {
 
-    console.log(typeof key, key);
-    debugger;
     if(!key){
       return;
     }
@@ -46,14 +44,7 @@ export default class Main extends React.Component {
       compKey
     } = this.state;
 
-    const { antd,
-      icework } = datas;
-
-    const BlockMap = {
-      antd,
-      icework
-    }
-    const selectedLib = BlockMap[libName] ;
+    const selectedLib = datas[libName] ;
     const BlockItem = selectedLib&& selectedLib.blocks? selectedLib.blocks.find(element => element.name === compKey): null;
 
     return (
@@ -84,7 +75,8 @@ export default class Main extends React.Component {
           <Sider><StoreComponents datas={datas} onSelect={this.onSelect} /></Sider>
           {
             <Content className="elements-container" style={{ width: '60%', background: '#fff' }}>{
-              BlockItem ? <img src={BlockItem.screenshot} /> : null
+              // BlockItem ? <img style={{maxWidth: '100%', maxHeight:'100%'}} src={BlockItem.screenshot} /> : null
+              BlockItem ? <iframe style={{border:0, padding: '1em', width: '100%', height:'100%'}} src={BlockItem.homepage} /> : null
             }</Content>
           }
           {/* 

@@ -1,10 +1,10 @@
 import axios from 'axios';
-import { LIB_ANTD } from './constant';
+import { LIB_UMI } from './constant';
 
 export const loadStoreData = async () => {
     let resp = {}
     try {
-        resp = await axios.get('https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/umi-block.json');
+        resp = await axios.get('https://github.com/ant-design/pro-blocks/blob/master/umi-block.json');
     } catch (e) {
         console.error(e)
     }
@@ -12,14 +12,14 @@ export const loadStoreData = async () => {
         return {};
     }
     const data = resp.data;
-    data.blocks = data.blocks.map(block => {
+    data.blocks = data.list.map(block => {
         if (!block) {
             return;
         }
         return {
             ...block,
             name: block.key,
-            __lib__: LIB_ANTD,
+            __lib__: LIB_UMI,
             homepage: block.previewUrl,
             repository: block.url,
             screenshot: block.img,

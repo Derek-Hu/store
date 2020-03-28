@@ -1,6 +1,8 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Select } from 'antd';
+import { Libs } from '../service/index';
+import styles from './store.module.less';
 
 const { Option } = Select;
 const { SubMenu } = Menu;
@@ -8,10 +10,9 @@ const { SubMenu } = Menu;
 export default class Sider extends React.Component {
 
   state = {
+    datas: {},
     lib: '__',
     allBlocks: [],
-    antd: [],
-    icework: []
   }
 
   handleChange = (lib) => {
@@ -21,46 +22,45 @@ export default class Sider extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    const { antd = {  }, icework = {  } } = nextProps.datas;
-
-    const allBlocks = (antd.blocks || []).concat((icework.blocks||[]));
+    const allBlocks = Object.keys(nextProps.datas).reduce((total, item) => {
+      return total.concat(nextProps.datas[item].blocks || []);
+    }, []);
     this.setState({
+      datas: nextProps.datas,
       allBlocks,
-      antd: antd.blocks,
-      icework: icework.blocks
     })
   }
   render() {
-    const { allBlocks, antd, icework, lib } = this.state;
+    const { allBlocks, lib, datas } = this.state;
 
-    const dataMap = {
-      antd,
-      icework,
-      __: allBlocks
-    }
-
-    const datas = dataMap[lib] || dataMap['__'];
+    const items = datas[lib] && datas[lib].blocks ? datas[lib].blocks : allBlocks;
     return (
       <Menu
+        className={styles.root}
         onSelect={this.props.onSelect}
         style={{ height: '100%', width: '100%', textAlign: 'left' }}
         defaultOpenKeys={['sub1']}
         mode="inline"
       >
+        <Select defaultValue={lib}
+          style={{
+            width: '100%',
+            padding: '0.5em 1em'
+          }}
+          suffixIcon={`共${items.length}项`}
+          onChange={this.handleChange}>
+          <Option value="__">所有</Option>
+          {
+            Libs.map(lib => <Option key={lib.key} value={lib.key}>{lib.label}</Option>)
+          }
+        </Select>
         <SubMenu
           key="sub1"
           className="store-left-menu"
           style={{ height: '100%', width: '100%', textAlign: 'left' }}
         >
-          <Select defaultValue={lib} style={{ width: '80%' }} 
-          suffixIcon={`共${datas.length}项`}
-          onChange={this.handleChange}>
-            <Option value="__">所有</Option>
-            {antd && antd.length ? <Option value="antd">Antd</Option> : null}
-            {icework && icework.length ? <Option value="icework">飞冰</Option> : null}
-          </Select>
           {
-            datas ? datas.map(item => <Menu.Item key={item.__lib__ + '|'+item.name}>{item.title}</Menu.Item>) : null
+            items ? items.map(item => <Menu.Item key={item.__lib__ + '|' + item.name}>{item.title}</Menu.Item>) : null
           }
         </SubMenu>
       </Menu>
