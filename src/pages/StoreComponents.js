@@ -37,7 +37,6 @@ export default class Sider extends React.Component {
     }, []);
 
     counts[allKey] = allBlocks.length;
-    debugger;
     this.setState({
       datas: {
         ...nextProps.datas,

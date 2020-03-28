@@ -1,8 +1,9 @@
 import * as AntdService from './AntdService';
 import * as IceWorkService from './IceWorkService';
 import * as UmiService from './UmiService';
+import * as MaterialService from './IceMaterialService';
 
-import { LIB_ICECOMP, LIB_ICEWORK, LIB_ANTD, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
+import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA, LIB_ANTD, LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
 
 export const Libs = [{
     key: LIB_ANTD,
@@ -18,27 +19,44 @@ export const Libs = [{
     label: 'UmiJS',
 }, {
     key: LIB_UMICOMP,
-    label: 'UmiJS组件',
+    label: 'AntPro组件',
+}, {
+    key: LIB_ICESCA,
+    label: '飞冰脚手架'
+}, {
+    key: LIB_MATERIAL_ICECOMP,
+    label: '飞冰官方组件',
+}, {
+    key: LIB_MATERIAL_ICEWORK,
+    label: '飞冰官方区块'
+}, {
+    key: LIB_MATERIAL_ICESCA,
+    label: '飞冰官方脚手架'
 }]
 
 export const loadBlocks = async () => {
 
-    const [antd, icework, umijs] = await Promise.all([
+    const [antd, icework, umijs, material] = await Promise.all([
         AntdService.loadStoreData(),
         IceWorkService.loadStoreData(),
-        UmiService.loadStoreData()
+        UmiService.loadStoreData(),
+        MaterialService.loadStoreData()
     ]);
 
     const datas = {
         [LIB_ANTD]: antd.blocks,
         [LIB_UMICOMP]: umijs.list,
-        [LIB_UMIBLOCK]: umijs.blocks ,
-        [LIB_ICEWORK]: icework.blocks ,
-        [LIB_ICECOMP]: icework.components ,
+        [LIB_UMIBLOCK]: umijs.blocks,
+        [LIB_ICEWORK]: icework.blocks,
+        [LIB_ICECOMP]: icework.components,
+        [LIB_ICESCA]: icework.scaffolds,
+        [LIB_MATERIAL_ICECOMP]: material.components,
+        [LIB_MATERIAL_ICEWORK]: material.blocks,
+        [LIB_MATERIAL_ICESCA]:material.scaffolds
     }
 
     Object.keys(datas).forEach(lib => {
-        if(datas[lib]){
+        if (datas[lib]) {
             datas[lib].forEach((item, index) => {
                 item.__id__ = `${lib}${SEPERATOR}${index}`;
             })

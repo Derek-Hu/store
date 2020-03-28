@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { LIB_UMIBLOCK, LIB_UMICOMP } from './constant';
-import fallback from './umi-fallback';
+import fallback from './fallback/umi-fallback';
 import ANTD_Transfrom from './utils';
 
 export const loadStoreData = async () => {
@@ -12,9 +12,6 @@ export const loadStoreData = async () => {
         resp = {
             data: fallback
         }
-    }
-    if (!resp || !resp.data) {
-        return {};
     }
     const data = resp.data;
     if(data.list){
