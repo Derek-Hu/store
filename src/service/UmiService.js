@@ -17,7 +17,6 @@ export const loadStoreData = async () => {
         return {};
     }
     const data = resp.data;
-    debugger;
     if(data.list){
         data.list = data.list.map(ANTD_Transfrom(LIB_UMICOMP)).filter(v => v);
     }

@@ -14,7 +14,7 @@ export default class Main extends React.Component {
     datas: {},
     libName: 'antd',
   }
-  onSelect = ({key}) => {
+  onSelect = ({item, key}) => {
 
     if(!key){
       return;
@@ -45,7 +45,6 @@ export default class Main extends React.Component {
     } = this.state;
 
     const selectedLib = datas[libName] ;
-    debugger;
     const BlockItem = selectedLib? selectedLib.find(element => element.name === compKey): null;
 
     return (

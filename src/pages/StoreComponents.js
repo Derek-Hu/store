@@ -62,7 +62,7 @@ export default class Sider extends React.Component {
           style={{ height: '100%', width: '100%', textAlign: 'left' }}
         >
           {
-            items ? items.map(item => <Menu.Item key={item.__lib__ + '|' + item.name}>{item.title}</Menu.Item>) : null
+            items ? items.map(item => <Menu.Item key={item.__id__}>{item.title}</Menu.Item>) : null
           }
         </SubMenu>
       </Menu>

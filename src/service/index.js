@@ -36,6 +36,14 @@ export const loadBlocks = async () => {
         [LIB_ICEWORK]: icework.blocks ,
         [LIB_ICECOMP]: icework.components ,
     }
+
+    Object.keys(datas).forEach(lib => {
+        if(datas[lib]){
+            datas[lib].forEach((item, index) => {
+                item.__id__ = `_${lib}_${index}_`;
+            })
+        }
+    })
     localStorage.setItem('store-data', JSON.stringify(datas));
     return datas;
 }

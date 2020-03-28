@@ -4,11 +4,22 @@ export default (libName) => block => {
     }
     return {
         ...block,
-        name: block.key,
         __lib__: libName,
+        title: block.title || block.key || block.name,
         homepage: block.previewUrl,
         repository: block.url,
         screenshot: block.img,
         category: block.tags
+    }
+}
+
+export const ICETransform = libName => block => {
+    if (!block) {
+        return;
+    }
+    return {
+        ...block,
+        __lib__: libName,
+        title: block.title || block.key || block.name
     }
 }
