@@ -1,5 +1,7 @@
 import axios from 'axios';
-import { LIB_UMI } from './constant';
+import { LIB_UMIBLOCK, LIB_UMICOMP } from './constant';
+import fallback from './umi-fallback';
+import ANTD_Transfrom from './utils';
 
 export const loadStoreData = async () => {
     let resp = {}
@@ -7,24 +9,20 @@ export const loadStoreData = async () => {
         resp = await axios.get('https://github.com/ant-design/pro-blocks/blob/master/umi-block.json');
     } catch (e) {
         console.error(e)
+        resp = {
+            data: fallback
+        }
     }
     if (!resp || !resp.data) {
         return {};
     }
     const data = resp.data;
-    data.blocks = data.list.map(block => {
-        if (!block) {
-            return;
-        }
-        return {
-            ...block,
-            name: block.key,
-            __lib__: LIB_UMI,
-            homepage: block.previewUrl,
-            repository: block.url,
-            screenshot: block.img,
-            category: block.tags
-        }
-    }).filter(v => v);
+    debugger;
+    if(data.list){
+        data.list = data.list.map(ANTD_Transfrom(LIB_UMICOMP)).filter(v => v);
+    }
+    if(data.blocks){
+        data.blocks = data.blocks.map(ANTD_Transfrom(LIB_UMIBLOCK)).filter(v => v);
+    }
     return data;
 }

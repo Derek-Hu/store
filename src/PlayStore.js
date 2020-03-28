@@ -45,7 +45,8 @@ export default class Main extends React.Component {
     } = this.state;
 
     const selectedLib = datas[libName] ;
-    const BlockItem = selectedLib&& selectedLib.blocks? selectedLib.blocks.find(element => element.name === compKey): null;
+    debugger;
+    const BlockItem = selectedLib? selectedLib.find(element => element.name === compKey): null;
 
     return (
       <Layout style={{ height: '100vh', background: '#fff' }}>

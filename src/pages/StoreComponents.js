@@ -6,13 +6,13 @@ import styles from './store.module.less';
 
 const { Option } = Select;
 const { SubMenu } = Menu;
+const allKey = '__';
 
 export default class Sider extends React.Component {
 
   state = {
     datas: {},
-    lib: '__',
-    allBlocks: [],
+    lib: allKey,
   }
 
   handleChange = (lib) => {
@@ -23,17 +23,19 @@ export default class Sider extends React.Component {
 
   componentWillReceiveProps(nextProps) {
     const allBlocks = Object.keys(nextProps.datas).reduce((total, item) => {
-      return total.concat(nextProps.datas[item].blocks || []);
+      return total.concat(nextProps.datas[item] || []);
     }, []);
     this.setState({
-      datas: nextProps.datas,
-      allBlocks,
+      datas: {
+        ...nextProps.datas,
+        [allKey]: allBlocks,
+      }
     })
   }
   render() {
-    const { allBlocks, lib, datas } = this.state;
+    const { lib, datas } = this.state;
 
-    const items = datas[lib] && datas[lib].blocks ? datas[lib].blocks : allBlocks;
+    const items = datas[lib]? datas[lib] : [];
     return (
       <Menu
         className={styles.root}
@@ -49,7 +51,7 @@ export default class Sider extends React.Component {
           }}
           suffixIcon={`共${items.length}项`}
           onChange={this.handleChange}>
-          <Option value="__">所有</Option>
+          <Option value={allKey}>所有</Option>
           {
             Libs.map(lib => <Option key={lib.key} value={lib.key}>{lib.label}</Option>)
           }

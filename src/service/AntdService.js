@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { LIB_ANTD } from './constant';
+import ANTD_Transfrom from './utils';
 
 export const loadStoreData = async () => {
     let resp = {}
@@ -12,19 +13,6 @@ export const loadStoreData = async () => {
         return {};
     }
     const data = resp.data;
-    data.blocks = data.blocks.map(block => {
-        if (!block) {
-            return;
-        }
-        return {
-            ...block,
-            name: block.key,
-            __lib__: LIB_ANTD,
-            homepage: block.previewUrl,
-            repository: block.url,
-            screenshot: block.img,
-            category: block.tags
-        }
-    }).filter(v => v);
+    data.blocks = data.blocks.map(ANTD_Transfrom(LIB_ANTD)).filter(v => v);
     return data;
 }
