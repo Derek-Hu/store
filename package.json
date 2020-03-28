@@ -19,7 +19,7 @@
     "rc-form": ""
   },
   "repository": {
-    "url": "https://github.com/Derek-Hu/rc-form-dynamic.git"
+    "url": "https://github.com/Derek-Hu/store.git"
   },
   "devDependencies": {
     "@ant-design/icons": "^2.1.1",
