@@ -3,6 +3,7 @@ import './App.css';
 import StoreComponents from './pages/StoreComponents';
 import { Menu, Icon, Layout, Spin } from 'antd';
 import { Link } from 'react-router-dom';
+import { SEPERATOR } from './service/constant';
 import { loadBlocks } from './service/index';
 
 const { Header, Content, Sider } = Layout;
@@ -10,16 +11,15 @@ const { Header, Content, Sider } = Layout;
 export default class Main extends React.Component {
 
   state = {
-    selectedKey: '内联登录栏',
     datas: {},
     libName: 'antd',
   }
-  onSelect = ({item, key}) => {
+  onSelect = ({key}) => {
 
     if(!key){
       return;
     }
-    const [libName, compKey] = key.split('|');
+    const [libName, compKey] = key.split(SEPERATOR);
     this.setState({
       libName,
       compKey
@@ -45,11 +45,10 @@ export default class Main extends React.Component {
     } = this.state;
 
     const selectedLib = datas[libName] ;
-    const BlockItem = selectedLib? selectedLib.find(element => element.name === compKey): null;
-
+    const BlockItem = selectedLib? selectedLib[compKey]: null;
     return (
       <Layout style={{ height: '100vh', background: '#fff' }}>
-        <Header style={{ background: '#fff', height: '48px' }}>
+        {/* <Header style={{ background: '#fff', height: '48px' }}>
           <Menu mode="horizontal">
             <Menu.Item key="alipay">
               <a href="https://github.com/Derek-Hu/rc-form-dynamic" target="_blank" rel="noopener noreferrer">
@@ -70,7 +69,7 @@ export default class Main extends React.Component {
               </Link>
             </Menu.Item>
           </Menu>
-        </Header>
+        </Header> */}
         <Layout>
           <Sider><StoreComponents datas={datas} onSelect={this.onSelect} /></Sider>
           {

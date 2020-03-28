@@ -2,7 +2,7 @@ import * as AntdService from './AntdService';
 import * as IceWorkService from './IceWorkService';
 import * as UmiService from './UmiService';
 
-import { LIB_ICECOMP, LIB_ICEWORK, LIB_ANTD, LIB_UMIBLOCK, LIB_UMICOMP } from './constant';
+import { LIB_ICECOMP, LIB_ICEWORK, LIB_ANTD, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
 
 export const Libs = [{
     key: LIB_ANTD,
@@ -40,7 +40,7 @@ export const loadBlocks = async () => {
     Object.keys(datas).forEach(lib => {
         if(datas[lib]){
             datas[lib].forEach((item, index) => {
-                item.__id__ = `_${lib}_${index}_`;
+                item.__id__ = `${lib}${SEPERATOR}${index}`;
             })
         }
     })
