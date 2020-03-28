@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "main": "src/rc-form-dynamic/index.js",
   "module": "src/rc-form-dynamic/index.js",
-  "homepage": "https://derek-hu.github.io",
+  "homepage": "https://derek-hu.github.io/store",
   "keywords": [
     "react",
     "rc-form",

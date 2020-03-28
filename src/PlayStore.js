@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import StoreComponents from './pages/StoreComponents';
-import { Menu, Icon, Layout, Spin } from 'antd';
-import { Link } from 'react-router-dom';
+import { Layout, Spin } from 'antd';
 import { SEPERATOR } from './service/constant';
 import { loadBlocks } from './service/index';
 
@@ -14,9 +13,9 @@ export default class Main extends React.Component {
     datas: {},
     libName: 'antd',
   }
-  onSelect = ({key}) => {
+  onSelect = ({ key }) => {
 
-    if(!key){
+    if (!key) {
       return;
     }
     const [libName, compKey] = key.split(SEPERATOR);
@@ -27,26 +26,45 @@ export default class Main extends React.Component {
   }
 
   componentDidMount() {
+    let datas = null;
     try {
-      const datas = JSON.parse(localStorage.getItem('store-data'));
-      this.setState({ datas });
+      datas = JSON.parse(localStorage.getItem('store-data'));
+      if (datas) {
+        const key = Object.keys(datas).find(key => datas[key] && datas[key].length);
+        if (!this.state.compKey) {
+          this.setState({
+            libName: key,
+            compKey: 0
+          });
+        }
+        this.setState({
+          datas,
+        });
+      }
     } catch (e) {
       console.error(e);
     }
+    const noCache = !datas;
     setTimeout(async () => {
+      this.setState({
+        loading: noCache
+      });
       const datas = await loadBlocks();
-      this.setState({ datas });
-    }, 1000)
+      this.setState({
+        datas,
+        loading: false
+      });
+    }, 0)
   }
   render() {
 
-    const { datas, libName,
+    const { datas, libName, loading,
       compKey
     } = this.state;
 
-    const selectedLib = datas[libName] ;
-    const BlockItem = selectedLib? selectedLib[compKey]: null;
-    return (
+    const selectedLib = datas[libName];
+    const BlockItem = selectedLib ? selectedLib[compKey] : null;
+    return <Spin delay={500} spinning={loading}>
       <Layout style={{ height: '100vh', background: '#fff' }}>
         {/* <Header style={{ background: '#fff', height: '48px' }}>
           <Menu mode="horizontal">
@@ -75,7 +93,7 @@ export default class Main extends React.Component {
           {
             <Content className="elements-container" style={{ width: '60%', background: '#fff' }}>{
               // BlockItem ? <img style={{maxWidth: '100%', maxHeight:'100%'}} src={BlockItem.screenshot} /> : null
-              BlockItem ? <iframe style={{border:0, padding: '1em', width: '100%', height:'100%'}} src={BlockItem.homepage} /> : null
+              BlockItem ? <iframe style={{ border: 0, padding: '1em', width: '100%', height: '100%' }} src={BlockItem.homepage} /> : null
             }</Content>
           }
           {/* 
@@ -87,6 +105,6 @@ export default class Main extends React.Component {
 
         </Layout>
       </Layout>
-    );
+    </Spin>;
   }
 }
