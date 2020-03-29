@@ -25,8 +25,9 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
     const height = viewport && typeof viewport.height === 'number' ?viewport.height: 900;
     try {
         await asyncForEach(blockData[attribute], async (item, index) => {
-            const hashEmpty = !Array.isArray(item.__HASH__); // item maybe null
-            if (forceUpdate || hashEmpty) {
+            const hashEmpty = item && !Array.isArray(item.__HASH__); // item maybe null
+            const hasDescription = item && (locale in item.__DESCRIPTION__);
+            if (item && (forceUpdate || hashEmpty || !hasDescription)) {
                 const page = await browser.newPage();
                 await page.evaluateOnNewDocument(preload);
                 try {

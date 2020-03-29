@@ -19,8 +19,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "0_5db07ce7",
-      "__DESCRIPTION__": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/0_5db07ce7.png"
+      ],
+      "__DESCRIPTION__": {
+        "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
+      }
     },
     {
       "title": "button-按钮类型",
@@ -301,8 +305,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "11_8b17d49b",
-      "__DESCRIPTION__": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/11_8b17d49b.png"
+      ],
+      "__DESCRIPTION__": {
+        "en": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。"
+      }
     },
     {
       "title": "select-带搜索框",
@@ -323,8 +331,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "12_4679a3e0",
-      "__DESCRIPTION__": "Select a person 带搜索框 展开后可对选项进行搜索。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/12_4679a3e0.png"
+      ],
+      "__DESCRIPTION__": {
+        "en": "Select a person 带搜索框 展开后可对选项进行搜索。"
+      }
     },
     {
       "title": "form-自定义校验",
@@ -464,8 +476,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "19_6e50f922",
-      "__DESCRIPTION__": "Upload 用户头像 点击上传用户头像，并使用 beforeUpload 限制用户上传的图片格式和大小。 beforeUpload 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：示例。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/19_6e50f922.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Upload 用户头像 点击上传用户头像，并使用 beforeUpload 限制用户上传的图片格式和大小。 beforeUpload 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：示例。"
+      }
     },
     {
       "title": "affix-基本",
@@ -486,8 +502,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "20_1300ff26",
-      "__DESCRIPTION__": "Affix top Affix bottom 基本 最简单的用法。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/20_1300ff26.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Affix top Affix bottom 基本 最简单的用法。"
+      }
     },
     {
       "title": "affix-固定状态改变的回调",
@@ -508,8 +528,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "21_f70442c6",
-      "__DESCRIPTION__": "120px to affix top 固定状态改变的回调 可以获得是否固定的状态。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/21_f70442c6.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "120px to affix top 固定状态改变的回调 可以获得是否固定的状态。"
+      }
     },
     {
       "title": "affix-滚动容器",
@@ -530,8 +554,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "22_4794a0cf",
-      "__DESCRIPTION__": "Fixed at the top of container 滚动容器 用 target 设置 Affix 需要监听其滚动事件的元素，默认为 window。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/22_4794a0cf.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Fixed at the top of container 滚动容器 用 target 设置 Affix 需要监听其滚动事件的元素，默认为 window。"
+      }
     },
     {
       "title": "alert-顶部公告",
@@ -552,8 +580,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "23_5117d26e",
-      "__DESCRIPTION__": "顶部公告 页面顶部通告形式，默认有图标且type 为 'warning'。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/23_5117d26e.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "顶部公告 页面顶部通告形式，默认有图标且type 为 'warning'。"
+      }
     },
     {
       "title": "alert-基本",
