@@ -1,12 +1,12 @@
 import axios from 'axios';
-import { LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA } from './constant';
+import { LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA, Service } from './constant';
 import fallback from './fallback/merterial-fallback';
 import { ICETransform, isEmpty } from './utils';
 
 export const loadStoreData = async () => {
     let resp = {}
     try {
-        resp = await axios.get('https://ice.alicdn.com/assets/react-materials.json');
+        resp = await axios.get(Service[LIB_MATERIAL_ICEWORK].url);
     } catch (e) {
         console.error(e)
         resp = {

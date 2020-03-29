@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Select } from 'antd';
-import { Libs } from '../service/index';
+import { Libs } from '../service/constant';
 import styles from './store.module.less';
 
 const { Option } = Select;

@@ -1,12 +1,12 @@
 import axios from 'axios';
-import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA } from './constant';
+import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA, Service } from './constant';
 import fallback from './fallback/ice-fallback';
 import { ICETransform, isEmpty } from './utils';
 
 export const loadStoreData = async () => {
     let resp = {}
     try {
-        resp = await axios.get('http://ice.alicdn.com/assets/materials/react-materials.json');
+        resp = await axios.get(Service[LIB_ICEWORK].url);
     } catch (e) {
         console.error(e)
         resp = {

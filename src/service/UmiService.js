@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { LIB_UMIBLOCK, LIB_UMICOMP } from './constant';
+import { LIB_UMIBLOCK, LIB_UMICOMP, Service } from './constant';
 import fallback from './fallback/umi-fallback';
 import ANTD_Transfrom, { isEmpty }  from './utils';
 
@@ -9,7 +9,7 @@ const umiBlockTransfrom = ANTD_Transfrom(LIB_UMIBLOCK);
 export const loadStoreData = async () => {
     let resp = {}
     try {
-        resp = await axios.get('https://github.com/ant-design/pro-blocks/blob/master/umi-block.json');
+        resp = await axios.get(Service[LIB_UMIBLOCK].url);
     } catch (e) {
         console.error(e)
         resp = {

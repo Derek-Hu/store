@@ -2,37 +2,7 @@ import * as AntdService from './AntdService';
 import * as IceWorkService from './IceWorkService';
 import * as UmiService from './UmiService';
 import * as MaterialService from './IceMaterialService';
-
 import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA, LIB_ANTD, LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
-
-export const Libs = [{
-    key: LIB_ANTD,
-    label: 'Antd',
-}, {
-    key: LIB_ICEWORK,
-    label: '飞冰',
-}, {
-    key: LIB_ICECOMP,
-    label: '飞冰组件',
-}, {
-    key: LIB_UMIBLOCK,
-    label: 'UmiJS',
-}, {
-    key: LIB_UMICOMP,
-    label: 'AntPro组件',
-}, {
-    key: LIB_ICESCA,
-    label: '飞冰脚手架'
-}, {
-    key: LIB_MATERIAL_ICECOMP,
-    label: '飞冰官方组件',
-}, {
-    key: LIB_MATERIAL_ICEWORK,
-    label: '飞冰官方区块'
-}, {
-    key: LIB_MATERIAL_ICESCA,
-    label: '飞冰官方脚手架'
-}]
 
 export const loadBlocks = async () => {
 
