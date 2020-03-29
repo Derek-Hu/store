@@ -1,0 +1,227 @@
+[
+  {
+    "title": "select-基本使用",
+    "value": "select-basic",
+    "key": "select-basic",
+    "description": "基本使用。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-basic",
+    "type": "block",
+    "path": "select-basic",
+    "isPage": false,
+    "defaultPath": "/select-basic",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-basic/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-基本使用",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-basic",
+    "features": [
+      "antd"
+    ],
+    "__HASH__": "2_f02d731a",
+    "__DESCRIPTION__": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
+  },
+  {
+    "title": "select-带搜索框",
+    "value": "select-search",
+    "key": "select-search",
+    "description": "展开后可对选项进行搜索。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-search",
+    "type": "block",
+    "path": "select-search",
+    "isPage": false,
+    "defaultPath": "/select-search",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-search/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-带搜索框",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-search",
+    "features": [
+      "antd"
+    ],
+    "__HASH__": "12_4679a3e0",
+    "__DESCRIPTION__": "Select a person 带搜索框 展开后可对选项进行搜索。"
+  },
+  null,
+  {
+    "title": "select-隐藏已选择选项",
+    "value": "select-hide-selected",
+    "key": "select-hide-selected",
+    "description": "隐藏下拉列表中已选择的选项。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-hide-selected",
+    "type": "block",
+    "path": "select-hide-selected",
+    "isPage": false,
+    "defaultPath": "/select-hide-selected",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-hide-selected/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-隐藏已选择选项",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-hide-selected",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-获得选项的文本",
+    "value": "select-label-in-value",
+    "key": "select-label-in-value",
+    "description": "默认情况下 `onChange` 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 `labelInValue` 属性。\n\n选中项的 label 会被包装到 value 中传递给 `onChange` 等函数，此时 value 是一个对象。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-label-in-value",
+    "type": "block",
+    "path": "select-label-in-value",
+    "isPage": false,
+    "defaultPath": "/select-label-in-value",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-label-in-value/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-获得选项的文本",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-label-in-value",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-多选",
+    "value": "select-multiple",
+    "key": "select-multiple",
+    "description": "多选，从已有条目中选择。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-multiple",
+    "type": "block",
+    "path": "select-multiple",
+    "isPage": false,
+    "defaultPath": "/select-multiple",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-multiple/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-多选",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-multiple",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-分组",
+    "value": "select-optgroup",
+    "key": "select-optgroup",
+    "description": "用 `OptGroup` 进行选项分组。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-optgroup",
+    "type": "block",
+    "path": "select-optgroup",
+    "isPage": false,
+    "defaultPath": "/select-optgroup",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-optgroup/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-分组",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-optgroup",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-定制回填内容",
+    "value": "select-option-label-prop",
+    "key": "select-option-label-prop",
+    "description": "使用 `optionLabelProp` 指定回填到选择框的 `Option` 属性。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-option-label-prop",
+    "type": "block",
+    "path": "select-option-label-prop",
+    "isPage": false,
+    "defaultPath": "/select-option-label-prop",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-option-label-prop/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-定制回填内容",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-option-label-prop",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-搜索框",
+    "value": "select-search-box",
+    "key": "select-search-box",
+    "description": "搜索和远程数据结合。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-search-box",
+    "type": "block",
+    "path": "select-search-box",
+    "isPage": false,
+    "defaultPath": "/select-search-box",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-search-box/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-搜索框",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-search-box",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-搜索用户",
+    "value": "select-select-users",
+    "key": "select-select-users",
+    "description": "一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-select-users",
+    "type": "block",
+    "path": "select-select-users",
+    "isPage": false,
+    "defaultPath": "/select-select-users",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-select-users/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-搜索用户",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-select-users",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-三种大小",
+    "value": "select-size",
+    "key": "select-size",
+    "description": "三种大小的选择框，当 size 分别为 `large` 和 `small` 时，输入框高度为 `40px` 和 `24px` ，默认高度为 `32px`。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-size",
+    "type": "block",
+    "path": "select-size",
+    "isPage": false,
+    "defaultPath": "/select-size",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-size/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-三种大小",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-size",
+    "features": [
+      "antd"
+    ]
+  },
+  {
+    "title": "select-标签",
+    "value": "select-tags",
+    "key": "select-tags",
+    "description": "tags select，随意输入的内容（scroll the menu）",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/select-tags",
+    "type": "block",
+    "path": "select-tags",
+    "isPage": false,
+    "defaultPath": "/select-tags",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/select-tags/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "select-标签",
+    "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-tags",
+    "features": [
+      "antd"
+    ]
+  }
+]
