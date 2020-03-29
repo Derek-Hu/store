@@ -5,53 +5,74 @@ import antdData from '../fallback/antd-fallback';
 import XXH from 'xxhashjs';
 import path from 'path';
 
-const folder = path.resolve(__dirname, '../fallback/screenshots/antd');
 
-createFolderIfNotExists(folder);
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+const folder = '../fallback/screenshots/antd';
+
+const cwd = process.cwd();
+const getRelative = filename => path.relative(cwd, path.resolve(__dirname, folder, filename));
+
+createFolderIfNotExists(path.resolve(__dirname, folder, 'sample.png'));
+
 export default (async () => {
-    const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
 
-    const page = await browser.newPage();
-    await page.setViewport({
-        width: 1200,
-        height: 850
-    });
-    asyncForEach(antdData.blocks, async (item, index) => {
-        const url = item.previewUrl;
-        await page.goto(url);
-        await page.waitForSelector('.code-box:target');
-        const clip = await page.evaluate(() => {
-            const target = document.querySelector('.code-box:target');
-            const rect = target.getBoundingClientRect();
-            var x = rect.left + document.documentElement.scrollLeft;
-            var y = rect.top + document.documentElement.scrollTop;
-            return { x: x, y: y, width: rect.width, height: rect.height };
+    try {
+        asyncForEach(antdData.blocks, async (item) => {
+            const page = await browser.newPage();
+            try {
+                await page.setViewport({
+                    width: 1500,
+                    height: 850
+                });
+                const url = item.previewUrl;
+                await page.goto(url);
+                await page.waitForSelector('.code-box:target');
+                await sleep(5000);
+
+                const clip = await page.evaluate(() => {
+                    const target = document.querySelector('.code-box:target');
+                    const rect = target.getBoundingClientRect();
+                    var x = rect.left + document.documentElement.scrollLeft;
+                    var y = rect.top + document.documentElement.scrollTop;
+                    return { x: x + 1, y: y + 1, width: rect.width - 2, height: rect.height - 2, text: target.innerText.replace(/\s/g, '') };
+                });
+                const hash = XXH.h32([
+                    item.title,
+                    item.key,
+                    item.value,
+                    item.description,
+                    item.name,
+                    item.previewUrl,
+                    item.url,
+                    item.homepage,
+                    item.repository
+                ].join('|'), 0xABCD).toString(16);
+
+                item.__HASH__ = hash;
+                item.__DESCRIPTION__ = clip.text;
+
+                await sleep(1000);
+                await page.screenshot({
+                    path: getRelative(`${hash}.png`),
+                    clip
+                });
+
+                writeFallback(Service[LIB_ANTD].name, antdData);
+                await page.close();
+            } catch (e) {
+                if (page) {
+                    await page.close();
+                }
+            }
         });
-        const hash = XXH.h32([
-            item.title,
-            item.key,
-            item.value,
-            item.description,
-            item.name,
-            item.previewUrl,
-            item.url,
-            item.homepage,
-            item.repository
-        ].join('|'), 0xABCD).toString(16);
-
-        item.__HASH__ = hash;
-
-        debugger;
-        await page.screenshot({
-            path: + path.resolve(folder, `${hash}.png`),
-            clip
-        });
-
-        writeFallback(Service[LIB_ANTD].name, JSON.stringify(antdData, null, 2));
-
-        if(index === antdData.blocks.length - 1){
+    } catch (e) {
+        if (browser) {
             await browser.close();
         }
-    });
+    }
 
 })();
