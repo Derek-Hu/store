@@ -1,18 +1,10 @@
-import puppeteer from 'puppeteer';
-import { writeFallback } from './utils/index';
+import { Service } from '../constant';
+import fetchJSON from './utils/fetchJSON';
+import { asyncForEach } from './utils/index';
 
-export default (async (url, name) => { 
-  const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
-  const page = await browser.newPage();
+const keys = Object.keys(Service);
 
-  let response = null;
-
-  page.on('response', async (res) => { 
-    response = await res.json(); 
-  });
-  await page.goto(url, { waitUntil: 'networkidle0' });
-
-  writeFallback(name, response);
-
-  await browser.close();
+asyncForEach(keys, async key => {
+  const lib = Service[key];
+  await fetchJSON(lib.url, lib.name);
 });
