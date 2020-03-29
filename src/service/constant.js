@@ -22,7 +22,7 @@ export const Service = {
         name: 'ice-fallback',
     },
     [LIB_UMIBLOCK]: {
-        url: 'https://github.com/ant-design/pro-blocks/blob/master/umi-block.json',
+        url: 'https://raw.githubusercontent.com/ant-design/pro-blocks/master/umi-block.json',
         name: 'umi-fallback',
     },
 }

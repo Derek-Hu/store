@@ -7,6 +7,9 @@ async function asyncForEach(array, callback) {
   }
 }
 
-asyncForEach(Object.keys(Service), async lib => {
+const keys = Object.keys(Service);
+
+asyncForEach(keys, async key => {
+  const lib = Service[key];
   await fetchJSON(lib.url, lib.name);
 });
