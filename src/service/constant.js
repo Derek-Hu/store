@@ -12,18 +12,31 @@ export const Service = {
     [LIB_ANTD]: {
         url: 'https://gitee.com/ant-design/ant-design-blocks/raw/master/umi-block.json',
         name: 'antd-fallback',
+        selector: {
+           blocks: '.code-box:target'
+        },
     },
-    [LIB_MATERIAL_ICEWORK]: {
-        url: 'https://ice.alicdn.com/assets/react-materials.json',
-        name: 'merterial-fallback',
-    },
-    [LIB_ICEWORK]: {
-        url: 'http://ice.alicdn.com/assets/materials/react-materials.json',
-        name: 'ice-fallback',
-    },
+    // [LIB_MATERIAL_ICEWORK]: {
+    //     url: 'https://ice.alicdn.com/assets/react-materials.json',
+    //     name: 'merterial-fallback',
+    //     selector: ''
+    // },
+    // [LIB_ICEWORK]: {
+    //     url: 'http://ice.alicdn.com/assets/materials/react-materials.json',
+    //     name: 'ice-fallback',
+    //     selector: ''
+    // },
     [LIB_UMIBLOCK]: {
         url: 'https://raw.githubusercontent.com/ant-design/pro-blocks/master/umi-block.json',
         name: 'umi-fallback',
+        selector: {
+            list: 'section.ant-layout > div',
+        },
+        runInBrowser: function(){
+            if(document.querySelector('.ant-pro-setting-drawer-handle')){
+                document.querySelector('.ant-pro-setting-drawer-handle').style.cssText = "display:none"
+            }
+        }
     },
 }
 

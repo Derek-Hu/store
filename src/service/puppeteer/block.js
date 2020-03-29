@@ -1,47 +1,54 @@
 import puppeteer from 'puppeteer';
-import { Service, LIB_ANTD } from '../constant';
+import { Service } from '../constant';
 import { writeFallback, asyncForEach, createFolderIfNotExists } from './utils/index';
-import antdData from '../fallback/antd-fallback';
 import XXH from 'xxhashjs';
 import path from 'path';
+import pkg from '../../../package.json';
 
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+    return new Promise(resolve => setTimeout(resolve, ms * 1000));
 }
 
-const folder = '../fallback/screenshots/antd';
+const saveFolder = 'screenshots';
+const { homepage } = pkg;
+const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
 
-const cwd = process.cwd();
-const getRelative = filename => path.relative(cwd, path.resolve(__dirname, folder, filename));
+export default (async ({ name, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+    const folder = `./public/${saveFolder}/${name}`;
 
-createFolderIfNotExists(path.resolve(__dirname, folder, 'sample.png'));
+    createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
 
-export default (async (forceUpdate) => {
-    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
 
     try {
-        asyncForEach(antdData.blocks, async (item, index) => {
-            console.log(item, index);
-            const hashEmpty = item && !item.__HASH__; // item maybe null
+        asyncForEach(blockData[attribute], async (item, index) => {
+            const hashEmpty = item && (!item.__HASH__ || !item.__HASH__.length); // item maybe null
             if (forceUpdate || hashEmpty) {
                 const page = await browser.newPage();
                 try {
                     await page.setViewport({
-                        width: 1500,
-                        height: 850
+                        width: 1300,
+                        height: 900
                     });
                     const url = item.previewUrl;
-                    await page.goto(url);
-                    await page.waitForSelector('.code-box:target');
-                    await sleep(2000);
-                    const clip = await page.evaluate(() => {
-                        const target = document.querySelector('.code-box:target');
+                    await page.goto(url, { waitUntil: 'networkidle0' });
+                    await page.waitForSelector(selector);
+                    await sleep(delay);
+                    const clip = await page.evaluate(({ selector, runInBrowser }) => {
+                        debugger;
+                        if (typeof runInBrowser === 'function') {
+                            runInBrowser();
+                        }
+                        const target = document.querySelector(selector);
                         const rect = target.getBoundingClientRect();
                         var x = rect.left + document.documentElement.scrollLeft;
                         var y = rect.top + document.documentElement.scrollTop;
                         return { x: x + 1, y: y + 1, width: rect.width - 2, height: rect.height - 2, text: target.innerText.replace(/\s+/g, ' ') };
+                    }, {
+                        selector,
+                        runInBrowser
                     });
-                    console.log(`${index}/${antdData.blocks.length}`, item.title);
+                    console.log(`${index}/${blockData[attribute].length}`, item.title||item.name);
                     const hash = index + '_' + XXH.h32([
                         item.title,
                         item.key,
@@ -54,15 +61,18 @@ export default (async (forceUpdate) => {
                         item.repository
                     ].join('|'), 0xABCD).toString(16);
 
-                    item.__HASH__ = hash;
+                    const subPath = `${saveFolder}/${name}/${hash}.png`;
+
+                    item.__HASH__ = [`${baseUrl}${saveFolder}/${name}/${hash}.png`];
                     item.__DESCRIPTION__ = clip.text;
 
                     await page.screenshot({
-                        path: getRelative(`${hash}.png`),
+                        path: `./public/${subPath}`,
                         clip
                     });
 
-                    writeFallback(Service[LIB_ANTD].name, antdData);
+                    debugger;
+                    writeFallback(Service[name].name, blockData);
                     await page.close();
                 } catch (e) {
                     console.error(e);
@@ -71,7 +81,7 @@ export default (async (forceUpdate) => {
                     }
                 }
             }
-            if (index === antdData.blocks.length - 1) {
+            if (index === blockData[attribute].length - 1) {
                 if (browser) {
                     await browser.close();
                 }
@@ -84,4 +94,4 @@ export default (async (forceUpdate) => {
         }
     }
 
-})(false);
+});
