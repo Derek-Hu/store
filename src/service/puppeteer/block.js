@@ -14,23 +14,25 @@ const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
 
-export default (async ({ name, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+export default (async ({ name, viewport, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
 
     const browser = await puppeteer.launch({ headless: isHeadless , args: ['--no-sandbox'] });
 
-    debugger;
+    const width = viewport && typeof viewport.width === 'number' ?viewport.width: 1300;
+    const height = viewport && typeof viewport.height === 'number' ?viewport.height: 900;
     try {
         asyncForEach(blockData[attribute], async (item, index) => {
             const hashEmpty = item && (!item.__HASH__ || !item.__HASH__.length); // item maybe null
             if (forceUpdate || hashEmpty) {
                 const page = await browser.newPage();
                 try {
+                    console.log(`${index}/${blockData[attribute].length}`, item.title||item.name);
                     await page.setViewport({
-                        width: 1300,
-                        height: 900
+                        width,
+                        height
                     });
                     const url = item.previewUrl;
                     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -50,7 +52,7 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
                         selector,
                         runInBrowser: typeof runInBrowser === 'function'? `(${runInBrowser.toString()})`: null
                     });
-                    console.log(`${index}/${blockData[attribute].length}`, item.title||item.name);
+                    
                     const hash = index + '_' + XXH.h32([
                         item.title,
                         item.key,
