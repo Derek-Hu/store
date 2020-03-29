@@ -7191,7 +7191,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-hide-selected",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "327_c210e575",
+      "__DESCRIPTION__": "Inserted are removed 隐藏已选择选项 隐藏下拉列表中已选择的选项。"
     },
     {
       "title": "select-获得选项的文本",
@@ -7211,7 +7213,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-label-in-value",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "328_602dd1f",
+      "__DESCRIPTION__": "Lucy (101) 获得选项的文本 默认情况下 onChange 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 labelInValue 属性。 选中项的 label 会被包装到 value 中传递给 onChange 等函数，此时 value 是一个对象。"
     },
     {
       "title": "select-多选",
@@ -7231,7 +7235,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-multiple",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "329_8c7a169d",
+      "__DESCRIPTION__": "a10 c12 多选 多选，从已有条目中选择。"
     },
     {
       "title": "select-分组",
@@ -7251,7 +7257,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-optgroup",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "330_6318541",
+      "__DESCRIPTION__": "Lucy 分组 用 OptGroup 进行选项分组。"
     },
     {
       "title": "select-定制回填内容",
@@ -7271,7 +7279,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-option-label-prop",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "331_bd73a61e",
+      "__DESCRIPTION__": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。"
     },
     {
       "title": "select-搜索框",
@@ -7291,7 +7301,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-search-box",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "332_154ec393",
+      "__DESCRIPTION__": "input search text 搜索框 搜索和远程数据结合。"
     },
     {
       "title": "select-搜索用户",
@@ -7311,7 +7323,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-select-users",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "333_df993a90",
+      "__DESCRIPTION__": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。"
     },
     {
       "title": "select-三种大小",
@@ -7331,7 +7345,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-size",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "334_d09e7ee3",
+      "__DESCRIPTION__": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
     },
     {
       "title": "select-标签",
@@ -7351,7 +7367,9 @@ export default {
       "previewUrl": "https://ant.design/components/select-cn/#components-select-demo-tags",
       "features": [
         "antd"
-      ]
+      ],
+      "__HASH__": "335_fb6d0f7b",
+      "__DESCRIPTION__": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）"
     },
     {
       "title": "skeleton-动画效果",
