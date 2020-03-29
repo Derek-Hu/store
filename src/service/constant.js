@@ -26,30 +26,30 @@ export const Service = {
     //     name: 'ice-fallback',
     //     selector: ''
     // },
-    [LIB_UMIBLOCK]: {
-        url: 'https://raw.githubusercontent.com/ant-design/pro-blocks/master/umi-block.json',
-        name: 'umi-fallback',
-        selector: {
-            list: 'section.ant-layout > div',
-        },
-        viewport: {
-            width: 1000,
-            height: 800
-        },
-        runInBrowser: function(){
-            const sideMenu  = document.querySelector('section.ant-layout aside.ant-layout-sider');
-            const settings = document.querySelector('.ant-pro-setting-drawer-handle');
-            if(settings){
-                settings.style.cssText = "display:none"
-            }
-            document.getElementById('root').style.cssText = 'height: auto';
-            document.querySelector('body').style.cssText = 'height: auto';
-            document.querySelector('html').style.cssText = 'height: auto';
-            if(sideMenu){
-                sideMenu.style.cssText = "display:none"
-            }
-        }
-    },
+    // [LIB_UMIBLOCK]: {
+    //     url: 'https://raw.githubusercontent.com/ant-design/pro-blocks/master/umi-block.json',
+    //     name: 'umi-fallback',
+    //     selector: {
+    //         list: 'section.ant-layout > div',
+    //     },
+    //     viewport: {
+    //         width: 1000,
+    //         height: 800
+    //     },
+    //     runInBrowser: function(){
+    //         const sideMenu  = document.querySelector('section.ant-layout aside.ant-layout-sider');
+    //         const settings = document.querySelector('.ant-pro-setting-drawer-handle');
+    //         if(settings){
+    //             settings.style.cssText = "display:none"
+    //         }
+    //         document.getElementById('root').style.cssText = 'height: auto';
+    //         document.querySelector('body').style.cssText = 'height: auto';
+    //         document.querySelector('html').style.cssText = 'height: auto';
+    //         if(sideMenu){
+    //             sideMenu.style.cssText = "display:none"
+    //         }
+    //     }
+    // },
 }
 
 export const Libs = [{
