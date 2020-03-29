@@ -21,6 +21,7 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
 
     const browser = await puppeteer.launch({ headless: isHeadless , args: ['--no-sandbox'] });
 
+    debugger;
     try {
         asyncForEach(blockData[attribute], async (item, index) => {
             const hashEmpty = item && (!item.__HASH__ || !item.__HASH__.length); // item maybe null
@@ -37,8 +38,8 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
                     await sleep(delay);
                     const clip = await page.evaluate(({ selector, runInBrowser }) => {
                         debugger;
-                        if (typeof runInBrowser === 'function') {
-                            runInBrowser();
+                        if(runInBrowser){
+                            (eval(runInBrowser))();
                         }
                         const target = document.querySelector(selector);
                         const rect = target.getBoundingClientRect();
@@ -47,7 +48,7 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
                         return { x: x + 1, y: y + 1, width: rect.width - 2, height: rect.height - 2, text: target.innerText.replace(/\s+/g, ' ') };
                     }, {
                         selector,
-                        runInBrowser
+                        runInBrowser: typeof runInBrowser === 'function'? `(${runInBrowser.toString()})`: null
                     });
                     console.log(`${index}/${blockData[attribute].length}`, item.title||item.name);
                     const hash = index + '_' + XXH.h32([
