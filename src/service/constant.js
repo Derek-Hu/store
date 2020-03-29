@@ -9,13 +9,13 @@ export const LIB_MATERIAL_ICEWORK = 'LIB_MATERIAL_ICEWORK';
 export const LIB_MATERIAL_ICESCA = 'LIB_MATERIAL_ICESCA';
 
 export const Service = {
-    // [LIB_ANTD]: {
-    //     url: 'https://gitee.com/ant-design/ant-design-blocks/raw/master/umi-block.json',
-    //     name: 'antd-fallback',
-    //     selector: {
-    //        blocks: '.code-box:target'
-    //     },
-    // },
+    [LIB_ANTD]: {
+        url: 'https://gitee.com/ant-design/ant-design-blocks/raw/master/umi-block.json',
+        name: 'antd-fallback',
+        selector: {
+           blocks: '.code-box:target'
+        },
+    },
     // [LIB_MATERIAL_ICEWORK]: {
     //     url: 'https://ice.alicdn.com/assets/react-materials.json',
     //     name: 'merterial-fallback',
