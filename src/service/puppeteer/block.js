@@ -9,6 +9,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms * 1000));
 }
 
+const isHeadless = process.env.HEADLESS !== 'false';
 const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
@@ -18,7 +19,7 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
 
-    const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ headless: isHeadless , args: ['--no-sandbox'] });
 
     try {
         asyncForEach(blockData[attribute], async (item, index) => {
@@ -71,7 +72,6 @@ export default (async ({ name, blockData, delay, attribute, forceUpdate, selecto
                         clip
                     });
 
-                    debugger;
                     writeFallback(Service[name].name, blockData);
                     await page.close();
                 } catch (e) {
