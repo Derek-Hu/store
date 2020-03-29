@@ -8,4 +8,6 @@ export const LIB_MATERIAL_ICECOMP = 'LIB_MATERIAL_ICECOMP';
 export const LIB_MATERIAL_ICEWORK = 'LIB_MATERIAL_ICEWORK';
 export const LIB_MATERIAL_ICESCA = 'LIB_MATERIAL_ICESCA';
 
+export const Service_ANTD = 'https://gitee.com/ant-design/ant-design-blocks/raw/master/umi-block.json';
+
 export const SEPERATOR = '_$$_';
