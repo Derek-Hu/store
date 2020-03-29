@@ -1,7 +1,10 @@
 import axios from 'axios';
 import { LIB_UMIBLOCK, LIB_UMICOMP } from './constant';
 import fallback from './fallback/umi-fallback';
-import ANTD_Transfrom from './utils';
+import ANTD_Transfrom, { isEmpty }  from './utils';
+
+const umiCompTransfrom = ANTD_Transfrom(LIB_UMICOMP);
+const umiBlockTransfrom = ANTD_Transfrom(LIB_UMIBLOCK);
 
 export const loadStoreData = async () => {
     let resp = {}
@@ -15,10 +18,10 @@ export const loadStoreData = async () => {
     }
     const data = resp.data;
     if(data.list){
-        data.list = data.list.map(ANTD_Transfrom(LIB_UMICOMP)).filter(v => v);
+        data.list = data.list.map(umiCompTransfrom).filter(isEmpty);
     }
     if(data.blocks){
-        data.blocks = data.blocks.map(ANTD_Transfrom(LIB_UMIBLOCK)).filter(v => v);
+        data.blocks = data.blocks.map(umiBlockTransfrom).filter(isEmpty);
     }
     return data;
 }

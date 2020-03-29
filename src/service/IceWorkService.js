@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA } from './constant';
 import fallback from './fallback/ice-fallback';
+import { ICETransform, isEmpty } from './utils';
 
 export const loadStoreData = async () => {
     let resp = {}
@@ -12,17 +13,15 @@ export const loadStoreData = async () => {
             data: fallback
         }
     }
-    resp.data.blocks.forEach(element => {
-        element.__lib__ = LIB_ICEWORK;
-    });
 
-    resp.data.components.forEach(element => {
-        element.__lib__ = LIB_ICECOMP;
-    });
+    resp.data.blocks.forEach(ICETransform(LIB_ICEWORK));
+    resp.data.blocks = resp.data.blocks.filter(isEmpty);
 
-    resp.data.scaffolds.forEach(element => {
-        element.__lib__ = LIB_ICESCA;
-    });
+    resp.data.components.forEach(ICETransform(LIB_ICECOMP));
+    resp.data.components = resp.data.components.filter(isEmpty);
 
+    resp.data.scaffolds.forEach(ICETransform(LIB_ICESCA));
+    resp.data.scaffolds = resp.data.scaffolds.filter(isEmpty);
+    
     return resp.data;
 }
