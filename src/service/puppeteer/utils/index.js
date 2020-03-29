@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 
-function createFolderIfNotExists(outputFilePath) {
+export function createFolderIfNotExists(outputFilePath) {
     const parent = path.dirname(outputFilePath);
     if (!fs.existsSync(parent)) {
         createFolderIfNotExists(parent);
