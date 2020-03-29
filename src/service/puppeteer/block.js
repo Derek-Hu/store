@@ -3,18 +3,17 @@ import { Service, LIB_ANTD } from '../constant';
 import { writeFallback, asyncForEach } from './utils/index';
 import antdData from '../fallback/antd-fallback';
 
-async function asyncForEach(array, callback) {
-    for (let index = 0; index < array.length; index++) {
-        await callback(array[index], index, array)
-    }
-}
-
 export default (async () => {
     const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
 
     const page = await browser.newPage();
-    asyncForEach(antdData, async item => {
+    await page.setViewport({
+        width: 1200,
+        height: 850
+    });
+    asyncForEach(antdData.blocks, async item => {
         const url = item.previewUrl;
+        debugger;
         await page.goto(url, { waitUntil: 'networkidle0' });
 
         const clip = await frame.evaluate(() => {
@@ -38,6 +37,7 @@ export default (async () => {
 
         item.__HASH__ = hash;
 
+        debugger;
         await page.screenshot({
             path: path.resolve(__dirname, '../fallback/screenshots/antd', hash),
             clip
@@ -46,6 +46,6 @@ export default (async () => {
         writeFallback(Service[LIB_ANTD].name, JSON.stringify(antdData, null, 2));
     });
 
+    // await browser.close();
 
-    await browser.close();
-});
+})();
