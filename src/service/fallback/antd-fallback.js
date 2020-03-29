@@ -93,8 +93,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "3_68a11f95",
-      "__DESCRIPTION__": "Open Modal 基本 第一个对话框。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/3_68a11f95.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Open Modal 基本 第一个对话框。"
+      }
     },
     {
       "title": "table-基本用法",
@@ -115,8 +119,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "4_846fcc04",
-      "__DESCRIPTION__": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/4_846fcc04.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
+      }
     },
     {
       "title": "form-登录框",
@@ -137,8 +145,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "5_513c99aa",
-      "__DESCRIPTION__": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/5_513c99aa.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。"
+      }
     },
     {
       "title": "form-内联登录栏",
@@ -159,8 +171,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "6_99bde7b7",
-      "__DESCRIPTION__": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/6_99bde7b7.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。"
+      }
     },
     {
       "title": "form-校验其他组件",
@@ -181,8 +197,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "7_ce94fe8c",
-      "__DESCRIPTION__": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/7_ce94fe8c.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。"
+      }
     },
     {
       "title": "button-按钮尺寸",
@@ -203,8 +223,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "8_29114c0",
-      "__DESCRIPTION__": "Large Default Small PrimaryDefaultDashed Link DownloadDownload 按钮尺寸 按钮有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/8_29114c0.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Large Default Small PrimaryDefaultDashed Link DownloadDownload 按钮尺寸 按钮有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。"
+      }
     },
     {
       "title": "input-基本使用",
@@ -225,8 +249,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "9_e680f2f4",
-      "__DESCRIPTION__": "基本使用 基本使用。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/9_e680f2f4.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "基本使用 基本使用。"
+      }
     },
     {
       "title": "input-搜索框",
@@ -247,8 +275,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "10_98d497c7",
-      "__DESCRIPTION__": " Search 搜索框 带有搜索按钮的输入框。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/10_98d497c7.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": " Search 搜索框 带有搜索按钮的输入框。"
+      }
     },
     {
       "title": "grid-基础栅格",
