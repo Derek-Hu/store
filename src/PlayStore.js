@@ -93,7 +93,7 @@ export default class Main extends React.Component {
           {
             <Content className="elements-container" style={{ width: '60%', background: '#fff' }}>{
               // BlockItem ? <img style={{maxWidth: '100%', maxHeight:'100%'}} src={BlockItem.screenshot} /> : null
-              BlockItem ? <iframe style={{ border: 0, padding: '1em', width: '100%', height: '100%' }} src={BlockItem.homepage} /> : null
+              BlockItem ? <iframe style={{ border: 0, width: '100%', height: '100%' }} src={BlockItem.homepage} /> : null
             }</Content>
           }
           {/* 
