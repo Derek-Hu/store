@@ -67,7 +67,8 @@
     "test": "react-scripts test",
     "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject",
-    "snapshots": "npx babel-node --inspect-brk --presets @babel/env src/service/puppeteer/antd.js"
+    "snapshots": "npx babel-node --presets @babel/env src/service/puppeteer/antd.js",
+    "snapshots:debug": "npx babel-node --inspect-brk --presets @babel/env src/service/puppeteer/antd.js"
   },
   "eslintConfig": {
     "extends": "react-app"

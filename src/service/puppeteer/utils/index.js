@@ -15,5 +15,5 @@ export const writeSync = function (outputFilePath, content) {
 }
 
 export const writeFallback = (name, content) =>{
-    writeSync(path.resolve(__dirname, '../../fallback', name), content);
+    writeSync(path.resolve(__dirname, '../../fallback', name+'.js'), `export default ${JSON.stringify(content, null, 2)}`);
 }
