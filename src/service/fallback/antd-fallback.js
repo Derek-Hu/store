@@ -41,8 +41,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "1_9688d9db",
-      "__DESCRIPTION__": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/1_9688d9db.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+      }
     },
     {
       "title": "select-基本使用",
@@ -63,8 +67,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "2_f02d731a",
-      "__DESCRIPTION__": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/2_f02d731a.png"
+      ],
+      "__DESCRIPTION__": {
+        "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
+      }
     },
     {
       "title": "modal-基本",
@@ -305,7 +313,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "13_b475160",
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/13_b475160.png"
+      ],
       "__DESCRIPTION__": "Fail Should be combination of numbers & alphabets Warning Validating The information is being validated... Success Warning Fail Should be combination of numbers & alphabets Success Warning Error Validating The information is being validated... inline Please select the correct date - Success Success Warning Error 自定义校验 我们提供了 validateStatus help hasFeedback 等属性，你可以不通过 Form 自己定义校验的时机和内容。 validateStatus: 校验状态，可选 'success', 'warning', 'error', 'validating'。 hasFeedback：用于给输入框添加反馈图标。 help：设置校验文案。"
     },
     {
@@ -327,7 +337,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "14_7531a55c",
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/14_7531a55c.png"
+      ],
       "__DESCRIPTION__": " 基本 最简单的用法，在浮层中可以选择或者输入日期。"
     },
     {
@@ -349,7 +361,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "15_28580c43",
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/15_28580c43.png"
+      ],
       "__DESCRIPTION__": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 基本 默认选中第一项。"
     },
     {
@@ -371,7 +385,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "16_72ecc8e7",
+      "__HASH__": [
+        "https://derek-hu.github.io/store/screenshots/antd/16_72ecc8e7.png"
+      ],
       "__DESCRIPTION__": "Checkbox 基本用法 简单的 checkbox。"
     },
     null,

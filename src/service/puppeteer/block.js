@@ -14,7 +14,7 @@ const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
 
-export default (async ({ name, viewport, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+export default (async ({ name, viewport,preload, locale, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
@@ -24,12 +24,13 @@ export default (async ({ name, viewport, blockData, delay, attribute, forceUpdat
     const width = viewport && typeof viewport.width === 'number' ?viewport.width: 1300;
     const height = viewport && typeof viewport.height === 'number' ?viewport.height: 900;
     try {
-        asyncForEach(blockData[attribute], async (item, index) => {
+        await asyncForEach(blockData[attribute], async (item, index) => {
             const hashEmpty = !Array.isArray(item.__HASH__); // item maybe null
             if (forceUpdate || hashEmpty) {
                 const page = await browser.newPage();
+                await page.evaluateOnNewDocument(preload);
                 try {
-                    console.log(`${index}/${blockData[attribute].length}`, item.title||item.name);
+                    console.log(`${locale.toUpperCase()}: ${index}/${blockData[attribute].length}`, item.title||item.name);
                     await page.setViewport({
                         width,
                         height
@@ -68,7 +69,10 @@ export default (async ({ name, viewport, blockData, delay, attribute, forceUpdat
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
 
                     item.__HASH__ = [`${baseUrl}${saveFolder}/${name}/${hash}.png`];
-                    item.__DESCRIPTION__ = clip.text;
+                    if(Object.prototype.toString.call(item.__DESCRIPTION__) !== '[object Object]'){
+                        item.__DESCRIPTION__ = {};
+                    }
+                    item.__DESCRIPTION__[locale] = clip.text;
 
                     await page.screenshot({
                         path: `./public/${subPath}`,

@@ -1,8 +1,12 @@
 import downScreen from './block';
 import { Service } from '../constant';
 import { asyncForEach } from './utils/index';
+import fs from 'fs';
+import path from 'path';
 
 const keys = Object.keys(Service);
+const preloadEnFile = fs.readFileSync(path.resolve(__dirname, './preload/preload-en.js'), 'utf8');
+const preloadZhFile = fs.readFileSync(path.resolve(__dirname, './preload/preload-zh.js'), 'utf8');
 
 asyncForEach(keys, async name => {
     const lib = Service[name];
@@ -24,14 +28,25 @@ asyncForEach(keys, async name => {
         if(lib.runInBrowser && typeof lib.runInBrowser !== 'function'){
             throw new Error('runInBrowser为函数类型，运行在浏览器中');
         }
-        await downScreen({
+        const params = {
             selector: lib.selector[attribute],
             name,
             attribute,
             blockData,
             forceUpdate: process.env.FORCE_UPDATE === 'true',
             delay: typeof lib.delay === 'number'? lib.delay : 5,
-            runInBrowser: lib.runInBrowser
+            runInBrowser: lib.runInBrowser,
+        }
+        await downScreen({
+            ...params,
+            locale: 'zh',
+            preload: preloadZhFile,
+        });
+
+        await downScreen({
+            ...params,
+            locale: 'en',
+            preload: preloadEnFile,
         });
     });
 });
