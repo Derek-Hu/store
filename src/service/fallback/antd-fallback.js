@@ -48,10 +48,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/1-en-9688d9db.png"
       },
       "__DESCRIPTION__": {
-        "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+        "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。",
+        "en": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
       }
     },
     {
@@ -74,10 +76,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/2-zh-f02d731a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/2-zh-f02d731a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/2-en-f02d731a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
+        "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。",
+        "en": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
       }
     },
     {
@@ -100,10 +104,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/3-zh-68a11f95.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/3-zh-68a11f95.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/3-en-68a11f95.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Open Modal 基本 第一个对话框。"
+        "zh": "Open Modal 基本 第一个对话框。",
+        "en": "Open Modal 基本 第一个对话框。"
       }
     },
     {
@@ -126,10 +132,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/4-zh-846fcc04.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/4-zh-846fcc04.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/4-en-846fcc04.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
+        "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。",
+        "en": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
       }
     },
     {
@@ -11488,8 +11496,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "428_4b040a09",
-      "__DESCRIPTION__": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/428-zh-4b040a09.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。"
+      }
     },
     {
       "title": "time-picker-步长选项",
@@ -11510,8 +11522,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "429_9bae5f3",
-      "__DESCRIPTION__": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/429-zh-9bae5f3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。"
+      }
     },
     {
       "title": "time-picker-范围选择器",
@@ -11532,8 +11548,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "430_916f79bd",
-      "__DESCRIPTION__": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/430-zh-916f79bd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。"
+      }
     },
     {
       "title": "time-picker-三种大小",
@@ -11554,8 +11574,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "431_55233927",
-      "__DESCRIPTION__": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/431-zh-55233927.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。"
+      }
     },
     {
       "title": "time-picker-受控组件",
@@ -11576,8 +11600,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "432_30d9a2a",
-      "__DESCRIPTION__": "受控组件 value 和 onChange 需要配合使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/432-zh-30d9a2a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "受控组件 value 和 onChange 需要配合使用。"
+      }
     },
     {
       "title": "timeline-交替展现",
@@ -11598,8 +11626,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "433_463078f4",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/433-zh-463078f4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。"
+      }
     },
     {
       "title": "timeline-基本用法",
@@ -11620,8 +11652,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "434_6158a00a",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/434-zh-6158a00a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。"
+      }
     },
     {
       "title": "timeline-圆圈颜色",
@@ -11642,8 +11678,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "435_7a588173",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/435-zh-7a588173.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。"
+      }
     },
     {
       "title": "timeline-自定义时间轴点",
@@ -11664,8 +11704,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "436_4e000b31",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/436-zh-4e000b31.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。"
+      }
     },
     {
       "title": "timeline-标签",
@@ -11686,8 +11730,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "437_71f7fe26",
-      "__DESCRIPTION__": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/437-zh-71f7fe26.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。"
+      }
     },
     {
       "title": "timeline-最后一个及排序",
@@ -11708,8 +11756,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "438_6b828079",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/438-zh-6b828079.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。"
+      }
     },
     {
       "title": "timeline-右侧时间轴点",
@@ -11730,8 +11782,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "439_17f31333",
-      "__DESCRIPTION__": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/439-zh-17f31333.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。"
+      }
     },
     {
       "title": "tooltip-箭头指向",
@@ -11752,8 +11808,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "440_a944fff3",
-      "__DESCRIPTION__": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/440-zh-a944fff3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+      }
     },
     {
       "title": "tooltip-基本",
@@ -11774,8 +11834,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "441_8dd54de5",
-      "__DESCRIPTION__": "Tooltip will show on mouse enter. 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/441-zh-8dd54de5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tooltip will show on mouse enter. 基本 最简单的用法。"
+      }
     },
     {
       "title": "tooltip-位置",
@@ -11796,8 +11860,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "442_582c6865",
-      "__DESCRIPTION__": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/442-zh-582c6865.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。"
+      }
     },
     {
       "title": "transfer-高级用法",
@@ -11818,8 +11886,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "443_f0e4ee7e",
-      "__DESCRIPTION__": "11 项 content1-description of content1 content2-description of content2 content3-description of content3 content4-description of content4 content9-description of content9 content10-description of content10 content11-description of content11 content13-description of content13 content16-description of content16 content17-description of content17 content20-description of content20 reload to right to left 9 项 content5-description of content5 content6-description of content6 content7-description of content7 content8-description of content8 content12-description of content12 content14-description of content14 content15-description of content15 content18-description of content18 content19-description of content19 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/443-zh-f0e4ee7e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "10 项 content1-description of content1 content2-description of content2 content3-description of content3 content9-description of content9 content13-description of content13 content14-description of content14 content15-description of content15 content16-description of content16 content18-description of content18 content19-description of content19 reload to right to left 10 项 content4-description of content4 content5-description of content5 content6-description of content6 content7-description of content7 content8-description of content8 content10-description of content10 content11-description of content11 content12-description of content12 content17-description of content17 content20-description of content20 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。"
+      }
     },
     {
       "title": "transfer-基本用法",
@@ -11840,8 +11912,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "444_fb9ceaee",
-      "__DESCRIPTION__": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/444-zh-fb9ceaee.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。"
+      }
     },
     {
       "title": "transfer-自定义渲染行数据",
@@ -11862,8 +11938,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "445_ab77f203",
-      "__DESCRIPTION__": "7 项 content1 - description of content1 content2 - description of content2 content4 - description of content4 content6 - description of content6 content8 - description of content8 content10 - description of content10 content13 - description of content13 13 项 content3 - description of content3 content5 - description of content5 content7 - description of content7 content9 - description of content9 content11 - description of content11 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content17 - description of content17 content18 - description of content18 content19 - description of content19 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/445-zh-ab77f203.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "10 项 content1 - description of content1 content6 - description of content6 content8 - description of content8 content9 - description of content9 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content18 - description of content18 content19 - description of content19 10 项 content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content10 - description of content10 content11 - description of content11 content13 - description of content13 content17 - description of content17 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。"
+      }
     },
     {
       "title": "transfer-带搜索框",
@@ -11884,8 +11964,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "446_3fa5c10e",
-      "__DESCRIPTION__": "8 项 content2 content3 content4 content7 content11 content14 content16 content18 12 项 content1 content5 content6 content8 content9 content10 content12 content13 content15 content17 content19 content20 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/446-zh-3fa5c10e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "12 项 content1 content2 content3 content5 content6 content9 content10 content11 content15 content16 content17 content19 8 项 content4 content7 content8 content12 content13 content14 content18 content20 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。"
+      }
     },
     {
       "title": "transfer-表格穿梭框",
@@ -11906,8 +11990,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "447_3fbd95d0",
-      "__DESCRIPTION__": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/447-zh-3fbd95d0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。"
+      }
     },
     {
       "title": "transfer-树穿梭框",
@@ -11928,8 +12016,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "448_1e8849be",
-      "__DESCRIPTION__": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/448-zh-1e8849be.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。"
+      }
     },
     {
       "title": "tree-受控操作示例",
@@ -11950,8 +12042,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "449_f125cbe9",
-      "__DESCRIPTION__": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/449-zh-f125cbe9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例"
+      }
     },
     {
       "title": "tree-基本",
@@ -11972,8 +12068,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "450_992ade0e",
-      "__DESCRIPTION__": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/450-zh-992ade0e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。"
+      }
     },
     {
       "title": "tree-自定义图标",
@@ -11994,8 +12094,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "451_4f5d80dd",
-      "__DESCRIPTION__": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/451-zh-4f5d80dd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。"
+      }
     },
     {
       "title": "tree-目录",
@@ -12016,8 +12120,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "452_6d1f0a59",
-      "__DESCRIPTION__": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/452-zh-6d1f0a59.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。"
+      }
     },
     {
       "title": "tree-拖动示例",
@@ -12038,8 +12146,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "453_a0668ca6",
-      "__DESCRIPTION__": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/453-zh-a0668ca6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。"
+      }
     },
     {
       "title": "tree-异步数据加载",
@@ -12060,8 +12172,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "454_3761c5f9",
-      "__DESCRIPTION__": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/454-zh-3761c5f9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。"
+      }
     },
     {
       "title": "tree-连接线",
@@ -12082,8 +12198,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "455_98ca6a07",
-      "__DESCRIPTION__": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/455-zh-98ca6a07.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。"
+      }
     },
     {
       "title": "tree-可搜索",
@@ -12104,8 +12224,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "456_410317f6",
-      "__DESCRIPTION__": "0-0 0-1 0-2 可搜索 可搜索的树。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/456-zh-410317f6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0-0 0-1 0-2 可搜索 可搜索的树。"
+      }
     },
     {
       "title": "tree-自定义展开/折叠图标",
@@ -12126,8 +12250,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "457_28ce5026",
-      "__DESCRIPTION__": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/457-zh-28ce5026.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。"
+      }
     },
     {
       "title": "tree-虚拟滚动",
@@ -12148,8 +12276,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "458_af5ccb24",
-      "__DESCRIPTION__": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/458-zh-af5ccb24.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。"
+      }
     },
     {
       "title": "tree-select-异步加载",
@@ -12170,8 +12302,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "459_8f4ee8ab",
-      "__DESCRIPTION__": "Please select 异步加载 异步加载树节点。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/459-zh-8f4ee8ab.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Please select 异步加载 异步加载树节点。"
+      }
     },
     {
       "title": "tree-select-基本",
@@ -12192,8 +12328,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "460_a1c44771",
-      "__DESCRIPTION__": "Please select 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/460-zh-a1c44771.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Please select 基本 最简单的用法。"
+      }
     },
     {
       "title": "tree-select-可勾选",
@@ -12214,8 +12354,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "461_f55a3658",
-      "__DESCRIPTION__": "Node1 可勾选 使用勾选框实现多选功能。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/461-zh-f55a3658.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Node1 可勾选 使用勾选框实现多选功能。"
+      }
     },
     {
       "title": "tree-select-多选",
@@ -12236,8 +12380,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "462_dda3bec4",
-      "__DESCRIPTION__": "Please select 多选 多选的树选择。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/462-zh-dda3bec4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Please select 多选 多选的树选择。"
+      }
     },
     {
       "title": "tree-select-从数据直接生成",
@@ -12258,8 +12406,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "463_5df008e1",
-      "__DESCRIPTION__": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/463-zh-5df008e1.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。"
+      }
     },
     {
       "title": "typography-基本",
@@ -12280,8 +12432,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "464_7e79fa2d",
-      "__DESCRIPTION__": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/464-zh-7e79fa2d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。"
+      }
     },
     {
       "title": "typography-省略号",
@@ -12302,8 +12458,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "465_5773ee12",
-      "__DESCRIPTION__": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background ...展开 省略号 多行文本省略。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/465-zh-5773ee12.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refi...展开 省略号 多行文本省略。"
+      }
     },
     {
       "title": "typography-可交互",
@@ -12324,8 +12484,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "466_9f00d33a",
-      "__DESCRIPTION__": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/466-zh-9f00d33a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。"
+      }
     },
     {
       "title": "typography-后缀",
@@ -12346,8 +12510,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "467_e69a6e75",
-      "__DESCRIPTION__": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. The slings and arrows of outra...--William Shakespeare展开 后缀 添加后缀的省略。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/467-zh-e69a6e75.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. The s...--William Shakespeare展开 后缀 添加后缀的省略。"
+      }
     },
     {
       "title": "typography-文本组件",
@@ -12368,8 +12536,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "468_a88e7f6b",
-      "__DESCRIPTION__": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/468-zh-a88e7f6b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。"
+      }
     },
     {
       "title": "typography-标题组件",
@@ -12390,8 +12562,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "469_c831849a",
-      "__DESCRIPTION__": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/469-zh-c831849a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。"
+      }
     },
     {
       "title": "upload-点击上传",
@@ -12412,8 +12588,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "470_9f150c0d",
-      "__DESCRIPTION__": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/470-zh-9f150c0d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
+      }
     },
     {
       "title": "upload-已上传的文件列表",
@@ -12434,8 +12614,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "471_8469c71e",
-      "__DESCRIPTION__": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/471-zh-8469c71e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。"
+      }
     },
     {
       "title": "upload-文件夹上传",
@@ -12456,8 +12640,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "472_99499bdb",
-      "__DESCRIPTION__": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/472-zh-99499bdb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。"
+      }
     },
     {
       "title": "upload-拖拽上传",
@@ -12478,8 +12666,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "473_4c0fb5cb",
-      "__DESCRIPTION__": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/473-zh-4c0fb5cb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。"
+      }
     },
     {
       "title": "upload-完全控制的上传列表",
@@ -12500,8 +12692,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "474_85b51653",
-      "__DESCRIPTION__": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/474-zh-85b51653.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。"
+      }
     },
     {
       "title": "upload-照片墙",
@@ -12522,8 +12718,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "475_3ae005cc",
-      "__DESCRIPTION__": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/475-zh-3ae005cc.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。"
+      }
     },
     {
       "title": "upload-图片列表样式",
@@ -12544,8 +12744,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "476_d34b9aea",
-      "__DESCRIPTION__": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/476-zh-d34b9aea.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。"
+      }
     },
     {
       "title": "upload-自定义预览",
@@ -12566,8 +12770,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "477_98d4988d",
-      "__DESCRIPTION__": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/477-zh-98d4988d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。"
+      }
     },
     {
       "title": "upload-上传前转换文件",
@@ -12588,8 +12796,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "478_d988857e",
-      "__DESCRIPTION__": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/478-zh-d988857e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。"
+      }
     },
     {
       "title": "upload-自定义交互图标",
@@ -12610,8 +12822,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "479_444b2f07",
-      "__DESCRIPTION__": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/479-zh-444b2f07.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。"
+      }
     },
     {
       "title": "upload-手动上传",
@@ -12632,8 +12848,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "480_9d0550b1",
-      "__DESCRIPTION__": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/480-zh-9d0550b1.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。"
+      }
     },
     {
       "title": "upload-阿里云 OSS",
@@ -12654,8 +12874,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "481_4012f7fe",
-      "__DESCRIPTION__": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例."
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/481-zh-4012f7fe.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例."
+      }
     }
   ]
 }
