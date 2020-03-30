@@ -1323,8 +1323,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "51_a458b991",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 动态 展示动态变化的效果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/51-zh-a458b991.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 动态 展示动态变化的效果。"
+      }
     },
     {
       "title": "badge-多彩徽标",
@@ -1345,8 +1349,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "52_46700b12",
-      "__DESCRIPTION__": "Presets: pink red yellow orange cyan green blue purple geekblue magenta volcano gold lime Custom: #f50 #2db7f5 #87d068 #108ee9 多彩徽标 3.16.0 后新增。我们添加了多种预设色彩的徽标样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/52-zh-46700b12.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Presets: pink red yellow orange cyan green blue purple geekblue magenta volcano gold lime Custom: #f50 #2db7f5 #87d068 #108ee9 多彩徽标 我们添加了多种预设色彩的徽标样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
+      }
     },
     {
       "title": "badge-讨嫌的小红点",
@@ -1367,8 +1375,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "53_71d77983",
-      "__DESCRIPTION__": "Link something 讨嫌的小红点 没有具体的数字。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/53-zh-71d77983.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Link something 讨嫌的小红点 没有具体的数字。"
+      }
     },
     {
       "title": "badge-可点击",
@@ -1389,8 +1401,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "54_5fd3b1f0",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 可点击 用 a 标签进行包裹即可。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/54-zh-5fd3b1f0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 可点击 用 a 标签进行包裹即可。"
+      }
     },
     {
       "title": "badge-独立使用",
@@ -1411,8 +1427,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "55_e4d6385d",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 独立使用 不包裹任何元素即是独立使用，可自定样式展现。 在右上角的 badge 则限定为红色。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/55-zh-e4d6385d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 独立使用 不包裹任何元素即是独立使用，可自定样式展现。 在右上角的 badge 则限定为红色。"
+      }
     },
     {
       "title": "badge-封顶数字",
@@ -1433,8 +1453,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "56_84057e5f",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 10+ 999+ 封顶数字 超过 overflowCount 的会显示为 ${overflowCount}+，默认的 overflowCount 为 99。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/56-zh-84057e5f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 10+ 999+ 封顶数字 超过 overflowCount 的会显示为 ${overflowCount}+，默认的 overflowCount 为 99。"
+      }
     },
     {
       "title": "badge-状态点",
@@ -1455,8 +1479,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "57_19d463d2",
-      "__DESCRIPTION__": " Success Error Default Processing Warning 状态点 用于表示状态的小圆点。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/57-zh-19d463d2.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Success Error Default Processing Warning 状态点 用于表示状态的小圆点。"
+      }
     },
     {
       "title": "breadcrumb-基本",
@@ -1477,8 +1505,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "58_287c4013",
-      "__DESCRIPTION__": "Home/Application Center/Application List/An Application 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/58-zh-287c4013.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Application Center/Application List/An Application 基本 最简单的用法。"
+      }
     },
     {
       "title": "breadcrumb-带下拉菜单的面包屑",
@@ -1499,8 +1531,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "59_9285e907",
-      "__DESCRIPTION__": "Ant Design/Component/General/Button 带下拉菜单的面包屑 面包屑支持下拉菜单。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/59-zh-9285e907.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Ant Design/Component/General/Button 带下拉菜单的面包屑 面包屑支持下拉菜单。"
+      }
     },
     {
       "title": "breadcrumb-其它路由",
@@ -1521,8 +1557,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "60_50646e92",
-      "__DESCRIPTION__": "其它路由 和 react-router@4+，或其他路由进行结合使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/60-zh-50646e92.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "其它路由 和 react-router@4+，或其他路由进行结合使用。"
+      }
     },
     {
       "title": "breadcrumb-分隔符",
@@ -1543,8 +1583,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "61_1b50f741",
-      "__DESCRIPTION__": "Location:Application Center/Application List/An Application 分隔符 使用 Breadcrumb.Separator 可以自定义分隔符。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/61-zh-1b50f741.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Location:Application Center/Application List/An Application 分隔符 使用 Breadcrumb.Separator 可以自定义分隔符。"
+      }
     },
     {
       "title": "breadcrumb-分隔符",
@@ -1565,8 +1609,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "62_5824df40",
-      "__DESCRIPTION__": "Home>Application Center>Application List>An Application 分隔符 使用 separator=\">\" 可以自定义分隔符。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/62-zh-5824df40.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home>Application Center>Application List>An Application 分隔符 使用 separator=\">\" 可以自定义分隔符。"
+      }
     },
     {
       "title": "breadcrumb-带有图标的",
@@ -1587,8 +1635,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "63_478a1579",
-      "__DESCRIPTION__": "/Application List/Application 带有图标的 图标放在文字前面。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/63-zh-478a1579.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "/Application List/Application 带有图标的 图标放在文字前面。"
+      }
     },
     {
       "title": "button-Block 按钮",
@@ -1609,8 +1661,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "64_361f61aa",
-      "__DESCRIPTION__": "PrimaryDefaultDashedLink Block 按钮 block属性将使按钮适合其父宽度。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/64-zh-361f61aa.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "PrimaryDefaultDashedLink Block 按钮 block属性将使按钮适合其父宽度。"
+      }
     },
     {
       "title": "button-危险按钮",
@@ -1631,8 +1687,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "65_8fdcfefb",
-      "__DESCRIPTION__": "PrimaryDefaultlinklink 危险按钮 在 4.0 之后，危险成为一种按钮属性而不是按钮类型。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/65-zh-8fdcfefb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "PrimaryDefaultlinklink 危险按钮 在 4.0 之后，危险成为一种按钮属性而不是按钮类型。"
+      }
     },
     {
       "title": "button-不可用状态",
@@ -1653,8 +1713,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "66_a5fe6e3a",
-      "__DESCRIPTION__": "PrimaryPrimary(disabled) DefaultDefault(disabled) DashedDashed(disabled) LinkLink(disabled) Danger LinkDanger Link(disabled) Danger DefaultDanger Default(disabled) GhostGhost(disabled) 不可用状态 添加 disabled 属性即可让按钮处于不可用状态，同时按钮样式也会改变。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/66-zh-a5fe6e3a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "PrimaryPrimary(disabled) DefaultDefault(disabled) DashedDashed(disabled) LinkLink(disabled) Danger LinkDanger Link(disabled) Danger DefaultDanger Default(disabled) GhostGhost(disabled) 不可用状态 添加 disabled 属性即可让按钮处于不可用状态，同时按钮样式也会改变。"
+      }
     },
     {
       "title": "button-幽灵按钮",
@@ -1675,8 +1739,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "67_5fbbdf50",
-      "__DESCRIPTION__": "PrimaryDefaultlinklink 幽灵按钮 幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/67-zh-5fbbdf50.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "PrimaryDefaultlinklink 幽灵按钮 幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。"
+      }
     },
     {
       "title": "button-图标按钮",
@@ -1697,8 +1765,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "68_63de4a6a",
-      "__DESCRIPTION__": "ASearchSearch SearchSearch 图标按钮 当需要在 Button 内嵌入 Icon 时，可以设置 icon 属性，或者直接在 Button 内使用 Icon 组件。 如果想控制 Icon 具体的位置，只能直接使用 Icon 组件，而非 icon 属性。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/68-zh-63de4a6a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "ASearchSearch SearchSearch 图标按钮 当需要在 Button 内嵌入 Icon 时，可以设置 icon 属性，或者直接在 Button 内使用 Icon 组件。 如果想控制 Icon 具体的位置，只能直接使用 Icon 组件，而非 icon 属性。"
+      }
     },
     {
       "title": "button-加载中状态",
@@ -1719,8 +1791,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "69_dd658e38",
-      "__DESCRIPTION__": "LoadingLoading Click me!Click me! 加载中状态 添加 loading 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/69-zh-dd658e38.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "LoadingLoading Click me!Click me! 加载中状态 添加 loading 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。"
+      }
     },
     {
       "title": "button-多个按钮组合",
@@ -1741,8 +1817,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "70_971b11e4",
-      "__DESCRIPTION__": "primarysecondaryActions 多个按钮组合 按钮组合使用时，推荐使用 1 个主操作 + n 个次操作，3 个以上操作时把更多操作放到 Dropdown.Button 中组合使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/70-zh-971b11e4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "primarysecondaryActions 多个按钮组合 按钮组合使用时，推荐使用 1 个主操作 + n 个次操作，3 个以上操作时把更多操作放到 Dropdown.Button 中组合使用。"
+      }
     },
     {
       "title": "calendar-基本",
@@ -1763,8 +1843,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "71_2f86f8a",
-      "__DESCRIPTION__": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 基本 一个通用的日历面板，支持年/月切换。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/71-zh-2f86f8a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 基本 一个通用的日历面板，支持年/月切换。"
+      }
     },
     {
       "title": "calendar-卡片模式",
@@ -1785,8 +1869,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "72_cc0f03bf",
-      "__DESCRIPTION__": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 卡片模式 用于嵌套在空间有限的容器中。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/72-zh-cc0f03bf.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 卡片模式 用于嵌套在空间有限的容器中。"
+      }
     },
     {
       "title": "calendar-自定义头部",
@@ -1807,8 +1895,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "73_3423a320",
-      "__DESCRIPTION__": "Custom header Month Year 2020 3月 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 自定义头部 自定义日历头部内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/73-zh-3423a320.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Custom header Month Year 2020 3月 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 自定义头部 自定义日历头部内容。"
+      }
     },
     {
       "title": "calendar-通知事项日历",
@@ -1829,8 +1921,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "74_cc1ec438",
-      "__DESCRIPTION__": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 This is warning event. This is usual event. 09 10 This is warning event. This is usual event. This is error event. 11 12 13 14 15 This is warning event This is very long usual event。。.... This is error event 1. This is error event 2. This is error event 3. This is error event 4. 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 通知事项日历 一个复杂的应用示例，用 dateCellRender 和 monthCellRender 函数来自定义需要渲染的数据。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/74-zh-cc1ec438.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 This is warning event. This is usual event. 09 10 This is warning event. This is usual event. This is error event. 11 12 13 14 15 This is warning event This is very long usual event。。.... This is error event 1. This is error event 2. This is error event 3. This is error event 4. 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 通知事项日历 一个复杂的应用示例，用 dateCellRender 和 monthCellRender 函数来自定义需要渲染的数据。"
+      }
     },
     {
       "title": "calendar-选择功能",
@@ -1851,8 +1947,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "75_8fe6e4d8",
-      "__DESCRIPTION__": "You selected date: 2017-01-25 2017年 1月 月 年 一 二 三 四 五 六 日 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 选择功能 一个通用的日历面板，支持年/月切换。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/75-zh-8fe6e4d8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "You selected date: 2017-01-25 2017年 1月 月 年 一 二 三 四 五 六 日 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 选择功能 一个通用的日历面板，支持年/月切换。"
+      }
     },
     {
       "title": "card-典型卡片",
@@ -1873,8 +1973,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "76_1877de92",
-      "__DESCRIPTION__": "Default size card More Card content Card content Card content Small size card More Card content Card content Card content 典型卡片 包含标题、内容、操作区域。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/76-zh-1877de92.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Default size card More Card content Card content Card content Small size card More Card content Card content Card content 典型卡片 包含标题、内容、操作区域。"
+      }
     },
     {
       "title": "card-无边框",
@@ -1895,8 +1999,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "77_5df298d8",
-      "__DESCRIPTION__": "Card title Card content Card content Card content 无边框 在灰色背景上使用无边框的卡片。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/77-zh-5df298d8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card title Card content Card content Card content 无边框 在灰色背景上使用无边框的卡片。"
+      }
     },
     {
       "title": "card-更灵活的内容展示",
@@ -1917,8 +2025,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "78_4ec593ea",
-      "__DESCRIPTION__": "Europe Street beat www.instagram.com 更灵活的内容展示 可以利用 Card.Meta 支持更灵活的内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/78-zh-4ec593ea.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Europe Street beat www.instagram.com 更灵活的内容展示 可以利用 Card.Meta 支持更灵活的内容。"
+      }
     },
     {
       "title": "card-网格型内嵌卡片",
@@ -1939,8 +2051,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "79_bf731685",
-      "__DESCRIPTION__": "Card Title Content Content Content Content Content Content Content 网格型内嵌卡片 一种常见的卡片内容区隔模式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/79-zh-bf731685.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card Title Content Content Content Content Content Content Content 网格型内嵌卡片 一种常见的卡片内容区隔模式。"
+      }
     },
     {
       "title": "card-栅格卡片",
@@ -1961,8 +2077,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "80_daa7677a",
-      "__DESCRIPTION__": "Card title Card content Card title Card content Card title Card content 栅格卡片 在系统概览页面常常和栅格进行配合。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/80-zh-daa7677a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card title Card content Card title Card content Card title Card content 栅格卡片 在系统概览页面常常和栅格进行配合。"
+      }
     },
     {
       "title": "card-内部卡片",
@@ -1983,8 +2103,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "81_a3426ef4",
-      "__DESCRIPTION__": "Card title Group title Inner Card title More Inner Card content Inner Card title More Inner Card content 内部卡片 可以放在普通卡片内部，展示多层级结构的信息。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/81-zh-a3426ef4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card title Group title Inner Card title More Inner Card content Inner Card title More Inner Card content 内部卡片 可以放在普通卡片内部，展示多层级结构的信息。"
+      }
     },
     {
       "title": "card-预加载的卡片",
@@ -2005,8 +2129,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "82_7391f973",
-      "__DESCRIPTION__": " 预加载的卡片 数据读入前会有文本块样式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/82-zh-7391f973.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 预加载的卡片 数据读入前会有文本块样式。"
+      }
     },
     {
       "title": "card-支持更多内容配置",
@@ -2027,8 +2155,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "83_db063262",
-      "__DESCRIPTION__": "Card title This is the description 支持更多内容配置 一种支持封面、头像、标题和描述信息的卡片。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/83-zh-db063262.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card title This is the description 支持更多内容配置 一种支持封面、头像、标题和描述信息的卡片。"
+      }
     },
     {
       "title": "card-简洁卡片",
@@ -2049,8 +2181,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "84_aa74d18e",
-      "__DESCRIPTION__": "Card content Card content Card content 简洁卡片 只包含内容区域。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/84-zh-aa74d18e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card content Card content Card content 简洁卡片 只包含内容区域。"
+      }
     },
     {
       "title": "card-带页签的卡片",
@@ -2071,8 +2207,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "85_c647f6c4",
-      "__DESCRIPTION__": "Card title More tab1tab2 content1 More articleappproject app content 带页签的卡片 可承载更多内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/85-zh-c647f6c4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Card title More tab1tab2 content1 More articleappproject app content 带页签的卡片 可承载更多内容。"
+      }
     },
     {
       "title": "carousel-自动切换",
@@ -2093,8 +2233,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "86_9e86e1f",
-      "__DESCRIPTION__": "4 1 2 3 4 1 2 3 4 1 2 3 4 自动切换 定时切换下一张。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/86-zh-9e86e1f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "4 1 2 3 4 1 2 3 4 1 2 3 4 自动切换 定时切换下一张。"
+      }
     },
     {
       "title": "carousel-基本",
@@ -2115,8 +2259,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "87_5cb29e9f",
-      "__DESCRIPTION__": "4 1 2 3 4 1 2 3 4 1 2 3 4 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/87-zh-5cb29e9f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "4 1 2 3 4 1 2 3 4 1 2 3 4 基本 最简单的用法。"
+      }
     },
     {
       "title": "carousel-渐显",
@@ -2137,8 +2285,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "88_5922ff7e",
-      "__DESCRIPTION__": "1 2 3 4 1 2 3 4 渐显 切换效果为渐显。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/88-zh-5922ff7e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 1 2 3 4 渐显 切换效果为渐显。"
+      }
     },
     {
       "title": "carousel-位置",
@@ -2159,8 +2311,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "89_4f3ca1bd",
-      "__DESCRIPTION__": "Top Bottom Left Right 4 1 2 3 4 1 2 3 4 1 2 3 4 位置 位置有 4 个方向。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/89-zh-4f3ca1bd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Top Bottom Left Right 4 1 2 3 4 1 2 3 4 1 2 3 4 位置 位置有 4 个方向。"
+      }
     },
     {
       "title": "cascader-基本",
@@ -2181,8 +2337,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "90_c7c549b2",
-      "__DESCRIPTION__": "基本 省市区级联。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/90-zh-c7c549b2.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 省市区级联。"
+      }
     },
     {
       "title": "cascader-选择即改变",
@@ -2203,8 +2363,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "91_8a5d2f28",
-      "__DESCRIPTION__": "选择即改变 这种交互允许只选中父级选项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/91-zh-8a5d2f28.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "选择即改变 这种交互允许只选中父级选项。"
+      }
     },
     {
       "title": "cascader-自定义已选项",
@@ -2225,8 +2389,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "92_3bf88fab",
-      "__DESCRIPTION__": "Zhejiang / Hangzhou / West Lake (752100) 自定义已选项 例如给最后一项加上邮编链接。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/92-zh-3bf88fab.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Zhejiang / Hangzhou / West Lake (752100) 自定义已选项 例如给最后一项加上邮编链接。"
+      }
     },
     {
       "title": "cascader-可以自定义显示",
@@ -2247,8 +2415,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "93_7d1b0abb",
-      "__DESCRIPTION__": "Unselect Change city 可以自定义显示 切换按钮和结果分开。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/93-zh-7d1b0abb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Unselect Change city 可以自定义显示 切换按钮和结果分开。"
+      }
     },
     {
       "title": "cascader-默认值",
@@ -2269,8 +2441,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "94_43c08ead",
-      "__DESCRIPTION__": "Zhejiang / Hangzhou / West Lake 默认值 默认值通过数组的方式指定。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/94-zh-43c08ead.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Zhejiang / Hangzhou / West Lake 默认值 默认值通过数组的方式指定。"
+      }
     },
     {
       "title": "cascader-禁用选项",
@@ -2291,8 +2467,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "95_c97ff986",
-      "__DESCRIPTION__": "禁用选项 通过指定 options 里的 disabled 字段。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/95-zh-c97ff986.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "禁用选项 通过指定 options 里的 disabled 字段。"
+      }
     },
     {
       "title": "cascader-自定义字段名",
@@ -2313,8 +2493,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "96_6e9dde24",
-      "__DESCRIPTION__": "自定义字段名 自定义字段名。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/96-zh-6e9dde24.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "自定义字段名 自定义字段名。"
+      }
     },
     {
       "title": "cascader-移入展开",
@@ -2335,8 +2519,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "97_43361361",
-      "__DESCRIPTION__": "移入展开 通过移入展开下级菜单，点击完成选择。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/97-zh-43361361.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "移入展开 通过移入展开下级菜单，点击完成选择。"
+      }
     },
     {
       "title": "cascader-动态加载选项",
@@ -2357,8 +2545,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "98_76c761fb",
-      "__DESCRIPTION__": "动态加载选项 使用 loadData 实现动态加载选项。 注意：loadData 与 showSearch 无法一起使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/98-zh-76c761fb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "动态加载选项 使用 loadData 实现动态加载选项。 注意：loadData 与 showSearch 无法一起使用。"
+      }
     },
     {
       "title": "cascader-搜索",
