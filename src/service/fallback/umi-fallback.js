@@ -34,10 +34,12 @@ export default {
         "个人中心"
       ],
       "previewUrl": "https://preview.pro.ant.design/account/center",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/1_368ff13a.png"
-      ],
-      "__DESCRIPTION__": "Serati Ma 海纳百川，有容乃大 交互专家 蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED 浙江省杭州市 标签 很有想法的专注设计辣~大长腿川妹子海纳百川 团队 科学搬砖组 全组都是吴彦祖 中二少女团 程序员日常 高逼格设计天团 骗你来学计算机 文章 (8)应用 (8)项目 (8) Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-29 23:08 149 165 13 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-29 21:08 171 125 18 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-29 19:08 133 109 13 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-29 17:08 178 127 19 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-29 15:08 184 131 14 React Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 朱偏右 发布在 https://ant.design2020-03-29 13:08 109 105 19 Vue Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 鱼酱 发布在 https://ant.design2020-03-29 11:08 179 186 12 Webpack Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 乐哥 发布在 https://ant.design2020-03-29 09:08 144 106 11 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 谭小仪 发布在 https://ant.design2020-03-29 07:08 178 134 14 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 仲尼 发布在 https://ant.design2020-03-29 05:08 133 191 13 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-29 03:08 151 128 11 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-29 01:08 121 117 16 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-28 23:08 116 103 11 React Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-28 21:08 107 161 14 Vue Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-28 19:08 192 159 20 Webpack Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 朱偏右 发布在 https://ant.design2020-03-28 17:08 112 113 13 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 鱼酱 发布在 https://ant.design2020-03-28 15:08 162 133 11 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 乐哥 发布在 https://ant.design2020-03-28 13:08 199 149 20 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 谭小仪 发布在 https://ant.design2020-03-28 11:08 153 152 16 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 仲尼 发布在 https://ant.design2020-03-28 09:08 122 163 20"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/1-zh-368ff13a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Serati Ma 海纳百川，有容乃大 交互专家 蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED 浙江省杭州市 标签 很有想法的专注设计辣~大长腿川妹子海纳百川 团队 科学搬砖组 全组都是吴彦祖 中二少女团 程序员日常 高逼格设计天团 骗你来学计算机 文章 (8)应用 (8)项目 (8) Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-30 15:45 135 157 15 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-30 13:45 105 149 19 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-30 11:45 131 136 20 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-30 09:45 189 134 14 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-30 07:45 141 198 20 React Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 朱偏右 发布在 https://ant.design2020-03-30 05:45 162 128 20 Vue Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 鱼酱 发布在 https://ant.design2020-03-30 03:45 130 133 13 Webpack Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 乐哥 发布在 https://ant.design2020-03-30 01:45 105 159 18 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 谭小仪 发布在 https://ant.design2020-03-29 23:45 165 177 17 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 仲尼 发布在 https://ant.design2020-03-29 21:45 200 129 15 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-29 19:45 170 192 17 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-29 17:45 170 129 11 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-29 15:45 147 172 19 React Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-29 13:45 174 195 16 Vue Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-29 11:45 191 192 20 Webpack Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 朱偏右 发布在 https://ant.design2020-03-29 09:45 157 193 13 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 鱼酱 发布在 https://ant.design2020-03-29 07:45 148 158 11 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 乐哥 发布在 https://ant.design2020-03-29 05:45 123 176 18 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 谭小仪 发布在 https://ant.design2020-03-29 03:45 141 120 15 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 仲尼 发布在 https://ant.design2020-03-29 01:45 101 117 14"
+      }
     },
     {
       "name": "个人设置",
@@ -55,10 +57,12 @@ export default {
         "个人设置"
       ],
       "previewUrl": "https://preview.pro.ant.design/account/settings",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/2_3584e26b.png"
-      ],
-      "__DESCRIPTION__": "Basic Settings Security Settings Account Binding New Message Notification Basic Settings Email Nickname Personal profile Country/Region 中国 Province or city 浙江省 杭州市 Street Address Phone Number Update Information Avatar Change avatar"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/2-zh-3584e26b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic Settings Security Settings Account Binding New Message Notification Basic Settings Email Nickname Personal profile Country/Region 中国 Province or city 浙江省 杭州市 Street Address Phone Number Update Information Avatar Change avatar"
+      }
     },
     {
       "name": "分析页",
@@ -76,10 +80,12 @@ export default {
         "dashboard"
       ],
       "previewUrl": "https://preview.pro.ant.design/dashboard/analysis",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/3_b541e65.png"
-      ],
-      "__DESCRIPTION__": "Total Sales ¥ 126,560 WoW Change12%DoD Change11% Daily Sales￥12,423 Visits 8,846 Daily Visits1,234 Payments 6,560 Conversion Rate60% Operational Effect 78% WoW Change12%DoD Change11% All dayAll WeekAll MonthAll Year → SalesVisits Stores Sales Trend Sales Ranking 1 Gongzhuan No.0 shop 323,234 2 Gongzhuan No.1 shop 323,234 3 Gongzhuan No.2 shop 323,234 4 Gongzhuan No.3 shop 323,234 5 Gongzhuan No.4 shop 323,234 6 Gongzhuan No.5 shop 323,234 7 Gongzhuan No.6 shop 323,234 Online Top Search Search Users 12,32117.1 Per Capita Search 2.726.2 Rank Keyword Users Weekly Range 1 搜索关键词-0 596 56% 2 搜索关键词-1 647 47% 3 搜索关键词-2 260 16% 4 搜索关键词-3 97 16% 5 搜索关键词-4 582 52% 1 2 3 4 5 ••• 10 The Proportion Of Sales ALL Online Stores Sales Sales ¥ 15,781 家用电器28.79% ¥ 4,544 食用酒水21.04% ¥ 3,321 个护健康19.73% ¥ 3,113 服饰箱包14.83% ¥ 2,341 母婴产品7.80% ¥ 1,231 其他7.80% ¥ 1,231 Stores 0 Conversion Rate 40% Stores 1 Conversion Rate 70% Stores 2 Conversion Rate 10% Stores 3 Conversion Rate 30% Stores 4 Conversion Rate 30% Stores 5 Conversion Rate 10% Stores 6 Conversion Rate 60% Stores 7 Conversion Rate 80% Stores 8 Conversion Rate 90% Stores 9 Conversion Rate 40%"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/3-zh-b541e65.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Total Sales ¥ 126,560 WoW Change12%DoD Change11% Daily Sales￥12,423 Visits 8,846 Daily Visits1,234 Payments 6,560 Conversion Rate60% Operational Effect 78% WoW Change12%DoD Change11% All dayAll WeekAll MonthAll Year → SalesVisits Stores Sales Trend Sales Ranking 1 Gongzhuan No.0 shop 323,234 2 Gongzhuan No.1 shop 323,234 3 Gongzhuan No.2 shop 323,234 4 Gongzhuan No.3 shop 323,234 5 Gongzhuan No.4 shop 323,234 6 Gongzhuan No.5 shop 323,234 7 Gongzhuan No.6 shop 323,234 Online Top Search Search Users 12,32117.1 Per Capita Search 2.726.2 Rank Keyword Users Weekly Range 1 搜索关键词-0 596 56% 2 搜索关键词-1 647 47% 3 搜索关键词-2 260 16% 4 搜索关键词-3 97 16% 5 搜索关键词-4 582 52% 1 2 3 4 5 ••• 10 The Proportion Of Sales ALL Online Stores Sales Sales ¥ 15,781 家用电器28.79% ¥ 4,544 食用酒水21.04% ¥ 3,321 个护健康19.73% ¥ 3,113 服饰箱包14.83% ¥ 2,341 母婴产品7.80% ¥ 1,231 其他7.80% ¥ 1,231 Stores 0 Conversion Rate 40% Stores 1 Conversion Rate 70% Stores 2 Conversion Rate 10% Stores 3 Conversion Rate 30% Stores 4 Conversion Rate 30% Stores 5 Conversion Rate 10% Stores 6 Conversion Rate 60% Stores 7 Conversion Rate 80% Stores 8 Conversion Rate 90% Stores 9 Conversion Rate 40%"
+      }
     },
     {
       "name": "监控页",
@@ -113,10 +119,12 @@ export default {
         "dashboard"
       ],
       "previewUrl": "https://preview.pro.ant.design/dashboard/workplace",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/5_16660e61.png"
-      ],
-      "__DESCRIPTION__": "Home/Dashboard/Workplace Workplace 早安，Serati Ma，祝你开心每一天！ 交互专家 |蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED 项目数 56 团队内排名 8/ 24 项目访问 2,223 进行中的项目 全部项目 Alipay 那是一种内在的东西，他们到达不了，也无法触及的 科学搬砖组 9 天前 Angular 希望是一个好东西，也许是最好的，好东西是不会消亡的 全组都是吴彦祖 3 年前 Ant Design 城镇中有那么多的酒馆，她却偏偏走进了我的酒馆 中二少女团 9 天前 Ant Design Pro 那时候我只会想自己想要什么，从不想自己拥有什么 程序员日常 3 年前 Bootstrap 凛冬将至 高逼格设计天团 3 年前 React 生命就像一盒巧克力，结果往往出人意料 骗你来学计算机 3 年前 动态 曲丽丽 在 高逼格设计天团 新建项目 六月迭代 9 天前 付小小 在 高逼格设计天团 新建项目 六月迭代 9 天前 林东东 在 中二少女团 新建项目 六月迭代 9 天前 周星星 将 5 月日常迭代 更新至已发布状态 9 天前 朱偏右 在 工程效能 发布了 留言 9 天前 乐哥 在 程序员日常 新建项目 品牌迭代 9 天前 快速开始 / 便捷导航 操作一操作二操作三操作四操作五操作六添加 XX 指数 个人 34 团队 22 部门 23 团队 科学搬砖组 全组都是吴彦祖 中二少女团 程序员日常 高逼格设计天团 骗你来学计算机"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/5-zh-16660e61.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Dashboard/Workplace Workplace 早安，Serati Ma，祝你开心每一天！ 交互专家 |蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED 项目数 56 团队内排名 8/ 24 项目访问 2,223 进行中的项目 全部项目 Alipay 那是一种内在的东西，他们到达不了，也无法触及的 科学搬砖组 9 天前 Angular 希望是一个好东西，也许是最好的，好东西是不会消亡的 全组都是吴彦祖 3 年前 Ant Design 城镇中有那么多的酒馆，她却偏偏走进了我的酒馆 中二少女团 9 天前 Ant Design Pro 那时候我只会想自己想要什么，从不想自己拥有什么 程序员日常 3 年前 Bootstrap 凛冬将至 高逼格设计天团 3 年前 React 生命就像一盒巧克力，结果往往出人意料 骗你来学计算机 3 年前 动态 曲丽丽 在 高逼格设计天团 新建项目 六月迭代 9 天前 付小小 在 高逼格设计天团 新建项目 六月迭代 9 天前 林东东 在 中二少女团 新建项目 六月迭代 9 天前 周星星 将 5 月日常迭代 更新至已发布状态 9 天前 朱偏右 在 工程效能 发布了 留言 9 天前 乐哥 在 程序员日常 新建项目 品牌迭代 9 天前 快速开始 / 便捷导航 操作一操作二操作三操作四操作五操作六添加 XX 指数 个人 34 团队 22 部门 23 团队 科学搬砖组 全组都是吴彦祖 中二少女团 程序员日常 高逼格设计天团 骗你来学计算机"
+      }
     },
     {
       "name": "流程编辑器",
@@ -153,10 +161,12 @@ export default {
         "图形编辑"
       ],
       "previewUrl": "https://preview.pro.ant.design/editor/koni",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/7_560bfc3.png"
-      ],
-      "__DESCRIPTION__": "Home/Graphic Editor/Koni Editor Koni Editor The topology diagram refers to the network structure diagram composed of network node devices and communication media Canvas Minimap"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/7-zh-560bfc3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Graphic Editor/Koni Editor Koni Editor The topology diagram refers to the network structure diagram composed of network node devices and communication media Canvas Minimap"
+      }
     },
     {
       "name": "脑图编辑器",
@@ -173,10 +183,12 @@ export default {
         "图形编辑"
       ],
       "previewUrl": "https://preview.pro.ant.design/editor/mind",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/8_764a11c0.png"
-      ],
-      "__DESCRIPTION__": "Home/Graphic Editor/Mind Editor Mind Editor The brain map is an effective graphical thinking tool for expressing divergent thinking. It is simple but effective and is a practical thinking tool Canvas Minimap"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/8-zh-764a11c0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Graphic Editor/Mind Editor Mind Editor The brain map is an effective graphical thinking tool for expressing divergent thinking. It is simple but effective and is a practical thinking tool Canvas Minimap"
+      }
     },
     {
       "name": "403",
@@ -193,10 +205,12 @@ export default {
         "异常"
       ],
       "previewUrl": "https://preview.pro.ant.design/exception/403",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/9_601ae0ca.png"
-      ],
-      "__DESCRIPTION__": "403 Sorry, you don't have access to this page. Back to home"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/9-zh-601ae0ca.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "403 Sorry, you don't have access to this page. Back to home"
+      }
     },
     {
       "name": "404",
@@ -213,10 +227,12 @@ export default {
         "异常"
       ],
       "previewUrl": "https://preview.pro.ant.design/exception/404",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/10_927f5b4b.png"
-      ],
-      "__DESCRIPTION__": "404 Sorry, the page you visited does not exist. Back Home"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/10-zh-927f5b4b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "404 Sorry, the page you visited does not exist. Back Home"
+      }
     },
     {
       "name": "500",
@@ -233,10 +249,12 @@ export default {
         "异常"
       ],
       "previewUrl": "https://preview.pro.ant.design/exception/500",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/11_a50d87f6.png"
-      ],
-      "__DESCRIPTION__": "500 Sorry, the server is reporting an error. Back Home"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/11-zh-a50d87f6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "500 Sorry, the server is reporting an error. Back Home"
+      }
     },
     {
       "name": "高级表单",
