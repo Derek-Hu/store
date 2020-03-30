@@ -36,7 +36,8 @@ asyncForEach(keys, async name => {
             forceUpdate: process.env.FORCE_UPDATE === 'true',
             delay: typeof lib.delay === 'number'? lib.delay : 5,
             runInBrowser: lib.runInBrowser,
-            runBeforeWaitForSelector: lib.runBeforeWaitForSelector
+            runBeforeWaitForSelector: lib.runBeforeWaitForSelector,
+            waitUntil: lib.waitUntil
         }
         await downScreen({
             ...params,

@@ -9,13 +9,13 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms * 1000));
 }
 
-const isObject = val => Object.prototype.toString.call(val) !== '[object Object]'
+const isObject = val => Object.prototype.toString.call(val) === '[object Object]'
 const isHeadless = process.env.HEADLESS !== 'false';
 const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
 
-export default (async ({ name, viewport,preload, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+export default (async ({ name, viewport,preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
@@ -42,16 +42,21 @@ export default (async ({ name, viewport,preload, locale, runBeforeWaitForSelecto
                         height
                     });
                     const url = item.previewUrl;
-                    await page.goto(url, { waitUntil: 'networkidle0' });
-                    await page.evaluate(({ runBeforeWaitForSelector, locale }) => {
-                        debugger;
-                        if(runBeforeWaitForSelector){
-                            (eval(runBeforeWaitForSelector))(locale);
-                        }
-                    }, {
-                        locale,
-                        runBeforeWaitForSelector: typeof runBeforeWaitForSelector === 'function'? `(${runBeforeWaitForSelector.toString()})`: null
-                    });
+                    await page.goto(url, { waitUntil });
+                    const hasRunBefore = typeof runBeforeWaitForSelector === 'function';
+                    if(hasRunBefore){
+                        await page.evaluate(({ runBeforeWaitForSelector, locale }) => {
+                            debugger;
+                            if(runBeforeWaitForSelector){
+                                return (eval(runBeforeWaitForSelector))(locale);
+                            }
+                        }, {
+                            locale,
+                            runBeforeWaitForSelector: hasRunBefore? `(${runBeforeWaitForSelector.toString()})`: null
+                        });
+                        await page.reload({ waitUntil });
+                    }
+
                     await page.waitForSelector(selector);
                     await sleep(delay);
                     const clip = await page.evaluate(({ selector, runInBrowser }) => {
@@ -81,12 +86,15 @@ export default (async ({ name, viewport,preload, locale, runBeforeWaitForSelecto
                         item.repository
                     ].join('|'), 0xABCD).toString(16);
 
-                    const subPath = `${saveFolder}/${name}/${hash}.png`;
-
-                    item.__HASH__ = [`${baseUrl}${saveFolder}/${name}/${hash}.png`];
-                    if(isObject(item.__DESCRIPTION__)){
+                    if(!isObject(item.__DESCRIPTION__)){
                         item.__DESCRIPTION__ = {};
                     }
+                    if(!isObject(item.__HASH__)){
+                        item.__HASH__ = {};
+                    }
+
+                    const subPath = `${saveFolder}/${name}/${hash}.png`;
+                    item.__HASH__[locale] = `${baseUrl}${subPath}`;
                     item.__DESCRIPTION__[locale] = clip.text;
 
                     await page.screenshot({

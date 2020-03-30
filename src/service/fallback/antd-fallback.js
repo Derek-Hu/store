@@ -20,10 +20,11 @@ export default {
         "antd"
       ],
       "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/0_5db07ce7.png"
+        "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
       ],
       "__DESCRIPTION__": {
-        "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
+        "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
+        "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
       }
     },
     {
@@ -46,10 +47,10 @@ export default {
         "antd"
       ],
       "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/1_9688d9db.png"
+        "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
       ],
       "__DESCRIPTION__": {
-        "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+        "zh": "PrimaryDefaultDashedLink Type There are primary button, default button, dashed button and link button in antd."
       }
     },
     {
@@ -72,7 +73,7 @@ export default {
         "antd"
       ],
       "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/2_f02d731a.png"
+        "https://derek-hu.github.io/store/screenshots/antd/2-zh-f02d731a.png"
       ],
       "__DESCRIPTION__": {
         "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
@@ -98,10 +99,10 @@ export default {
         "antd"
       ],
       "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/3_68a11f95.png"
+        "https://derek-hu.github.io/store/screenshots/antd/3-zh-68a11f95.png"
       ],
       "__DESCRIPTION__": {
-        "zh": "Open Modal 基本 第一个对话框。"
+        "zh": "Open Modal Basic Basic modal."
       }
     },
     {
