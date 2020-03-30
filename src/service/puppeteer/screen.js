@@ -1,5 +1,5 @@
 import downScreen from './block';
-import { Service } from '../constant';
+import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
 import { asyncForEach } from './utils/index';
 import fs from 'fs';
 import path from 'path';
@@ -41,13 +41,13 @@ asyncForEach(keys, async name => {
         }
         await downScreen({
             ...params,
-            locale: 'zh',
+            locale: LOCALE_ZH,
             preload: preloadZhFile,
         });
 
         await downScreen({
             ...params,
-            locale: 'en',
+            locale: LOCALE_EN,
             preload: preloadEnFile,
         });
     });

@@ -8,6 +8,9 @@ export const LIB_MATERIAL_ICECOMP = 'LIB_MATERIAL_ICECOMP';
 export const LIB_MATERIAL_ICEWORK = 'LIB_MATERIAL_ICEWORK';
 export const LIB_MATERIAL_ICESCA = 'LIB_MATERIAL_ICESCA';
 
+export const LOCALE_ZH = 'zh';
+export const LOCALE_EN = 'en';
+
 export const Service = {
     [LIB_ANTD]: {
         url: 'https://gitee.com/ant-design/ant-design-blocks/raw/master/umi-block.json',
@@ -19,10 +22,13 @@ export const Service = {
         runBeforeWaitForSelector: function (locale) {
             return new Promise((resolve) => {
                 setTimeout(function () {
-                    const cacheLocale = localStorage.getItem('locale');
+                    const element = document.querySelector('.header-lang-button');
+                    const language = element.innerText;
                     debugger;
-                    if (cacheLocale && cacheLocale.indexOf(locale)===-1) {
-                        document.querySelector('.header-lang-button').click();
+                    if(language === 'English' && locale===LOCALE_ZH){
+                        element.click();
+                    }
+                    if(language === '中文' && locale===LOCALE_EN){
                     }
                     resolve();
                 }, 1000);

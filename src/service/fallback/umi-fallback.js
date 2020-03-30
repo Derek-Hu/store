@@ -272,10 +272,12 @@ export default {
         "高级"
       ],
       "previewUrl": "https://preview.pro.ant.design/form/advanced/form",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/12_bfb9d244.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/12-zh-bfb9d244.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "基础表单",
@@ -294,10 +296,12 @@ export default {
         "基本"
       ],
       "previewUrl": "https://preview.pro.ant.design/form/basic/form",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/13_52c37b15.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/13-zh-52c37b15.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "分步表单",
@@ -315,10 +319,12 @@ export default {
         "表单"
       ],
       "previewUrl": "https://preview.pro.ant.design/form/step/form",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/14_bf2cfca5.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/14-zh-bf2cfca5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "标准列表",
@@ -336,10 +342,12 @@ export default {
         "基本"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/basic/list",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/15_2dbaec1f.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/15-zh-2dbaec1f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "卡片列表",
@@ -356,10 +364,12 @@ export default {
         "列表"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/card/list",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/16_60252da2.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/16-zh-60252da2.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "搜索列表",
@@ -376,10 +386,12 @@ export default {
         "搜索"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/search",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/17_9c4fe77e.png"
-      ],
-      "__DESCRIPTION__": "Home/List/Search List/Search List(articles) Search List(articles) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 owner 吴家豪 周星星 只看自己的 其它选项 活跃用户 不限 好评度 不限 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-29 23:11 106 103 15 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-29 21:11 192 113 19 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-29 19:11 157 151 19 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-29 17:11 170 171 18 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-29 15:11 112 163 14 加载更多"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/17-zh-9c4fe77e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/List/Search List/Search List(articles) Search List(articles) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 owner 吴家豪 周星星 只看自己的 其它选项 活跃用户 不限 好评度 不限 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-30 15:48 120 117 14 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-30 13:48 149 191 17 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-30 11:48 178 187 15 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-30 09:48 151 170 15 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-30 07:48 191 163 17 加载更多"
+      }
     },
     {
       "name": "搜索列表（应用）",
@@ -397,10 +409,12 @@ export default {
         "搜索"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/search/applications",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/18_7aaaa24b.png"
-      ],
-      "__DESCRIPTION__": "Home/List/Search List/Search List(applications) Search List(applications) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 其它选项 作者 不限 好评度 不限 Alipay 活跃用户 10万 新增用户 1,625 Angular 活跃用户 10万 新增用户 1,442 Ant Design 活跃用户 19万 新增用户 1,760 Ant Design Pro 活跃用户 13万 新增用户 1,869 Bootstrap 活跃用户 14万 新增用户 1,846 React 活跃用户 11万 新增用户 1,045 Vue 活跃用户 16万 新增用户 1,019 Webpack 活跃用户 12万 新增用户 1,040"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/18-zh-7aaaa24b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/List/Search List/Search List(applications) Search List(applications) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 其它选项 作者 不限 好评度 不限 Alipay 活跃用户 10万 新增用户 1,756 Angular 活跃用户 11万 新增用户 1,587 Ant Design 活跃用户 12万 新增用户 1,030 Ant Design Pro 活跃用户 19万 新增用户 1,412 Bootstrap 活跃用户 15万 新增用户 1,624 React 活跃用户 11万 新增用户 1,074 Vue 活跃用户 11万 新增用户 1,979 Webpack 活跃用户 15万 新增用户 1,844"
+      }
     },
     {
       "name": "搜索列表（文章）",
@@ -418,10 +432,12 @@ export default {
         "搜索"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/search/articles",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/19_f98af825.png"
-      ],
-      "__DESCRIPTION__": "Home/List/Search List/Search List(articles) Search List(articles) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 owner 吴家豪 周星星 只看自己的 其它选项 活跃用户 不限 好评度 不限 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-29 23:11 184 124 14 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-29 21:11 130 172 20 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-29 19:11 122 134 11 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-29 17:11 154 125 18 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-29 15:11 148 198 16 加载更多"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/19-zh-f98af825.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/List/Search List/Search List(articles) Search List(articles) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 owner 吴家豪 周星星 只看自己的 其它选项 活跃用户 不限 好评度 不限 Alipay Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 付小小 发布在 https://ant.design2020-03-30 15:48 189 122 14 Angular Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 曲丽丽 发布在 https://ant.design2020-03-30 13:48 152 148 20 Ant Design Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 林东东 发布在 https://ant.design2020-03-30 11:48 156 184 12 Ant Design Pro Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 周星星 发布在 https://ant.design2020-03-30 09:48 199 126 17 Bootstrap Ant Design设计语言蚂蚁金服 段落示意：蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。蚂蚁金服设计平台 ant.design，用最小的工作量，无缝接入蚂蚁金服生态，提供跨越设计与开发的体验解决方案。 吴加好 发布在 https://ant.design2020-03-30 07:48 172 164 13 加载更多"
+      }
     },
     {
       "name": "搜索列表（项目）",
@@ -439,10 +455,12 @@ export default {
         "搜索"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/search/projects",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/20_8b12fec3.png"
-      ],
-      "__DESCRIPTION__": "Home/List/Search List/Search List(projects) Search List(projects) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 其它选项 作者 不限 好评度 不限 Alipay 那是一种内在的东西， 他们到达不了，也无法触及的 幾秒前 Angular 希望是一个好东西，也许是最好的，好东西是不会消亡的 2 小時前 Ant Design 生命就像一盒巧克力，结果往往出人意料 4 小時前 Ant Design Pro 城镇中有那么多的酒馆，她却偏偏走进了我的酒馆 6 小時前 Bootstrap 那时候我只会想自己想要什么，从不想自己拥有什么 8 小時前 React 那是一种内在的东西， 他们到达不了，也无法触及的 10 小時前 Vue 希望是一个好东西，也许是最好的，好东西是不会消亡的 12 小時前 Webpack 生命就像一盒巧克力，结果往往出人意料 14 小時前"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/20-zh-8b12fec3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/List/Search List/Search List(projects) Search List(projects) 搜 索 文章项目应用 所属类目 全部类目一类目二类目三类目四类目五类目六类目七类目八类目九类目十类目十一类目十二 展开 其它选项 作者 不限 好评度 不限 Alipay 那是一种内在的东西， 他们到达不了，也无法触及的 幾秒前 Angular 希望是一个好东西，也许是最好的，好东西是不会消亡的 2 小時前 Ant Design 生命就像一盒巧克力，结果往往出人意料 4 小時前 Ant Design Pro 城镇中有那么多的酒馆，她却偏偏走进了我的酒馆 6 小時前 Bootstrap 那时候我只会想自己想要什么，从不想自己拥有什么 8 小時前 React 那是一种内在的东西， 他们到达不了，也无法触及的 10 小時前 Vue 希望是一个好东西，也许是最好的，好东西是不会消亡的 12 小時前 Webpack 生命就像一盒巧克力，结果往往出人意料 14 小時前"
+      }
     },
     {
       "name": "查询表格",
@@ -459,10 +477,12 @@ export default {
         "表格"
       ],
       "previewUrl": "https://preview.pro.ant.design/list/table/list",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/21_fa46c3bc.png"
-      ],
-      "__DESCRIPTION__": ""
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/21-zh-fa46c3bc.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": ""
+      }
     },
     {
       "name": "高级详情页",
@@ -480,10 +500,12 @@ export default {
         "高级"
       ],
       "previewUrl": "https://preview.pro.ant.design/profile/advanced",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/22_bf8d9b10.png"
-      ],
-      "__DESCRIPTION__": "Home/Profile/Advanced Profile 单号：234231029431 操作一操作二主操作 创建人曲丽丽 订购产品XX 服务 创建时间2017-07-07 关联单据12421 生效日期2017-07-07 ~ 2017-08-08 备注请于两个工作日内确认 状态 待审批 订单金额 ¥568.08 详情规则 流程进度 创建项目 曲丽丽 2016-12-12 12:32 部门初审 周毛毛 催一下 财务复核 完成 用户信息 用户姓名付小小 会员卡号32943898021309809423 身份证3321944288191034921 联系方式18112345678 联系地址曲丽丽 18100000000 浙江省杭州市西湖区黄姑山路工专路交叉路口 信息组 某某数据725 该数据更新时间2017-08-08 某某数据725 该数据更新时间2017-08-08 信息组 多层级信息组 组名称 负责人林东东 角色码1234567 所属部门XX公司 - YY部 过期时间2017-08-08 描述这段描述很长很长很长很长很长很长很长很长很长很长很长很长很长很长... 组名称 学名Citrullus lanatus (Thunb.) Matsum. et Nakai一年生蔓生藤本；茎、枝粗壮，具明显的棱。卷须较粗.. 组名称 负责人付小小 角色码1234568 用户近半年来电记录 No Data 操作日志一操作日志二操作日志三 操作类型 操作人 执行结果 操作时间 备注 订购关系生效 曲丽丽 成功 2017-10-03 19:23:12 - 财务复审 付小小 驳回 2017-10-03 19:23:12 不通过原因 部门初审 周毛毛 成功 2017-10-03 19:23:12 - 提交订单 林东东 成功 2017-10-03 19:23:12 很棒 创建订单 汗牙牙 成功 2017-10-03 19:23:12 -"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/22-zh-bf8d9b10.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Profile/Advanced Profile 单号：234231029431 操作一操作二主操作 创建人曲丽丽 订购产品XX 服务 创建时间2017-07-07 关联单据12421 生效日期2017-07-07 ~ 2017-08-08 备注请于两个工作日内确认 状态 待审批 订单金额 ¥568.08 详情规则 流程进度 创建项目 曲丽丽 2016-12-12 12:32 部门初审 周毛毛 催一下 财务复核 完成 用户信息 用户姓名付小小 会员卡号32943898021309809423 身份证3321944288191034921 联系方式18112345678 联系地址曲丽丽 18100000000 浙江省杭州市西湖区黄姑山路工专路交叉路口 信息组 某某数据725 该数据更新时间2017-08-08 某某数据725 该数据更新时间2017-08-08 信息组 多层级信息组 组名称 负责人林东东 角色码1234567 所属部门XX公司 - YY部 过期时间2017-08-08 描述这段描述很长很长很长很长很长很长很长很长很长很长很长很长很长很长... 组名称 学名Citrullus lanatus (Thunb.) Matsum. et Nakai一年生蔓生藤本；茎、枝粗壮，具明显的棱。卷须较粗.. 组名称 负责人付小小 角色码1234568 用户近半年来电记录 No Data 操作日志一操作日志二操作日志三 操作类型 操作人 执行结果 操作时间 备注 订购关系生效 曲丽丽 成功 2017-10-03 19:23:12 - 财务复审 付小小 驳回 2017-10-03 19:23:12 不通过原因 部门初审 周毛毛 成功 2017-10-03 19:23:12 - 提交订单 林东东 成功 2017-10-03 19:23:12 很棒 创建订单 汗牙牙 成功 2017-10-03 19:23:12 -"
+      }
     },
     {
       "name": "基础详情页",
@@ -501,10 +523,12 @@ export default {
         "基本"
       ],
       "previewUrl": "https://preview.pro.ant.design/profile/basic",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/23_e728b2cd.png"
-      ],
-      "__DESCRIPTION__": "Home/Profile/Basic Profile Basic Profile 退款申请 取货单号1000000000 状态已取货 销售单号1234123421 子订单3214321432 用户信息 用户姓名付小小 联系电话18100000000 常用快递菜鸟仓储 取货地址浙江省杭州市西湖区万塘路18号 备注无 退货商品 商品编号 商品名称 商品条码 单价 数量（件） 金额 1234561 矿泉水 550ml 12421432143214321 2.00 1 2.00 1234562 凉茶 300ml 12421432143214322 3.00 2 6.00 1234563 好吃的薯片 12421432143214323 7.00 4 28.00 1234564 特别好吃的蛋卷 12421432143214324 8.50 3 25.50 总计 10 61.5 退货进度 时间 当前进度 状态 操作员ID 耗时 2017-10-01 14:10 联系客户 进行中 取货员 ID1234 5mins 2017-10-01 14:05 取货员出发 成功 取货员 ID1234 1h 2017-10-01 13:05 取货员接单 成功 取货员 ID1234 5mins 2017-10-01 13:00 申请审批通过 成功 系统 1h 2017-10-01 12:00 发起退货申请 成功 用户 5mins"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/23-zh-e728b2cd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Home/Profile/Basic Profile Basic Profile 退款申请 取货单号1000000000 状态已取货 销售单号1234123421 子订单3214321432 用户信息 用户姓名付小小 联系电话18100000000 常用快递菜鸟仓储 取货地址浙江省杭州市西湖区万塘路18号 备注无 退货商品 商品编号 商品名称 商品条码 单价 数量（件） 金额 1234561 矿泉水 550ml 12421432143214321 2.00 1 2.00 1234562 凉茶 300ml 12421432143214322 3.00 2 6.00 1234563 好吃的薯片 12421432143214323 7.00 4 28.00 1234564 特别好吃的蛋卷 12421432143214324 8.50 3 25.50 总计 10 61.5 退货进度 时间 当前进度 状态 操作员ID 耗时 2017-10-01 14:10 联系客户 进行中 取货员 ID1234 5mins 2017-10-01 14:05 取货员出发 成功 取货员 ID1234 1h 2017-10-01 13:05 取货员接单 成功 取货员 ID1234 5mins 2017-10-01 13:00 申请审批通过 成功 系统 1h 2017-10-01 12:00 发起退货申请 成功 用户 5mins"
+      }
     },
     {
       "name": "失败页",
@@ -521,10 +545,12 @@ export default {
         "结果"
       ],
       "previewUrl": "https://preview.pro.ant.design/result/fail",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/24_bbdf1d0c.png"
-      ],
-      "__DESCRIPTION__": "Submission Failed Please check and modify the following information before resubmitting. The content you submitted has the following error: Your account has been frozenThaw immediately Your account is not yet eligible to applyUpgrade immediately Return to modify"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/24-zh-bbdf1d0c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Submission Failed Please check and modify the following information before resubmitting. The content you submitted has the following error: Your account has been frozenThaw immediately Your account is not yet eligible to applyUpgrade immediately Return to modify"
+      }
     },
     {
       "name": "成功页",
@@ -541,10 +567,12 @@ export default {
         "结果"
       ],
       "previewUrl": "https://preview.pro.ant.design/result/success",
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/umijs/25_107f0845.png"
-      ],
-      "__DESCRIPTION__": "Submission Success The submission results page is used to feed back the results of a series of operational tasks. If it is a simple operation, use the Message global prompt feedback. This text area can show a simple supplementary explanation. If there is a similar requirement for displaying “documents”, the following gray area can present more complicated content. Project Name Project ID23421 PrincipalQu Lili Effective time2016-12-12 ~ 2017-12-12 Create project Qu Lili 2016-12-12 12:32 Departmental preliminary review Zhou MaomaoUrge Financial review Finish Back ListView ProjectPrint"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/25-zh-107f0845.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Submission Success The submission results page is used to feed back the results of a series of operational tasks. If it is a simple operation, use the Message global prompt feedback. This text area can show a simple supplementary explanation. If there is a similar requirement for displaying “documents”, the following gray area can present more complicated content. Project Name Project ID23421 PrincipalQu Lili Effective time2016-12-12 ~ 2017-12-12 Create project Qu Lili 2016-12-12 12:32 Departmental preliminary review Zhou MaomaoUrge Financial review Finish Back ListView ProjectPrint"
+      }
     },
     {
       "name": "登录页",

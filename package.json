@@ -68,7 +68,7 @@
     "test": "react-scripts test",
     "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject",
-    "snapshots": "npx babel-node --presets @babel/env src/service/puppeteer/index.js",
+    "snapshots": "FORCE_UPDATE=true npx babel-node --presets @babel/env src/service/puppeteer/index.js",
     "snapshots:debug": "HEADLESS=false FORCE_UPDATE=true npx babel-node --inspect-brk --presets @babel/env src/service/puppeteer/index.js"
   },
   "eslintConfig": {
