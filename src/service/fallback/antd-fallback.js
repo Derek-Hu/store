@@ -53,7 +53,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。",
-        "en": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+        "en": "PrimaryDefaultDashedLink Type There are primary button, default button, dashed button and link button in antd."
       }
     },
     {
@@ -109,7 +109,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "Open Modal 基本 第一个对话框。",
-        "en": "Open Modal 基本 第一个对话框。"
+        "en": "Open Modal Basic Basic modal."
       }
     },
     {
@@ -137,7 +137,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。",
-        "en": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
+        "en": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 Basic Usage Simple table with actions."
       }
     },
     {
@@ -165,7 +165,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。",
-        "en": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。"
+        "en": "Remember me Forgot password Log inOr register now! Login Form Normal login form which can contain more elements."
       }
     },
     {
@@ -193,7 +193,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。",
-        "en": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。"
+        "en": "Log in Inline Login Form Inline login form is often used in navigation bar."
       }
     },
     {
@@ -221,7 +221,7 @@ export default {
       },
       "__DESCRIPTION__": {
         "zh": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。",
-        "en": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。"
+        "en": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit Other Form Controls Demonstration of validation configuration for form controls which are not shown in the demos above."
       }
     },
     {
