@@ -28,6 +28,12 @@ npm run snapshots
 npm run snapshots:debug
 ```
 
+Images generated in folder `public/screenshots`. 
+
+Blank/Empty images logs in `public/screenshots/empty.json`.
+
+Error logs in `public/screenshots/error.json`.
+
 ## Settings for Libaray
 `src/service/constant.js#Service`
 

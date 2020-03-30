@@ -1,0 +1,99 @@
+{
+  "4c6cf9d7": {
+    "name": "监控页",
+    "key": "DashboardMonitor",
+    "description": "常用于数据报表细节信息的展示，根据业务诉求可配置文本、列表、可视化图表等。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/DashboardMonitor",
+    "path": "DashboardMonitor",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/DashboardMonitor/snapshot.png?raw=true",
+    "tags": [
+      "dashboard"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/dashboard/monitor",
+    "__ID__": "4c6cf9d7"
+  },
+  "e7050bce": {
+    "name": "登录页",
+    "key": "UserLogin",
+    "description": "用户登录界面，支持用户名密码和手机号登录。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserLogin",
+    "path": "UserLogin",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserLogin/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "登录"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/login",
+    "__ID__": "e7050bce",
+    "__DESCRIPTION__": {
+      "zh": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 账户密码登录手机号登录 自动登录 忘记密码 登 录 其他登录方式 注册账户 Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品",
+      "en": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 账户密码登录手机号登录 自动登录 忘记密码 登 录 其他登录方式 注册账户 Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+    },
+    "__HASH__": {
+      "zh": "https://derek-hu.github.io/store/screenshots/umijs/26-zh-e7050bce.png",
+      "en": "https://derek-hu.github.io/store/screenshots/umijs/26-en-e7050bce.png"
+    }
+  },
+  "5d0a3854": {
+    "name": "注册页",
+    "key": "UserRegister",
+    "description": "用户注册是使用，用于填写基本的账号信息。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserRegister",
+    "path": "UserRegister",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserRegister/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "注册"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/register",
+    "__ID__": "5d0a3854",
+    "__DESCRIPTION__": {
+      "zh": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 Register +86 Get code Register Already have an account? Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品",
+      "en": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 Register +86 Get code Register Already have an account? Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+    },
+    "__HASH__": {
+      "zh": "https://derek-hu.github.io/store/screenshots/umijs/27-zh-5d0a3854.png",
+      "en": "https://derek-hu.github.io/store/screenshots/umijs/27-en-5d0a3854.png"
+    }
+  },
+  "8ae6eecb": {
+    "name": "注册结果页",
+    "key": "UserRegisterResult",
+    "description": "用于展示注册的结果。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserRegisterResult",
+    "path": "UserRegisterResult",
+    "features": [
+      "antd",
+      "i18n"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserRegisterResult/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "注册",
+      "结果"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/register/result",
+    "__ID__": "8ae6eecb",
+    "__DESCRIPTION__": {
+      "zh": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 404 Sorry, the page you visited does not exist. Back Home Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+    },
+    "__HASH__": {
+      "zh": "https://derek-hu.github.io/store/screenshots/umijs/28-zh-8ae6eecb.png"
+    }
+  }
+}

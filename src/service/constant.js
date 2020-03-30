@@ -20,8 +20,6 @@ export const Service = {
         },
         waitUntil: 'networkidle2',
         runBeforeWaitForSelector: function (currentLocale, settings) {
-            // return new Promise((resolve) => {
-            //     setTimeout(function () {
             const element = document.querySelector('.header-lang-button');
             const language = element.innerText;
             debugger;
@@ -31,9 +29,6 @@ export const Service = {
             if (language === 'English' && currentLocale === settings.LOCALE_EN) {
                 element.click();
             }
-            // resolve();
-            //     }, 1000);
-            // })
         }
     },
     // [LIB_MATERIAL_ICEWORK]: {

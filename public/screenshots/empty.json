@@ -1,1 +1,30 @@
-[{"title":"form-注册新用户","value":"form-register","key":"form-register","description":"用户填写必须的信息以注册新用户。","url":"https://github.com/ant-design/ant-design-blocks/tree/master/form-register","type":"block","path":"form-register","isPage":false,"defaultPath":"/form-register","img":"https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-register/snapshot.png","tags":["表单"],"name":"form-注册新用户","previewUrl":"https://ant.design/components/form-cn/#components-form-demo-register","features":["antd"],"__HASH__":{"zh":"https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"},"__DESCRIPTION__":{"en":"E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。","zh":"E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"},"__EMPTY__":"/Users/hubenlv/workspaces/github/store/public/screenshots/antd/0-zh-5db07ce7.png"}]
+[
+    {
+        "title": "form-注册新用户",
+        "value": "form-register",
+        "key": "form-register",
+        "description": "用户填写必须的信息以注册新用户。",
+        "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-register",
+        "type": "block",
+        "path": "form-register",
+        "isPage": false,
+        "defaultPath": "/form-register",
+        "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-register/snapshot.png",
+        "tags": [
+            "表单"
+        ],
+        "name": "form-注册新用户",
+        "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-register",
+        "features": [
+            "antd"
+        ],
+        "__HASH__": {
+            "zh": "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
+        },
+        "__DESCRIPTION__": {
+            "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
+            "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
+        },
+        "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/0-zh-5db07ce7.png"
+    }
+]

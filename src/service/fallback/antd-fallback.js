@@ -26,7 +26,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
         "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
-      }
+      },
+      "__ID__": "5db07ce7"
     },
     {
       "title": "button-按钮类型",
@@ -48,12 +49,14 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/1-en-9688d9db.png"
       },
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。",
-        "en": "PrimaryDefaultDashedLink Type There are primary button, default button, dashed button and link button in antd."
-      }
+        "en": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
+      },
+      "__ID__": "9688d9db"
     },
     {
       "title": "select-基本使用",
@@ -81,7 +84,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。",
         "en": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
-      }
+      },
+      "__ID__": "f02d731a"
     },
     {
       "title": "modal-基本",
@@ -109,7 +113,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open Modal 基本 第一个对话框。",
         "en": "Open Modal Basic Basic modal."
-      }
+      },
+      "__ID__": "68a11f95"
     },
     {
       "title": "table-基本用法",
@@ -137,7 +142,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。",
         "en": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 Basic Usage Simple table with actions."
-      }
+      },
+      "__ID__": "846fcc04"
     },
     {
       "title": "form-登录框",
@@ -165,7 +171,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。",
         "en": "Remember me Forgot password Log inOr register now! Login Form Normal login form which can contain more elements."
-      }
+      },
+      "__ID__": "513c99aa"
     },
     {
       "title": "form-内联登录栏",
@@ -193,7 +200,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。",
         "en": "Log in Inline Login Form Inline login form is often used in navigation bar."
-      }
+      },
+      "__ID__": "99bde7b7"
     },
     {
       "title": "form-校验其他组件",
@@ -221,7 +229,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。",
         "en": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit Other Form Controls Demonstration of validation configuration for form controls which are not shown in the demos above."
-      }
+      },
+      "__ID__": "ce94fe8c"
     },
     {
       "title": "button-按钮尺寸",
@@ -249,7 +258,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Large Default Small PrimaryDefaultDashed Link DownloadDownload 按钮尺寸 按钮有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。",
         "en": "Large Default Small PrimaryDefaultDashed Link DownloadDownload 按钮尺寸 按钮有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。"
-      }
+      },
+      "__ID__": "29114c0"
     },
     {
       "title": "input-基本使用",
@@ -277,7 +287,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本使用 基本使用。",
         "en": "基本使用 基本使用。"
-      }
+      },
+      "__ID__": "e680f2f4"
     },
     {
       "title": "input-搜索框",
@@ -305,7 +316,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Search 搜索框 带有搜索按钮的输入框。",
         "en": " Search 搜索框 带有搜索按钮的输入框。"
-      }
+      },
+      "__ID__": "98d497c7"
     },
     {
       "title": "grid-基础栅格",
@@ -333,7 +345,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。",
         "zh": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。"
-      }
+      },
+      "__ID__": "8b17d49b"
     },
     {
       "title": "select-带搜索框",
@@ -361,7 +374,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Select a person 带搜索框 展开后可对选项进行搜索。",
         "zh": "Select a person 带搜索框 展开后可对选项进行搜索。"
-      }
+      },
+      "__ID__": "4679a3e0"
     },
     {
       "title": "form-自定义校验",
@@ -389,7 +403,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Fail Should be combination of numbers & alphabets Warning Validating The information is being validated... Success Warning Fail Should be combination of numbers & alphabets Success Warning Error Validating The information is being validated... inline Please select the correct date - Success Success Warning Error 自定义校验 我们提供了 validateStatus help hasFeedback 等属性，你可以不通过 Form 自己定义校验的时机和内容。 validateStatus: 校验状态，可选 'success', 'warning', 'error', 'validating'。 hasFeedback：用于给输入框添加反馈图标。 help：设置校验文案。",
         "en": "Fail Should be combination of numbers & alphabets Warning Validating The information is being validated... Success Warning Fail Should be combination of numbers & alphabets Success Warning Error Validating The information is being validated... inline Please select the correct date - Success Success Warning Error 自定义校验 我们提供了 validateStatus help hasFeedback 等属性，你可以不通过 Form 自己定义校验的时机和内容。 validateStatus: 校验状态，可选 'success', 'warning', 'error', 'validating'。 hasFeedback：用于给输入框添加反馈图标。 help：设置校验文案。"
-      }
+      },
+      "__ID__": "b475160"
     },
     {
       "title": "date-picker-基本",
@@ -417,7 +432,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 基本 最简单的用法，在浮层中可以选择或者输入日期。",
         "en": " 基本 最简单的用法，在浮层中可以选择或者输入日期。"
-      }
+      },
+      "__ID__": "7531a55c"
     },
     {
       "title": "tabs-基本",
@@ -445,7 +461,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 基本 默认选中第一项。",
         "en": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 基本 默认选中第一项。"
-      }
+      },
+      "__ID__": "28580c43"
     },
     {
       "title": "checkbox-基本用法",
@@ -473,7 +490,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Checkbox 基本用法 简单的 checkbox。",
         "en": "Checkbox 基本用法 简单的 checkbox。"
-      }
+      },
+      "__ID__": "72ecc8e7"
     },
     null,
     {
@@ -502,7 +520,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Checkbox radio Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Disabled User 99 Sidney No. 1 Lake Park 1 可选择 第一列是联动的选择框。可以通过 rowSelection.type 属性指定选择类型，默认为 checkbox。 默认点击 checkbox 触发选择行为，需要点击行触发可以参考例子：https://codesandbox.io/s/000vqw38rl",
         "en": "Checkbox radio Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Disabled User 99 Sidney No. 1 Lake Park 1 可选择 第一列是联动的选择框。可以通过 rowSelection.type 属性指定选择类型，默认为 checkbox。 默认点击 checkbox 触发选择行为，需要点击行触发可以参考例子：https://codesandbox.io/s/000vqw38rl"
-      }
+      },
+      "__ID__": "a9259aca"
     },
     {
       "title": "upload-用户头像",
@@ -530,7 +549,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload 用户头像 点击上传用户头像，并使用 beforeUpload 限制用户上传的图片格式和大小。 beforeUpload 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：示例。",
         "en": "Upload 用户头像 点击上传用户头像，并使用 beforeUpload 限制用户上传的图片格式和大小。 beforeUpload 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：示例。"
-      }
+      },
+      "__ID__": "6e50f922"
     },
     {
       "title": "affix-基本",
@@ -558,7 +578,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Affix top Affix bottom 基本 最简单的用法。",
         "en": "Affix top Affix bottom 基本 最简单的用法。"
-      }
+      },
+      "__ID__": "1300ff26"
     },
     {
       "title": "affix-固定状态改变的回调",
@@ -586,7 +607,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "120px to affix top 固定状态改变的回调 可以获得是否固定的状态。",
         "en": "120px to affix top 固定状态改变的回调 可以获得是否固定的状态。"
-      }
+      },
+      "__ID__": "f70442c6"
     },
     {
       "title": "affix-滚动容器",
@@ -614,7 +636,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Fixed at the top of container 滚动容器 用 target 设置 Affix 需要监听其滚动事件的元素，默认为 window。",
         "en": "Fixed at the top of container 滚动容器 用 target 设置 Affix 需要监听其滚动事件的元素，默认为 window。"
-      }
+      },
+      "__ID__": "4794a0cf"
     },
     {
       "title": "alert-顶部公告",
@@ -642,7 +665,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "顶部公告 页面顶部通告形式，默认有图标且type 为 'warning'。",
         "en": "顶部公告 页面顶部通告形式，默认有图标且type 为 'warning'。"
-      }
+      },
+      "__ID__": "5117d26e"
     },
     {
       "title": "alert-基本",
@@ -670,7 +694,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Success Text 基本 最简单的用法，适用于简短的警告提示。",
         "en": "Success Text 基本 最简单的用法，适用于简短的警告提示。"
-      }
+      },
+      "__ID__": "9227561e"
     },
     {
       "title": "alert-可关闭的警告提示",
@@ -698,7 +723,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text Error Text Error Description Error Description Error Description Error Description Error Description Error Description 可关闭的警告提示 显示关闭按钮，点击可关闭警告提示。",
         "en": "Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text Error Text Error Description Error Description Error Description Error Description Error Description Error Description 可关闭的警告提示 显示关闭按钮，点击可关闭警告提示。"
-      }
+      },
+      "__ID__": "159bc88d"
     },
     {
       "title": "alert-自定义关闭",
@@ -726,7 +752,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Info Text Close Now 自定义关闭 可以自定义关闭，自定义的文字会替换原先的关闭 Icon。",
         "en": "Info Text Close Now 自定义关闭 可以自定义关闭，自定义的文字会替换原先的关闭 Icon。"
-      }
+      },
+      "__ID__": "18fc5098"
     },
     {
       "title": "alert-含有辅助性文字介绍",
@@ -754,7 +781,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Success Text Success Description Success Description Success Description Info Text Info Description Info Description Info Description Info Description Warning Text Warning Description Warning Description Warning Description Warning Description Error Text Error Description Error Description Error Description Error Description 含有辅助性文字介绍 含有辅助性文字介绍的警告提示。",
         "en": "Success Text Success Description Success Description Success Description Info Text Info Description Info Description Info Description Info Description Warning Text Warning Description Warning Description Warning Description Warning Description Error Text Error Description Error Description Error Description Error Description 含有辅助性文字介绍 含有辅助性文字介绍的警告提示。"
-      }
+      },
+      "__ID__": "dac504a6"
     },
     {
       "title": "alert-ErrorBoundary",
@@ -782,7 +810,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Click me to throw a error ErrorBoundary 友好的 React 错误处理 包裹组件。",
         "en": "Click me to throw a error ErrorBoundary 友好的 React 错误处理 包裹组件。"
-      }
+      },
+      "__ID__": "524b131"
     },
     {
       "title": "alert-图标",
@@ -810,7 +839,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Success Tips Informational Notes Warning Error Success Tips Detailed description and advice about successful copywriting. Informational Notes Additional description and information about copywriting. Warning This is a warning notice about copywriting. Error This is an error message about copywriting. 图标 可口的图标让信息类型更加醒目。",
         "en": "Success Tips Informational Notes Warning Error Success Tips Detailed description and advice about successful copywriting. Informational Notes Additional description and information about copywriting. Warning This is a warning notice about copywriting. Error This is an error message about copywriting. 图标 可口的图标让信息类型更加醒目。"
-      }
+      },
+      "__ID__": "59ec24ba"
     },
     {
       "title": "alert-平滑地卸载",
@@ -838,7 +868,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Alert Message Text placeholder text here 平滑地卸载 平滑、自然的卸载提示。",
         "en": "Alert Message Text placeholder text here 平滑地卸载 平滑、自然的卸载提示。"
-      }
+      },
+      "__ID__": "9c948860"
     },
     {
       "title": "alert-四种样式",
@@ -866,7 +897,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Success Text Info Text Warning Text Error Text 四种样式 共有四种样式 success、info、warning、error。",
         "en": "Success Text Info Text Warning Text Error Text 四种样式 共有四种样式 success、info、warning、error。"
-      }
+      },
+      "__ID__": "6808580a"
     },
     {
       "title": "anchor-基本",
@@ -894,7 +926,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props 基本 最简单的用法。",
         "en": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props 基本 最简单的用法。"
-      }
+      },
+      "__ID__": "90e30038"
     },
     {
       "title": "anchor-自定义锚点高亮",
@@ -922,7 +955,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo API Anchor Props Link Props 自定义锚点高亮 自定义锚点高亮。",
         "en": "Basic demo Static demo API Anchor Props Link Props 自定义锚点高亮 自定义锚点高亮。"
-      }
+      },
+      "__ID__": "ba35af2e"
     },
     {
       "title": "anchor-监听锚点链接改变",
@@ -950,7 +984,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo API Anchor Props Link Props 监听锚点链接改变 监听锚点链接改变",
         "en": "Basic demo Static demo API Anchor Props Link Props 监听锚点链接改变 监听锚点链接改变"
-      }
+      },
+      "__ID__": "b5be1cdd"
     },
     {
       "title": "anchor-自定义 onClick 事件",
@@ -978,7 +1013,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo API Anchor Props Link Props 自定义 onClick 事件 点击锚点不记录历史。",
         "en": "Basic demo Static demo API Anchor Props Link Props 自定义 onClick 事件 点击锚点不记录历史。"
-      }
+      },
+      "__ID__": "291661ad"
     },
     {
       "title": "anchor-静态位置",
@@ -1006,7 +1042,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo API Anchor Props Link Props 静态位置 不浮动，状态不随页面滚动变化。",
         "en": "Basic demo Static demo API Anchor Props Link Props 静态位置 不浮动，状态不随页面滚动变化。"
-      }
+      },
+      "__ID__": "e226123"
     },
     {
       "title": "anchor-设置锚点滚动偏移量",
@@ -1034,7 +1071,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Basic demo Static demo API Anchor Props Link Props 设置锚点滚动偏移量 锚点目标滚动到屏幕正中间。",
         "en": "Basic demo Static demo API Anchor Props Link Props 设置锚点滚动偏移量 锚点目标滚动到屏幕正中间。"
-      }
+      },
+      "__ID__": "a4454af5"
     },
     {
       "title": "auto-complete-基本使用",
@@ -1062,7 +1100,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "input here control mode 基本使用 基本使用。通过 options 设置自动完成的数据源",
         "en": "input here control mode 基本使用 基本使用。通过 options 设置自动完成的数据源"
-      }
+      },
+      "__ID__": "4aed2c74"
     },
     {
       "title": "auto-complete-查询模式 - 确定类目",
@@ -1090,7 +1129,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "查询模式 - 确定类目 查询模式: 确定类目 示例。",
         "en": "查询模式 - 确定类目 查询模式: 确定类目 示例。"
-      }
+      },
+      "__ID__": "2190f86e"
     },
     {
       "title": "auto-complete-自定义输入组件",
@@ -1118,7 +1158,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自定义输入组件 自定义输入组件。",
         "en": "自定义输入组件 自定义输入组件。"
-      }
+      },
+      "__ID__": "fc3c40a7"
     },
     {
       "title": "auto-complete-不区分大小写",
@@ -1146,7 +1187,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "try to type `b` 不区分大小写 不区分大小写的 AutoComplete",
         "en": "try to type `b` 不区分大小写 不区分大小写的 AutoComplete"
-      }
+      },
+      "__ID__": "b5a48cb0"
     },
     {
       "title": "auto-complete-自定义选项",
@@ -1174,7 +1216,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "input here 自定义选项 也可以直接传 AutoComplete.Option 作为 AutoComplete 的 children，而非使用 options。",
         "en": "input here 自定义选项 也可以直接传 AutoComplete.Option 作为 AutoComplete 的 children，而非使用 options。"
-      }
+      },
+      "__ID__": "d27f83e0"
     },
     {
       "title": "auto-complete-查询模式 - 不确定类目",
@@ -1202,7 +1245,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "查询模式 - 不确定类目 查询模式: 不确定类目 示例。",
         "en": "查询模式 - 不确定类目 查询模式: 不确定类目 示例。"
-      }
+      },
+      "__ID__": "e2302f06"
     },
     {
       "title": "avatar-带徽标的头像",
@@ -1230,7 +1274,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 带徽标的头像 通常用于消息提示。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 带徽标的头像 通常用于消息提示。"
-      }
+      },
+      "__ID__": "70a31e7d"
     },
     {
       "title": "avatar-基本",
@@ -1258,7 +1303,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 头像有三种尺寸，两种形状可选。",
         "en": "基本 头像有三种尺寸，两种形状可选。"
-      }
+      },
+      "__ID__": "10c803c8"
     },
     {
       "title": "avatar-自动调整字符大小",
@@ -1286,7 +1332,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "U Change 自动调整字符大小 对于字符型的头像，当字符串较长时，字体大小可以根据头像宽度自动调整。",
         "en": "U Change 自动调整字符大小 对于字符型的头像，当字符串较长时，字体大小可以根据头像宽度自动调整。"
-      }
+      },
+      "__ID__": "cf78456f"
     },
     {
       "title": "avatar-类型",
@@ -1314,7 +1361,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "U USER U 类型 支持三种类型：图片、Icon 以及字符，其中 Icon 和字符型可以自定义图标颜色及背景色。",
         "en": "U USER U 类型 支持三种类型：图片、Icon 以及字符，其中 Icon 和字符型可以自定义图标颜色及背景色。"
-      }
+      },
+      "__ID__": "5a071809"
     },
     {
       "title": "back-top-基本",
@@ -1342,7 +1390,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Scroll down to see the bottom-right gray button. 基本 最简单的用法。",
         "en": "Scroll down to see the bottom-right gray button. 基本 最简单的用法。"
-      }
+      },
+      "__ID__": "6a491aa3"
     },
     {
       "title": "back-top-自定义样式",
@@ -1370,7 +1419,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "UP Scroll down to see the bottom-right blue button. 自定义样式 可以自定义回到顶部按钮的样式，限制宽高：40px * 40px。",
         "en": "UP Scroll down to see the bottom-right blue button. 自定义样式 可以自定义回到顶部按钮的样式，限制宽高：40px * 40px。"
-      }
+      },
+      "__ID__": "f9aa7892"
     },
     {
       "title": "badge-基本",
@@ -1398,7 +1448,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 基本 简单的徽章展示，当 count 为 0 时，默认不显示，但是可以使用 showZero 修改为显示。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 基本 简单的徽章展示，当 count 为 0 时，默认不显示，但是可以使用 showZero 修改为显示。"
-      }
+      },
+      "__ID__": "f2d07e47"
     },
     {
       "title": "badge-动态",
@@ -1426,7 +1477,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 动态 展示动态变化的效果。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 动态 展示动态变化的效果。"
-      }
+      },
+      "__ID__": "a458b991"
     },
     {
       "title": "badge-多彩徽标",
@@ -1454,7 +1506,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Presets: pink red yellow orange cyan green blue purple geekblue magenta volcano gold lime Custom: #f50 #2db7f5 #87d068 #108ee9 多彩徽标 我们添加了多种预设色彩的徽标样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。",
         "en": "Presets: pink red yellow orange cyan green blue purple geekblue magenta volcano gold lime Custom: #f50 #2db7f5 #87d068 #108ee9 多彩徽标 我们添加了多种预设色彩的徽标样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
-      }
+      },
+      "__ID__": "46700b12"
     },
     {
       "title": "badge-讨嫌的小红点",
@@ -1482,7 +1535,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Link something 讨嫌的小红点 没有具体的数字。",
         "en": "Link something 讨嫌的小红点 没有具体的数字。"
-      }
+      },
+      "__ID__": "71d77983"
     },
     {
       "title": "badge-可点击",
@@ -1510,7 +1564,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 可点击 用 a 标签进行包裹即可。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 可点击 用 a 标签进行包裹即可。"
-      }
+      },
+      "__ID__": "5fd3b1f0"
     },
     {
       "title": "badge-独立使用",
@@ -1538,7 +1593,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 独立使用 不包裹任何元素即是独立使用，可自定样式展现。 在右上角的 badge 则限定为红色。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 独立使用 不包裹任何元素即是独立使用，可自定样式展现。 在右上角的 badge 则限定为红色。"
-      }
+      },
+      "__ID__": "e4d6385d"
     },
     {
       "title": "badge-封顶数字",
@@ -1566,7 +1622,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 10+ 999+ 封顶数字 超过 overflowCount 的会显示为 ${overflowCount}+，默认的 overflowCount 为 99。",
         "en": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 99+ 10+ 999+ 封顶数字 超过 overflowCount 的会显示为 ${overflowCount}+，默认的 overflowCount 为 99。"
-      }
+      },
+      "__ID__": "84057e5f"
     },
     {
       "title": "badge-状态点",
@@ -1594,7 +1651,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Success Error Default Processing Warning 状态点 用于表示状态的小圆点。",
         "en": " Success Error Default Processing Warning 状态点 用于表示状态的小圆点。"
-      }
+      },
+      "__ID__": "19d463d2"
     },
     {
       "title": "breadcrumb-基本",
@@ -1622,7 +1680,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Home/Application Center/Application List/An Application 基本 最简单的用法。",
         "en": "Home/Application Center/Application List/An Application 基本 最简单的用法。"
-      }
+      },
+      "__ID__": "287c4013"
     },
     {
       "title": "breadcrumb-带下拉菜单的面包屑",
@@ -1650,7 +1709,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Ant Design/Component/General/Button 带下拉菜单的面包屑 面包屑支持下拉菜单。",
         "en": "Ant Design/Component/General/Button 带下拉菜单的面包屑 面包屑支持下拉菜单。"
-      }
+      },
+      "__ID__": "9285e907"
     },
     {
       "title": "breadcrumb-其它路由",
@@ -1678,7 +1738,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "其它路由 和 react-router@4+，或其他路由进行结合使用。",
         "en": "其它路由 和 react-router@4+，或其他路由进行结合使用。"
-      }
+      },
+      "__ID__": "50646e92"
     },
     {
       "title": "breadcrumb-分隔符",
@@ -1706,7 +1767,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Location:Application Center/Application List/An Application 分隔符 使用 Breadcrumb.Separator 可以自定义分隔符。",
         "en": "Location:Application Center/Application List/An Application 分隔符 使用 Breadcrumb.Separator 可以自定义分隔符。"
-      }
+      },
+      "__ID__": "1b50f741"
     },
     {
       "title": "breadcrumb-分隔符",
@@ -1734,7 +1796,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Home>Application Center>Application List>An Application 分隔符 使用 separator=\">\" 可以自定义分隔符。",
         "en": "Home>Application Center>Application List>An Application 分隔符 使用 separator=\">\" 可以自定义分隔符。"
-      }
+      },
+      "__ID__": "5824df40"
     },
     {
       "title": "breadcrumb-带有图标的",
@@ -1762,7 +1825,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "/Application List/Application 带有图标的 图标放在文字前面。",
         "en": "/Application List/Application 带有图标的 图标放在文字前面。"
-      }
+      },
+      "__ID__": "478a1579"
     },
     {
       "title": "button-Block 按钮",
@@ -1790,7 +1854,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultDashedLink Block 按钮 block属性将使按钮适合其父宽度。",
         "en": "PrimaryDefaultDashedLink Block 按钮 block属性将使按钮适合其父宽度。"
-      }
+      },
+      "__ID__": "361f61aa"
     },
     {
       "title": "button-危险按钮",
@@ -1818,7 +1883,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultlinklink 危险按钮 在 4.0 之后，危险成为一种按钮属性而不是按钮类型。",
         "en": "PrimaryDefaultlinklink 危险按钮 在 4.0 之后，危险成为一种按钮属性而不是按钮类型。"
-      }
+      },
+      "__ID__": "8fdcfefb"
     },
     {
       "title": "button-不可用状态",
@@ -1846,7 +1912,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "PrimaryPrimary(disabled) DefaultDefault(disabled) DashedDashed(disabled) LinkLink(disabled) Danger LinkDanger Link(disabled) Danger DefaultDanger Default(disabled) GhostGhost(disabled) 不可用状态 添加 disabled 属性即可让按钮处于不可用状态，同时按钮样式也会改变。",
         "en": "PrimaryPrimary(disabled) DefaultDefault(disabled) DashedDashed(disabled) LinkLink(disabled) Danger LinkDanger Link(disabled) Danger DefaultDanger Default(disabled) GhostGhost(disabled) 不可用状态 添加 disabled 属性即可让按钮处于不可用状态，同时按钮样式也会改变。"
-      }
+      },
+      "__ID__": "a5fe6e3a"
     },
     {
       "title": "button-幽灵按钮",
@@ -1874,7 +1941,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultlinklink 幽灵按钮 幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。",
         "en": "PrimaryDefaultlinklink 幽灵按钮 幽灵按钮将按钮的内容反色，背景变为透明，常用在有色背景上。"
-      }
+      },
+      "__ID__": "5fbbdf50"
     },
     {
       "title": "button-图标按钮",
@@ -1902,7 +1970,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ASearchSearch SearchSearch 图标按钮 当需要在 Button 内嵌入 Icon 时，可以设置 icon 属性，或者直接在 Button 内使用 Icon 组件。 如果想控制 Icon 具体的位置，只能直接使用 Icon 组件，而非 icon 属性。",
         "en": "ASearchSearch SearchSearch 图标按钮 当需要在 Button 内嵌入 Icon 时，可以设置 icon 属性，或者直接在 Button 内使用 Icon 组件。 如果想控制 Icon 具体的位置，只能直接使用 Icon 组件，而非 icon 属性。"
-      }
+      },
+      "__ID__": "63de4a6a"
     },
     {
       "title": "button-加载中状态",
@@ -1930,7 +1999,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "LoadingLoading Click me!Click me! 加载中状态 添加 loading 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。",
         "en": "LoadingLoading Click me!Click me! 加载中状态 添加 loading 属性即可让按钮处于加载状态，最后两个按钮演示点击后进入加载状态。"
-      }
+      },
+      "__ID__": "dd658e38"
     },
     {
       "title": "button-多个按钮组合",
@@ -1958,7 +2028,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "primarysecondaryActions 多个按钮组合 按钮组合使用时，推荐使用 1 个主操作 + n 个次操作，3 个以上操作时把更多操作放到 Dropdown.Button 中组合使用。",
         "en": "primarysecondaryActions 多个按钮组合 按钮组合使用时，推荐使用 1 个主操作 + n 个次操作，3 个以上操作时把更多操作放到 Dropdown.Button 中组合使用。"
-      }
+      },
+      "__ID__": "971b11e4"
     },
     {
       "title": "calendar-基本",
@@ -1986,7 +2057,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 基本 一个通用的日历面板，支持年/月切换。",
         "en": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 基本 一个通用的日历面板，支持年/月切换。"
-      }
+      },
+      "__ID__": "2f86f8a"
     },
     {
       "title": "calendar-卡片模式",
@@ -2014,7 +2086,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 卡片模式 用于嵌套在空间有限的容器中。",
         "en": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 卡片模式 用于嵌套在空间有限的容器中。"
-      }
+      },
+      "__ID__": "cc0f03bf"
     },
     {
       "title": "calendar-自定义头部",
@@ -2042,7 +2115,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Custom header Month Year 2020 3月 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 自定义头部 自定义日历头部内容。",
         "en": "Custom header Month Year 2020 3月 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 自定义头部 自定义日历头部内容。"
-      }
+      },
+      "__ID__": "3423a320"
     },
     {
       "title": "calendar-通知事项日历",
@@ -2070,7 +2144,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 This is warning event. This is usual event. 09 10 This is warning event. This is usual event. This is error event. 11 12 13 14 15 This is warning event This is very long usual event。。.... This is error event 1. This is error event 2. This is error event 3. This is error event 4. 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 通知事项日历 一个复杂的应用示例，用 dateCellRender 和 monthCellRender 函数来自定义需要渲染的数据。",
         "en": "2020年 3月 月 年 一 二 三 四 五 六 日 24 25 26 27 28 29 01 02 03 04 05 06 07 08 This is warning event. This is usual event. 09 10 This is warning event. This is usual event. This is error event. 11 12 13 14 15 This is warning event This is very long usual event。。.... This is error event 1. This is error event 2. This is error event 3. This is error event 4. 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 通知事项日历 一个复杂的应用示例，用 dateCellRender 和 monthCellRender 函数来自定义需要渲染的数据。"
-      }
+      },
+      "__ID__": "cc1ec438"
     },
     {
       "title": "calendar-选择功能",
@@ -2098,7 +2173,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "You selected date: 2017-01-25 2017年 1月 月 年 一 二 三 四 五 六 日 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 选择功能 一个通用的日历面板，支持年/月切换。",
         "en": "You selected date: 2017-01-25 2017年 1月 月 年 一 二 三 四 五 六 日 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 选择功能 一个通用的日历面板，支持年/月切换。"
-      }
+      },
+      "__ID__": "8fe6e4d8"
     },
     {
       "title": "card-典型卡片",
@@ -2126,7 +2202,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Default size card More Card content Card content Card content Small size card More Card content Card content Card content 典型卡片 包含标题、内容、操作区域。",
         "en": "Default size card More Card content Card content Card content Small size card More Card content Card content Card content 典型卡片 包含标题、内容、操作区域。"
-      }
+      },
+      "__ID__": "1877de92"
     },
     {
       "title": "card-无边框",
@@ -2154,7 +2231,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card title Card content Card content Card content 无边框 在灰色背景上使用无边框的卡片。",
         "en": "Card title Card content Card content Card content 无边框 在灰色背景上使用无边框的卡片。"
-      }
+      },
+      "__ID__": "5df298d8"
     },
     {
       "title": "card-更灵活的内容展示",
@@ -2182,7 +2260,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Europe Street beat www.instagram.com 更灵活的内容展示 可以利用 Card.Meta 支持更灵活的内容。",
         "en": "Europe Street beat www.instagram.com 更灵活的内容展示 可以利用 Card.Meta 支持更灵活的内容。"
-      }
+      },
+      "__ID__": "4ec593ea"
     },
     {
       "title": "card-网格型内嵌卡片",
@@ -2210,7 +2289,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card Title Content Content Content Content Content Content Content 网格型内嵌卡片 一种常见的卡片内容区隔模式。",
         "en": "Card Title Content Content Content Content Content Content Content 网格型内嵌卡片 一种常见的卡片内容区隔模式。"
-      }
+      },
+      "__ID__": "bf731685"
     },
     {
       "title": "card-栅格卡片",
@@ -2238,7 +2318,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card title Card content Card title Card content Card title Card content 栅格卡片 在系统概览页面常常和栅格进行配合。",
         "en": "Card title Card content Card title Card content Card title Card content 栅格卡片 在系统概览页面常常和栅格进行配合。"
-      }
+      },
+      "__ID__": "daa7677a"
     },
     {
       "title": "card-内部卡片",
@@ -2266,7 +2347,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card title Group title Inner Card title More Inner Card content Inner Card title More Inner Card content 内部卡片 可以放在普通卡片内部，展示多层级结构的信息。",
         "en": "Card title Group title Inner Card title More Inner Card content Inner Card title More Inner Card content 内部卡片 可以放在普通卡片内部，展示多层级结构的信息。"
-      }
+      },
+      "__ID__": "a3426ef4"
     },
     {
       "title": "card-预加载的卡片",
@@ -2294,7 +2376,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 预加载的卡片 数据读入前会有文本块样式。",
         "en": " 预加载的卡片 数据读入前会有文本块样式。"
-      }
+      },
+      "__ID__": "7391f973"
     },
     {
       "title": "card-支持更多内容配置",
@@ -2322,7 +2405,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card title This is the description 支持更多内容配置 一种支持封面、头像、标题和描述信息的卡片。",
         "en": "Card title This is the description 支持更多内容配置 一种支持封面、头像、标题和描述信息的卡片。"
-      }
+      },
+      "__ID__": "db063262"
     },
     {
       "title": "card-简洁卡片",
@@ -2350,7 +2434,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card content Card content Card content 简洁卡片 只包含内容区域。",
         "en": "Card content Card content Card content 简洁卡片 只包含内容区域。"
-      }
+      },
+      "__ID__": "aa74d18e"
     },
     {
       "title": "card-带页签的卡片",
@@ -2378,7 +2463,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Card title More tab1tab2 content1 More articleappproject app content 带页签的卡片 可承载更多内容。",
         "en": "Card title More tab1tab2 content1 More articleappproject app content 带页签的卡片 可承载更多内容。"
-      }
+      },
+      "__ID__": "c647f6c4"
     },
     {
       "title": "carousel-自动切换",
@@ -2406,7 +2492,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "4 1 2 3 4 1 2 3 4 1 2 3 4 自动切换 定时切换下一张。",
         "en": "4 1 2 3 4 1 2 3 4 1 2 3 4 自动切换 定时切换下一张。"
-      }
+      },
+      "__ID__": "9e86e1f"
     },
     {
       "title": "carousel-基本",
@@ -2434,7 +2521,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "4 1 2 3 4 1 2 3 4 1 2 3 4 基本 最简单的用法。",
         "en": "4 1 2 3 4 1 2 3 4 1 2 3 4 基本 最简单的用法。"
-      }
+      },
+      "__ID__": "5cb29e9f"
     },
     {
       "title": "carousel-渐显",
@@ -2462,7 +2550,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 1 2 3 4 渐显 切换效果为渐显。",
         "en": "1 2 3 4 1 2 3 4 渐显 切换效果为渐显。"
-      }
+      },
+      "__ID__": "5922ff7e"
     },
     {
       "title": "carousel-位置",
@@ -2490,7 +2579,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Top Bottom Left Right 4 1 2 3 4 1 2 3 4 1 2 3 4 位置 位置有 4 个方向。",
         "en": "Top Bottom Left Right 4 1 2 3 4 1 2 3 4 1 2 3 4 位置 位置有 4 个方向。"
-      }
+      },
+      "__ID__": "4f3ca1bd"
     },
     {
       "title": "cascader-基本",
@@ -2518,7 +2608,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 省市区级联。",
         "en": "基本 省市区级联。"
-      }
+      },
+      "__ID__": "c7c549b2"
     },
     {
       "title": "cascader-选择即改变",
@@ -2546,7 +2637,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "选择即改变 这种交互允许只选中父级选项。",
         "en": "选择即改变 这种交互允许只选中父级选项。"
-      }
+      },
+      "__ID__": "8a5d2f28"
     },
     {
       "title": "cascader-自定义已选项",
@@ -2574,7 +2666,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Zhejiang / Hangzhou / West Lake (752100) 自定义已选项 例如给最后一项加上邮编链接。",
         "en": "Zhejiang / Hangzhou / West Lake (752100) 自定义已选项 例如给最后一项加上邮编链接。"
-      }
+      },
+      "__ID__": "3bf88fab"
     },
     {
       "title": "cascader-可以自定义显示",
@@ -2602,7 +2695,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Unselect Change city 可以自定义显示 切换按钮和结果分开。",
         "en": "Unselect Change city 可以自定义显示 切换按钮和结果分开。"
-      }
+      },
+      "__ID__": "7d1b0abb"
     },
     {
       "title": "cascader-默认值",
@@ -2630,7 +2724,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Zhejiang / Hangzhou / West Lake 默认值 默认值通过数组的方式指定。",
         "en": "Zhejiang / Hangzhou / West Lake 默认值 默认值通过数组的方式指定。"
-      }
+      },
+      "__ID__": "43c08ead"
     },
     {
       "title": "cascader-禁用选项",
@@ -2658,7 +2753,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "禁用选项 通过指定 options 里的 disabled 字段。",
         "en": "禁用选项 通过指定 options 里的 disabled 字段。"
-      }
+      },
+      "__ID__": "c97ff986"
     },
     {
       "title": "cascader-自定义字段名",
@@ -2686,7 +2782,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自定义字段名 自定义字段名。",
         "en": "自定义字段名 自定义字段名。"
-      }
+      },
+      "__ID__": "6e9dde24"
     },
     {
       "title": "cascader-移入展开",
@@ -2714,7 +2811,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "移入展开 通过移入展开下级菜单，点击完成选择。",
         "en": "移入展开 通过移入展开下级菜单，点击完成选择。"
-      }
+      },
+      "__ID__": "43361361"
     },
     {
       "title": "cascader-动态加载选项",
@@ -2742,7 +2840,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "动态加载选项 使用 loadData 实现动态加载选项。 注意：loadData 与 showSearch 无法一起使用。",
         "en": "动态加载选项 使用 loadData 实现动态加载选项。 注意：loadData 与 showSearch 无法一起使用。"
-      }
+      },
+      "__ID__": "76c761fb"
     },
     {
       "title": "cascader-搜索",
@@ -2770,7 +2869,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "搜索 可以直接搜索选项并选择。 Cascader[showSearch] 暂不支持服务端搜索，更多信息见 #5547",
         "en": "搜索 可以直接搜索选项并选择。 Cascader[showSearch] 暂不支持服务端搜索，更多信息见 #5547"
-      }
+      },
+      "__ID__": "6e78b810"
     },
     {
       "title": "cascader-大小",
@@ -2798,7 +2898,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 大小 不同大小的级联选择器。",
         "en": " 大小 不同大小的级联选择器。"
-      }
+      },
+      "__ID__": "5719fad5"
     },
     {
       "title": "checkbox-全选",
@@ -2826,7 +2927,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Check all Apple Pear Orange 全选 在实现全选效果时，你可能会用到 indeterminate 属性。",
         "en": "Check all Apple Pear Orange 全选 在实现全选效果时，你可能会用到 indeterminate 属性。"
-      }
+      },
+      "__ID__": "f7a0fb3"
     },
     {
       "title": "checkbox-受控的 Checkbox",
@@ -2854,7 +2956,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Checked-Enabled UncheckDisable 受控的 Checkbox 联动 checkbox。",
         "zh": "Checked-Enabled UncheckDisable 受控的 Checkbox 联动 checkbox。"
-      }
+      },
+      "__ID__": "a8ca2186"
     },
     {
       "title": "checkbox-不可用",
@@ -2882,7 +2985,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " 不可用 checkbox 不可用。",
         "zh": " 不可用 checkbox 不可用。"
-      }
+      },
+      "__ID__": "7431b683"
     },
     {
       "title": "checkbox-Checkbox 组",
@@ -2910,7 +3014,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Checkbox 组 方便的从数组生成 Checkbox 组。",
         "zh": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Checkbox 组 方便的从数组生成 Checkbox 组。"
-      }
+      },
+      "__ID__": "8724b7b6"
     },
     {
       "title": "checkbox-布局",
@@ -2938,7 +3043,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "A B C D E 布局 Checkbox.Group 内嵌 Checkbox 并与 Grid 组件一起使用，可以实现灵活的布局。",
         "zh": "A B C D E 布局 Checkbox.Group 内嵌 Checkbox 并与 Grid 组件一起使用，可以实现灵活的布局。"
-      }
+      },
+      "__ID__": "2109cb1c"
     },
     {
       "title": "collapse-手风琴",
@@ -2966,7 +3072,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 This is panel header 2 This is panel header 3 手风琴 手风琴，每次只打开一个 tab。",
         "zh": "This is panel header 1 This is panel header 2 This is panel header 3 手风琴 手风琴，每次只打开一个 tab。"
-      }
+      },
+      "__ID__": "6476adeb"
     },
     {
       "title": "collapse-折叠面板",
@@ -2994,7 +3101,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 折叠面板 可以同时展开多个面板，这个例子默认展开了第一个。",
         "zh": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 折叠面板 可以同时展开多个面板，这个例子默认展开了第一个。"
-      }
+      },
+      "__ID__": "8dd191dd"
     },
     {
       "title": "collapse-简洁风格",
@@ -3022,7 +3130,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 简洁风格 一套没有边框的简洁样式。",
         "zh": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 简洁风格 一套没有边框的简洁样式。"
-      }
+      },
+      "__ID__": "69958f09"
     },
     {
       "title": "collapse-自定义面板",
@@ -3050,7 +3159,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 自定义面板 自定义各个面板的背景色、圆角、边距和图标。",
         "zh": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 自定义面板 自定义各个面板的背景色、圆角、边距和图标。"
-      }
+      },
+      "__ID__": "a0d014fa"
     },
     {
       "title": "collapse-额外节点",
@@ -3078,7 +3188,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 Expand Icon Position: left 额外节点 可以同时展开多个面板，这个例子默认展开了第一个。",
         "zh": "This is panel header 1 A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header 2 This is panel header 3 Expand Icon Position: left 额外节点 可以同时展开多个面板，这个例子默认展开了第一个。"
-      }
+      },
+      "__ID__": "e6471b82"
     },
     {
       "title": "collapse-面板嵌套",
@@ -3106,7 +3217,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header 1 This is panel header 2 This is panel header 3 面板嵌套 嵌套折叠面板。",
         "zh": "This is panel header 1 This is panel header 2 This is panel header 3 面板嵌套 嵌套折叠面板。"
-      }
+      },
+      "__ID__": "a5ec87e7"
     },
     {
       "title": "collapse-隐藏箭头",
@@ -3134,7 +3246,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "This is panel header with arrow icon A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header with no arrow icon 隐藏箭头 你可以通过 showArrow={false} 隐藏 CollapsePanel 组件的箭头图标。",
         "zh": "This is panel header with arrow icon A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome guest in many households across the world. This is panel header with no arrow icon 隐藏箭头 你可以通过 showArrow={false} 隐藏 CollapsePanel 组件的箭头图标。"
-      }
+      },
+      "__ID__": "72b0c451"
     },
     {
       "title": "comment-基本评论",
@@ -3162,7 +3275,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Han Solo 几秒前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 00Reply to 基本评论 一个基本的评论组件，带有作者、头像、时间和操作。",
         "zh": "Han Solo 几秒前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 00Reply to 基本评论 一个基本的评论组件，带有作者、头像、时间和操作。"
-      }
+      },
+      "__ID__": "32a18819"
     },
     {
       "title": "comment-回复框",
@@ -3190,7 +3304,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Add Comment 回复框 评论编辑器组件提供了相同样式的封装以支持自定义评论编辑器。",
         "zh": "Add Comment 回复框 评论编辑器组件提供了相同样式的封装以支持自定义评论编辑器。"
-      }
+      },
+      "__ID__": "3fea26d7"
     },
     {
       "title": "comment-配合 List 组件",
@@ -3218,7 +3333,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "2 replies Han Solo 1 天前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Reply to Han Solo 2 天前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Reply to 配合 List 组件 配合 List 组件展现评论列表。",
         "zh": "2 replies Han Solo 1 天前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Reply to Han Solo 2 天前 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Reply to 配合 List 组件 配合 List 组件展现评论列表。"
-      }
+      },
+      "__ID__": "16a56be7"
     },
     {
       "title": "comment-嵌套评论",
@@ -3246,7 +3362,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to 嵌套评论 评论可以嵌套。",
         "zh": "Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to Han Solo We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure). Reply to 嵌套评论 评论可以嵌套。"
-      }
+      },
+      "__ID__": "f8a49576"
     },
     {
       "title": "config-provider-方向",
@@ -3274,7 +3391,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Change direction of components: LTR RTL Cascader example With search: Switch example Radio Group example تهران اصفهان فارس خوزستان Button example DownloadDownload BackwardForwardLoadingLoading Tree example parent 1 parent 1-0 leaf leaf parent 1-1 sss Input (Input Group) example Option1 Search Http:// .com Select example مورچه مورچه مورچه Select a person TreeSelect example Please select Modal example Open Modal Steps example Finished This is a description. In Progress This is a description. Waiting This is a description. 1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. Rate example * Note: Half star not implemented in RTL direction, it will be supported after rc-rate implement rtl support. Badge example 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 Pagination example 1 2 3 4 5 ••• 50 10 条/页 Grid System example * Note: Every calculation in RTL grid system is from right side (offset, push, etc.) col-8 col-8 col-6 col-offset-6 col-6 col-offset-6 col-12 col-offset-6 col-18 col-push-6 col-6 col-pull-18 方向 这里列出了支持 rtl 方向的组件，您可以在演示中切换方向。",
         "zh": "Change direction of components: LTR RTL Cascader example With search: Switch example Radio Group example تهران اصفهان فارس خوزستان Button example DownloadDownload BackwardForwardLoadingLoading Tree example parent 1 parent 1-0 leaf leaf parent 1-1 sss Input (Input Group) example Option1 Search Http:// .com Select example مورچه مورچه مورچه Select a person TreeSelect example Please select Modal example Open Modal Steps example Finished This is a description. In Progress This is a description. Waiting This is a description. 1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. Rate example * Note: Half star not implemented in RTL direction, it will be supported after rc-rate implement rtl support. Badge example 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 Pagination example 1 2 3 4 5 ••• 50 10 条/页 Grid System example * Note: Every calculation in RTL grid system is from right side (offset, push, etc.) col-8 col-8 col-6 col-offset-6 col-6 col-offset-6 col-12 col-offset-6 col-18 col-push-6 col-6 col-pull-18 方向 这里列出了支持 rtl 方向的组件，您可以在演示中切换方向。"
-      }
+      },
+      "__ID__": "baf7ae15"
     },
     {
       "title": "config-provider-国际化",
@@ -3302,7 +3420,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Change locale of components: English 中文 1 2 3 4 5 10 / page → Show ModalShow infoShow confirmClick to confirm 0 item No Data 0 item No Data 2020 Mar Month Year Su Mo Tu We Th Fr Sa 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 Name Age No Data 国际化 此处列出 Ant Design 中需要国际化支持的组件，你可以在演示里切换语言。",
         "zh": "Change locale of components: English 中文 1 2 3 4 5 10 / page → Show ModalShow infoShow confirmClick to confirm 0 item No Data 0 item No Data 2020 Mar Month Year Su Mo Tu We Th Fr Sa 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 01 02 03 04 05 06 07 08 09 10 11 Name Age No Data 国际化 此处列出 Ant Design 中需要国际化支持的组件，你可以在演示里切换语言。"
-      }
+      },
+      "__ID__": "daa8b56"
     },
     {
       "title": "config-provider-组件尺寸",
@@ -3330,7 +3449,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Small Middle Large demo → Button Card Name Age John Brown 32 Jim Green 42 Joe Black 32 1 组件尺寸 修改默认组件尺寸。",
         "zh": "Small Middle Large demo → Button Card Name Age John Brown 32 Jim Green 42 Joe Black 32 1 组件尺寸 修改默认组件尺寸。"
-      }
+      },
+      "__ID__": "71e9ef20"
     },
     {
       "title": "date-picker-无边框",
@@ -3358,7 +3478,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → → → → 无边框 无边框样式。",
         "zh": " → → → → 无边框 无边框样式。"
-      }
+      },
+      "__ID__": "e5964a25"
     },
     {
       "title": "date-picker-定制日期单元格",
@@ -3386,7 +3507,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "→ 定制日期单元格 使用 dateRender 可以自定义日期单元格的内容和样式。",
         "zh": "→ 定制日期单元格 使用 dateRender 可以自定义日期单元格的内容和样式。"
-      }
+      },
+      "__ID__": "3c95d5b6"
     },
     {
       "title": "date-picker-不可选择日期和时间",
@@ -3414,7 +3536,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → → 不可选择日期和时间 可用 disabledDate 和 disabledTime 分别禁止选择部分日期和时间，其中 disabledTime 需要和 showTime 一起使用。",
         "zh": " → → 不可选择日期和时间 可用 disabledDate 和 disabledTime 分别禁止选择部分日期和时间，其中 disabledTime 需要和 showTime 一起使用。"
-      }
+      },
+      "__ID__": "5845cd18"
     },
     {
       "title": "date-picker-禁用",
@@ -3442,7 +3565,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → → 禁用 选择框的不可用状态。你也可以通过数组单独禁用 RangePicker 的其中一项。",
         "zh": " → → 禁用 选择框的不可用状态。你也可以通过数组单独禁用 RangePicker 的其中一项。"
-      }
+      },
+      "__ID__": "c604080a"
     },
     {
       "title": "date-picker-额外的页脚",
@@ -3470,7 +3594,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → → 额外的页脚 在浮层中加入额外的页脚，以满足某些定制信息的需求。",
         "zh": " → → 额外的页脚 在浮层中加入额外的页脚，以满足某些定制信息的需求。"
-      }
+      },
+      "__ID__": "1e553264"
     },
     {
       "title": "date-picker-日期格式",
@@ -3498,7 +3623,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → 日期格式 使用 format 属性，可以自定义日期显示格式。",
         "zh": " → 日期格式 使用 format 属性，可以自定义日期显示格式。"
-      }
+      },
+      "__ID__": "9a7f8832"
     },
     {
       "title": "date-picker-预设范围",
@@ -3526,7 +3652,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "→ → 预设范围 可以预设常用的日期范围以提高用户体验。",
         "zh": "→ → 预设范围 可以预设常用的日期范围以提高用户体验。"
-      }
+      },
+      "__ID__": "34dde57c"
     },
     {
       "title": "date-picker-范围选择器",
@@ -3554,7 +3681,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "→ → → → → 范围选择器 通过设置 picker 属性，指定范围选择器类型。",
         "zh": "→ → → → → 范围选择器 通过设置 picker 属性，指定范围选择器类型。"
-      }
+      },
+      "__ID__": "b1097b97"
     },
     {
       "title": "date-picker-三种大小",
@@ -3582,7 +3710,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Large Default Small → 三种大小 三种大小的输入框，若不设置，则为 default。",
         "zh": "Large Default Small → 三种大小 三种大小的输入框，若不设置，则为 default。"
-      }
+      },
+      "__ID__": "59cdd852"
     },
     {
       "title": "date-picker-日期时间选择",
@@ -3610,7 +3739,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " → 日期时间选择 增加选择时间功能，当 showTime 为一个对象时，其属性会传递给内建的 TimePicker。",
         "zh": " → 日期时间选择 增加选择时间功能，当 showTime 为一个对象时，其属性会传递给内建的 TimePicker。"
-      }
+      },
+      "__ID__": "56d7a402"
     },
     {
       "title": "descriptions-基本",
@@ -3638,7 +3768,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "User Info UserNameZhou Maomao Telephone1810000000 LiveHangzhou, Zhejiang Remarkempty AddressNo. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China 基本 简单的展示。",
         "zh": "User Info UserNameZhou Maomao Telephone1810000000 LiveHangzhou, Zhejiang Remarkempty AddressNo. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China 基本 简单的展示。"
-      }
+      },
+      "__ID__": "6ac2e686"
     },
     {
       "title": "descriptions-带边框的",
@@ -3666,7 +3797,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "User Info Product Cloud Database Billing Mode Prepaid Automatic Renewal YES Order time 2018-04-24 18:00:00 Usage Time 2019-04-24 18:00:00 Status Running Negotiated Amount $80.00 Discount $20.00 Official Receipts $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 带边框的 带边框和背景颜色列表。",
         "zh": "User Info Product Cloud Database Billing Mode Prepaid Automatic Renewal YES Order time 2018-04-24 18:00:00 Usage Time 2019-04-24 18:00:00 Status Running Negotiated Amount $80.00 Discount $20.00 Official Receipts $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 带边框的 带边框和背景颜色列表。"
-      }
+      },
+      "__ID__": "7e446a51"
     },
     {
       "title": "descriptions-响应式",
@@ -3694,7 +3826,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Responsive Descriptions Product Cloud Database Billing Prepaid time 18:00:00 Amount $80.00 Discount $20.00 Official $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 响应式 通过响应式的配置可以实现在小屏幕设备上的完美呈现。",
         "zh": "Responsive Descriptions Product Cloud Database Billing Prepaid time 18:00:00 Amount $80.00 Discount $20.00 Official $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 响应式 通过响应式的配置可以实现在小屏幕设备上的完美呈现。"
-      }
+      },
+      "__ID__": "f6bb556b"
     },
     {
       "title": "descriptions-自定义尺寸",
@@ -3722,7 +3855,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "default middle small Custom Size Product Cloud Database Billing Prepaid time 18:00:00 Amount $80.00 Discount $20.00 Official $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 Custom Size ProductCloud Database BillingPrepaid time18:00:00 Amount$80.00 Discount$20.00 Official$60.00 自定义尺寸 自定义尺寸，适应在各种容器中展示。",
         "zh": "default middle small Custom Size Product Cloud Database Billing Prepaid time 18:00:00 Amount $80.00 Discount $20.00 Official $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 Custom Size ProductCloud Database BillingPrepaid time18:00:00 Amount$80.00 Discount$20.00 Official$60.00 自定义尺寸 自定义尺寸，适应在各种容器中展示。"
-      }
+      },
+      "__ID__": "788116ba"
     },
     {
       "title": "descriptions-垂直带边框的",
@@ -3750,7 +3884,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "User Info Product Billing Mode Automatic Renewal Cloud Database Prepaid YES Order time Usage Time 2018-04-24 18:00:00 2019-04-24 18:00:00 Status Running Negotiated Amount Discount Official Receipts $80.00 $20.00 $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 垂直带边框的 垂直带边框和背景颜色的列表。",
         "zh": "User Info Product Billing Mode Automatic Renewal Cloud Database Prepaid YES Order time Usage Time 2018-04-24 18:00:00 2019-04-24 18:00:00 Status Running Negotiated Amount Discount Official Receipts $80.00 $20.00 $60.00 Config Info Data disk type: MongoDB Database version: 3.4 Package: dds.mongo.mid Storage space: 10 GB Replication factor: 3 Region: East China 1 垂直带边框的 垂直带边框和背景颜色的列表。"
-      }
+      },
+      "__ID__": "7a516503"
     },
     {
       "title": "descriptions-垂直",
@@ -3778,7 +3913,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "User Info UserName Telephone Live Zhou Maomao 1810000000 Hangzhou, Zhejiang Address Remark No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China empty 垂直 垂直的列表。",
         "zh": "User Info UserName Telephone Live Zhou Maomao 1810000000 Hangzhou, Zhejiang Address Remark No. 18, Wantang Road, Xihu District, Hangzhou, Zhejiang, China empty 垂直 垂直的列表。"
-      }
+      },
+      "__ID__": "2e6d8d54"
     },
     {
       "title": "divider-水平分割线",
@@ -3806,7 +3942,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. 水平分割线 默认为水平分割线，可在中间加入文字。",
         "zh": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. 水平分割线 默认为水平分割线，可在中间加入文字。"
-      }
+      },
+      "__ID__": "a761baad"
     },
     {
       "title": "divider-垂直分割线",
@@ -3834,7 +3971,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "TextLinkLink 垂直分割线 使用 type=\"vertical\" 设置为行内的垂直分割线。",
         "zh": "TextLinkLink 垂直分割线 使用 type=\"vertical\" 设置为行内的垂直分割线。"
-      }
+      },
+      "__ID__": "e0a65da5"
     },
     {
       "title": "divider-带文字的分割线",
@@ -3862,7 +4000,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Left Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Right Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. 带文字的分割线 分割线中带有文字，可以用 orientation 指定文字位置。",
         "zh": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Left Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. Right Text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo. 带文字的分割线 分割线中带有文字，可以用 orientation 指定文字位置。"
-      }
+      },
+      "__ID__": "3890079a"
     },
     {
       "title": "drawer-基础抽屉",
@@ -3890,7 +4029,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Open 基础抽屉 基础抽屉，点击触发按钮抽屉从右滑出，点击遮罩区关闭",
         "zh": "Open 基础抽屉 基础抽屉，点击触发按钮抽屉从右滑出，点击遮罩区关闭"
-      }
+      },
+      "__ID__": "97c7f88f"
     },
     {
       "title": "drawer-抽屉表单",
@@ -3918,7 +4058,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "New account 抽屉表单 在抽屉中使用表单。",
         "zh": "New account 抽屉表单 在抽屉中使用表单。"
-      }
+      },
+      "__ID__": "61a2d1ae"
     },
     {
       "title": "drawer-多层抽屉",
@@ -3946,7 +4087,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Open drawer 多层抽屉 在抽屉内打开新的抽屉，用以解决多分支任务的复杂状况。",
         "zh": "Open drawer 多层抽屉 在抽屉内打开新的抽屉，用以解决多分支任务的复杂状况。"
-      }
+      },
+      "__ID__": "60977b7f"
     },
     {
       "title": "drawer-自定义位置",
@@ -3974,7 +4116,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "top right bottom leftOpen 自定义位置 自定义位置，点击触发按钮抽屉从相应的位置滑出，点击遮罩区关闭",
         "zh": "top right bottom leftOpen 自定义位置 自定义位置，点击触发按钮抽屉从相应的位置滑出，点击遮罩区关闭"
-      }
+      },
+      "__ID__": "e3f711b7"
     },
     {
       "title": "drawer-渲染在当前 DOM",
@@ -4002,7 +4145,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Render in this Open Basic Drawer Some contents... 渲染在当前 DOM 渲染在当前 dom 里。自定义容器，查看 getContainer。",
         "zh": "Render in this Open Basic Drawer Some contents... 渲染在当前 DOM 渲染在当前 dom 里。自定义容器，查看 getContainer。"
-      }
+      },
+      "__ID__": "c7276c48"
     },
     {
       "title": "drawer-信息预览抽屉",
@@ -4030,7 +4174,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Lily Progresser XTech View Profile Lily Progresser XTech View Profile 信息预览抽屉 需要快速预览对象概要时使用，点击遮罩区关闭。",
         "zh": "Lily Progresser XTech View Profile Lily Progresser XTech View Profile 信息预览抽屉 需要快速预览对象概要时使用，点击遮罩区关闭。"
-      }
+      },
+      "__ID__": "66cd2c2d"
     },
     {
       "title": "dropdown-基本",
@@ -4058,7 +4203,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Hover me 基本 最简单的下拉菜单。",
         "zh": "Hover me 基本 最简单的下拉菜单。"
-      }
+      },
+      "__ID__": "6f2ad9e5"
     },
     {
       "title": "dropdown-右键菜单",
@@ -4086,7 +4232,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Right Click on here 右键菜单 默认是移入触发菜单，可以点击鼠标右键触发。",
         "zh": "Right Click on here 右键菜单 默认是移入触发菜单，可以点击鼠标右键触发。"
-      }
+      },
+      "__ID__": "cdf3ac9d"
     },
     {
       "title": "dropdown-带下拉框的按钮",
@@ -4114,7 +4261,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "DropdownDropdownDropdownWith TooltipButton 带下拉框的按钮 左边是按钮，右边是额外的相关功能菜单。可设置 icon 属性来修改右边的图标。",
         "zh": "DropdownDropdownDropdownWith TooltipButton 带下拉框的按钮 左边是按钮，右边是额外的相关功能菜单。可设置 icon 属性来修改右边的图标。"
-      }
+      },
+      "__ID__": "7597e6a9"
     },
     {
       "title": "dropdown-触发事件",
@@ -4142,7 +4290,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Hover me, Click menu item 触发事件 点击菜单项后会触发事件，用户可以通过相应的菜单项 key 进行不同的操作。",
         "zh": "Hover me, Click menu item 触发事件 点击菜单项后会触发事件，用户可以通过相应的菜单项 key 进行不同的操作。"
-      }
+      },
+      "__ID__": "d8a8b84d"
     },
     {
       "title": "dropdown-其他元素",
@@ -4170,7 +4319,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Hover me 其他元素 分割线和不可用菜单项。",
         "zh": "Hover me 其他元素 分割线和不可用菜单项。"
-      }
+      },
+      "__ID__": "6e653615"
     },
     {
       "title": "dropdown-菜单隐藏方式",
@@ -4198,7 +4348,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Hover me 菜单隐藏方式 默认是点击关闭菜单，可以关闭此功能。",
         "zh": "Hover me 菜单隐藏方式 默认是点击关闭菜单，可以关闭此功能。"
-      }
+      },
+      "__ID__": "8b06b281"
     },
     {
       "title": "dropdown-弹出位置",
@@ -4226,7 +4377,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "bottomLeftbottomCenterbottomRight topLefttopCentertopRight 弹出位置 支持 6 个弹出位置。",
         "zh": "bottomLeftbottomCenterbottomRight topLefttopCentertopRight 弹出位置 支持 6 个弹出位置。"
-      }
+      },
+      "__ID__": "200efd87"
     },
     {
       "title": "dropdown-多级菜单",
@@ -4254,7 +4406,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Cascading menu 多级菜单 传入的菜单里有多个层级。",
         "zh": "Cascading menu 多级菜单 传入的菜单里有多个层级。"
-      }
+      },
+      "__ID__": "57602aa0"
     },
     {
       "title": "dropdown-触发方式",
@@ -4282,7 +4435,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Click me 触发方式 默认是移入触发菜单，可以点击触发。",
         "zh": "Click me 触发方式 默认是移入触发菜单，可以点击触发。"
-      }
+      },
+      "__ID__": "35f768e0"
     },
     {
       "title": "empty-基本",
@@ -4310,7 +4464,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "暂无数据 基本 简单的展示。",
         "zh": "暂无数据 基本 简单的展示。"
-      }
+      },
+      "__ID__": "16c462b2"
     },
     {
       "title": "empty-全局化配置",
@@ -4338,7 +4493,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "default Select TreeSelect Cascader Transfer 0 项 暂无数据 0 项 暂无数据 Table Name Age 暂无数据 List 暂无数据 全局化配置 自定义全局组件的 Empty 样式。",
         "zh": "default Select TreeSelect Cascader Transfer 0 项 暂无数据 0 项 暂无数据 Table Name Age 暂无数据 List 暂无数据 全局化配置 自定义全局组件的 Empty 样式。"
-      }
+      },
+      "__ID__": "228f5d13"
     },
     {
       "title": "empty-自定义",
@@ -4366,7 +4522,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Customize Description Create Now 自定义 自定义图片链接、图片大小、描述、附属内容。",
         "zh": "Customize Description Create Now 自定义 自定义图片链接、图片大小、描述、附属内容。"
-      }
+      },
+      "__ID__": "e8198c18"
     },
     {
       "title": "empty-无描述",
@@ -4394,7 +4551,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "无描述 无描述展示。",
         "zh": "无描述 无描述展示。"
-      }
+      },
+      "__ID__": "e943c1f7"
     },
     {
       "title": "empty-选择图片",
@@ -4422,7 +4580,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "暂无数据 选择图片 可以通过设置 image 为 Empty.PRESENTED_IMAGE_SIMPLE 选择另一种风格的图片。",
         "zh": "暂无数据 选择图片 可以通过设置 image 为 Empty.PRESENTED_IMAGE_SIMPLE 选择另一种风格的图片。"
-      }
+      },
+      "__ID__": "a306cbd2"
     },
     {
       "title": "form-高级搜索",
@@ -4450,7 +4609,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Field 0 Field 1 Field 2 Field 3 Field 4 Field 5 SearchClear Collapse Search Result List 高级搜索 三列栅格式的表单排列方式，常用于数据表格的高级搜索。 有部分定制的样式代码，由于输入标签长度不确定，需要根据具体情况自行调整。",
         "en": "Field 0 Field 1 Field 2 Field 3 Field 4 Field 5 SearchClear Collapse Search Result List 高级搜索 三列栅格式的表单排列方式，常用于数据表格的高级搜索。 有部分定制的样式代码，由于输入标签长度不确定，需要根据具体情况自行调整。"
-      }
+      },
+      "__ID__": "d9e5c084"
     },
     {
       "title": "form-基本使用",
@@ -4478,7 +4638,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Username Password Remember me Submit 基本使用 基本的表单数据域控制展示，包含布局、初始化、验证、提交。",
         "zh": "Username Password Remember me Submit 基本使用 基本的表单数据域控制展示，包含布局、初始化、验证、提交。"
-      }
+      },
+      "__ID__": "201df937"
     },
     {
       "title": "form-复杂一点的控件",
@@ -4506,7 +4667,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Username Need Help? Address Select province BirthDate Submit 复杂一点的控件 这里演示 Form.Item 内有多个元素的使用方式。<Form.Item name=\"field\" /> 只会对它的直接子元素绑定表单功能，例如直接包裹了 Input/Select。如果控件前后还有一些文案或样式装点，或者一个表单项内有多个控件，你可以使用内嵌的 Form.Item 完成。你可以给 Form.Item 自定义 style 进行内联布局，或者添加 noStyle 作为纯粹的无样式绑定组件（类似 3.x 中的 getFieldDecorator）。 - <Form.Item label=\"Field\" name=\"field\"> - <Input /> - </Form.Item> + <Form.Item label=\"Field\"> + <Form.Item name=\"field\" noStyle><Input /></Form.Item> // 直接包裹才会绑定表单 + <span>description</span> + </Form.Item> 这里展示了三种典型场景： Username：输入框后面有描述文案或其他组件，在 Form.Item 内使用 <Form.Item name=\"field\" noStyle /> 去绑定对应子控件。 Address：有两个控件，在 Form.Item 内使用两个 <Form.Item name=\"field\" noStyle /> 分别绑定对应控件。 BirthDate：有两个内联控件，错误信息展示各自控件下，使用两个 <Form.Item name=\"field\" /> 分别绑定对应控件，并修改 style 使其内联布局。 注意，在 label 对应的 Form.Item 上不要在指定 name 属性，这个 Item 只作为布局作用。 更复杂的封装复用方式可以参考下面的 自定义表单控件 演示。",
         "zh": "Username Need Help? Address Select province BirthDate Submit 复杂一点的控件 这里演示 Form.Item 内有多个元素的使用方式。<Form.Item name=\"field\" /> 只会对它的直接子元素绑定表单功能，例如直接包裹了 Input/Select。如果控件前后还有一些文案或样式装点，或者一个表单项内有多个控件，你可以使用内嵌的 Form.Item 完成。你可以给 Form.Item 自定义 style 进行内联布局，或者添加 noStyle 作为纯粹的无样式绑定组件（类似 3.x 中的 getFieldDecorator）。 - <Form.Item label=\"Field\" name=\"field\"> - <Input /> - </Form.Item> + <Form.Item label=\"Field\"> + <Form.Item name=\"field\" noStyle><Input /></Form.Item> // 直接包裹才会绑定表单 + <span>description</span> + </Form.Item> 这里展示了三种典型场景： Username：输入框后面有描述文案或其他组件，在 Form.Item 内使用 <Form.Item name=\"field\" noStyle /> 去绑定对应子控件。 Address：有两个控件，在 Form.Item 内使用两个 <Form.Item name=\"field\" noStyle /> 分别绑定对应控件。 BirthDate：有两个内联控件，错误信息展示各自控件下，使用两个 <Form.Item name=\"field\" /> 分别绑定对应控件，并修改 style 使其内联布局。 注意，在 label 对应的 Form.Item 上不要在指定 name 属性，这个 Item 只作为布局作用。 更复杂的封装复用方式可以参考下面的 自定义表单控件 演示。"
-      }
+      },
+      "__ID__": "f335740b"
     },
     {
       "title": "form-表单方法调用",
@@ -4534,7 +4696,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用 通过 Form.useForm 对表单数据域进行交互。 注意 useForm 是 React Hooks 的实现，只能用于函数组件，class 组件请查看下面的例子。",
         "zh": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用 通过 Form.useForm 对表单数据域进行交互。 注意 useForm 是 React Hooks 的实现，只能用于函数组件，class 组件请查看下面的例子。"
-      }
+      },
+      "__ID__": "f19f7f0c"
     },
     {
       "title": "form-表单方法调用（Class component）",
@@ -4562,7 +4725,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用（Class component） 我们推荐使用 Form.useForm 创建表单数据域进行控制。如果是在 class component 下，你也可以通过 ref 获取数据域。",
         "zh": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用（Class component） 我们推荐使用 Form.useForm 创建表单数据域进行控制。如果是在 class component 下，你也可以通过 ref 获取数据域。"
-      }
+      },
+      "__ID__": "f020facd"
     },
     {
       "title": "form-自定义表单控件",
@@ -4590,7 +4754,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Price RMB Submit 自定义表单控件 自定义或第三方的表单控件，也可以与 Form 组件一起使用。只要该组件遵循以下的约定： 提供受控属性 value 或其它与 valuePropName 的值同名的属性。 提供 onChange 事件或 trigger 的值同名的事件。",
         "zh": "Price RMB Submit 自定义表单控件 自定义或第三方的表单控件，也可以与 Form 组件一起使用。只要该组件遵循以下的约定： 提供受控属性 value 或其它与 valuePropName 的值同名的属性。 提供 onChange 事件或 trigger 的值同名的事件。"
-      }
+      },
+      "__ID__": "3e689114"
     },
     {
       "title": "form-动态增减表单项",
@@ -4618,7 +4783,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Add field Submit 动态增减表单项 动态增加、减少表单项。如果需要动态支持多项字段时，可以参考此处。",
         "zh": "Add field Submit 动态增减表单项 动态增加、减少表单项。如果需要动态支持多项字段时，可以参考此处。"
-      }
+      },
+      "__ID__": "71c7e43f"
     },
     {
       "title": "form-动态校验规则",
@@ -4646,7 +4812,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Name Nickname Nickname is required Check 动态校验规则 根据不同情况执行不同的校验规则。",
         "zh": "Name Nickname Nickname is required Check 动态校验规则 根据不同情况执行不同的校验规则。"
-      }
+      },
+      "__ID__": "abbf205d"
     },
     {
       "title": "form-多表单联动",
@@ -4674,7 +4841,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Group Name User List ( No user yet. ) SubmitAdd User 多表单联动 通过 Form.Provider 在表单间处理数据。本例子中，Modal 的确认按钮在 Form 之外，通过 form.submit 方法调用表单提交功能。反之，则推荐使用 <Button htmlType=\"submit\" /> 调用 web 原生提交逻辑。",
         "zh": "Group Name User List ( No user yet. ) SubmitAdd User 多表单联动 通过 Form.Provider 在表单间处理数据。本例子中，Modal 的确认按钮在 Form 之外，通过 form.submit 方法调用表单提交功能。反之，则推荐使用 <Button htmlType=\"submit\" /> 调用 web 原生提交逻辑。"
-      }
+      },
+      "__ID__": "27ab0a68"
     },
     {
       "title": "form-弹出层中的新建表单",
@@ -4702,7 +4870,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "New Collection 弹出层中的新建表单 当用户访问一个展示了某个列表的页面，想新建一项但又不想跳转页面时，可以用 Modal 弹出一个表单，用户填写必要信息后创建新的项。",
         "zh": "New Collection 弹出层中的新建表单 当用户访问一个展示了某个列表的页面，想新建一项但又不想跳转页面时，可以用 Modal 弹出一个表单，用户填写必要信息后创建新的项。"
-      }
+      },
+      "__ID__": "6f3ae92a"
     },
     {
       "title": "form-表单数据存储于上层组件",
@@ -4730,7 +4899,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Username [ { \"name\": [ \"username\" ], \"value\": \"Ant Design\" } ] 表单数据存储于上层组件 通过 onFieldsChange 和 fields，可以把表单的数据存储到上层组件或者 Redux、dva 中，更多可参考 rc-field-form 示例。 注意： 将表单数据存储于外部容器并非好的实践，如无必要请避免使用。",
         "zh": "Username [ { \"name\": [ \"username\" ], \"value\": \"Ant Design\" } ] 表单数据存储于上层组件 通过 onFieldsChange 和 fields，可以把表单的数据存储到上层组件或者 Redux、dva 中，更多可参考 rc-field-form 示例。 注意： 将表单数据存储于外部容器并非好的实践，如无必要请避免使用。"
-      }
+      },
+      "__ID__": "bf308658"
     },
     {
       "title": "form-表单布局",
@@ -4758,7 +4928,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Form Layout Horizontal Vertical Inline Field A Field B Submit 表单布局 表单有三种布局。",
         "zh": "Form Layout Horizontal Vertical Inline Field A Field B Submit 表单布局 表单有三种布局。"
-      }
+      },
+      "__ID__": "3fc86f52"
     },
     {
       "title": "form-嵌套结构与校验信息",
@@ -4786,7 +4957,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Name Email Age Website Introduction Submit 嵌套结构与校验信息 name 属性支持嵌套数据结构。通过 validateMessages 或 message 自定义校验信息模板，模板内容可参考此处。",
         "zh": "Name Email Age Website Introduction Submit 嵌套结构与校验信息 name 属性支持嵌套数据结构。通过 validateMessages 或 message 自定义校验信息模板，模板内容可参考此处。"
-      }
+      },
+      "__ID__": "3fae7b90"
     },
     {
       "title": "form-表单尺寸",
@@ -4814,7 +4986,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Form Size Small Middle Large Input Select TreeSelect Cascader DatePicker InputNumber Switch Button Button 表单尺寸 设置表单组件尺寸，仅对 antd 组件有效。",
         "zh": "Form Size Small Middle Large Input Select TreeSelect Cascader DatePicker InputNumber Switch Button Button 表单尺寸 设置表单组件尺寸，仅对 antd 组件有效。"
-      }
+      },
+      "__ID__": "d6d446a5"
     },
     {
       "title": "form-时间类控件",
@@ -4842,7 +5015,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "DatePicker DatePicker[showTime] MonthPicker RangePicker → RangePicker[showTime] → TimePicker Submit 时间类控件 时间类组件的 value 类型为 moment 对象，所以在提交服务器前需要预处理。",
         "zh": "DatePicker DatePicker[showTime] MonthPicker RangePicker → RangePicker[showTime] → TimePicker Submit 时间类控件 时间类组件的 value 类型为 moment 对象，所以在提交服务器前需要预处理。"
-      }
+      },
+      "__ID__": "532c15c6"
     },
     {
       "title": "form-自行处理表单数据",
@@ -4870,7 +5044,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Prime between 8 & 12 A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself. 自行处理表单数据 Form 具有自动收集数据并校验的功能，但如果您不需要这个功能，或者默认的行为无法满足业务需求，可以选择自行处理数据。",
         "zh": "Prime between 8 & 12 A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself. 自行处理表单数据 Form 具有自动收集数据并校验的功能，但如果您不需要这个功能，或者默认的行为无法满足业务需求，可以选择自行处理数据。"
-      }
+      },
+      "__ID__": "64164b65"
     },
     {
       "title": "grid-对齐",
@@ -4898,7 +5073,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Align Top col-4 col-4 col-4 col-4 Align Middle col-4 col-4 col-4 col-4 Align Bottom col-4 col-4 col-4 col-4 对齐 子元素垂直对齐。",
         "zh": "Align Top col-4 col-4 col-4 col-4 Align Middle col-4 col-4 col-4 col-4 Align Bottom col-4 col-4 col-4 col-4 对齐 子元素垂直对齐。"
-      }
+      },
+      "__ID__": "555064d4"
     },
     {
       "title": "grid-排序",
@@ -4926,7 +5102,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "1 col-order-4 2 col-order-3 3 col-order-2 4 col-order-1 排序 通过 Order 来改变元素的排序。",
         "zh": "1 col-order-4 2 col-order-3 3 col-order-2 4 col-order-1 排序 通过 Order 来改变元素的排序。"
-      }
+      },
+      "__ID__": "ff631682"
     },
     {
       "title": "grid-Flex 填充",
@@ -4954,7 +5131,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Percentage columns 2 / 5 3 / 5 Fill rest 100px Fill Rest Raw flex style 1 1 200px 0 1 300px Flex 填充 Col 提供 flex 属性以支持填充。",
         "zh": "Percentage columns 2 / 5 3 / 5 Fill rest 100px Fill Rest Raw flex style 1 1 200px 0 1 300px Flex 填充 Col 提供 flex 属性以支持填充。"
-      }
+      },
+      "__ID__": "804c6c1a"
     },
     {
       "title": "grid-排版",
@@ -4982,7 +5160,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "sub-element align left col-4 col-4 col-4 col-4 sub-element align center col-4 col-4 col-4 col-4 sub-element align right col-4 col-4 col-4 col-4 sub-element monospaced arrangement col-4 col-4 col-4 col-4 sub-element align full col-4 col-4 col-4 col-4 排版 布局基础。 子元素根据不同的值 start,center,end,space-between,space-around，分别定义其在父节点里面的排版方式。",
         "zh": "sub-element align left col-4 col-4 col-4 col-4 sub-element align center col-4 col-4 col-4 col-4 sub-element align right col-4 col-4 col-4 col-4 sub-element monospaced arrangement col-4 col-4 col-4 col-4 sub-element align full col-4 col-4 col-4 col-4 排版 布局基础。 子元素根据不同的值 start,center,end,space-between,space-around，分别定义其在父节点里面的排版方式。"
-      }
+      },
+      "__ID__": "562532f8"
     },
     {
       "title": "grid-区块间隔",
@@ -5010,7 +5189,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Horizontal col-6 col-6 col-6 col-6 Responsive col-6 col-6 col-6 col-6 Vertical col-6 col-6 col-6 col-6 col-6 col-6 col-6 col-6 区块间隔 栅格常常需要和间隔进行配合，你可以使用 Row 的 gutter 属性，我们推荐使用 (16+8n)px 作为栅格间隔。(n 是自然数) 如果要支持响应式，可以写成 { xs: 8, sm: 16, md: 24, lg: 32 }。 如果需要垂直间距，可以写成数组形式 [水平间距, 垂直间距] [16, { xs: 8, sm: 16, md: 24, lg: 32 }]。 数组形式垂直间距在 3.24.0 之后支持。",
         "zh": "Horizontal col-6 col-6 col-6 col-6 Responsive col-6 col-6 col-6 col-6 Vertical col-6 col-6 col-6 col-6 col-6 col-6 col-6 col-6 区块间隔 栅格常常需要和间隔进行配合，你可以使用 Row 的 gutter 属性，我们推荐使用 (16+8n)px 作为栅格间隔。(n 是自然数) 如果要支持响应式，可以写成 { xs: 8, sm: 16, md: 24, lg: 32 }。 如果需要垂直间距，可以写成数组形式 [水平间距, 垂直间距] [16, { xs: 8, sm: 16, md: 24, lg: 32 }]。 数组形式垂直间距在 3.24.0 之后支持。"
-      }
+      },
+      "__ID__": "f17a05ee"
     },
     {
       "title": "grid-左右偏移",
@@ -5038,7 +5218,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "col-8 col-8 col-6 col-offset-6 col-6 col-offset-6 col-12 col-offset-6 左右偏移 列偏移。 使用 offset 可以将列向右侧偏。例如，offset={4} 将元素向右侧偏移了 4 个列（column）的宽度。",
         "zh": "col-8 col-8 col-6 col-offset-6 col-6 col-offset-6 col-12 col-offset-6 左右偏移 列偏移。 使用 offset 可以将列向右侧偏。例如，offset={4} 将元素向右侧偏移了 4 个列（column）的宽度。"
-      }
+      },
+      "__ID__": "c499ca8c"
     },
     {
       "title": "grid-栅格配置器",
@@ -5066,7 +5247,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Horizontal Gutter (px): 8 16 24 32 40 48 Vertical Gutter (px): 8 16 24 32 40 48 Column Count: 2 3 4 6 8 12 Column Column Column Column Column Column Column Column <Row gutter={[16, 16]}> <Col span={6} /> <Col span={6} /> <Col span={6} /> <Col span={6} /> </Row> <Row gutter={[16, 16]}> <Col span={6} /> <Col span={6} /> <Col span={6} /> <Col span={6} /> </Row> 栅格配置器 可以简单配置几种等分栅格和间距。",
         "zh": "Horizontal Gutter (px): 8 16 24 32 40 48 Vertical Gutter (px): 8 16 24 32 40 48 Column Count: 2 3 4 6 8 12 Column Column Column Column Column Column Column Column <Row gutter={[16, 16]}> <Col span={6} /> <Col span={6} /> <Col span={6} /> <Col span={6} /> </Row> <Row gutter={[16, 16]}> <Col span={6} /> <Col span={6} /> <Col span={6} /> <Col span={6} /> </Row> 栅格配置器 可以简单配置几种等分栅格和间距。"
-      }
+      },
+      "__ID__": "2ae4b925"
     },
     {
       "title": "grid-其他属性的响应式",
@@ -5094,7 +5276,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Col Col Col 其他属性的响应式 span pull push offset order 属性可以通过内嵌到 xs sm md lg xl xxl 属性中来使用。 其中 xs={6} 相当于 xs={{ span: 6 }}。",
         "zh": "Col Col Col 其他属性的响应式 span pull push offset order 属性可以通过内嵌到 xs sm md lg xl xxl 属性中来使用。 其中 xs={6} 相当于 xs={{ span: 6 }}。"
-      }
+      },
+      "__ID__": "9355df81"
     },
     {
       "title": "grid-响应式布局",
@@ -5122,7 +5305,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Col Col Col 响应式布局 参照 Bootstrap 的 响应式设计，预设六个响应尺寸：xs sm md lg xl xxl。",
         "zh": "Col Col Col 响应式布局 参照 Bootstrap 的 响应式设计，预设六个响应尺寸：xs sm md lg xl xxl。"
-      }
+      },
+      "__ID__": "6f05196c"
     },
     {
       "title": "grid-栅格排序",
@@ -5150,7 +5334,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "col-18 col-push-6 col-6 col-pull-18 栅格排序 列排序。 通过使用 push 和 pull 类就可以很容易的改变列（column）的顺序。",
         "zh": "col-18 col-push-6 col-6 col-pull-18 栅格排序 列排序。 通过使用 push 和 pull 类就可以很容易的改变列（column）的顺序。"
-      }
+      },
+      "__ID__": "4e463811"
     },
     {
       "title": "icon-基本用法",
@@ -5178,7 +5363,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "基本用法 通过 @ant-design/icons 引用 Icon 组件，不同主题的 Icon 组件名为图标名加主题做为后缀，也可以通过设置 spin 属性来实现动画旋转效果。",
         "zh": "基本用法 通过 @ant-design/icons 引用 Icon 组件，不同主题的 Icon 组件名为图标名加主题做为后缀，也可以通过设置 spin 属性来实现动画旋转效果。"
-      }
+      },
+      "__ID__": "d4504ee9"
     },
     {
       "title": "icon-自定义图标",
@@ -5206,7 +5392,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "自定义图标 利用 Icon 组件封装一个可复用的自定义图标。可以通过 component 属性传入一个组件来渲染最终的图标，以满足特定的需求。",
         "zh": "自定义图标 利用 Icon 组件封装一个可复用的自定义图标。可以通过 component 属性传入一个组件来渲染最终的图标，以满足特定的需求。"
-      }
+      },
+      "__ID__": "a1ec3f04"
     },
     {
       "title": "icon-使用 iconfont.cn",
@@ -5234,7 +5421,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "使用 iconfont.cn 对于使用 iconfont.cn 的用户，通过设置 createFromIconfontCN 方法参数对象中的 scriptUrl 字段， 即可轻松地使用已有项目中的图标。",
         "zh": "使用 iconfont.cn 对于使用 iconfont.cn 的用户，通过设置 createFromIconfontCN 方法参数对象中的 scriptUrl 字段， 即可轻松地使用已有项目中的图标。"
-      }
+      },
+      "__ID__": "24bc5b46"
     },
     {
       "title": "icon-多色图标",
@@ -5262,7 +5450,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "多色图标 双色图标可以通过 twoToneColor 属性设置主题色。",
         "zh": "多色图标 双色图标可以通过 twoToneColor 属性设置主题色。"
-      }
+      },
+      "__ID__": "d4d5d604"
     },
     {
       "title": "input-前置/后置标签",
@@ -5290,7 +5479,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "http:// .com http:// .com http:// .com 前置/后置标签 用于配置一些固定组合。",
         "zh": "http:// .com http:// .com http:// .com 前置/后置标签 用于配置一些固定组合。"
-      }
+      },
+      "__ID__": "20c1edf9"
     },
     {
       "title": "input-带移除图标",
@@ -5318,7 +5508,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " 带移除图标 带移除图标的输入框，点击图标删除所有内容。",
         "zh": " 带移除图标 带移除图标的输入框，点击图标删除所有内容。"
-      }
+      },
+      "__ID__": "7877644"
     },
     {
       "title": "input-适应文本高度的文本域",
@@ -5346,7 +5537,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "适应文本高度的文本域 autoSize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autoSize 可以设定为一个对象，指定最小行数和最大行数。",
         "zh": "适应文本高度的文本域 autoSize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autoSize 可以设定为一个对象，指定最小行数和最大行数。"
-      }
+      },
+      "__ID__": "e1ae32c1"
     },
     {
       "title": "input-输入框组合",
@@ -5374,7 +5566,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " Zhejiang Option1 Option1-1 Option2-2 Between Sign Up Email Home 输入框组合 输入框的组合展现。 注意：使用 compact 模式时，不需要通过 Col 来控制宽度。",
         "zh": " Zhejiang Option1 Option1-1 Option2-2 Between Sign Up Email Home 输入框组合 输入框的组合展现。 注意：使用 compact 模式时，不需要通过 Col 来控制宽度。"
-      }
+      },
+      "__ID__": "3b6de620"
     },
     {
       "title": "input-密码框",
@@ -5402,7 +5595,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "密码框 密码框。",
         "zh": "密码框 密码框。"
-      }
+      },
+      "__ID__": "b0b0198f"
     },
     {
       "title": "input-前缀和后缀",
@@ -5430,7 +5624,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " ￥ RMB ￥ RMB 前缀和后缀 在输入框上添加前缀或后缀图标。",
         "zh": " ￥ RMB ￥ RMB 前缀和后缀 在输入框上添加前缀或后缀图标。"
-      }
+      },
+      "__ID__": "b7d99d5c"
     },
     {
       "title": "input-搜索框 loading",
@@ -5458,7 +5653,8 @@ export default {
       "__DESCRIPTION__": {
         "en": " 搜索框 loading 用于 onSearch 的时候展示 loading。",
         "zh": " 搜索框 loading 用于 onSearch 的时候展示 loading。"
-      }
+      },
+      "__ID__": "8ecc153e"
     },
     {
       "title": "input-三种大小",
@@ -5486,7 +5682,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "三种大小 我们为 <Input /> 输入框定义了三种尺寸（大、默认、小），高度分别为 40px、32px 和 24px。",
         "zh": "三种大小 我们为 <Input /> 输入框定义了三种尺寸（大、默认、小），高度分别为 40px、32px 和 24px。"
-      }
+      },
+      "__ID__": "7da57bb3"
     },
     {
       "title": "input-文本域",
@@ -5514,7 +5711,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "文本域 用于多行输入。",
         "zh": "文本域 用于多行输入。"
-      }
+      },
+      "__ID__": "aee43680"
     },
     {
       "title": "input-输入时格式化展示",
@@ -5542,7 +5740,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "输入时格式化展示 结合 Tooltip 组件，实现一个数值输入框，方便内容超长时的全量展现。",
         "zh": "输入时格式化展示 结合 Tooltip 组件，实现一个数值输入框，方便内容超长时的全量展现。"
-      }
+      },
+      "__ID__": "b699d9e4"
     },
     {
       "title": "input-number-基本",
@@ -5570,7 +5769,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "基本 数字输入框。",
         "zh": "基本 数字输入框。"
-      }
+      },
+      "__ID__": "dece605"
     },
     {
       "title": "input-number-小数",
@@ -5598,7 +5798,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "小数 和原生的数字输入框一样，value 的精度由 step 的小数位数决定。",
         "zh": "小数 和原生的数字输入框一样，value 的精度由 step 的小数位数决定。"
-      }
+      },
+      "__ID__": "b818a0ad"
     },
     {
       "title": "input-number-不可用",
@@ -5626,7 +5827,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Toggle disabled 不可用 点击按钮切换可用状态。",
         "zh": "Toggle disabled 不可用 点击按钮切换可用状态。"
-      }
+      },
+      "__ID__": "448d27db"
     },
     {
       "title": "input-number-格式化展示",
@@ -5654,7 +5856,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "格式化展示 通过 formatter 格式化数字，以展示具有具体含义的数据，往往需要配合 parser 一起使用。",
         "zh": "格式化展示 通过 formatter 格式化数字，以展示具有具体含义的数据，往往需要配合 parser 一起使用。"
-      }
+      },
+      "__ID__": "179ef5f5"
     },
     {
       "title": "input-number-三种大小",
@@ -5682,7 +5885,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "三种大小 三种大小的数字输入框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。",
         "zh": "三种大小 三种大小的数字输入框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
-      }
+      },
+      "__ID__": "321fb55f"
     },
     {
       "title": "layout-基本结构",
@@ -5710,7 +5914,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Header Content Footer Header Sider Content Footer Header Content Sider Footer Sider Header Content Footer 基本结构 典型的页面布局。",
         "zh": "Header Content Footer Header Sider Content Footer Header Content Sider Footer Sider Header Content Footer 基本结构 典型的页面布局。"
-      }
+      },
+      "__ID__": "b447834c"
     },
     {
       "title": "layout-自定义触发器",
@@ -5738,7 +5943,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "nav 1 nav 2 nav 3 Content 自定义触发器 要使用自定义触发器，可以设置 trigger={null} 来隐藏默认设定。",
         "zh": "nav 1 nav 2 nav 3 Content 自定义触发器 要使用自定义触发器，可以设置 trigger={null} 来隐藏默认设定。"
-      }
+      },
+      "__ID__": "b92cea86"
     },
     {
       "title": "layout-固定侧边栏",
@@ -5766,7 +5972,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "固定侧边栏 当内容较长时，使用固定侧边栏可以提供更好的体验。",
         "zh": "固定侧边栏 当内容较长时，使用固定侧边栏可以提供更好的体验。"
-      }
+      },
+      "__ID__": "4d762fde"
     },
     {
       "title": "layout-固定头部",
@@ -5794,7 +6001,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "固定头部 一般用于固定顶部导航，方便页面切换。",
         "zh": "固定头部 一般用于固定顶部导航，方便页面切换。"
-      }
+      },
+      "__ID__": "a88640ef"
     },
     {
       "title": "layout-响应式布局",
@@ -5822,7 +6030,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "nav 1 nav 2 nav 3 nav 4 content Ant Design ©2018 Created by Ant UED 响应式布局 Layout.Sider 支持响应式布局。 说明：配置 breakpoint 属性即生效，视窗宽度小于 breakpoint 时 Sider 缩小为 collapsedWidth 宽度，若将 collapsedWidth 设置为零，会出现特殊 trigger。",
         "zh": "nav 1 nav 2 nav 3 nav 4 content Ant Design ©2018 Created by Ant UED 响应式布局 Layout.Sider 支持响应式布局。 说明：配置 breakpoint 属性即生效，视窗宽度小于 breakpoint 时 Sider 缩小为 collapsedWidth 宽度，若将 collapsedWidth 设置为零，会出现特殊 trigger。"
-      }
+      },
+      "__ID__": "9fb6df9f"
     },
     {
       "title": "layout-侧边布局",
@@ -5850,7 +6059,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "侧边布局 侧边两列式布局。页面横向空间有限时，侧边导航可收起。 侧边导航在页面布局上采用的是左右的结构，一般主导航放置于页面的左侧固定位置，辅助菜单放置于工作区顶部。内容根据浏览器终端进行自适应，能提高横向空间的使用率，但是整个页面排版不稳定。侧边导航的模式层级扩展性强，一、二、三级导航项目可以更为顺畅且具关联性的被展示，同时侧边导航可以固定，使得用户在操作和浏览中可以快速的定位和切换当前位置，有很高的操作效率。但这类导航横向页面内容的空间会被牺牲一部分。",
         "zh": "侧边布局 侧边两列式布局。页面横向空间有限时，侧边导航可收起。 侧边导航在页面布局上采用的是左右的结构，一般主导航放置于页面的左侧固定位置，辅助菜单放置于工作区顶部。内容根据浏览器终端进行自适应，能提高横向空间的使用率，但是整个页面排版不稳定。侧边导航的模式层级扩展性强，一、二、三级导航项目可以更为顺畅且具关联性的被展示，同时侧边导航可以固定，使得用户在操作和浏览中可以快速的定位和切换当前位置，有很高的操作效率。但这类导航横向页面内容的空间会被牺牲一部分。"
-      }
+      },
+      "__ID__": "d927f8d5"
     },
     {
       "title": "layout-顶部-侧边布局-通栏",
@@ -5878,7 +6088,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "nav 1nav 2nav 3 subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Home/List/App Content 顶部-侧边布局-通栏 同样拥有顶部导航及侧边栏，区别是两边未留边距，多用于应用型的网站。",
         "zh": "nav 1nav 2nav 3 subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Home/List/App Content 顶部-侧边布局-通栏 同样拥有顶部导航及侧边栏，区别是两边未留边距，多用于应用型的网站。"
-      }
+      },
+      "__ID__": "c0057517"
     },
     {
       "title": "layout-顶部-侧边布局",
@@ -5906,7 +6117,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "nav 1nav 2nav 3 Home/List/App subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Content Ant Design ©2018 Created by Ant UED 顶部-侧边布局 拥有顶部导航及侧边栏的页面，多用于展示类网站。",
         "zh": "nav 1nav 2nav 3 Home/List/App subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Content Ant Design ©2018 Created by Ant UED 顶部-侧边布局 拥有顶部导航及侧边栏的页面，多用于展示类网站。"
-      }
+      },
+      "__ID__": "f850fea4"
     },
     {
       "title": "layout-上中下布局",
@@ -5934,7 +6146,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "nav 1nav 2nav 3 Home/List/App Content Ant Design ©2018 Created by Ant UED 上中下布局 最基本的『上-中-下』布局。 一般主导航放置于页面的顶端，从左自右依次为：logo、一级导航项、辅助菜单（用户、设置、通知等）。通常将内容放在固定尺寸（例如：1200px）内，整个页面排版稳定，不受用户终端显示器影响；上下级的结构符合用户上下浏览的习惯，也是较为经典的网站导航模式。页面上下切分的方式提高了主工作区域的信息展示效率，但在纵向空间上会有一些牺牲。此外，由于导航栏水平空间的限制，不适合那些一级导航项很多的信息结构。",
         "zh": "nav 1nav 2nav 3 Home/List/App Content Ant Design ©2018 Created by Ant UED 上中下布局 最基本的『上-中-下』布局。 一般主导航放置于页面的顶端，从左自右依次为：logo、一级导航项、辅助菜单（用户、设置、通知等）。通常将内容放在固定尺寸（例如：1200px）内，整个页面排版稳定，不受用户终端显示器影响；上下级的结构符合用户上下浏览的习惯，也是较为经典的网站导航模式。页面上下切分的方式提高了主工作区域的信息展示效率，但在纵向空间上会有一些牺牲。此外，由于导航栏水平空间的限制，不适合那些一级导航项很多的信息结构。"
-      }
+      },
+      "__ID__": "5869604d"
     },
     {
       "title": "list-基础列表",
@@ -5962,7 +6175,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Ant Design Title 1 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 2 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 3 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 4 Ant Design, a design language for background applications, is refined by Ant UED Team 基础列表 基础列表。",
         "zh": "Ant Design Title 1 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 2 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 3 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 4 Ant Design, a design language for background applications, is refined by Ant UED Team 基础列表 基础列表。"
-      }
+      },
+      "__ID__": "174e1f2f"
     },
     {
       "title": "list-栅格列表",
@@ -5990,7 +6204,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content 栅格列表 可以通过设置 List 的 grid 属性来实现栅格列表，column 可设置期望显示的列数。",
         "zh": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content 栅格列表 可以通过设置 List 的 grid 属性来实现栅格列表，column 可设置期望显示的列数。"
-      }
+      },
+      "__ID__": "f745dd79"
     },
     {
       "title": "list-滚动加载",
@@ -6018,7 +6233,8 @@ export default {
       "__DESCRIPTION__": {
         "en": "Riseth ragna.riseth@example.com Content Adam maelie.adam@example.com Content De Bree zhi.debree@example.com Content Aragão julio.aragao@example.com Content Guillot raffaele.guillot@example.com Content 滚动加载 结合 react-infinite-scroller 实现滚动自动加载列表。",
         "zh": "سهيلي راد mhmdmyn.shylyrd@example.com Content Wang charlie.wang@example.com Content Petit romy.petit@example.com Content Wilson archie.wilson@example.com Content Gomes mileu.gomes@example.com Content 滚动加载 结合 react-infinite-scroller 实现滚动自动加载列表。"
-      }
+      },
+      "__ID__": "a8081907"
     },
     {
       "title": "list-滚动加载无限长列表",
@@ -6046,7 +6262,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Mitchelle molly.mitchelle@example.com Content Leroux garance.leroux@example.com Content Peixoto noi.peixoto@example.com Content Oltmanns emma.oltmanns@example.com Content Gautier rebekka.gautier@example.com Content Bélanger amelia.belanger@example.com Content Jørgensen olivia.jorgensen@example.com Content Lacroix luca.lacroix@example.com Content Idsøe christiane.idsoe@example.com Content Hauglid irene.hauglid@example.com Content Carter jennifer.carter@example.com Content Saez marcos.saez@example.com Content Robert jorge.robert@example.com Content Hill martha.hill@example.com Content Lefevre thomas.lefevre@example.com Content 滚动加载无限长列表 结合 react-virtualized 实现滚动加载无限长列表，带有虚拟化（virtualization）功能，能够提高数据量大时候长列表的性能。 virtualized 是在大数据列表中应用的一种技术，主要是为了减少不可见区域不必要的渲染从而提高性能，特别是数据量在成千上万条效果尤为明显。了解更多",
         "en": "Ruge saskia.ruge@example.com Content Day dwight.day@example.com Content Carroll holly.carroll@example.com Content Bernard anna.bernard@example.com Content Johansen marius.johansen@example.com Content 滚动加载无限长列表 结合 react-virtualized 实现滚动加载无限长列表，带有虚拟化（virtualization）功能，能够提高数据量大时候长列表的性能。 virtualized 是在大数据列表中应用的一种技术，主要是为了减少不可见区域不必要的渲染从而提高性能，特别是数据量在成千上万条效果尤为明显。了解更多"
-      }
+      },
+      "__ID__": "87fc03a0"
     },
     {
       "title": "list-加载更多",
@@ -6074,7 +6291,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Velders Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Heino Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Ayverdi Ant Design, a design language for background applications, is refined by Ant UED Team content edit more loading more 加载更多 可通过 loadMore 属性实现加载更多功能。",
         "en": "Ulstein Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Jordan Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Lane Ant Design, a design language for background applications, is refined by Ant UED Team content edit more loading more Load more Load more list with loadMore property."
-      }
+      },
+      "__ID__": "e4472444"
     },
     {
       "title": "list-响应式的栅格列表",
@@ -6102,7 +6320,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content Title 5 Card content Title 6 Card content 响应式的栅格列表 响应式的栅格列表。尺寸与 Layout Grid 保持一致。",
         "en": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content Title 5 Card content Title 6 Card content Responsive grid list Responsive grid list. The size property the is as same as Layout Grid."
-      }
+      },
+      "__ID__": "59c4cd7c"
     },
     {
       "title": "list-简单列表",
@@ -6130,7 +6349,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Default Size Header [ITEM] Racing car sprays burning fuel into crowd. [ITEM] Japanese princess to wed commoner. [ITEM] Australian walks 100km after outback crash. [ITEM] Man charged over missing wedding girl. [ITEM] Los Angeles battles huge wildfires. Footer Small Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer Large Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer 简单列表 列表拥有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。 可通过设置 header 和 footer，来自定义列表头部和尾部。",
         "en": "Default Size Header [ITEM] Racing car sprays burning fuel into crowd. [ITEM] Japanese princess to wed commoner. [ITEM] Australian walks 100km after outback crash. [ITEM] Man charged over missing wedding girl. [ITEM] Los Angeles battles huge wildfires. Footer Small Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer Large Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer Simple list Ant Design supports a default list size as well as a large and small size. If a large or small list is desired, set the size property to either large or small respectively. Omit the size property for a list with the default size. Customizing the header and footer of list by setting header and footer property."
-      }
+      },
+      "__ID__": "718f4f43"
     },
     {
       "title": "list-竖排列表样式",
@@ -6158,7 +6378,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ant design part 0 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 1 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 2 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design footer part 1 2 3 4 5 ••• 8 竖排列表样式 通过设置 itemLayout 属性为 vertical 可实现竖排列表样式。",
         "en": "ant design part 0 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 1 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 2 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design footer part 1 2 3 4 5 ••• 8 Vertical Set the itemLayout property to vertical to create a vertical list."
-      }
+      },
+      "__ID__": "5dba3795"
     },
     {
       "title": "mentions-异步加载",
@@ -6186,7 +6407,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "异步加载 匹配内容列表为异步返回时。",
         "en": "Asynchronous loading async"
-      }
+      },
+      "__ID__": "26d8c650"
     },
     {
       "title": "mentions-基本使用",
@@ -6214,7 +6436,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本使用 基本使用",
         "en": "Basic Basic usage."
-      }
+      },
+      "__ID__": "296c20e0"
     },
     {
       "title": "mentions-配合 Form 使用",
@@ -6242,7 +6465,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Top coders Bio Submit Reset 配合 Form 使用 受控模式，例如配合 Form 使用。",
         "en": "Top coders Bio Submit Reset With Form Controlled mode, for example, to work with Form."
-      }
+      },
+      "__ID__": "15920352"
     },
     {
       "title": "mentions-向上展开",
@@ -6270,7 +6494,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "向上展开 向上展开建议。",
         "en": "Placement Change the suggestions placement."
-      }
+      },
+      "__ID__": "9685b24d"
     },
     {
       "title": "mentions-自定义触发字符",
@@ -6298,7 +6523,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自定义触发字符 通过 prefix 属性自定义触发字符。默认为 @, 可以定义为数组。",
         "en": "Customize Trigger Token Customize Trigger Token by prefix props. Default to @, Array<string> also supported."
-      }
+      },
+      "__ID__": "ee941bb3"
     },
     {
       "title": "mentions-无效或只读",
@@ -6326,7 +6552,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "无效或只读 通过 disabled 属性设置是否生效。通过 readOnly 属性设置是否只读。",
         "en": "disabled or readOnly Configurate disabled and readOnly."
-      }
+      },
+      "__ID__": "13702988"
     },
     {
       "title": "menu-顶部导航",
@@ -6354,7 +6581,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Navigation OneNavigation Two Navigation Three - Submenu ··· 顶部导航 水平的顶部导航菜单。",
         "en": "Navigation OneNavigation Two Navigation Three - Submenu ··· Top Navigation Horizontal top navigation menu."
-      }
+      },
+      "__ID__": "2c6c61b4"
     },
     {
       "title": "menu-缩起内嵌菜单",
@@ -6382,7 +6610,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Option 1 Option 2 Option 3 Navigation One Option 5 Option 6 Option 7 Option 8 Navigation Two 缩起内嵌菜单 内嵌菜单可以被缩起/展开。 你可以在 Layout 里查看侧边布局结合的完整示例。",
         "en": "Option 1 Option 2 Option 3 Navigation One Option 5 Option 6 Option 7 Option 8 Navigation Two Collapsed inline menu Inline menu could be collapsed. Here is a complete demo with sider layout."
-      }
+      },
+      "__ID__": "1ebea994"
     },
     {
       "title": "menu-内嵌菜单",
@@ -6410,7 +6639,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Navigation One Item 1 Option 1 Option 2 Item 2 Option 3 Option 4 Navigation Two Navigation Three 内嵌菜单 垂直菜单，子菜单内嵌在菜单区域。",
         "en": "Navigation One Item 1 Option 1 Option 2 Item 2 Option 3 Option 4 Navigation Two Navigation Three Inline menu Vertical menu with inline submenus."
-      }
+      },
+      "__ID__": "673d702b"
     },
     {
       "title": "menu-只展开当前父级菜单",
@@ -6438,7 +6668,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three 只展开当前父级菜单 点击菜单，收起其他展开的所有菜单，保持菜单聚焦简洁。",
         "en": "Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three Open current submenu only Click the menu and you will see that all the other menus gets collapsed to keep the entire menu compact."
-      }
+      },
+      "__ID__": "534d6482"
     },
     {
       "title": "menu-切换菜单类型",
@@ -6466,7 +6697,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Change Mode Change Style Navigation One Navigation Two Navigation Three Option 3 Option 4 Submenu Navigation Four 切换菜单类型 展示动态切换模式。",
         "en": " Change Mode Change Style Navigation One Navigation Two Navigation Three Option 3 Option 4 Submenu Navigation Four Switch the menu type Show the dynamic switching mode (between 'inline' and 'vertical')."
-      }
+      },
+      "__ID__": "2c0b6e80"
     },
     {
       "title": "menu-主题",
@@ -6494,7 +6726,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Dark Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three 主题 内建了两套主题 light|dark，默认 light。",
         "en": "Dark Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three Menu Themes There are two built-in themes: 'light' and 'dark'. The default value is 'light'."
-      }
+      },
+      "__ID__": "19f49edd"
     },
     {
       "title": "menu-垂直菜单",
@@ -6522,7 +6755,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Navigation One Navigation Two Navigation Three 垂直菜单 子菜单是弹出的形式。",
         "en": "Navigation One Navigation Two Navigation Three Vertical menu Submenus open as pop-ups."
-      }
+      },
+      "__ID__": "35bb1a38"
     },
     {
       "title": "message-修改延时",
@@ -6550,7 +6784,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。",
         "en": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。"
-      }
+      },
+      "__ID__": "17216b5b"
     },
     {
       "title": "message-普通提示",
@@ -6578,7 +6813,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Display normal message 普通提示 信息提醒反馈。",
         "en": "Display normal message Normal prompt Normal message for information."
-      }
+      },
+      "__ID__": "afe926b0"
     },
     {
       "title": "message-加载中",
@@ -6606,7 +6842,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Display a loading indicator 加载中 进行全局 loading，异步自行移除。",
         "en": "Display a loading indicator Message with loading indicator Display a global loading indicator, which is dismissed by itself asynchronously."
-      }
+      },
+      "__ID__": "f428797b"
     },
     {
       "title": "message-其他提示类型",
@@ -6634,7 +6871,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "SuccessErrorWarning 其他提示类型 包括成功、失败、警告。",
         "en": "SuccessErrorWarning Other types of message Messages of success, error and warning types."
-      }
+      },
+      "__ID__": "6587d487"
     },
     {
       "title": "message-Promise 接口",
@@ -6662,7 +6900,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Display sequential messages Promise 接口 可以通过 then 接口在关闭后运行 callback 。以上用例将在每个 message 将要结束时通过 then 显示新的 message 。",
         "en": "Display sequential messages Promise interface message provides a promise interface for onClose. The above example will display a new message when the old message is about to close."
-      }
+      },
+      "__ID__": "52e630cb"
     },
     {
       "title": "message-更新消息内容",
@@ -6690,7 +6929,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the message box 更新消息内容 可以通过唯一的 key 来更新内容。",
         "en": "Open the message box Update Message Content Update message content with unique key."
-      }
+      },
+      "__ID__": "2af0583d"
     },
     {
       "title": "modal-异步关闭",
@@ -6718,7 +6958,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。",
         "en": "Open Modal with async logic Asynchronously close Asynchronously close a modal dialog when a the OK button is pressed. For example, you can use this pattern when you submit a form."
-      }
+      },
+      "__ID__": "d2ca31e3"
     },
     {
       "title": "modal-自定义页脚按钮属性",
@@ -6746,7 +6987,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open Modal with customized button props 自定义页脚按钮属性 传入 okButtonProps 和 cancelButtonProps 可分别自定义确定按钮和取消按钮的 props。",
         "en": "Open Modal with customized button props Customize footer buttons props Passing okButtonProps and cancelButtonProps will customize the OK button and cancel button props."
-      }
+      },
+      "__ID__": "76c864a6"
     },
     {
       "title": "modal-确认对话框",
@@ -6774,7 +7016,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Confirm 确认对话框 使用 confirm() 可以快捷地弹出确认框。onCancel/onOk 返回 promise 可以延迟关闭。",
         "en": "Confirm Confirmation modal dialog Use confirm() to show a confirmation modal dialog. Let onCancel/onOk function return a promise object to delay closing the dialog."
-      }
+      },
+      "__ID__": "53121286"
     },
     {
       "title": "modal-销毁确认对话框",
@@ -6802,7 +7045,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Confirm 销毁确认对话框 使用 Modal.destroyAll() 可以销毁弹出的确认窗。通常用于路由监听当中，处理路由前进、后退不能销毁确认对话框的问题。",
         "en": "Confirm destroy confirmation modal dialog Modal.destroyAll() will destroy all confirmation modal dialogs. Usually, you can use it in router change event to destroy confirm modal dialog automatically."
-      }
+      },
+      "__ID__": "fd1f8023"
     },
     {
       "title": "modal-确认对话框",
@@ -6830,7 +7074,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ConfirmDeleteWith extra props 确认对话框 使用 confirm() 可以快捷地弹出确认框。",
         "en": "ConfirmDeleteWith extra props Confirmation modal dialog Use confirm() to show a confirmation modal dialog."
-      }
+      },
+      "__ID__": "78b49705"
     },
     {
       "title": "modal-自定义页脚",
@@ -6858,7 +7103,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open Modal with customized footer 自定义页脚 更复杂的例子，自定义了页脚的按钮，点击提交后进入 loading 状态，完成后关闭。 不需要默认确定取消按钮时，你可以把 footer 设为 null。",
         "en": "Open Modal with customized footer Customized Footer A more complex example which define a customized footer button bar. The dialog will change to loading state after clicking the submit button, and when the loading is done, the modal dialog will be closed. You could set footer to null if you don't need default footer buttons."
-      }
+      },
+      "__ID__": "d3df123d"
     },
     {
       "title": "modal-使用 hooks 获得上下文",
@@ -6886,7 +7132,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ConfirmWarningInfoError 使用 hooks 获得上下文 通过 Modal.useModal 创建支持读取 context 的 contextHolder。",
         "en": "ConfirmWarningInfoError Use hooks to get context Use Modal.useModal to get contextHolder with context accessible issue."
-      }
+      },
+      "__ID__": "c934b280"
     },
     {
       "title": "modal-信息提示",
@@ -6914,7 +7161,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "InfoSuccessErrorWarning 信息提示 各种类型的信息提示，只提供一个按钮用于关闭。",
         "en": "InfoSuccessErrorWarning Information modal dialog In the various types of information modal dialog, only one button to close dialog is provided."
-      }
+      },
+      "__ID__": "c9af2f69"
     },
     {
       "title": "modal-国际化",
@@ -6942,7 +7190,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Modal Confirm 国际化 设置 okText 与 cancelText 以自定义按钮文字。",
         "en": "Modal Confirm Internationalization To customize the text of the buttons, you need to set okText and cancelText props."
-      }
+      },
+      "__ID__": "38daf956"
     },
     {
       "title": "modal-手动更新和移除",
@@ -6970,7 +7219,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open modal to close in 5s 手动更新和移除 手动更新和关闭 Modal.method 方式创建的对话框。",
         "en": "Open modal to close in 5s Manual to update destroy Manually updating and destroying a modal from Modal.method."
-      }
+      },
+      "__ID__": "873ca79d"
     },
     {
       "title": "modal-自定义位置",
@@ -6998,7 +7248,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Display a modal dialog at 20px to Top Vertically centered modal dialog 自定义位置 使用 centered 或类似 style.top 的样式来设置对话框位置。",
         "en": "Display a modal dialog at 20px to Top Vertically centered modal dialog To customize the position of modal You can use centered,style.top or other styles to set position of modal dialog."
-      }
+      },
+      "__ID__": "17ad76a1"
     },
     {
       "title": "notification-基本",
@@ -7026,7 +7277,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 基本 最简单的用法，4.5 秒后自动关闭。",
         "en": "Open the notification box Basic The simplest usage that close the notification box after 4.5s."
-      }
+      },
+      "__ID__": "ed1aacb6"
     },
     {
       "title": "notification-自定义图标",
@@ -7054,7 +7306,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 自定义图标 图标可以被自定义。",
         "en": "Open the notification box Customized Icon The icon can be customized to any react node."
-      }
+      },
+      "__ID__": "e29f1cf0"
     },
     {
       "title": "notification-自定义样式",
@@ -7082,7 +7335,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 自定义样式 使用 style 和 className 来定义样式。",
         "en": "Open the notification box Customized style The style and className are available to customize Notification."
-      }
+      },
+      "__ID__": "f7a87634"
     },
     {
       "title": "notification-自动关闭的延时",
@@ -7110,7 +7364,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 自动关闭的延时 自定义通知框自动关闭的延时，默认4.5s，取消自动关闭只要将该值设为 0 即可。",
         "en": "Open the notification box Duration after which the notification box is closed Duration can be used to specify how long the notification stays open. After the duration time elapses, the notification closes automatically. If not specified, default value is 4.5 seconds. If you set the value to 0, the notification box will never close automatically."
-      }
+      },
+      "__ID__": "d2b0597b"
     },
     {
       "title": "notification-通过 Hooks 获取上下文",
@@ -7138,7 +7393,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "topLefttopRight bottomLeftbottomRight 通过 Hooks 获取上下文 通过 notification.useNotification 创建支持读取 context 的 contextHolder。",
         "en": "topLefttopRight bottomLeftbottomRight Get context with hooks Use notification.useNotification to get contextHolder with context accessible issue."
-      }
+      },
+      "__ID__": "18903e85"
     },
     {
       "title": "notification-位置",
@@ -7166,7 +7422,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "topLefttopRight bottomLeftbottomRight 位置 通知从右上角、右下角、左下角、左上角弹出。",
         "en": "topLefttopRight bottomLeftbottomRight Placement A notification box can appear from the topRight, bottomRight, bottomLeft or topLeft of the viewport."
-      }
+      },
+      "__ID__": "ce5ac3"
     },
     {
       "title": "notification-更新消息内容",
@@ -7194,7 +7451,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 更新消息内容 可以通过唯一的 key 来更新内容。",
         "en": "Open the notification box Update Message Content Update content with unique key."
-      }
+      },
+      "__ID__": "64e40c9"
     },
     {
       "title": "notification-自定义按钮",
@@ -7222,7 +7480,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Open the notification box 自定义按钮 自定义关闭按钮的样式和文字。",
         "en": "Open the notification box Custom close button To customize the style or font of the close button."
-      }
+      },
+      "__ID__": "63bf13c1"
     },
     {
       "title": "notification-带有图标的通知提醒框",
@@ -7250,7 +7509,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "SuccessInfoWarningError 带有图标的通知提醒框 通知提醒框左侧有图标。",
         "en": "SuccessInfoWarningError Notification with icon A notification box with a icon at the left side."
-      }
+      },
+      "__ID__": "6a5b8f2a"
     },
     {
       "title": "page-header-多种形态的 PageHeader",
@@ -7278,7 +7538,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 多种形态的 PageHeader 使用操作区，并自定义子节点，适合使用在需要展示一些复杂的信息，帮助用户快速了解这个页面的信息和操作。",
         "en": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 Various forms of PageHeader Use the operating area and customize the sub-nodes, suitable for use in the need to display some complex information to help users quickly understand the information and operations of this page."
-      }
+      },
+      "__ID__": "3059c768"
     },
     {
       "title": "page-header-标准样式",
@@ -7306,7 +7567,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Title This is a subtitle 标准样式 标准页头，适合使用在需要简单描述的场景。",
         "en": "Title This is a subtitle Basic Page Header Standard header, suitable for use in scenarios that require a brief description."
-      }
+      },
+      "__ID__": "9b5bbf"
     },
     {
       "title": "page-header-带面包屑页头",
@@ -7334,7 +7596,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle 带面包屑页头 带面包屑页头，适合层级比较深的页面，让用户可以快速导航。",
         "en": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Use with breadcrumbs With breadcrumbs, it is suitable for deeper pages, allowing users to navigate quickly."
-      }
+      },
+      "__ID__": "901c5a79"
     },
     {
       "title": "page-header-组合示例",
@@ -7362,7 +7625,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc 组合示例 使用了 PageHeader 提供的所有能力。",
         "en": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc Complete example Show all props provided by PageHeader."
-      }
+      },
+      "__ID__": "2442ce38"
     },
     {
       "title": "page-header-白底模式",
@@ -7390,7 +7654,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China 白底模式 默认 PageHeader 是透明底色的。在某些情况下，PageHeader 需要自己的背景颜色。",
         "en": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China white background mode The default PageHeader is a transparent background. In some cases, PageHeader needs its own background color."
-      }
+      },
+      "__ID__": "bbb4bbe5"
     },
     {
       "title": "page-header-响应式",
@@ -7418,7 +7683,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "响应式 在不同大小的屏幕下，应该有不同的表现",
         "en": "responsive Under different screen sizes, there should be different performance"
-      }
+      },
+      "__ID__": "bb71c269"
     },
     {
       "title": "pagination-基本",
@@ -7446,7 +7712,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 5 基本 基础分页。",
         "en": "1 2 3 4 5 Basic Basic pagination."
-      }
+      },
+      "__ID__": "2c107f74"
     },
     {
       "title": "pagination-改变",
@@ -7474,7 +7741,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 5 ••• 50 10 条/页 1 2 3 4 5 ••• 50 10 条/页 改变 改变每页显示条目数。",
         "en": "1 2 3 4 5 ••• 50 10 / page 1 2 3 4 5 ••• 50 10 / page Changer Change pageSize."
-      }
+      },
+      "__ID__": "7473c8b5"
     },
     {
       "title": "pagination-受控",
@@ -7502,7 +7770,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 5 受控 受控制的页码。",
         "en": "1 2 3 4 5 Controlled Controlled page number."
-      }
+      },
+      "__ID__": "5f12ea3d"
     },
     {
       "title": "pagination-上一步和下一步",
@@ -7530,7 +7799,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Previous 1 2 3 4 5 ••• 50 Next 10 条/页 上一步和下一步 修改上一步和下一步为文字链接。",
         "en": "Previous 1 2 3 4 5 ••• 50 Next 10 / page Prev and next Use text link for prev and next button."
-      }
+      },
+      "__ID__": "48319955"
     },
     {
       "title": "pagination-跳转",
@@ -7558,7 +7828,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 5 ••• 50 10 条/页 跳至页 1 2 3 4 5 ••• 50 10 条/页 跳至页 跳转 快速跳转到某一页。",
         "en": "1 2 3 4 5 ••• 50 10 / page Go to 1 2 3 4 5 ••• 50 10 / page Go to Jumper Jump to a page directly."
-      }
+      },
+      "__ID__": "6af08669"
     },
     {
       "title": "pagination-迷你",
@@ -7586,7 +7857,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 2 3 4 5 1 2 3 4 5 10 条/页 跳至页 Total 50 items 1 2 3 4 5 迷你 迷你版本。",
         "en": "1 2 3 4 5 1 2 3 4 5 10 / page Go to Total 50 items 1 2 3 4 5 Mini size Mini size pagination."
-      }
+      },
+      "__ID__": "451f5c40"
     },
     {
       "title": "pagination-更多",
@@ -7614,7 +7886,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1 ••• 4 5 6 7 8 ••• 50 10 条/页 更多 更多分页。",
         "en": "1 ••• 4 5 6 7 8 ••• 50 10 / page More More pages."
-      }
+      },
+      "__ID__": "134be805"
     },
     {
       "title": "pagination-简洁",
@@ -7642,7 +7915,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "/5 简洁 简单的翻页。",
         "en": "/5 Simple mode Simple mode."
-      }
+      },
+      "__ID__": "b385a56"
     },
     {
       "title": "pagination-总数",
@@ -7670,7 +7944,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Total 85 items 1 2 3 4 5 20 条/页 1-20 of 85 items 1 2 3 4 5 20 条/页 总数 通过设置 showTotal 展示总共有多少数据。",
         "en": "Total 85 items 1 2 3 4 5 20 / page 1-20 of 85 items 1 2 3 4 5 20 / page Total number You can show the total number of data by setting showTotal."
-      }
+      },
+      "__ID__": "5890b520"
     },
     {
       "title": "popconfirm-基本",
@@ -7698,7 +7973,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Delete 基本 最简单的用法。",
         "en": "Delete Basic The basic example."
-      }
+      },
+      "__ID__": "557c70"
     },
     {
       "title": "popconfirm-条件触发",
@@ -7726,7 +8002,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Delete a task Whether directly execute： 条件触发 可以判断是否需要弹出。",
         "en": "Delete a task Whether directly execute： Conditional trigger Make it pop up under some conditions."
-      }
+      },
+      "__ID__": "29b6670b"
     },
     {
       "title": "popconfirm-自定义 Icon 图标",
@@ -7754,7 +8031,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Delete 自定义 Icon 图标 自定义提示 icon。",
         "en": "Delete Customize icon Set icon props to customize the icon."
-      }
+      },
+      "__ID__": "1f4848e9"
     },
     {
       "title": "popconfirm-国际化",
@@ -7782,7 +8060,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Delete 国际化 使用 okText 和 cancelText 自定义按钮文字。",
         "en": "Delete Locale text Set okText and cancelText props to customize the button's labels."
-      }
+      },
+      "__ID__": "d2d92af"
     },
     {
       "title": "popconfirm-位置",
@@ -7810,7 +8089,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。如需箭头指向目标元素中心，可以设置 arrowPointAtCenter。",
         "en": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available. Use arrowPointAtCenter if you want the arrow to point at the center of target."
-      }
+      },
+      "__ID__": "8e5bfd1f"
     },
     {
       "title": "popover-箭头指向",
@@ -7838,7 +8118,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。",
         "en": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 Arrow pointing The arrow points to the center of the target element, which set arrowPointAtCenter."
-      }
+      },
+      "__ID__": "46ad0a87"
     },
     {
       "title": "popover-基本",
@@ -7866,7 +8147,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hover me 基本 最简单的用法，浮层的大小由内容区域决定。",
         "en": "Hover me Basic The most basic example. The size of the floating layer depends on the contents region."
-      }
+      },
+      "__ID__": "879f9bf5"
     },
     {
       "title": "popover-从浮层内关闭",
@@ -7894,7 +8176,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Click me 从浮层内关闭 使用 visible 属性控制浮层显示。",
         "en": "Click me Controlling the close of the dialog Use visible prop to control the display of the card."
-      }
+      },
+      "__ID__": "b902f1df"
     },
     {
       "title": "popover-悬停点击弹出窗口",
@@ -7922,7 +8205,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hover and click / 悬停并单击 悬停点击弹出窗口 以下示例显示如何创建可悬停和单击的弹出窗口。",
         "en": "Hover and click / 悬停并单击 Hover with click popover The following example shows how to create a popover which can be hovered and clicked."
-      }
+      },
+      "__ID__": "19708cd4"
     },
     {
       "title": "popover-位置",
@@ -7950,7 +8234,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。",
         "en": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available."
-      }
+      },
+      "__ID__": "4f39a24b"
     },
     {
       "title": "popover-三种触发方式",
@@ -7978,7 +8263,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hover meFocus meClick me 三种触发方式 鼠标移入、聚集、点击。",
         "en": "Hover meFocus meClick me Three ways to trigger Mouse to click, focus and move in."
-      }
+      },
+      "__ID__": "907b72c4"
     },
     {
       "title": "progress-进度圈动态展示",
@@ -8006,7 +8292,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0% 进度圈动态展示 会动的进度条才是好进度条。",
         "en": "0% Dynamic circular progress bar A dynamic progress bar is better."
-      }
+      },
+      "__ID__": "c0ce787b"
     },
     {
       "title": "progress-小型进度圈",
@@ -8034,7 +8321,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "30% 小型进度圈 小一号的圈形进度。",
         "en": "30% Mini size circular progress bar A smaller circular progress bar."
-      }
+      },
+      "__ID__": "35f816ac"
     },
     {
       "title": "progress-进度圈",
@@ -8062,7 +8350,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "75% 进度圈 圈形的进度。",
         "en": "75% Circular progress bar A circular progress bar."
-      }
+      },
+      "__ID__": "27c5e946"
     },
     {
       "title": "progress-仪表盘",
@@ -8090,7 +8379,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "75% 75% 仪表盘 通过设置 type=dashboard，可以很方便地实现仪表盘样式的进度条。若想要修改缺口的角度，可以设置 gapDegree 为你想要的值。",
         "en": "75% 75% Dashboard By setting type=dashboard, you can get a dashboard style of progress easily. Modify gapDegree to set the degree of gap."
-      }
+      },
+      "__ID__": "844d158"
     },
     {
       "title": "progress-动态展示",
@@ -8118,7 +8408,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0% 动态展示 会动的进度条才是好进度条。",
         "en": "0% Dynamic A dynamic progress bar is better."
-      }
+      },
+      "__ID__": "3d2f6bb4"
     },
     {
       "title": "progress-自定义文字格式",
@@ -8146,7 +8437,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "75 Days Done 自定义文字格式 format 属性指定格式。",
         "en": "75 Days Done Custom text format You can set a custom text by setting the format prop."
-      }
+      },
+      "__ID__": "16609683"
     },
     {
       "title": "progress-自定义进度条渐变色",
@@ -8174,7 +8466,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "99.9% 99.9% 90% 自定义进度条渐变色 linear-gradient 的封装。推荐只传两种颜色。",
         "en": "99.9% 99.9% 90% Custom line gradient A package of linear-gradient. It is recommended to only pass two colors."
-      }
+      },
+      "__ID__": "a6de8598"
     },
     {
       "title": "progress-小型进度条",
@@ -8202,7 +8495,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "30% 50% 小型进度条 适合放在较狭窄的区域内。",
         "en": "30% 50% Mini size progress bar Appropriate for a narrow area."
-      }
+      },
+      "__ID__": "3e9bddeb"
     },
     {
       "title": "progress-进度条",
@@ -8230,7 +8524,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "30% 50% 进度条 标准的进度条。",
         "en": "30% 50% Progress bar A standard progress bar."
-      }
+      },
+      "__ID__": "6d6fe4e9"
     },
     {
       "title": "progress-圆角/方角边缘",
@@ -8258,7 +8553,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "75% 75% 75% 圆角/方角边缘 通过设定 strokeLinecap=\"square|round\" 可以调整进度条边缘的形状。",
         "en": "75% 75% 75% Square linecaps By setting strokeLinecap=\"square\", you can change the linecaps from round to square."
-      }
+      },
+      "__ID__": "68e12ce"
     },
     {
       "title": "progress-分段进度条",
@@ -8286,7 +8582,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "60% 60% 60% 分段进度条 标准的进度条。type=\"circle|dashboard\" 时不支持分段颜色。",
         "en": "60% 60% 60% Progress bar with success segment A standard progress bar. Doesn't support trail color when type=\"circle|dashboard\"."
-      }
+      },
+      "__ID__": "ef23f22f"
     },
     {
       "title": "progress-步骤进度条",
@@ -8314,7 +8611,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "50% 30% 步骤进度条 带步骤的进度条。",
         "en": "50% 30% Progress bar with steps A progress bar with steps."
-      }
+      },
+      "__ID__": "a4e95de8"
     },
     {
       "title": "radio-基本",
@@ -8342,7 +8640,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Radio 基本 最简单的用法。",
         "en": "Radio Basic The simplest use."
-      }
+      },
+      "__ID__": "1bcc3783"
     },
     {
       "title": "radio-不可用",
@@ -8370,7 +8669,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Disabled Disabled Toggle disabled 不可用 Radio 不可用。",
         "en": "Disabled Disabled Toggle disabled disabled Radio unavailable."
-      }
+      },
+      "__ID__": "73fa7f06"
     },
     {
       "title": "radio-填底的按钮样式",
@@ -8398,7 +8698,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 填底的按钮样式 实色填底的单选按钮样式。",
         "en": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Solid radio button Solid radio button style."
-      }
+      },
+      "__ID__": "5632ac20"
     },
     {
       "title": "radio-按钮样式",
@@ -8426,7 +8727,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 按钮样式 按钮样式的单选组合。",
         "en": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu radio style The combination of radio button style."
-      }
+      },
+      "__ID__": "e702328c"
     },
     {
       "title": "radio-Radio.Group 垂直",
@@ -8454,7 +8756,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Option A Option B Option C More... Radio.Group 垂直 垂直的 Radio.Group，配合更多输入框选项。",
         "en": "Option A Option B Option C More... Vertical Radio.Group Vertical Radio.Group, with more radios."
-      }
+      },
+      "__ID__": "2e7fd8e6"
     },
     {
       "title": "radio-Radio.Group 组合 - 配置方式",
@@ -8482,7 +8785,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group 组合 - 配置方式 通过配置 options 参数来渲染单选框。",
         "en": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group group - optional Render radios by configuring options."
-      }
+      },
+      "__ID__": "c1416e9b"
     },
     {
       "title": "radio-单选组合 - 配合 name 使用",
@@ -8510,7 +8814,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "A B C D 单选组合 - 配合 name 使用 可以为 Radio.Group 配置 name 参数，为组合内的 input 元素赋予相同的 name 属性，使浏览器把 Radio.Group 下的 Radio 真正看作是一组（例如可以通过方向键始终在同一组内更改选项）。",
         "en": "A B C D Radio.Group with name Passing the name property to all input[type=\"radio\"] that are in the same Radio.Group. It is usually used to let the browser see your Radio.Group as a real \"group\" and keep the default behavior. For example, using left/right keyboard arrow to change your selection that in the same Radio.Group."
-      }
+      },
+      "__ID__": "7226db47"
     },
     {
       "title": "radio-单选组合",
@@ -8538,7 +8843,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "A B C D 单选组合 一组互斥的 Radio 配合使用。",
         "en": "A B C D Radio Group A group of radio components."
-      }
+      },
+      "__ID__": "bb6d71e3"
     },
     {
       "title": "radio-大小",
@@ -8566,7 +8872,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 大小 大中小三种组合，可以和表单输入框进行对应配合。",
         "en": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Size There are three sizes available: large, medium, and small. It can coordinate with input box."
-      }
+      },
+      "__ID__": "4fc5488e"
     },
     {
       "title": "rate-基本",
@@ -8594,7 +8901,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 最简单的用法。",
         "en": "Basic The simplest usage."
-      }
+      },
+      "__ID__": "4a9b206a"
     },
     {
       "title": "rate-其他字符",
@@ -8622,7 +8930,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 其他字符 可以将星星替换为其他字符，比如字母，数字，字体图标甚至中文。",
         "en": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 Other Character Replace the default star to other character like alphabet, digit, iconfont or even Chinese word."
-      }
+      },
+      "__ID__": "dba0d7b9"
     },
     {
       "title": "rate-清除",
@@ -8650,7 +8959,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "allowClear: true allowClear: false 清除 支持允许或者禁用清除。",
         "en": "allowClear: true allowClear: false Clear star Support set allow to clear star when click again."
-      }
+      },
+      "__ID__": "a9bb5dbf"
     },
     {
       "title": "rate-只读",
@@ -8678,7 +8988,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "只读 只读，无法进行鼠标交互。",
         "en": "Read only Read only, can't use mouse to interact."
-      }
+      },
+      "__ID__": "33da76cd"
     },
     {
       "title": "rate-半星",
@@ -8706,7 +9017,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "半星 支持选中半星。",
         "en": "Half star Support select half star."
-      }
+      },
+      "__ID__": "aa8f3f4b"
     },
     {
       "title": "rate-文案展现",
@@ -8734,7 +9046,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "normal 文案展现 给评分组件加上文案展示。",
         "en": "normal Show copywriting Add copywriting in rate components."
-      }
+      },
+      "__ID__": "77437d46"
     },
     {
       "title": "result-403",
@@ -8762,7 +9075,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "403 Sorry, you are not authorized to access this page. Back Home 403 你没有此页面的访问权限。",
         "en": "403 Sorry, you are not authorized to access this page. Back Home 403 you are not authorized to access this page."
-      }
+      },
+      "__ID__": "9e5899cc"
     },
     {
       "title": "result-404",
@@ -8790,7 +9104,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "404 Sorry, the page you visited does not exist. Back Home 404 此页面未找到。",
         "en": "404 Sorry, the page you visited does not exist. Back Home 404 The page you visited does not exist."
-      }
+      },
+      "__ID__": "c1b362be"
     },
     {
       "title": "result-500",
@@ -8818,7 +9133,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "500 Sorry, the server is wrong. Back Home 500 服务器发生了错误。",
         "en": "500 Sorry, the server is wrong. Back Home 500 The server is wrong."
-      }
+      },
+      "__ID__": "37b35e84"
     },
     {
       "title": "result-自定义 icon",
@@ -8846,7 +9162,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Great, we have done all the operations! Next 自定义 icon 自定义 icon。",
         "en": "Great, we have done all the operations! Next Custom icon Custom icon."
-      }
+      },
+      "__ID__": "7748bcc7"
     },
     {
       "title": "result-Error",
@@ -8874,7 +9191,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Submission Failed Please check and modify the following information before resubmitting. The content you submitted has the following error: Your account has been frozenThaw immediately > Your account is not yet eligible to apply Apply Unlock > Go ConsoleBuy Again Error 复杂的错误反馈。",
         "en": "Submission Failed Please check and modify the following information before resubmitting. The content you submitted has the following error: Your account has been frozenThaw immediately > Your account is not yet eligible to apply Apply Unlock > Go ConsoleBuy Again Error Complex error feedback."
-      }
+      },
+      "__ID__": "e66af751"
     },
     {
       "title": "result-Info",
@@ -8902,7 +9220,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Your operation has been executed Go Console Info 展示处理结果。",
         "en": "Your operation has been executed Go Console Info Show processing results."
-      }
+      },
+      "__ID__": "3da78e0b"
     },
     {
       "title": "result-Success",
@@ -8930,7 +9249,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success 成功的结果。",
         "en": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success Show successful results."
-      }
+      },
+      "__ID__": "a14d545b"
     },
     {
       "title": "result-Warning",
@@ -8958,7 +9278,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "There are some problems with your operation. Go Console Warning 警告类型的结果。",
         "en": "There are some problems with your operation. Go Console Warning The result of the warning."
-      }
+      },
+      "__ID__": "f1bf0634"
     },
     {
       "title": "select-自动分词",
@@ -8986,7 +9307,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。",
         "en": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。"
-      }
+      },
+      "__ID__": "4b2fce18"
     },
     {
       "title": "select-大数据",
@@ -9014,7 +9336,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。",
         "en": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。"
-      }
+      },
+      "__ID__": "eee6f0db"
     },
     {
       "title": "select-无边框",
@@ -9042,7 +9365,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Lucy Lucy 无边框 无边框样式。",
         "en": "Lucy Lucy Bordered-less Bordered-less style component."
-      }
+      },
+      "__ID__": "56b9b1d3"
     },
     {
       "title": "select-联动",
@@ -9070,7 +9394,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Zhejiang Hangzhou 联动 省市联动是典型的例子。 推荐使用 Cascader 组件。",
         "en": "Zhejiang Hangzhou 联动 省市联动是典型的例子。 推荐使用 Cascader 组件。"
-      }
+      },
+      "__ID__": "f79d413"
     },
     {
       "title": "select-扩展菜单",
@@ -9098,7 +9423,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "custom dropdown render 扩展菜单 使用 dropdownRender 对下拉菜单进行自由扩展。",
         "en": "custom dropdown render Custom dropdown Customize the dropdown menu via dropdownRender."
-      }
+      },
+      "__ID__": "771c5f84"
     },
     {
       "title": "select-自定义选择标签",
@@ -9126,7 +9452,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "gold cyan 自定义选择标签 允许自定义选择标签的样式",
         "en": "gold cyan Custom Tag Render Allows for custom rendering of tags"
-      }
+      },
+      "__ID__": "b95a5ce6"
     },
     {
       "title": "select-隐藏已选择选项",
@@ -9154,7 +9481,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Inserted are removed 隐藏已选择选项 隐藏下拉列表中已选择的选项。",
         "en": "Inserted are removed Hide Already Selected Hide already selected options in the dropdown."
-      }
+      },
+      "__ID__": "c210e575"
     },
     {
       "title": "select-获得选项的文本",
@@ -9182,7 +9510,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Lucy (101) 获得选项的文本 默认情况下 onChange 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 labelInValue 属性。 选中项的 label 会被包装到 value 中传递给 onChange 等函数，此时 value 是一个对象。",
         "en": "Lucy (101) Get value of selected item As a default behavior, the onChange callback can only get the value of the selected item. The labelInValue prop can be used to get the label property of the selected item. The label of the selected item will be packed as an object for passing to the onChange callback."
-      }
+      },
+      "__ID__": "602dd1f"
     },
     {
       "title": "select-多选",
@@ -9210,7 +9539,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "a10 c12 多选 多选，从已有条目中选择。",
         "en": "a10 c12 multiple selection Multiple selection, selecting from existing items."
-      }
+      },
+      "__ID__": "8c7a169d"
     },
     {
       "title": "select-分组",
@@ -9238,7 +9568,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Lucy 分组 用 OptGroup 进行选项分组。",
         "en": "Lucy Option Group Using OptGroup to group the options."
-      }
+      },
+      "__ID__": "6318541"
     },
     {
       "title": "select-定制回填内容",
@@ -9266,7 +9597,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。",
         "en": "China Custom selection render Spacified the prop name of Option which will be rendered in select box."
-      }
+      },
+      "__ID__": "bd73a61e"
     },
     {
       "title": "select-搜索框",
@@ -9294,7 +9626,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "input search text 搜索框 搜索和远程数据结合。",
         "en": "input search text Search Box Search with remote data."
-      }
+      },
+      "__ID__": "154ec393"
     },
     {
       "title": "select-搜索用户",
@@ -9322,7 +9655,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。",
         "en": "Select users Search and Select Users A complete multiple select sample with remote search, debounce fetch, ajax callback order flow, and loading state."
-      }
+      },
+      "__ID__": "df993a90"
     },
     {
       "title": "select-三种大小",
@@ -9350,7 +9684,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。",
         "en": "Large Default Small a1 a10 c12 a10 c12 Sizes The height of the input field for the select defaults to 32px. If size is set to large, the height will be 40px, and if set to small, 24px."
-      }
+      },
+      "__ID__": "d09e7ee3"
     },
     {
       "title": "select-标签",
@@ -9378,7 +9713,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）",
         "en": "Tags Mode Tags Select with tags, transform input to tag (scroll the menu)"
-      }
+      },
+      "__ID__": "fb6d0f7b"
     },
     {
       "title": "skeleton-动画效果",
@@ -9406,7 +9742,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "动画效果 显示动画效果。",
         "en": "Active Animation Display active animation."
-      }
+      },
+      "__ID__": "1d0c49ce"
     },
     {
       "title": "skeleton-基本",
@@ -9434,7 +9771,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 最简单的占位效果。",
         "en": "Basic Simplest Skeleton usage."
-      }
+      },
+      "__ID__": "d44475f4"
     },
     {
       "title": "skeleton-包含子组件",
@@ -9462,7 +9800,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。",
         "en": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton Contains sub component Skeleton contains sub component."
-      }
+      },
+      "__ID__": "e5b1489f"
     },
     {
       "title": "skeleton-复杂的组合",
@@ -9490,7 +9829,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 复杂的组合 更复杂的组合。",
         "en": " Complex combination Complex combination with avatar and multiple paragraphs."
-      }
+      },
+      "__ID__": "2d2a399d"
     },
     {
       "title": "skeleton-骨架按钮、头像和输入框。",
@@ -9518,7 +9858,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。",
         "en": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small Skeleton button and avatar Skeleton button, avatar and input."
-      }
+      },
+      "__ID__": "50f74e32"
     },
     {
       "title": "skeleton-列表",
@@ -9546,7 +9887,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 列表 在列表组件中使用加载占位符。",
         "en": " List Use skeleton in list component."
-      }
+      },
+      "__ID__": "2f8ac494"
     },
     {
       "title": "slider-基本",
@@ -9574,7 +9916,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。",
         "en": "Disabled: Basic Basic slider. When range is true, display as dual thumb mode. When disable is true, the slider will not be interactable."
-      }
+      },
+      "__ID__": "abb2f83f"
     },
     {
       "title": "slider-事件",
@@ -9602,7 +9945,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。",
         "en": "Event The onChange callback function will fire when the user changes the slider's value. The onAfterChange callback function will fire when onmouseup fired."
-      }
+      },
+      "__ID__": "d97a7d91"
     },
     {
       "title": "slider-带 icon 的滑块",
@@ -9630,7 +9974,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。",
         "en": "Slider with icon You can add an icon beside the slider to make it meaningful."
-      }
+      },
+      "__ID__": "8602af8b"
     },
     {
       "title": "slider-带输入框的滑块",
@@ -9658,7 +10003,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "带输入框的滑块 和 数字输入框 组件保持同步。",
         "en": "Slider with InputNumber Synchronize with InputNumber component."
-      }
+      },
+      "__ID__": "2ddd1c32"
     },
     {
       "title": "slider-带标签的滑块",
@@ -9686,7 +10032,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。",
         "en": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C Graduated slider Using marks property to mark a graduated slider, use value or defaultValue to specify the position of thumb. When included is false, means that different thumbs are coordinative. when step is null, users can only slide the thumbs onto marks."
-      }
+      },
+      "__ID__": "30c933ec"
     },
     {
       "title": "slider-反向",
@@ -9714,7 +10061,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Reversed: 反向 设置 reverse 可以将滑动条置反。",
         "en": "Reversed: Reverse Using reverse to render slider reversely."
-      }
+      },
+      "__ID__": "e97e9981"
     },
     {
       "title": "slider-控制 ToolTip 的显示",
@@ -9742,7 +10090,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。",
         "en": "Control visible of ToolTip When tooltipVisible is true, ToolTip will show always, or ToolTip will not show anyway, even if dragging or hovering."
-      }
+      },
+      "__ID__": "70447d61"
     },
     {
       "title": "slider-自定义提示",
@@ -9770,7 +10119,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。",
         "en": "Customize tooltip Use tipFormatter to format content of Tooltip. If tipFormatter is null, hide it."
-      }
+      },
+      "__ID__": "691867f1"
     },
     {
       "title": "slider-垂直",
@@ -9798,7 +10148,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。",
         "en": "0°C 26°C 37°C 100°C Vertical The vertical Slider."
-      }
+      },
+      "__ID__": "a83e249c"
     },
     {
       "title": "spin-基本用法",
@@ -9826,7 +10177,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本用法 一个简单的 loading 状态。",
         "en": "basic Usage A simple loading status."
-      }
+      },
+      "__ID__": "1cf35a3a"
     },
     {
       "title": "spin-自定义指示符",
@@ -9854,7 +10206,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "自定义指示符 使用自定义指示符。",
         "en": "Custom spinning indicator Use custom loading indicator."
-      }
+      },
+      "__ID__": "13617b58"
     },
     {
       "title": "spin-延迟",
@@ -9882,7 +10235,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。",
         "en": "Alert message title Further details about the context of this alert. Loading state： delay Specifies a delay for loading state. If spinning ends during delay, loading status won't appear."
-      }
+      },
+      "__ID__": "1334a485"
     },
     {
       "title": "spin-容器",
@@ -9910,7 +10264,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "容器 放入一个容器中。",
         "en": "Inside a container Spin in a container."
-      }
+      },
+      "__ID__": "779fd7b3"
     },
     {
       "title": "spin-卡片加载中",
@@ -9938,7 +10293,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。",
         "en": "Alert message title Further details about the context of this alert. Loading state： Embedded mode Embedding content into Spin will set it into loading state."
-      }
+      },
+      "__ID__": "3cdd11fa"
     },
     {
       "title": "spin-各种大小",
@@ -9966,7 +10322,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。",
         "en": "Size A small Spin is used for loading text, default sized Spin for loading a card-level block, and large Spin used for loading a page."
-      }
+      },
+      "__ID__": "97117ce"
     },
     {
       "title": "spin-自定义描述文案",
@@ -9994,7 +10351,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。",
         "en": "Loading... Alert message title Further details about the context of this alert. Customized description Customized description content."
-      }
+      },
+      "__ID__": "47778d70"
     },
     {
       "title": "statistic-基本",
@@ -10022,7 +10380,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。",
         "en": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
-      }
+      },
+      "__ID__": "6e2d0f40"
     },
     {
       "title": "statistic-在卡片中使用",
@@ -10050,7 +10409,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。",
         "en": "Active 11.28% Idle 9.30% In Card Display statistic data in Card."
-      }
+      },
+      "__ID__": "564aebc3"
     },
     {
       "title": "statistic-倒计时",
@@ -10078,7 +10438,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Countdown 48:00:23 Million Seconds 48:00:23:720 Day Level 2 天 0 时 0 分 23 秒 倒计时 倒计时组件。",
         "en": "Countdown 48:00:25 Million Seconds 48:00:25:116 Day Level 2 天 0 时 0 分 25 秒 Countdown Countdown component."
-      }
+      },
+      "__ID__": "59d32920"
     },
     {
       "title": "statistic-单位",
@@ -10106,7 +10467,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。",
         "en": "Feedback 1,128 Unmerged 93/ 100 Unit Add unit through prefix and suffix."
-      }
+      },
+      "__ID__": "1d466181"
     },
     {
       "title": "steps-可点击",
@@ -10134,7 +10496,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。",
         "en": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. Clickable Setting onChange makes Steps clickable."
-      }
+      },
+      "__ID__": "23ae3992"
     },
     {
       "title": "steps-自定义点状步骤条",
@@ -10162,7 +10525,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。",
         "en": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. Customized Dot Style You can customize the display for Steps with progress dot style."
-      }
+      },
+      "__ID__": "f17a9ef"
     },
     {
       "title": "steps-步骤运行错误",
@@ -10190,7 +10554,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。",
         "en": "Finished This is a description In Process This is a description 3Waiting This is a description Error status By using status of Steps, you can specify the state for current step."
-      }
+      },
+      "__ID__": "305afede"
     },
     {
       "title": "steps-带图标的步骤条",
@@ -10218,7 +10583,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。",
         "en": "Login Verification Pay Done With icon You can use your own custom icons by setting the property icon for Steps.Step."
-      }
+      },
+      "__ID__": "6c6625db"
     },
     {
       "title": "steps-导航步骤",
@@ -10246,7 +10612,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait 导航步骤 导航类型的步骤条。",
         "en": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait Navigation Steps Navigation steps."
-      }
+      },
+      "__ID__": "3ff7aafa"
     },
     {
       "title": "steps-点状步骤条",
@@ -10274,7 +10641,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. 点状步骤条 包含步骤点的进度条。",
         "en": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. Dot Style Steps with progress dot style."
-      }
+      },
+      "__ID__": "28e2243d"
     },
     {
       "title": "steps-基本用法",
@@ -10302,7 +10670,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. 基本用法 简单的步骤条。",
         "en": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. Basic The most basic step bar."
-      }
+      },
+      "__ID__": "ba0065aa"
     },
     {
       "title": "steps-迷你版",
@@ -10330,7 +10699,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished 2In Progress 3Waiting 迷你版 迷你版的步骤条，通过设置 <Steps size=\"small\"> 启用.",
         "en": "Finished 2In Progress 3Waiting Mini version By setting like this: <Steps size=\"small\">, you can get a mini version."
-      }
+      },
+      "__ID__": "936bed24"
     },
     {
       "title": "steps-步骤切换",
@@ -10358,7 +10728,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。",
         "en": "1First 2Second 3Last First-content Next Switch Step Cooperate with the content and buttons, to represent the progress of a process."
-      }
+      },
+      "__ID__": "de36ba4d"
     },
     {
       "title": "steps-竖直方向的小型步骤条",
@@ -10386,7 +10757,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。",
         "en": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical mini version A simple mini version step bar in the vertical direction."
-      }
+      },
+      "__ID__": "41bf1c70"
     },
     {
       "title": "steps-竖直方向的步骤条",
@@ -10414,7 +10786,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。",
         "en": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical A simple step bar in the vertical direction."
-      }
+      },
+      "__ID__": "6421630b"
     },
     {
       "title": "switch-基本",
@@ -10442,7 +10815,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 最简单的用法。",
         "en": "Basic The most basic usage."
-      }
+      },
+      "__ID__": "29efd97a"
     },
     {
       "title": "switch-不可用",
@@ -10470,7 +10844,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Toggle disabled 不可用 Switch 失效状态。",
         "en": " Toggle disabled Disabled Disabled state of Switch."
-      }
+      },
+      "__ID__": "8c3d267"
     },
     {
       "title": "switch-加载中",
@@ -10498,7 +10873,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 加载中 标识开关操作仍在执行中。",
         "en": " Loading Mark a pending state of switch."
-      }
+      },
+      "__ID__": "e9a4de58"
     },
     {
       "title": "switch-两种大小",
@@ -10526,7 +10902,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " 两种大小 size=\"small\" 表示小号开关。",
         "en": " Two sizes size=\"small\" represents a small sized switch."
-      }
+      },
+      "__ID__": "a812dc04"
     },
     {
       "title": "switch-文字和图标",
@@ -10554,7 +10931,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "开 0 文字和图标 带有文字和图标。",
         "en": "开 0 Text & icon With text and icon."
-      }
+      },
+      "__ID__": "76620db0"
     },
     {
       "title": "table-远程加载数据",
@@ -10582,7 +10960,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Gender Email Alexandra Fletcher female alexandra.fletcher@example.com Clara Dumas female clara.dumas@example.com Emma Maunu female emma.maunu@example.com Deborah Fox female deborah.fox@example.com نيما مرادی male nym.mrdy@example.com بهار سلطانی نژاد female bhr.sltnynjd@example.com Eduardo Crespo male eduardo.crespo@example.com Francoise Hinz female francoise.hinz@example.com Celina Meunier female celina.meunier@example.com Leo Brown male leo.brown@example.com 1 2 3 4 5 ••• 20 10 条/页 远程加载数据 这个例子通过简单的 ajax 读取方式，演示了如何从服务端读取并展现数据，具有筛选、排序等功能以及页面 loading 效果。开发者可以自行接入其他数据处理方式。 另外，本例也展示了筛选排序功能如何交给服务端实现，列不需要指定具体的 onFilter 和 sorter 函数，而是在把筛选和排序的参数发到服务端来处理。 注意，此示例使用 模拟接口，展示数据可能不准确，请打开网络面板查看请求。",
         "en": "Name Gender Email Patrick Morin male patrick.morin@example.com یلدا حسینی female yld.hsyny@example.com Lilly Chen female lilly.chen@example.com Felix Christensen male felix.christensen@example.com Emma Kauppi female emma.kauppi@example.com Elsa Duval female elsa.duval@example.com Aada Aro female aada.aro@example.com Jimi Aho male jimi.aho@example.com Encarnacion Herrero female encarnacion.herrero@example.com Nilzete da Rosa female nilzete.darosa@example.com 1 2 3 4 5 ••• 20 10 / page Ajax This example shows how to fetch and present data from a remote server, and how to implement filtering and sorting in server side by sending related parameters to server. Note, this example use Mock API that you can look up in Network Console."
-      }
+      },
+      "__ID__": "fbfb38cb"
     },
     {
       "title": "table-带边框",
@@ -10610,7 +10989,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Header Name Cash Assets Address John Brown ￥300,000.00 New York No. 1 Lake Park Jim Green ￥1,256,000.00 London No. 1 Lake Park Joe Black ￥120,000.00 Sidney No. 1 Lake Park Footer 1 带边框 添加表格边框线，页头和页脚。",
         "en": "Header Name Cash Assets Address John Brown ￥300,000.00 New York No. 1 Lake Park Jim Green ￥1,256,000.00 London No. 1 Lake Park Joe Black ￥120,000.00 Sidney No. 1 Lake Park Footer 1 border, title and footer Add border, title and footer for table."
-      }
+      },
+      "__ID__": "739dafc3"
     },
     {
       "title": "table-表格行/列合并",
@@ -10638,7 +11018,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Home phone Address John Brown 32 0571-22098909 18889898989 New York No. 1 Lake Park Jim Green 42 0571-22098333 18889898888 London No. 1 Lake Park Joe Black 32 0575-22098909 18900010002 Sidney No. 1 Lake Park Jim Red 18 18900010002 London No. 2 Lake Park Jake White 1 表格行/列合并 表头只支持列合并，使用 column 里的 colSpan 进行设置。 表格支持行/列合并，使用 render 里的单元格属性 colSpan 或者 rowSpan 设值为 0 时，设置的表格不会渲染。",
         "en": "Name Age Home phone Address John Brown 32 0571-22098909 18889898989 New York No. 1 Lake Park Jim Green 42 0571-22098333 18889898888 London No. 1 Lake Park Joe Black 32 0575-22098909 18900010002 Sidney No. 1 Lake Park Jim Red 18 18900010002 London No. 2 Lake Park Jake White 1 colSpan and rowSpan Table column title supports colSpan that set in column. Table cell supports colSpan and rowSpan that set in render return object. When each of them is set to 0, the cell will not be rendered."
-      }
+      },
+      "__ID__": "867b9386"
     },
     {
       "title": "table-自定义筛选菜单",
@@ -10666,7 +11047,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Joe Black 42 London No. 1 Lake Park Jim Green 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 自定义筛选菜单 通过 filterDropdown 自定义的列筛选功能，并实现一个搜索列的示例。",
         "en": "Name Age Address John Brown 32 New York No. 1 Lake Park Joe Black 42 London No. 1 Lake Park Jim Green 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Customized filter panel Implement a customized column search example via filterDropdown."
-      }
+      },
+      "__ID__": "70a5e5ee"
     },
     {
       "title": "table-拖拽排序",
@@ -10694,7 +11076,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 拖拽排序 使用自定义元素，我们可以集成 react-dnd 来实现拖拽排序。",
         "en": "Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Drag sorting By using custom components, we can integrate table with react-dnd to implement drag sorting."
-      }
+      },
+      "__ID__": "fd7c4c3"
     },
     {
       "title": "table-动态控制表格属性",
@@ -10722,7 +11105,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 动态控制表格属性 选择不同配置组合查看效果。",
         "en": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 Dynamic Settings Select different settings to see the result."
-      }
+      },
+      "__ID__": "326c22d8"
     },
     {
       "title": "table-可编辑单元格",
@@ -10750,7 +11134,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。",
         "en": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 Editable Cells Table with editable cells."
-      }
+      },
+      "__ID__": "c7e3c74d"
     },
     {
       "title": "table-可编辑行",
@@ -10778,7 +11163,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 条/页 可编辑行 带行编辑功能的表格。",
         "en": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 / page Editable Rows Table with editable rows."
-      }
+      },
+      "__ID__": "a330a99f"
     },
     {
       "title": "table-单元格自动省略",
@@ -10806,7 +11192,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 单元格自动省略 设置 column.ellipsis 可以让单元格内容根据宽度自动省略。 列头缩略暂不支持和排序筛选一起使用。",
         "en": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 ellipsis column Ellipsis cell content via setting column.ellipsis. Cannot ellipsis table header with sorters and filters for now."
-      }
+      },
+      "__ID__": "784f8b61"
     },
     {
       "title": "table-树形数据展示",
@@ -10834,7 +11221,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 树形数据展示 表格支持树形数据的展示，当数据中有 children 字段时会自动展示为树形表格，如果不需要或配置为其他字段可以用 childrenColumnName 进行配置。 可以通过设置 indentSize 以控制每一层的缩进宽度。 注：暂不支持父子数据递归关联选择。",
         "en": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Tree data Display tree structure data in Table when there is field key children in dataSource, try to customize childrenColumnName property to avoid tree table structure. You can control the indent width by setting indentSize. Note, no support for recursive selection of tree structure data table yet."
-      }
+      },
+      "__ID__": "fbd72e21"
     },
     {
       "title": "table-可展开",
@@ -10862,7 +11250,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 可展开 当表格内容较多不能一次性完全展示时。",
         "en": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 Expandable Row When there's too much information to show and the table can't display all at once."
-      }
+      },
+      "__ID__": "f961b624"
     },
     {
       "title": "table-固定头和列",
@@ -10890,7 +11279,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 条/页 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。",
         "en": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 / page Fixed Columns and Header A Solution for displaying large amounts of data with long columns. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x."
-      }
+      },
+      "__ID__": "b722cc11"
     },
     {
       "title": "table-固定列",
@@ -10918,7 +11308,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。",
         "en": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 Fixed Columns To fix some columns and scroll inside other columns, and you must set scroll.x meanwhile. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x. Note: v4 using sticky to implement fixed effect. IE 11 will downgrade to horizontal scroll."
-      }
+      },
+      "__ID__": "7d28e011"
     },
     {
       "title": "table-固定表头",
@@ -10946,7 +11337,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 条/页 固定表头 方便一页内展示大量数据。 需要指定 column 的 width 属性，否则列头和内容可能不对齐。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。",
         "en": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 / page Fixed Header Display large amounts of data in scrollable view. Specify width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout."
-      }
+      },
+      "__ID__": "b18eca6"
     },
     {
       "title": "table-表头分组",
@@ -10974,7 +11366,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 条/页 表头分组 columns[n] 可以内嵌 children，以渲染分组表头。",
         "en": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 / page Grouping table head Group table head with columns[n].children."
-      }
+      },
+      "__ID__": "11c362e0"
     },
     {
       "title": "table-筛选和排序",
@@ -11002,7 +11395,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 筛选和排序 对某一列数据进行筛选，使用列的 filters 属性来指定需要筛选菜单的列，onFilter 用于筛选当前数据，filterMultiple 用于指定多选和单选。 对某一列数据进行排序，通过指定列的 sorter 函数即可启动排序按钮。sorter: function(rowA, rowB) { ... }， rowA、rowB 为比较的两个行数据。 sortDirections: ['ascend' | 'descend']改变每列可用的排序方式，切换排序时按数组内容依次切换，设置在 table props 上时对所有列生效。 使用 defaultSortOrder 属性，设置列的默认排序顺序。",
         "en": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Filter and sorter Use filters to generate filter menu in columns, onFilter to determine filtered result, and filterMultiple to indicate whether it's multiple or single selection. Uses defaultFilteredValue to make a column filtered by default. Use sorter to make a column sortable. sorter can be a function of the type function(a, b) { ... } for sorting data locally. sortDirections: ['ascend' | 'descend'] defines available sort methods for each columns, effective for all columns when set on table props. Uses defaultSortOrder to make a column sorted by default. If a sortOrder or defaultSortOrder is specified with the value ascend or descend, you can access this value from within the function passed to the sorter as explained above. Such a function can take the form: function(a, b, sortOrder) { ... }."
-      }
+      },
+      "__ID__": "ba9be722"
     },
     {
       "title": "table-JSX 风格的 API",
@@ -11030,7 +11424,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。",
         "en": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX style API Using JSX style API (introduced in 2.5.0) Since this is just a syntax sugar for the prop columns, you can't compose Column and ColumnGroup with other Components."
-      }
+      },
+      "__ID__": "d18ca097"
     },
     {
       "title": "table-多列排序",
@@ -11058,7 +11453,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 多列排序 column.sorter 支持 multiple 字段以配置多列排序优先级。通过 sorter.compare 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。",
         "en": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 Multiple sorter column.sorter support multiple to config the priority of sort columns. Though sorter.compare to customize compare function. You can also leave it empty to use the interactive only."
-      }
+      },
+      "__ID__": "550f1bfd"
     },
     {
       "title": "table-嵌套子表格",
@@ -11086,7 +11482,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 嵌套子表格 展示每行数据更详细的信息。",
         "en": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 Nested tables Showing more detailed info of every row."
-      }
+      },
+      "__ID__": "6ed1dd58"
     },
     {
       "title": "table-可控的筛选和排序",
@@ -11114,7 +11511,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 可控的筛选和排序 使用受控属性对筛选和排序状态进行控制。 columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。 务必指定 column.key。",
         "en": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Reset filters and sorters Control filters and sorters by filteredValue and sortOrder. Defining filteredValue or sortOrder means that it is in the controlled mode. Make sure sortOrder is assigned for only one column. column.key is required."
-      }
+      },
+      "__ID__": "214cf01e"
     },
     {
       "title": "table-可伸缩列",
@@ -11142,7 +11540,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 可伸缩列 集成 react-resizable 来实现可伸缩列。",
         "en": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 Resizable column Implement resizable column by integrate with react-resizable."
-      }
+      },
+      "__ID__": "466f939d"
     },
     {
       "title": "table-选择和操作",
@@ -11170,7 +11569,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。",
         "en": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 Selection and operation To perform operations and clear selections after selecting some rows, use rowSelection.selectedRowKeys to control selected rows."
-      }
+      },
+      "__ID__": "3779546e"
     },
     {
       "title": "table-自定义选择项",
@@ -11198,7 +11598,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 自定义选择项 通过 rowSelection.selections 自定义选择项，默认不显示下拉选项，设为 true 时显示默认选择项。",
         "en": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 Custom selection Use rowSelection.selections custom selections, default no select dropdown, show default selections via setting to true."
-      }
+      },
+      "__ID__": "ef6593c7"
     },
     {
       "title": "table-紧凑型",
@@ -11226,7 +11627,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 紧凑型 两种紧凑型的列表，小型列表只用于对话框内。",
         "en": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 size There are two compacted table sizes: middle and small. The small size is used in Modals only."
-      }
+      },
+      "__ID__": "2c769e9e"
     },
     {
       "title": "table-总结栏",
@@ -11254,7 +11656,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 总结栏 通过 summary 设置总结栏。",
         "en": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 Summary Set summary content by summary prop."
-      }
+      },
+      "__ID__": "d3128edb"
     },
     {
       "title": "table-虚拟列表",
@@ -11282,7 +11685,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。",
         "en": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 Virtual list Integrate virtual scroll with react-window to achieve a high performance table of 100,000 data."
-      }
+      },
+      "__ID__": "1c5b64c3"
     },
     {
       "title": "tabs-卡片式页签容器",
@@ -11310,7 +11714,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。",
         "en": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 Container of card type Tab Should be used at the top of container, needs to override styles."
-      }
+      },
+      "__ID__": "8a830da9"
     },
     {
       "title": "tabs-卡片式页签",
@@ -11338,7 +11743,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。",
         "en": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Card type tab Another type of Tabs, which doesn't support vertical mode."
-      }
+      },
+      "__ID__": "fbf674b3"
     },
     {
       "title": "tabs-自定义新增页签触发器",
@@ -11366,7 +11772,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。",
         "en": "ADD Tab 1 Tab 2 Content of Tab Pane 1 Customized trigger of new tab Hide default plus icon, and bind event for customized trigger."
-      }
+      },
+      "__ID__": "10f4a8"
     },
     {
       "title": "tabs-可拖拽标签",
@@ -11394,7 +11801,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "tab 1tab 2tab 3 Content of Tab Pane 1 可拖拽标签 使用 react-dnd 实现标签可拖拽。",
         "en": "tab 1tab 2tab 3 Content of Tab Pane 1 Draggable Tabs Use react-dnd to make tabs draggable."
-      }
+      },
+      "__ID__": "a02645fc"
     },
     {
       "title": "tabs-自定义页签头",
@@ -11422,7 +11830,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。",
         "en": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Customized bar of tab Use react-sticky."
-      }
+      },
+      "__ID__": "86c96acb"
     },
     {
       "title": "tabs-禁用",
@@ -11450,7 +11859,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。",
         "en": "Tab 1Tab 2Tab 3 Tab 1 Disabled Disabled a tab."
-      }
+      },
+      "__ID__": "40408300"
     },
     {
       "title": "tabs-新增和关闭页签",
@@ -11478,7 +11888,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。",
         "en": "Tab 1 Tab 2 Tab 3 Content of Tab 1 Add & close tab Only card type Tabs support adding & closable. +Use closable={false} to disable close."
-      }
+      },
+      "__ID__": "a0da5e64"
     },
     {
       "title": "tabs-附加内容",
@@ -11506,7 +11917,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。",
         "en": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 Extra content You can add extra actions to the right of Tabs."
-      }
+      },
+      "__ID__": "9d9c9ceb"
     },
     {
       "title": "tabs-图标",
@@ -11534,7 +11946,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab 1Tab 2 Tab 2 图标 有图标的标签。",
         "en": "Tab 1Tab 2 Tab 2 Icon The Tab with Icon."
-      }
+      },
+      "__ID__": "215894b8"
     },
     {
       "title": "tabs-位置",
@@ -11562,7 +11975,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。",
         "en": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 Position Tab's position: left, right, top or bottom."
-      }
+      },
+      "__ID__": "1a187801"
     },
     {
       "title": "tabs-大小",
@@ -11590,7 +12004,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。",
         "en": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 Size Large size tabs are usually used in page header, and small size could be used in Modal."
-      }
+      },
+      "__ID__": "1775b07c"
     },
     {
       "title": "tabs-滑动",
@@ -11618,7 +12033,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。",
         "en": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 Slide In order to fit in more tabs, they can slide left and right (or up and down)."
-      }
+      },
+      "__ID__": "d90f34a3"
     },
     {
       "title": "tag-添加动画",
@@ -11646,7 +12062,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。",
         "en": "Tag 1Tag 2Tag 3 New Tag Animate Animating the Tag by using rc-tween-one."
-      }
+      },
+      "__ID__": "e881cf7c"
     },
     {
       "title": "tag-基本",
@@ -11674,7 +12091,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。",
         "en": "Tag 1LinkTag 2Prevent Default Basic Usage of basic Tag, and it could be closable by set closable property. Closable Tag supports onClose events."
-      }
+      },
+      "__ID__": "ff2885e0"
     },
     {
       "title": "tag-可选择",
@@ -11702,7 +12120,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。",
         "en": "Tag1Tag2Tag3 Checkable CheckableTag works like Checkbox, click it to toggle checked state. it is an absolute controlled component and has no uncontrolled mode."
-      }
+      },
+      "__ID__": "2bd57888"
     },
     {
       "title": "tag-多彩标签",
@@ -11730,7 +12149,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。",
         "en": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 Colorful Tag We preset a series of colorful tag styles for use in different situations. You can also set it to a hex color string for custom color."
-      }
+      },
+      "__ID__": "3f487850"
     },
     {
       "title": "tag-动态添加和删除",
@@ -11758,7 +12178,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。",
         "en": "UnremovableTag 2Tag 3 New Tag Add & Remove Dynamically Generating a set of Tags by array, you can add and remove dynamically."
-      }
+      },
+      "__ID__": "eaeead19"
     },
     {
       "title": "tag-控制关闭状态",
@@ -11786,7 +12207,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。",
         "en": "Movies Toggle Controlled By using the visible prop, you can control the close state of Tag."
-      }
+      },
+      "__ID__": "2b97097f"
     },
     {
       "title": "tag-热门标签",
@@ -11814,7 +12236,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。",
         "en": "Categories:MoviesBooksMusicSports Hot Tags Select your favourite topics."
-      }
+      },
+      "__ID__": "82e8b7d9"
     },
     {
       "title": "tag-预设状态的标签",
@@ -11842,7 +12265,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。",
         "en": "successprocessingerrordefaultwarning Status Tag We preset five different colors, you can set color property such as success,processing,error,default and warning to indicate specific status."
-      }
+      },
+      "__ID__": "199feea3"
     },
     {
       "title": "time-picker-12 小时制",
@@ -11870,7 +12294,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。",
         "en": "12 hours TimePicker of 12 hours format, with default format h:mm:ss a."
-      }
+      },
+      "__ID__": "6431bc8e"
     },
     {
       "title": "time-picker-附加内容",
@@ -11898,7 +12323,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "附加内容 在 TimePicker 选择框底部显示自定义的内容。",
         "en": "Addon Render addon contents to time picker panel's bottom."
-      }
+      },
+      "__ID__": "e585d37c"
     },
     {
       "title": "time-picker-基本",
@@ -11926,7 +12352,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。",
         "en": "Basic Click TimePicker, and then we could select or input a time in panel."
-      }
+      },
+      "__ID__": "bcf0af7"
     },
     {
       "title": "time-picker-禁用",
@@ -11954,7 +12381,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "禁用 禁用时间选择。",
         "en": "disabled A disabled state of the TimePicker."
-      }
+      },
+      "__ID__": "d7f6a10e"
     },
     {
       "title": "time-picker-选择时分",
@@ -11982,7 +12410,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。",
         "en": "Hour and minute While part of format is omitted, the corresponding column in panel will disappear, too."
-      }
+      },
+      "__ID__": "4b040a09"
     },
     {
       "title": "time-picker-步长选项",
@@ -12010,7 +12439,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。",
         "en": "interval option Show stepped options by hourStep minuteStep secondStep."
-      }
+      },
+      "__ID__": "9bae5f3"
     },
     {
       "title": "time-picker-范围选择器",
@@ -12038,7 +12468,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。",
         "en": "→ Range Picker Use time range picker with RangePicker."
-      }
+      },
+      "__ID__": "916f79bd"
     },
     {
       "title": "time-picker-三种大小",
@@ -12066,7 +12497,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。",
         "en": "Three Sizes The input box comes in three sizes. large is used in the form, while the medium size is the default."
-      }
+      },
+      "__ID__": "55233927"
     },
     {
       "title": "time-picker-受控组件",
@@ -12094,7 +12526,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "受控组件 value 和 onChange 需要配合使用。",
         "en": "Under Control value and onChange should be used together,"
-      }
+      },
+      "__ID__": "30d9a2a"
     },
     {
       "title": "timeline-交替展现",
@@ -12122,7 +12555,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。",
         "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 Alternate Alternate timeline."
-      }
+      },
+      "__ID__": "463078f4"
     },
     {
       "title": "timeline-基本用法",
@@ -12150,7 +12584,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。",
         "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Basic Basic timeline."
-      }
+      },
+      "__ID__": "6158a00a"
     },
     {
       "title": "timeline-圆圈颜色",
@@ -12178,7 +12613,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。",
         "en": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Color Set the color of circles. green means completed or success status, red means warning or error, and blue means ongoing or other default status, gray for unfinished or disabled status."
-      }
+      },
+      "__ID__": "7a588173"
     },
     {
       "title": "timeline-自定义时间轴点",
@@ -12206,7 +12642,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。",
         "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Custom Set a node as an icon or other custom element."
-      }
+      },
+      "__ID__": "4e000b31"
     },
     {
       "title": "timeline-标签",
@@ -12234,7 +12671,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。",
         "en": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved Label Use label show time alone."
-      }
+      },
+      "__ID__": "71f7fe26"
     },
     {
       "title": "timeline-最后一个及排序",
@@ -12262,7 +12700,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。",
         "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse Last node and Reversing When the timeline is incomplete and ongoing, put a ghost node at last. Set pending as truthy value to enable displaying pending item. You can customize the pending content by passing a React Element. Meanwhile, pendingDot={a React Element} is used to customize the dot of the pending item. reverse={true} is used for reversing nodes."
-      }
+      },
+      "__ID__": "6b828079"
     },
     {
       "title": "timeline-右侧时间轴点",
@@ -12290,7 +12729,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。",
         "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Right alternate Right alternate timeline."
-      }
+      },
+      "__ID__": "17f31333"
     },
     {
       "title": "tooltip-箭头指向",
@@ -12318,7 +12758,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。",
         "en": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 Arrow pointing at the center By specifying arrowPointAtCenter prop, the arrow will point to the center of the target element."
-      }
+      },
+      "__ID__": "a944fff3"
     },
     {
       "title": "tooltip-基本",
@@ -12346,7 +12787,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Tooltip will show on mouse enter. 基本 最简单的用法。",
         "en": "Tooltip will show on mouse enter. Basic The simplest usage."
-      }
+      },
+      "__ID__": "8dd54de5"
     },
     {
       "title": "tooltip-位置",
@@ -12374,7 +12816,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。",
         "en": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available."
-      }
+      },
+      "__ID__": "582c6865"
     },
     {
       "title": "transfer-高级用法",
@@ -12402,7 +12845,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "10 项 content1-description of content1 content2-description of content2 content3-description of content3 content9-description of content9 content13-description of content13 content14-description of content14 content15-description of content15 content16-description of content16 content18-description of content18 content19-description of content19 reload to right to left 10 项 content4-description of content4 content5-description of content5 content6-description of content6 content7-description of content7 content8-description of content8 content10-description of content10 content11-description of content11 content12-description of content12 content17-description of content17 content20-description of content20 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。",
         "en": "11 items content4-description of content4 content5-description of content5 content6-description of content6 content8-description of content8 content11-description of content11 content13-description of content13 content14-description of content14 content16-description of content16 content17-description of content17 content18-description of content18 content19-description of content19 reload to right to left 9 items content1-description of content1 content2-description of content2 content3-description of content3 content7-description of content7 content9-description of content9 content10-description of content10 content12-description of content12 content15-description of content15 content20-description of content20 reload Advanced Advanced Usage of Transfer. You can customize the labels of the transfer buttons, the width and height of the columns, and what should be displayed in the footer."
-      }
+      },
+      "__ID__": "f0e4ee7e"
     },
     {
       "title": "transfer-基本用法",
@@ -12430,7 +12874,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。",
         "en": "14 items Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 items Target content3 content6 content9 content12 content15 content18 disabled Basic The most basic usage of Transfer involves providing the source data and target keys arrays, plus the rendering and some callback functions."
-      }
+      },
+      "__ID__": "fb9ceaee"
     },
     {
       "title": "transfer-自定义渲染行数据",
@@ -12458,7 +12903,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "10 项 content1 - description of content1 content6 - description of content6 content8 - description of content8 content9 - description of content9 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content18 - description of content18 content19 - description of content19 10 项 content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content10 - description of content10 content11 - description of content11 content13 - description of content13 content17 - description of content17 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。",
         "en": "11 items content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content9 - description of content9 content11 - description of content11 content12 - description of content12 content15 - description of content15 content17 - description of content17 content19 - description of content19 9 items content1 - description of content1 content6 - description of content6 content8 - description of content8 content10 - description of content10 content13 - description of content13 content14 - description of content14 content16 - description of content16 content18 - description of content18 content20 - description of content20 Custom datasource Custom each Transfer Item, and in this way you can render a complex datasource."
-      }
+      },
+      "__ID__": "ab77f203"
     },
     {
       "title": "transfer-带搜索框",
@@ -12486,7 +12932,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "12 项 content1 content2 content3 content5 content6 content9 content10 content11 content15 content16 content17 content19 8 项 content4 content7 content8 content12 content13 content14 content18 content20 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。",
         "en": "12 items content2 content3 content5 content6 content9 content10 content11 content14 content15 content18 content19 content20 8 items content1 content4 content7 content8 content12 content13 content16 content17 Search Transfer with a search box."
-      }
+      },
+      "__ID__": "3fa5c10e"
     },
     {
       "title": "transfer-表格穿梭框",
@@ -12514,7 +12961,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。",
         "en": "14 items Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 items Name content3 content6 content9 content12 content15 content18 1 disabled showSearch Table Transfer Customize render list with Table component."
-      }
+      },
+      "__ID__": "3fbd95d0"
     },
     {
       "title": "transfer-树穿梭框",
@@ -12542,7 +12990,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。",
         "en": "5 items 0-0 0-1 0-1-0 0-1-1 0-3 0 item No Data Tree Transfer Customize render list with Tree component."
-      }
+      },
+      "__ID__": "1e8849be"
     },
     {
       "title": "tree-受控操作示例",
@@ -12570,7 +13019,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例",
         "en": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 Controlled Tree Controlled mode lets parent nodes reflect the status of child nodes more intelligently."
-      }
+      },
+      "__ID__": "f125cbe9"
     },
     {
       "title": "tree-基本",
@@ -12598,7 +13048,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。",
         "en": "parent 1 parent 1-0 leaf leaf parent 1-1 sss Basic The most basic usage, tell you how to use checkable, selectable, disabled, defaultExpandKeys, and etc."
-      }
+      },
+      "__ID__": "992ade0e"
     },
     {
       "title": "tree-自定义图标",
@@ -12626,7 +13077,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。",
         "en": "parent 1 leaf leaf Customize Icon You can customize icons for different nodes."
-      }
+      },
+      "__ID__": "4f5d80dd"
     },
     {
       "title": "tree-目录",
@@ -12654,7 +13106,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。",
         "en": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 directory Built-in directory tree. multiple support ctrl(Windows) / command(Mac) selection."
-      }
+      },
+      "__ID__": "6d1f0a59"
     },
     {
       "title": "tree-拖动示例",
@@ -12682,7 +13135,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。",
         "en": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 draggable Drag treeNode to insert after the other treeNode or insert into the other parent TreeNode."
-      }
+      },
+      "__ID__": "a0668ca6"
     },
     {
       "title": "tree-异步数据加载",
@@ -12710,7 +13164,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。",
         "en": "Expand to load Expand to load Tree Node load data asynchronously To load data asynchronously when click to expand a treeNode."
-      }
+      },
+      "__ID__": "3761c5f9"
     },
     {
       "title": "tree-连接线",
@@ -12738,7 +13193,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。",
         "en": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Tree with line Tree with connected line between nodes, turn on by showLine, customize the preseted icon by switcherIcon."
-      }
+      },
+      "__ID__": "98ca6a07"
     },
     {
       "title": "tree-可搜索",
@@ -12766,7 +13222,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0-0 0-1 0-2 可搜索 可搜索的树。",
         "en": "0-0 0-1 0-2 Searchable Searchable Tree."
-      }
+      },
+      "__ID__": "410317f6"
     },
     {
       "title": "tree-自定义展开/折叠图标",
@@ -12794,7 +13251,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。",
         "en": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Customize collapse/expand icon customize collapse/expand icon of tree node"
-      }
+      },
+      "__ID__": "28ce5026"
     },
     {
       "title": "tree-虚拟滚动",
@@ -12822,7 +13280,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。",
         "en": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 Virtual scroll Use virtual list through height prop."
-      }
+      },
+      "__ID__": "af5ccb24"
     },
     {
       "title": "tree-select-异步加载",
@@ -12850,7 +13309,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Please select 异步加载 异步加载树节点。",
         "en": "Please select Asynchronous loading Asynchronous loading tree node."
-      }
+      },
+      "__ID__": "8f4ee8ab"
     },
     {
       "title": "tree-select-基本",
@@ -12878,7 +13338,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Please select 基本 最简单的用法。",
         "en": "Please select Basic The most basic usage."
-      }
+      },
+      "__ID__": "a1c44771"
     },
     {
       "title": "tree-select-可勾选",
@@ -12906,7 +13367,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Node1 可勾选 使用勾选框实现多选功能。",
         "en": "Node1 Checkable Multiple and checkable."
-      }
+      },
+      "__ID__": "f55a3658"
     },
     {
       "title": "tree-select-多选",
@@ -12934,7 +13396,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Please select 多选 多选的树选择。",
         "en": "Please select Multiple Selection Multiple selection usage."
-      }
+      },
+      "__ID__": "dda3bec4"
     },
     {
       "title": "tree-select-从数据直接生成",
@@ -12962,7 +13425,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。",
         "en": "Please select Generate from tree data The tree structure can be populated using treeData property. This is a quick and easy way to provide the tree content."
-      }
+      },
+      "__ID__": "5df008e1"
     },
     {
       "title": "typography-基本",
@@ -12990,7 +13454,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。",
         "en": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 Basic Display the document sample."
-      }
+      },
+      "__ID__": "7e79fa2d"
     },
     {
       "title": "typography-省略号",
@@ -13018,7 +13483,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refi...展开 省略号 多行文本省略。",
         "en": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is r...Expand Ellipsis Multiple line ellipsis support."
-      }
+      },
+      "__ID__": "5773ee12"
     },
     {
       "title": "typography-可交互",
@@ -13046,7 +13512,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。",
         "en": "This is an editable text. This is a copyable text. Replace copy text. Interactive Provide additional interactive capacity of editable and copyable."
-      }
+      },
+      "__ID__": "9f00d33a"
     },
     {
       "title": "typography-后缀",
@@ -13074,7 +13541,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. The s...--William Shakespeare展开 后缀 添加后缀的省略。",
         "en": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. Th...--William ShakespeareExpand suffix add suffix ellipsis support."
-      }
+      },
+      "__ID__": "e69a6e75"
     },
     {
       "title": "typography-文本组件",
@@ -13102,7 +13570,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。",
         "en": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Text Component Provides multiple types of text."
-      }
+      },
+      "__ID__": "a88e7f6b"
     },
     {
       "title": "typography-标题组件",
@@ -13130,7 +13599,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。",
         "en": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design Title Component Display title in different level."
-      }
+      },
+      "__ID__": "c831849a"
     },
     {
       "title": "upload-点击上传",
@@ -13158,7 +13628,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。",
         "en": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
-      }
+      },
+      "__ID__": "9f150c0d"
     },
     {
       "title": "upload-已上传的文件列表",
@@ -13186,7 +13657,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。",
         "en": "Upload xxx.png yyy.png zzz.png Default Files Use defaultFileList for uploaded files when page init."
-      }
+      },
+      "__ID__": "8469c71e"
     },
     {
       "title": "upload-文件夹上传",
@@ -13214,7 +13686,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。",
         "en": "Upload Directory Upload directory You can select and upload a whole directory."
-      }
+      },
+      "__ID__": "99499bdb"
     },
     {
       "title": "upload-拖拽上传",
@@ -13242,7 +13715,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。",
         "en": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files Drag and Drop You can drag files to a specific area, to upload. Alternatively, you can also upload by selecting. We can upload serveral files at once in modern browsers by giving the input the multiple attribute."
-      }
+      },
+      "__ID__": "4c0fb5cb"
     },
     {
       "title": "upload-完全控制的上传列表",
@@ -13270,7 +13744,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。",
         "en": "Upload xxx.png Complete control over file list You can gain full control over filelist by configuring fileList. You can accomplish all kinds of customed functions. The following shows two circumstances: limit the number of uploaded files. read from response and show file link."
-      }
+      },
+      "__ID__": "85b51653"
     },
     {
       "title": "upload-照片墙",
@@ -13298,7 +13773,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。",
         "en": "image.png Upload Pictures Wall After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation."
-      }
+      },
+      "__ID__": "3ae005cc"
     },
     {
       "title": "upload-图片列表样式",
@@ -13326,7 +13802,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。",
         "en": "Upload xxx.png yyy.png Upload xxx.png yyy.png Pictures with list style If uploaded file is a picture, the thumbnail can be shown. IE8/9 do not support local thumbnail show. Please use thumbUrl instead."
-      }
+      },
+      "__ID__": "d34b9aea"
     },
     {
       "title": "upload-自定义预览",
@@ -13354,7 +13831,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。",
         "en": "Upload Customize preview file Customize local preview. Can handle with non-image format files such as video."
-      }
+      },
+      "__ID__": "98d4988d"
     },
     {
       "title": "upload-上传前转换文件",
@@ -13382,7 +13860,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。",
         "en": "Upload Transform file before request Use transformFile for transform file before request such as add a watermark."
-      }
+      },
+      "__ID__": "d988857e"
     },
     {
       "title": "upload-自定义交互图标",
@@ -13410,7 +13889,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。",
         "en": "Upload xxx.png download yyy.png download zzz.png custom action icon Use showUploadList for custom action icons of files."
-      }
+      },
+      "__ID__": "444b2f07"
     },
     {
       "title": "upload-手动上传",
@@ -13438,7 +13918,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。",
         "en": "Select File Start Upload Upload manually Upload files manually after beforeUpload returns false."
-      }
+      },
+      "__ID__": "9d0550b1"
     },
     {
       "title": "upload-阿里云 OSS",
@@ -13466,7 +13947,8 @@ export default {
       "__DESCRIPTION__": {
         "zh": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例.",
         "en": "Photos Click to Upload Aliyun OSS Use Aliyun OSS upload example."
-      }
+      },
+      "__ID__": "4012f7fe"
     }
   ]
 }
