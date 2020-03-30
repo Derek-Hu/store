@@ -105,6 +105,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                     });
 
                     const absolutePath = path.resolve(process.cwd(), imagePath);
+                    debugger;
                     try {
                         const isEmpty = await isImageEmpty(imageBuffer);
                         if(!isEmpty){
