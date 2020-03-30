@@ -9197,10 +9197,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/329-zh-8c7a169d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/329-zh-8c7a169d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/329-en-8c7a169d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "a10 c12 多选 多选，从已有条目中选择。"
+        "zh": "a10 c12 多选 多选，从已有条目中选择。",
+        "en": "a10 c12 multiple selection Multiple selection, selecting from existing items."
       }
     },
     {
@@ -9223,10 +9225,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/330-zh-6318541.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/330-zh-6318541.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/330-en-6318541.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Lucy 分组 用 OptGroup 进行选项分组。"
+        "zh": "Lucy 分组 用 OptGroup 进行选项分组。",
+        "en": "Lucy Option Group Using OptGroup to group the options."
       }
     },
     {
@@ -9249,10 +9253,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/331-zh-bd73a61e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/331-zh-bd73a61e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/331-en-bd73a61e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。"
+        "zh": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。",
+        "en": "China Custom selection render Spacified the prop name of Option which will be rendered in select box."
       }
     },
     {
@@ -9275,10 +9281,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/332-zh-154ec393.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/332-zh-154ec393.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/332-en-154ec393.png"
       },
       "__DESCRIPTION__": {
-        "zh": "input search text 搜索框 搜索和远程数据结合。"
+        "zh": "input search text 搜索框 搜索和远程数据结合。",
+        "en": "input search text Search Box Search with remote data."
       }
     },
     {
@@ -9301,10 +9309,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/333-zh-df993a90.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/333-zh-df993a90.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/333-en-df993a90.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。"
+        "zh": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。",
+        "en": "Select users Search and Select Users A complete multiple select sample with remote search, debounce fetch, ajax callback order flow, and loading state."
       }
     },
     {
@@ -9327,10 +9337,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/334-zh-d09e7ee3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/334-zh-d09e7ee3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/334-en-d09e7ee3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
+        "zh": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。",
+        "en": "Large Default Small a1 a10 c12 a10 c12 Sizes The height of the input field for the select defaults to 32px. If size is set to large, the height will be 40px, and if set to small, 24px."
       }
     },
     {
@@ -9353,10 +9365,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/335-zh-fb6d0f7b.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/335-zh-fb6d0f7b.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/335-en-fb6d0f7b.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）"
+        "zh": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）",
+        "en": "Tags Mode Tags Select with tags, transform input to tag (scroll the menu)"
       }
     },
     {
@@ -9379,10 +9393,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/336-zh-1d0c49ce.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/336-zh-1d0c49ce.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/336-en-1d0c49ce.png"
       },
       "__DESCRIPTION__": {
-        "zh": "动画效果 显示动画效果。"
+        "zh": "动画效果 显示动画效果。",
+        "en": "Active Animation Display active animation."
       }
     },
     {
@@ -9405,10 +9421,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/337-zh-d44475f4.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/337-zh-d44475f4.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/337-en-d44475f4.png"
       },
       "__DESCRIPTION__": {
-        "zh": "基本 最简单的占位效果。"
+        "zh": "基本 最简单的占位效果。",
+        "en": "Basic Simplest Skeleton usage."
       }
     },
     {
@@ -9431,10 +9449,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/338-zh-e5b1489f.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/338-zh-e5b1489f.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/338-en-e5b1489f.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。"
+        "zh": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。",
+        "en": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton Contains sub component Skeleton contains sub component."
       }
     },
     {
@@ -9457,10 +9477,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/339-zh-2d2a399d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/339-zh-2d2a399d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/339-en-2d2a399d.png"
       },
       "__DESCRIPTION__": {
-        "zh": " 复杂的组合 更复杂的组合。"
+        "zh": " 复杂的组合 更复杂的组合。",
+        "en": " Complex combination Complex combination with avatar and multiple paragraphs."
       }
     },
     {
@@ -9483,10 +9505,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/340-zh-50f74e32.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/340-zh-50f74e32.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/340-en-50f74e32.png"
       },
       "__DESCRIPTION__": {
-        "zh": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。"
+        "zh": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。",
+        "en": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small Skeleton button and avatar Skeleton button, avatar and input."
       }
     },
     {
@@ -9509,10 +9533,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/341-zh-2f8ac494.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/341-zh-2f8ac494.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/341-en-2f8ac494.png"
       },
       "__DESCRIPTION__": {
-        "zh": " 列表 在列表组件中使用加载占位符。"
+        "zh": " 列表 在列表组件中使用加载占位符。",
+        "en": " List Use skeleton in list component."
       }
     },
     {
@@ -9535,10 +9561,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/342-zh-abb2f83f.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/342-zh-abb2f83f.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/342-en-abb2f83f.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。"
+        "zh": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。",
+        "en": "Disabled: Basic Basic slider. When range is true, display as dual thumb mode. When disable is true, the slider will not be interactable."
       }
     },
     {
@@ -9561,10 +9589,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/343-zh-d97a7d91.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/343-zh-d97a7d91.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/343-en-d97a7d91.png"
       },
       "__DESCRIPTION__": {
-        "zh": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。"
+        "zh": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。",
+        "en": "Event The onChange callback function will fire when the user changes the slider's value. The onAfterChange callback function will fire when onmouseup fired."
       }
     },
     {
@@ -9587,10 +9617,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/344-zh-8602af8b.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/344-zh-8602af8b.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/344-en-8602af8b.png"
       },
       "__DESCRIPTION__": {
-        "zh": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。"
+        "zh": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。",
+        "en": "Slider with icon You can add an icon beside the slider to make it meaningful."
       }
     },
     {
@@ -9613,10 +9645,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/345-zh-2ddd1c32.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/345-zh-2ddd1c32.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/345-en-2ddd1c32.png"
       },
       "__DESCRIPTION__": {
-        "zh": "带输入框的滑块 和 数字输入框 组件保持同步。"
+        "zh": "带输入框的滑块 和 数字输入框 组件保持同步。",
+        "en": "Slider with InputNumber Synchronize with InputNumber component."
       }
     },
     {
@@ -9639,10 +9673,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/346-zh-30c933ec.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/346-zh-30c933ec.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/346-en-30c933ec.png"
       },
       "__DESCRIPTION__": {
-        "zh": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。"
+        "zh": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。",
+        "en": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C Graduated slider Using marks property to mark a graduated slider, use value or defaultValue to specify the position of thumb. When included is false, means that different thumbs are coordinative. when step is null, users can only slide the thumbs onto marks."
       }
     },
     {
@@ -9665,10 +9701,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/347-zh-e97e9981.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/347-zh-e97e9981.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/347-en-e97e9981.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Reversed: 反向 设置 reverse 可以将滑动条置反。"
+        "zh": "Reversed: 反向 设置 reverse 可以将滑动条置反。",
+        "en": "Reversed: Reverse Using reverse to render slider reversely."
       }
     },
     {
@@ -9691,10 +9729,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/348-zh-70447d61.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/348-zh-70447d61.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/348-en-70447d61.png"
       },
       "__DESCRIPTION__": {
-        "zh": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。"
+        "zh": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。",
+        "en": "Control visible of ToolTip When tooltipVisible is true, ToolTip will show always, or ToolTip will not show anyway, even if dragging or hovering."
       }
     },
     {
