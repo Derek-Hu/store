@@ -3,6 +3,7 @@ import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
 import { writeFallback, asyncForEach, createFolderIfNotExists } from './utils/index';
 import XXH from 'xxhashjs';
 import path from 'path';
+import fs from 'fs';
 import pkg from '../../../package.json';
 import isImageEmpty from './utils/isImageEmpty';
 
@@ -100,7 +101,6 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
                     const imagePath = `./public/${subPath}`;
                     const absolutePath = path.resolve(process.cwd(), imagePath);
-                    
                     try {
                         const imageBuffer = await page.screenshot({
                             path: imagePath,
@@ -108,15 +108,14 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         });
                         const isEmpty = await isImageEmpty(imageBuffer);
                         if (isEmpty) {
-                            fs.unlinkSync(absolutePath);
+                            fs.unlink(absolutePath);
                         } else {
                             item.__HASH__[locale] = `${baseUrl}${subPath}`;
                             item.__DESCRIPTION__[locale] = clip.text;
                         }
                     } catch (e) {
-
+                        console.error(e);
                     }
-
                     writeFallback(Service[name].name, blockData);
                 } catch (e) {
                     console.error(e);
