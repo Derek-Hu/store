@@ -1,30 +1,68 @@
 [
-    {
-        "title": "form-注册新用户",
-        "value": "form-register",
-        "key": "form-register",
-        "description": "用户填写必须的信息以注册新用户。",
-        "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-register",
-        "type": "block",
-        "path": "form-register",
-        "isPage": false,
-        "defaultPath": "/form-register",
-        "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-register/snapshot.png",
-        "tags": [
-            "表单"
-        ],
-        "name": "form-注册新用户",
-        "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-register",
-        "features": [
-            "antd"
-        ],
-        "__HASH__": {
-            "zh": "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
-        },
-        "__DESCRIPTION__": {
-            "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
-            "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
-        },
-        "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/0-zh-5db07ce7.png"
-    }
+  {
+    "title": "form-注册新用户",
+    "value": "form-register",
+    "key": "form-register",
+    "description": "用户填写必须的信息以注册新用户。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-register",
+    "type": "block",
+    "path": "form-register",
+    "isPage": false,
+    "defaultPath": "/form-register",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-register/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-注册新用户",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-register",
+    "features": [
+      "antd"
+    ],
+    "__HASH__": {
+      "zh": "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
+    },
+    "__DESCRIPTION__": {
+      "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
+      "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
+    },
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/0-zh-5db07ce7.png"
+  },
+  {
+    "name": "ablity-items",
+    "title": "特性展示",
+    "description": "中间展示特点 特性的区块",
+    "homepage": "https://unpkg.com/@icedesign/ablity-items-block/build/index.html",
+    "categories": [
+      "信息展示",
+      "欢迎页"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/blocks/AblityItems",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/ablity-items-block",
+      "version": "1.0.3",
+      "registry": "http://registry.npmjs.com",
+      "version-0.x": "2.0.1",
+      "sourceCodeDirectory": "src/"
+    },
+    "dependencies": {
+      "react": "^16.2.0",
+      "prop-types": "^15.5.8"
+    },
+    "screenshot": "https://unpkg.com/@icedesign/ablity-items-block/screenshot.png",
+    "screenshots": [
+      "https://unpkg.com/@icedesign/ablity-items-block/screenshot.png"
+    ],
+    "customConfig": null,
+    "publishTime": "2018-07-05T02:12:22.773Z",
+    "updateTime": "2019-06-27T05:27:43.777Z",
+    "__ID__": "ab3c9e1",
+    "__DESCRIPTION__": {
+      "zh": "能力输出 支付、实名、信用、理财、大数据 政策扶持 物料、返佣、品牌支持、运营收益 资源整合 门禁停车、智能家居、生活服务"
+    },
+    "__HASH__": {
+      "zh": "https://derek-hu.github.io/store/screenshots/LIB_MATERIAL_ICEWORK/1-zh-ab3c9e1.png"
+    },
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/LIB_MATERIAL_ICEWORK/1-zh-ab3c9e1.png"
+  }
 ]

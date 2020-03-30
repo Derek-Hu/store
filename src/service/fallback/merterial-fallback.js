@@ -29,7 +29,14 @@ export default {
       ],
       "customConfig": null,
       "publishTime": "2018-12-13T08:48:27.377Z",
-      "updateTime": "2019-06-27T05:27:42.601Z"
+      "updateTime": "2019-06-27T05:27:42.601Z",
+      "__ID__": "97250d4c",
+      "__DESCRIPTION__": {
+        "zh": "我们的能力 < Distinguishing Feature > 框架 熟悉的社区开发模式，彻底的组件化能力 了解更多 组件 为开发者提供了一系列基础组件，通过组件组合进行高效开发 了解更多 API 手机淘宝能力支持和保障 了解更多"
+      },
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/LIB_MATERIAL_ICEWORK/0-zh-97250d4c.png"
+      }
     },
     {
       "name": "ablity-items",
@@ -59,7 +66,14 @@ export default {
       ],
       "customConfig": null,
       "publishTime": "2018-07-05T02:12:22.773Z",
-      "updateTime": "2019-06-27T05:27:43.777Z"
+      "updateTime": "2019-06-27T05:27:43.777Z",
+      "__ID__": "ab3c9e1",
+      "__DESCRIPTION__": {
+        "zh": "能力输出 支付、实名、信用、理财、大数据 政策扶持 物料、返佣、品牌支持、运营收益 资源整合 门禁停车、智能家居、生活服务"
+      },
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/LIB_MATERIAL_ICEWORK/1-zh-ab3c9e1.png"
+      }
     },
     {
       "name": "about",
@@ -88,7 +102,14 @@ export default {
       ],
       "customConfig": null,
       "publishTime": "2018-08-30T15:36:42.880Z",
-      "updateTime": "2019-06-27T05:27:44.841Z"
+      "updateTime": "2019-06-27T05:27:44.841Z",
+      "__ID__": "647ef818",
+      "__DESCRIPTION__": {
+        "zh": "ABOUT 关于阿里云 企业级 个人级 01 云存储特惠 上云仅 33元/年 ，降低企业成本 查看详情 02 云存储特惠 上云仅 33元/年 ，降低企业成本 查看详情 03 云存储特惠 上云仅 33元/年 ，降低企业成本 查看详情"
+      },
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/LIB_MATERIAL_ICEWORK/2-zh-647ef818.png"
+      }
     },
     {
       "name": "account-badge",
@@ -119,7 +140,14 @@ export default {
       ],
       "customConfig": null,
       "publishTime": "2018-12-13T08:48:27.740Z",
-      "updateTime": "2019-06-27T05:27:46.089Z"
+      "updateTime": "2019-06-27T05:27:46.089Z",
+      "__ID__": "12cfdba2",
+      "__DESCRIPTION__": {
+        "zh": "账号勋章 账号信用 出现违规行为将会扣除信用分，信用分降低到一定分数会触发账号处罚，并降低微淘号达人指数 0分 满分40分，不良行为会导致扣分 了解详情历史记录"
+      },
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/LIB_MATERIAL_ICEWORK/3-zh-12cfdba2.png"
+      }
     },
     {
       "name": "account-features",

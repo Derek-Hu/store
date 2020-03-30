@@ -13,7 +13,9 @@ asyncForEach(keys, async name => {
     const blockData = require(`../fallback/${lib.name}`).default;
     if(!lib.selector){
         lib.selector = {
-            blocks: 'html'
+            blocks: 'html',
+            components: 'html',
+            scaffolds: 'html',
         }
     }
     if(typeof lib.selector !== 'object'){

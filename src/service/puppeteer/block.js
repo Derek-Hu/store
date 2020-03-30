@@ -32,6 +32,10 @@ const saveErrors = (item) => {
     writeSync(errorPath, JSON.stringify(errorItems, null, 2));
 }
 
+const WaitUntilMap = {
+    networkidle2: 'networkidle2',
+    networkidle0: 'networkidle0'
+}
 export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector: normalSelector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
@@ -59,8 +63,8 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         width,
                         height
                     });
-                    const url = item.previewUrl;
-                    await page.goto(url, { waitUntil });
+                    const url = item.previewUrl || item.homepage;
+                    await page.goto(url, { waitUntil: WaitUntilMap[waitUntil] || WaitUntilMap.networkidle0 });
                     const hasRunBefore = typeof runBeforeWaitForSelector === 'function';
                     if (hasRunBefore) {
                         await page.evaluate(({ runBeforeWaitForSelector, currentLocale, settings }) => {

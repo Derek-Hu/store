@@ -31,16 +31,22 @@ export const Service = {
             }
         }
     },
-    // [LIB_MATERIAL_ICEWORK]: {
-    //     url: 'https://ice.alicdn.com/assets/react-materials.json',
-    //     name: 'merterial-fallback',
-    //     selector: ''
-    // },
-    // [LIB_ICEWORK]: {
-    //     url: 'http://ice.alicdn.com/assets/materials/react-materials.json',
-    //     name: 'ice-fallback',
-    //     selector: ''
-    // },
+    [LIB_MATERIAL_ICEWORK]: {
+        url: 'https://ice.alicdn.com/assets/react-materials.json',
+        name: 'merterial-fallback',
+        viewport: {
+            width: 900,
+            height: 800
+        },
+    },
+    [LIB_ICEWORK]: {
+        url: 'http://ice.alicdn.com/assets/materials/react-materials.json',
+        name: 'ice-fallback',
+        viewport: {
+            width: 800,
+            height: 600
+        },
+    },
     [LIB_UMIBLOCK]: {
         url: 'https://raw.githubusercontent.com/ant-design/pro-blocks/master/umi-block.json',
         name: 'umi-fallback',
