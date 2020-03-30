@@ -10,6 +10,11 @@ npm start
 npm run deploy
 ```
 
+## Update Block JSON
+```sh
+npm run fetchJSON
+```
+
 ## Generate Snapshots
 Environment Variables:
 

@@ -1,9 +1,8 @@
 import puppeteer from 'puppeteer';
 import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
-import { writeFallback, asyncForEach, createFolderIfNotExists } from './utils/index';
+import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists } from './utils/index';
 import XXH from 'xxhashjs';
 import path from 'path';
-import fs from 'fs';
 import pkg from '../../../package.json';
 import isImageEmpty from './utils/isImageEmpty';
 
@@ -17,6 +16,7 @@ const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage ? (/\/$/.test(homepage) ? homepage : homepage + '/') : './';
 
+const emptyImages = [];
 export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
@@ -31,8 +31,8 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
             if (!item) {
                 return;
             }
-            const screenEmpty = !isObject(item.__HASH__) || item.__HASH__[locale] === undefined
-            const descriptionEmpty = !isObject(item.__DESCRIPTION__) || item.__DESCRIPTION__[locale] === undefined;
+            const screenEmpty = !isObject(item.__HASH__) || !item.__HASH__[locale]
+            const descriptionEmpty = !isObject(item.__DESCRIPTION__) || item.__DESCRIPTION__[locale] === undefined || item.__DESCRIPTION__[locale] === null;
 
             if (forceUpdate || screenEmpty || descriptionEmpty) {
                 const page = await browser.newPage();
@@ -97,8 +97,11 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                     if (!isObject(item.__HASH__)) {
                         item.__HASH__ = {};
                     }
-
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
+
+                    item.__HASH__[locale] = `${baseUrl}${subPath}`;
+                    item.__DESCRIPTION__[locale] = clip.text;
+
                     const imagePath = `./public/${subPath}`;
                     const absolutePath = path.resolve(process.cwd(), imagePath);
                     try {
@@ -108,10 +111,11 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         });
                         const isEmpty = await isImageEmpty(imageBuffer);
                         if (isEmpty) {
-                            fs.unlink(absolutePath);
-                        } else {
-                            item.__HASH__[locale] = `${baseUrl}${subPath}`;
-                            item.__DESCRIPTION__[locale] = clip.text;
+                            emptyImages.push({
+                                ...item,
+                                __EMPTY__: absolutePath
+                            });
+                            writeSync(path.resolve(process.cwd(), `./public/${saveFolder}/empty.json`), JSON.stringify(emptyImages, null, 2));
                         }
                     } catch (e) {
                         console.error(e);
