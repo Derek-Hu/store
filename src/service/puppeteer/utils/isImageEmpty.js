@@ -3,7 +3,7 @@ import { PNG } from 'pngjs';
 
 export default (imageData) => {
     return new Promise((resolve, reject) => {
-        const isEmpty = true;
+        let isEmpty = true;
         new PNG({ filterType: 4 }).parse(imageData, function (error, self) {
             if(error){
                 reject(e);

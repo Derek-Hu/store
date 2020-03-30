@@ -99,16 +99,17 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
 
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
                     const imagePath = `./public/${subPath}`;
-                    const imageBuffer = await page.screenshot({
-                        path: imagePath,
-                        clip
-                    });
-
                     const absolutePath = path.resolve(process.cwd(), imagePath);
-                    debugger;
+                    
                     try {
+                        const imageBuffer = await page.screenshot({
+                            path: imagePath,
+                            clip
+                        });
                         const isEmpty = await isImageEmpty(imageBuffer);
-                        if(!isEmpty){
+                        if (isEmpty) {
+                            fs.unlinkSync(absolutePath);
+                        } else {
                             item.__HASH__[locale] = `${baseUrl}${subPath}`;
                             item.__DESCRIPTION__[locale] = clip.text;
                         }
