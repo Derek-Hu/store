@@ -1,5 +1,6 @@
 import path from 'path';
 import fs from 'fs';
+import XXH from 'xxhashjs';
 
 export function createFolderIfNotExists(outputFilePath) {
     const parent = path.dirname(outputFilePath);
@@ -23,3 +24,21 @@ export const asyncForEach = async (array, callback) => {
         await callback(array[index], index, array)
     }
 }
+
+export function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms * 1000));
+}
+
+export const hashVal = (item) => XXH.h32([
+    item.title,
+    item.key,
+    item.value,
+    item.description,
+    item.name,
+    item.previewUrl,
+    item.url,
+    item.homepage,
+    item.repository
+].join('|'), 0xABCD).toString(16);
+
+export const isObject = val => Object.prototype.toString.call(val) === '[object Object]';

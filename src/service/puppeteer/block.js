@@ -1,32 +1,38 @@
 import puppeteer from 'puppeteer';
 import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
-import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists } from './utils/index';
-import XXH from 'xxhashjs';
+import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists, sleep, hashVal, isObject } from './utils/index';
 import path from 'path';
 import fs from 'fs';
 import pkg from '../../../package.json';
 import isImageEmpty from './utils/isImageEmpty';
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms * 1000));
-}
-
 const saveFolder = 'screenshots';
 const emtpyPath = path.resolve(process.cwd(), `./public/${saveFolder}/empty.json`);
-const isObject = val => Object.prototype.toString.call(val) === '[object Object]'
+const errorPath = path.resolve(process.cwd(), `./public/${saveFolder}/error.json`);
+
 const isHeadless = process.env.HEADLESS !== 'false';
 const { homepage } = pkg;
 const baseUrl = homepage ? (/\/$/.test(homepage) ? homepage : homepage + '/') : './';
 
 let emptyImages = [];
-try{
-    if(fs.existsSync(emtpyPath)){
+let errorItems = {};
+try {
+    if (fs.existsSync(emtpyPath)) {
         emptyImages = JSON.parse(fs.readFileSync(emtpyPath));
     }
-}catch(e){
+    if (fs.existsSync(errorPath)) {
+        errorItems = JSON.parse(fs.readFileSync(errorPath));
+    }
+} catch (e) {
     console.error(e);
 }
-export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+
+const saveErrors = (item) => {
+    errorItems[item.__ID__] = item;
+    writeSync(errorPath, JSON.stringify(errorItems, null, 2));
+}
+
+export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector: normalSelector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
@@ -40,6 +46,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
             if (!item) {
                 return;
             }
+            item.__ID__ = hashVal(item);
             const screenEmpty = !isObject(item.__HASH__) || !item.__HASH__[locale]
             const descriptionEmpty = !isObject(item.__DESCRIPTION__) || item.__DESCRIPTION__[locale] === undefined || item.__DESCRIPTION__[locale] === null;
 
@@ -71,8 +78,14 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         });
                     }
 
-                    await page.waitForSelector(selector);
-                    await sleep(delay);
+                    let selector = normalSelector;
+                    try {
+                        await page.waitForSelector(selector);
+                        await sleep(delay);
+                    } catch (e) {
+                        selector = 'html';
+                        saveErrors(item);
+                    }
                     const clip = await page.evaluate(({ selector, runInBrowser }) => {
                         debugger;
                         if (runInBrowser) {
@@ -88,17 +101,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         runInBrowser: typeof runInBrowser === 'function' ? `(${runInBrowser.toString()})` : null
                     });
 
-                    const hash = `${index}-${locale}-` + XXH.h32([
-                        item.title,
-                        item.key,
-                        item.value,
-                        item.description,
-                        item.name,
-                        item.previewUrl,
-                        item.url,
-                        item.homepage,
-                        item.repository
-                    ].join('|'), 0xABCD).toString(16);
+                    const hash = `${index}-${locale}-${hashVal(item)}`;
 
                     if (!isObject(item.__DESCRIPTION__)) {
                         item.__DESCRIPTION__ = {};
@@ -132,6 +135,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                     writeFallback(Service[name].name, blockData);
                 } catch (e) {
                     console.error(e);
+                    saveErrors(item);
                 }
                 if (page) {
                     await page.close();
