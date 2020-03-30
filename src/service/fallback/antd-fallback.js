@@ -438,10 +438,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/16_72ecc8e7.png"
-      ],
-      "__DESCRIPTION__": "Checkbox 基本用法 简单的 checkbox。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/16-zh-72ecc8e7.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Checkbox 基本用法 简单的 checkbox。"
+      }
     },
     null,
     {
@@ -463,8 +465,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "18_a9259aca",
-      "__DESCRIPTION__": "Checkbox radio Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Disabled User 99 Sidney No. 1 Lake Park 1 可选择 第一列是联动的选择框。可以通过 rowSelection.type 属性指定选择类型，默认为 checkbox。 默认点击 checkbox 触发选择行为，需要点击行触发可以参考例子：https://codesandbox.io/s/000vqw38rl"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/18-zh-a9259aca.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Checkbox radio Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Disabled User 99 Sidney No. 1 Lake Park 1 可选择 第一列是联动的选择框。可以通过 rowSelection.type 属性指定选择类型，默认为 checkbox。 默认点击 checkbox 触发选择行为，需要点击行触发可以参考例子：https://codesandbox.io/s/000vqw38rl"
+      }
     },
     {
       "title": "upload-用户头像",
@@ -485,9 +491,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/19_6e50f922.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/19-zh-6e50f922.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Upload 用户头像 点击上传用户头像，并使用 beforeUpload 限制用户上传的图片格式和大小。 beforeUpload 的返回值可以是一个 Promise 以支持异步处理，如服务端校验等：示例。"
       }
@@ -511,9 +517,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/20_1300ff26.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/20-zh-1300ff26.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Affix top Affix bottom 基本 最简单的用法。"
       }
@@ -537,9 +543,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/21_f70442c6.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/21-zh-f70442c6.png"
+      },
       "__DESCRIPTION__": {
         "zh": "120px to affix top 固定状态改变的回调 可以获得是否固定的状态。"
       }
@@ -563,9 +569,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/22_4794a0cf.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/22-zh-4794a0cf.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Fixed at the top of container 滚动容器 用 target 设置 Affix 需要监听其滚动事件的元素，默认为 window。"
       }
@@ -589,9 +595,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/23_5117d26e.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/23-zh-5117d26e.png"
+      },
       "__DESCRIPTION__": {
         "zh": "顶部公告 页面顶部通告形式，默认有图标且type 为 'warning'。"
       }
@@ -615,8 +621,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "24_9227561e",
-      "__DESCRIPTION__": "Success Text 基本 最简单的用法，适用于简短的警告提示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/24-zh-9227561e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Success Text 基本 最简单的用法，适用于简短的警告提示。"
+      }
     },
     {
       "title": "alert-可关闭的警告提示",
@@ -637,8 +647,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "25_159bc88d",
-      "__DESCRIPTION__": "Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text Error Text Error Description Error Description Error Description Error Description Error Description Error Description 可关闭的警告提示 显示关闭按钮，点击可关闭警告提示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/25-zh-159bc88d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text Error Text Error Description Error Description Error Description Error Description Error Description Error Description 可关闭的警告提示 显示关闭按钮，点击可关闭警告提示。"
+      }
     },
     {
       "title": "alert-自定义关闭",
@@ -659,8 +673,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "26_18fc5098",
-      "__DESCRIPTION__": "Info Text Close Now 自定义关闭 可以自定义关闭，自定义的文字会替换原先的关闭 Icon。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/26-zh-18fc5098.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Info Text Close Now 自定义关闭 可以自定义关闭，自定义的文字会替换原先的关闭 Icon。"
+      }
     },
     {
       "title": "alert-含有辅助性文字介绍",
@@ -681,8 +699,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "27_dac504a6",
-      "__DESCRIPTION__": "Success Text Success Description Success Description Success Description Info Text Info Description Info Description Info Description Info Description Warning Text Warning Description Warning Description Warning Description Warning Description Error Text Error Description Error Description Error Description Error Description 含有辅助性文字介绍 含有辅助性文字介绍的警告提示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/27-zh-dac504a6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Success Text Success Description Success Description Success Description Info Text Info Description Info Description Info Description Info Description Warning Text Warning Description Warning Description Warning Description Warning Description Error Text Error Description Error Description Error Description Error Description 含有辅助性文字介绍 含有辅助性文字介绍的警告提示。"
+      }
     },
     {
       "title": "alert-ErrorBoundary",
@@ -703,8 +725,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "28_524b131",
-      "__DESCRIPTION__": "Click me to throw a error ErrorBoundary 友好的 React 错误处理 包裹组件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/28-zh-524b131.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Click me to throw a error ErrorBoundary 友好的 React 错误处理 包裹组件。"
+      }
     },
     {
       "title": "alert-图标",
@@ -725,8 +751,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "29_59ec24ba",
-      "__DESCRIPTION__": "Success Tips Informational Notes Warning Error Success Tips Detailed description and advice about successful copywriting. Informational Notes Additional description and information about copywriting. Warning This is a warning notice about copywriting. Error This is an error message about copywriting. 图标 可口的图标让信息类型更加醒目。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/29-zh-59ec24ba.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Success Tips Informational Notes Warning Error Success Tips Detailed description and advice about successful copywriting. Informational Notes Additional description and information about copywriting. Warning This is a warning notice about copywriting. Error This is an error message about copywriting. 图标 可口的图标让信息类型更加醒目。"
+      }
     },
     {
       "title": "alert-平滑地卸载",
@@ -747,8 +777,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "30_9c948860",
-      "__DESCRIPTION__": "Alert Message Text placeholder text here 平滑地卸载 平滑、自然的卸载提示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/30-zh-9c948860.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Alert Message Text placeholder text here 平滑地卸载 平滑、自然的卸载提示。"
+      }
     },
     {
       "title": "alert-四种样式",
@@ -769,8 +803,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "31_6808580a",
-      "__DESCRIPTION__": "Success Text Info Text Warning Text Error Text 四种样式 共有四种样式 success、info、warning、error。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/31-zh-6808580a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Success Text Info Text Warning Text Error Text 四种样式 共有四种样式 success、info、warning、error。"
+      }
     },
     {
       "title": "anchor-基本",
@@ -791,8 +829,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "32_90e30038",
-      "__DESCRIPTION__": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/32-zh-90e30038.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props 基本 最简单的用法。"
+      }
     },
     {
       "title": "anchor-自定义锚点高亮",
@@ -813,8 +855,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "33_ba35af2e",
-      "__DESCRIPTION__": "Basic demo Static demo API Anchor Props Link Props 自定义锚点高亮 自定义锚点高亮。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/33-zh-ba35af2e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo API Anchor Props Link Props 自定义锚点高亮 自定义锚点高亮。"
+      }
     },
     {
       "title": "anchor-监听锚点链接改变",
@@ -835,8 +881,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "34_b5be1cdd",
-      "__DESCRIPTION__": "Basic demo Static demo API Anchor Props Link Props 监听锚点链接改变 监听锚点链接改变"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/34-zh-b5be1cdd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo API Anchor Props Link Props 监听锚点链接改变 监听锚点链接改变"
+      }
     },
     {
       "title": "anchor-自定义 onClick 事件",
@@ -857,8 +907,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "35_291661ad",
-      "__DESCRIPTION__": "Basic demo Static demo API Anchor Props Link Props 自定义 onClick 事件 点击锚点不记录历史。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/35-zh-291661ad.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo API Anchor Props Link Props 自定义 onClick 事件 点击锚点不记录历史。"
+      }
     },
     {
       "title": "anchor-静态位置",
@@ -879,8 +933,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "36_e226123",
-      "__DESCRIPTION__": "Basic demo Static demo API Anchor Props Link Props 静态位置 不浮动，状态不随页面滚动变化。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/36-zh-e226123.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo API Anchor Props Link Props 静态位置 不浮动，状态不随页面滚动变化。"
+      }
     },
     {
       "title": "anchor-设置锚点滚动偏移量",
@@ -901,8 +959,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "37_a4454af5",
-      "__DESCRIPTION__": "Basic demo Static demo API Anchor Props Link Props 设置锚点滚动偏移量 锚点目标滚动到屏幕正中间。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/37-zh-a4454af5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Basic demo Static demo API Anchor Props Link Props 设置锚点滚动偏移量 锚点目标滚动到屏幕正中间。"
+      }
     },
     {
       "title": "auto-complete-基本使用",
@@ -923,8 +985,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "38_4aed2c74",
-      "__DESCRIPTION__": "input here control mode 基本使用 基本使用。通过 options 设置自动完成的数据源"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/38-zh-4aed2c74.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "input here control mode 基本使用 基本使用。通过 options 设置自动完成的数据源"
+      }
     },
     {
       "title": "auto-complete-查询模式 - 确定类目",
@@ -945,8 +1011,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "39_2190f86e",
-      "__DESCRIPTION__": "查询模式 - 确定类目 查询模式: 确定类目 示例。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/39-zh-2190f86e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "查询模式 - 确定类目 查询模式: 确定类目 示例。"
+      }
     },
     {
       "title": "auto-complete-自定义输入组件",
@@ -967,8 +1037,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "40_fc3c40a7",
-      "__DESCRIPTION__": "自定义输入组件 自定义输入组件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/40-zh-fc3c40a7.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "自定义输入组件 自定义输入组件。"
+      }
     },
     {
       "title": "auto-complete-不区分大小写",
@@ -989,8 +1063,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "41_b5a48cb0",
-      "__DESCRIPTION__": "try to type `b` 不区分大小写 不区分大小写的 AutoComplete"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/41-zh-b5a48cb0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "try to type `b` 不区分大小写 不区分大小写的 AutoComplete"
+      }
     },
     {
       "title": "auto-complete-自定义选项",
@@ -1011,8 +1089,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "42_d27f83e0",
-      "__DESCRIPTION__": "input here 自定义选项 也可以直接传 AutoComplete.Option 作为 AutoComplete 的 children，而非使用 options。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/42-zh-d27f83e0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "input here 自定义选项 也可以直接传 AutoComplete.Option 作为 AutoComplete 的 children，而非使用 options。"
+      }
     },
     {
       "title": "auto-complete-查询模式 - 不确定类目",
@@ -1033,8 +1115,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "43_e2302f06",
-      "__DESCRIPTION__": "查询模式 - 不确定类目 查询模式: 不确定类目 示例。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/43-zh-e2302f06.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "查询模式 - 不确定类目 查询模式: 不确定类目 示例。"
+      }
     },
     {
       "title": "avatar-带徽标的头像",
@@ -1055,8 +1141,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "44_70a31e7d",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 带徽标的头像 通常用于消息提示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/44-zh-70a31e7d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 带徽标的头像 通常用于消息提示。"
+      }
     },
     {
       "title": "avatar-基本",
@@ -1077,8 +1167,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "45_10c803c8",
-      "__DESCRIPTION__": "基本 头像有三种尺寸，两种形状可选。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/45-zh-10c803c8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 头像有三种尺寸，两种形状可选。"
+      }
     },
     {
       "title": "avatar-自动调整字符大小",
@@ -1099,8 +1193,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "46_cf78456f",
-      "__DESCRIPTION__": "U Change 自动调整字符大小 对于字符型的头像，当字符串较长时，字体大小可以根据头像宽度自动调整。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/46-zh-cf78456f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "U Change 自动调整字符大小 对于字符型的头像，当字符串较长时，字体大小可以根据头像宽度自动调整。"
+      }
     },
     {
       "title": "avatar-类型",
@@ -1121,8 +1219,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "47_5a071809",
-      "__DESCRIPTION__": "U USER U 类型 支持三种类型：图片、Icon 以及字符，其中 Icon 和字符型可以自定义图标颜色及背景色。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/47-zh-5a071809.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "U USER U 类型 支持三种类型：图片、Icon 以及字符，其中 Icon 和字符型可以自定义图标颜色及背景色。"
+      }
     },
     {
       "title": "back-top-基本",
@@ -1143,8 +1245,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "48_6a491aa3",
-      "__DESCRIPTION__": "Scroll down to see the bottom-right gray button. 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/48-zh-6a491aa3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Scroll down to see the bottom-right gray button. 基本 最简单的用法。"
+      }
     },
     {
       "title": "back-top-自定义样式",
@@ -1165,8 +1271,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "49_f9aa7892",
-      "__DESCRIPTION__": "UP Scroll down to see the bottom-right blue button. 自定义样式 可以自定义回到顶部按钮的样式，限制宽高：40px * 40px。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/49-zh-f9aa7892.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "UP Scroll down to see the bottom-right blue button. 自定义样式 可以自定义回到顶部按钮的样式，限制宽高：40px * 40px。"
+      }
     },
     {
       "title": "badge-基本",
@@ -1187,8 +1297,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "50_f2d07e47",
-      "__DESCRIPTION__": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 基本 简单的徽章展示，当 count 为 0 时，默认不显示，但是可以使用 showZero 修改为显示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/50-zh-f2d07e47.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 基本 简单的徽章展示，当 count 为 0 时，默认不显示，但是可以使用 showZero 修改为显示。"
+      }
     },
     {
       "title": "badge-动态",
