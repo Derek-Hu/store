@@ -6545,10 +6545,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/234-zh-17216b5b.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/234-zh-17216b5b.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/234-en-17216b5b.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。"
+        "zh": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。",
+        "en": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。"
       }
     },
     {
@@ -6571,10 +6573,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/235-zh-afe926b0.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/235-zh-afe926b0.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/235-en-afe926b0.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Display normal message 普通提示 信息提醒反馈。"
+        "zh": "Display normal message 普通提示 信息提醒反馈。",
+        "en": "Display normal message Normal prompt Normal message for information."
       }
     },
     {
@@ -6709,10 +6713,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/240-zh-d2ca31e3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/240-zh-d2ca31e3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/240-en-d2ca31e3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。"
+        "zh": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。",
+        "en": "Open Modal with async logic Asynchronously close Asynchronously close a modal dialog when a the OK button is pressed. For example, you can use this pattern when you submit a form."
       }
     },
     {
@@ -6735,10 +6741,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/241-zh-76c864a6.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/241-zh-76c864a6.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/241-en-76c864a6.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Open Modal with customized button props 自定义页脚按钮属性 传入 okButtonProps 和 cancelButtonProps 可分别自定义确定按钮和取消按钮的 props。"
+        "zh": "Open Modal with customized button props 自定义页脚按钮属性 传入 okButtonProps 和 cancelButtonProps 可分别自定义确定按钮和取消按钮的 props。",
+        "en": "Open Modal with customized button props Customize footer buttons props Passing okButtonProps and cancelButtonProps will customize the OK button and cancel button props."
       }
     },
     {
@@ -9757,10 +9765,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/349-zh-691867f1.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/349-zh-691867f1.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/349-en-691867f1.png"
       },
       "__DESCRIPTION__": {
-        "zh": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。"
+        "zh": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。",
+        "en": "Customize tooltip Use tipFormatter to format content of Tooltip. If tipFormatter is null, hide it."
       }
     },
     {
@@ -9783,10 +9793,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/350-zh-a83e249c.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/350-zh-a83e249c.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/350-en-a83e249c.png"
       },
       "__DESCRIPTION__": {
-        "zh": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。"
+        "zh": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。",
+        "en": "0°C 26°C 37°C 100°C Vertical The vertical Slider."
       }
     },
     {
