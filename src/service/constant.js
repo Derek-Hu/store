@@ -19,20 +19,21 @@ export const Service = {
             blocks: '.code-box:target'
         },
         waitUntil: 'networkidle2',
-        runBeforeWaitForSelector: function (locale) {
-            return new Promise((resolve) => {
-                setTimeout(function () {
-                    const element = document.querySelector('.header-lang-button');
-                    const language = element.innerText;
-                    debugger;
-                    if(language === 'English' && locale===LOCALE_ZH){
-                        element.click();
-                    }
-                    if(language === '中文' && locale===LOCALE_EN){
-                    }
-                    resolve();
-                }, 1000);
-            })
+        runBeforeWaitForSelector: function (currentLocale, settings) {
+            // return new Promise((resolve) => {
+            //     setTimeout(function () {
+            const element = document.querySelector('.header-lang-button');
+            const language = element.innerText;
+            debugger;
+            if (language === '中文' && currentLocale === settings.LOCALE_ZH) {
+                element.click();
+            }
+            if (language === 'English' && currentLocale === settings.LOCALE_EN) {
+                element.click();
+            }
+            // resolve();
+            //     }, 1000);
+            // })
         }
     },
     // [LIB_MATERIAL_ICEWORK]: {

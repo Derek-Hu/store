@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import { Service } from '../constant';
+import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
 import { writeFallback, asyncForEach, createFolderIfNotExists } from './utils/index';
 import XXH from 'xxhashjs';
 import path from 'path';
@@ -45,13 +45,17 @@ export default (async ({ name, viewport,preload, waitUntil, locale, runBeforeWai
                     await page.goto(url, { waitUntil });
                     const hasRunBefore = typeof runBeforeWaitForSelector === 'function';
                     if(hasRunBefore){
-                        await page.evaluate(({ runBeforeWaitForSelector, locale }) => {
+                        await page.evaluate(({ runBeforeWaitForSelector, currentLocale, settings }) => {
                             debugger;
                             if(runBeforeWaitForSelector){
-                                return (eval(runBeforeWaitForSelector))(locale);
+                                return (eval(runBeforeWaitForSelector))(currentLocale, settings);
                             }
                         }, {
-                            locale,
+                            settings: {
+                                LOCALE_EN, 
+                                LOCALE_ZH
+                            },
+                            currentLocale: locale,
                             runBeforeWaitForSelector: hasRunBefore? `(${runBeforeWaitForSelector.toString()})`: null
                         });
                         await page.reload({ waitUntil });
