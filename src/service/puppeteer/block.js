@@ -58,7 +58,6 @@ export default (async ({ name, viewport,preload, waitUntil, locale, runBeforeWai
                             currentLocale: locale,
                             runBeforeWaitForSelector: hasRunBefore? `(${runBeforeWaitForSelector.toString()})`: null
                         });
-                        await page.reload({ waitUntil });
                     }
 
                     await page.waitForSelector(selector);
