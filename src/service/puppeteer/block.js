@@ -3,6 +3,7 @@ import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
 import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists } from './utils/index';
 import XXH from 'xxhashjs';
 import path from 'path';
+import fs from 'fs';
 import pkg from '../../../package.json';
 import isImageEmpty from './utils/isImageEmpty';
 
@@ -10,13 +11,21 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms * 1000));
 }
 
+const saveFolder = 'screenshots';
+const emtpyPath = path.resolve(process.cwd(), `./public/${saveFolder}/empty.json`);
 const isObject = val => Object.prototype.toString.call(val) === '[object Object]'
 const isHeadless = process.env.HEADLESS !== 'false';
-const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage ? (/\/$/.test(homepage) ? homepage : homepage + '/') : './';
 
-const emptyImages = [];
+let emptyImages = [];
+try{
+    if(fs.existsSync(emtpyPath)){
+        emptyImages = JSON.parse(fs.readFileSync(emtpyPath));
+    }
+}catch(e){
+    console.error(e);
+}
 export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
@@ -115,7 +124,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                                 ...item,
                                 __EMPTY__: absolutePath
                             });
-                            writeSync(path.resolve(process.cwd(), `./public/${saveFolder}/empty.json`), JSON.stringify(emptyImages, null, 2));
+                            writeSync(emtpyPath, JSON.stringify(emptyImages, null, 2));
                         }
                     } catch (e) {
                         console.error(e);
