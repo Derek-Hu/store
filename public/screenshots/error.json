@@ -2219,5 +2219,37 @@
     "publishTime": "2018-03-22T15:13:30.177Z",
     "updateTime": "2019-06-27T05:29:15.633Z",
     "__ID__": "e40f3fd1"
+  },
+  "12e17478": {
+    "name": "info-overview",
+    "title": "数据概要",
+    "description": "适用于多数据的信息展示",
+    "homepage": "https://unpkg.com/@icedesign/info-overview-block/build/index.html",
+    "categories": [
+      "信息展示"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/blocks/InfoOverview",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/info-overview-block",
+      "version": "1.0.3",
+      "registry": "http://registry.npmjs.com",
+      "version-0.x": "2.0.1",
+      "sourceCodeDirectory": "src/"
+    },
+    "dependencies": {
+      "@icedesign/container": "^1.x",
+      "prop-types": "^15.5.8",
+      "react": "^16.2.0",
+      "@alifd/next": "^1.x"
+    },
+    "screenshot": "https://unpkg.com/@icedesign/info-overview-block/screenshot.png",
+    "screenshots": [
+      "https://unpkg.com/@icedesign/info-overview-block/screenshot.png"
+    ],
+    "customConfig": null,
+    "publishTime": "2018-09-13T12:29:41.861Z",
+    "updateTime": "2019-06-27T05:30:58.641Z",
+    "__ID__": "12e17478"
   }
 }
