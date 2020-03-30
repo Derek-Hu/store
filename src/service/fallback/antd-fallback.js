@@ -9821,10 +9821,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/351-zh-1cf35a3a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/351-zh-1cf35a3a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/351-en-1cf35a3a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "基本用法 一个简单的 loading 状态。"
+        "zh": "基本用法 一个简单的 loading 状态。",
+        "en": "basic Usage A simple loading status."
       }
     },
     {
@@ -9847,10 +9849,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/352-zh-13617b58.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/352-zh-13617b58.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/352-en-13617b58.png"
       },
       "__DESCRIPTION__": {
-        "zh": "自定义指示符 使用自定义指示符。"
+        "zh": "自定义指示符 使用自定义指示符。",
+        "en": "Custom spinning indicator Use custom loading indicator."
       }
     },
     {
@@ -9873,10 +9877,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/353-zh-1334a485.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/353-zh-1334a485.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/353-en-1334a485.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。"
+        "zh": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。",
+        "en": "Alert message title Further details about the context of this alert. Loading state： delay Specifies a delay for loading state. If spinning ends during delay, loading status won't appear."
       }
     },
     {
@@ -9899,10 +9905,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/354-zh-779fd7b3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/354-zh-779fd7b3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/354-en-779fd7b3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "容器 放入一个容器中。"
+        "zh": "容器 放入一个容器中。",
+        "en": "Inside a container Spin in a container."
       }
     },
     {
@@ -9925,10 +9933,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/355-zh-3cdd11fa.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/355-zh-3cdd11fa.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/355-en-3cdd11fa.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。"
+        "zh": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。",
+        "en": "Alert message title Further details about the context of this alert. Loading state： Embedded mode Embedding content into Spin will set it into loading state."
       }
     },
     {
@@ -9951,10 +9961,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/356-zh-97117ce.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/356-zh-97117ce.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/356-en-97117ce.png"
       },
       "__DESCRIPTION__": {
-        "zh": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。"
+        "zh": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。",
+        "en": "Size A small Spin is used for loading text, default sized Spin for loading a card-level block, and large Spin used for loading a page."
       }
     },
     {
@@ -9977,10 +9989,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/357-zh-47778d70.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/357-zh-47778d70.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/357-en-47778d70.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。"
+        "zh": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。",
+        "en": "Loading... Alert message title Further details about the context of this alert. Customized description Customized description content."
       }
     },
     {
@@ -10003,10 +10017,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/358-zh-6e2d0f40.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/358-zh-6e2d0f40.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/358-en-6e2d0f40.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
+        "zh": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。",
+        "en": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
       }
     },
     {
@@ -10029,10 +10045,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/359-zh-564aebc3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/359-zh-564aebc3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/359-en-564aebc3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。"
+        "zh": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。",
+        "en": "Active 11.28% Idle 9.30% In Card Display statistic data in Card."
       }
     },
     {
@@ -10055,10 +10073,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/360-zh-59d32920.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/360-zh-59d32920.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/360-en-59d32920.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Countdown 48:00:23 Million Seconds 48:00:23:720 Day Level 2 天 0 时 0 分 23 秒 倒计时 倒计时组件。"
+        "zh": "Countdown 48:00:23 Million Seconds 48:00:23:720 Day Level 2 天 0 时 0 分 23 秒 倒计时 倒计时组件。",
+        "en": "Countdown 48:00:25 Million Seconds 48:00:25:116 Day Level 2 天 0 时 0 分 25 秒 Countdown Countdown component."
       }
     },
     {
@@ -10081,10 +10101,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/361-zh-1d466181.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/361-zh-1d466181.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/361-en-1d466181.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。"
+        "zh": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。",
+        "en": "Feedback 1,128 Unmerged 93/ 100 Unit Add unit through prefix and suffix."
       }
     },
     {
@@ -10107,10 +10129,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/362-zh-23ae3992.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/362-zh-23ae3992.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/362-en-23ae3992.png"
       },
       "__DESCRIPTION__": {
-        "zh": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。"
+        "zh": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。",
+        "en": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. Clickable Setting onChange makes Steps clickable."
       }
     },
     {
@@ -10133,10 +10157,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/363-zh-f17a9ef.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/363-zh-f17a9ef.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/363-en-f17a9ef.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。"
+        "zh": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。",
+        "en": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. Customized Dot Style You can customize the display for Steps with progress dot style."
       }
     },
     {
@@ -10159,10 +10185,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/364-zh-305afede.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/364-zh-305afede.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/364-en-305afede.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。"
+        "zh": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。",
+        "en": "Finished This is a description In Process This is a description 3Waiting This is a description Error status By using status of Steps, you can specify the state for current step."
       }
     },
     {
@@ -10185,10 +10213,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/365-zh-6c6625db.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/365-zh-6c6625db.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/365-en-6c6625db.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。"
+        "zh": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。",
+        "en": "Login Verification Pay Done With icon You can use your own custom icons by setting the property icon for Steps.Step."
       }
     },
     {
@@ -10211,10 +10241,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/366-zh-3ff7aafa.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/366-zh-3ff7aafa.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/366-en-3ff7aafa.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait 导航步骤 导航类型的步骤条。"
+        "zh": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait 导航步骤 导航类型的步骤条。",
+        "en": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait Navigation Steps Navigation steps."
       }
     },
     {
@@ -10237,10 +10269,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/367-zh-28e2243d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/367-zh-28e2243d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/367-en-28e2243d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. 点状步骤条 包含步骤点的进度条。"
+        "zh": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. 点状步骤条 包含步骤点的进度条。",
+        "en": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. Dot Style Steps with progress dot style."
       }
     },
     {
@@ -10263,10 +10297,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/368-zh-ba0065aa.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/368-zh-ba0065aa.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/368-en-ba0065aa.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. 基本用法 简单的步骤条。"
+        "zh": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. 基本用法 简单的步骤条。",
+        "en": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. Basic The most basic step bar."
       }
     },
     {
@@ -10289,10 +10325,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/369-zh-936bed24.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/369-zh-936bed24.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/369-en-936bed24.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished 2In Progress 3Waiting 迷你版 迷你版的步骤条，通过设置 <Steps size=\"small\"> 启用."
+        "zh": "Finished 2In Progress 3Waiting 迷你版 迷你版的步骤条，通过设置 <Steps size=\"small\"> 启用.",
+        "en": "Finished 2In Progress 3Waiting Mini version By setting like this: <Steps size=\"small\">, you can get a mini version."
       }
     },
     {
@@ -10315,10 +10353,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/370-zh-de36ba4d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/370-zh-de36ba4d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/370-en-de36ba4d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。"
+        "zh": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。",
+        "en": "1First 2Second 3Last First-content Next Switch Step Cooperate with the content and buttons, to represent the progress of a process."
       }
     },
     {
@@ -10341,10 +10381,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/371-zh-41bf1c70.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/371-zh-41bf1c70.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/371-en-41bf1c70.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。"
+        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。",
+        "en": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical mini version A simple mini version step bar in the vertical direction."
       }
     },
     {
@@ -10367,10 +10409,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/372-zh-6421630b.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/372-zh-6421630b.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/372-en-6421630b.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。"
+        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。",
+        "en": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical A simple step bar in the vertical direction."
       }
     },
     {
@@ -10393,10 +10437,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/373-zh-29efd97a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/373-zh-29efd97a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/373-en-29efd97a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "基本 最简单的用法。"
+        "zh": "基本 最简单的用法。",
+        "en": "Basic The most basic usage."
       }
     },
     {
@@ -10419,10 +10465,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/374-zh-8c3d267.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/374-zh-8c3d267.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/374-en-8c3d267.png"
       },
       "__DESCRIPTION__": {
-        "zh": " Toggle disabled 不可用 Switch 失效状态。"
+        "zh": " Toggle disabled 不可用 Switch 失效状态。",
+        "en": " Toggle disabled Disabled Disabled state of Switch."
       }
     },
     {
@@ -10445,10 +10493,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/375-zh-e9a4de58.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/375-zh-e9a4de58.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/375-en-e9a4de58.png"
       },
       "__DESCRIPTION__": {
-        "zh": " 加载中 标识开关操作仍在执行中。"
+        "zh": " 加载中 标识开关操作仍在执行中。",
+        "en": " Loading Mark a pending state of switch."
       }
     },
     {
@@ -10471,10 +10521,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/376-zh-a812dc04.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/376-zh-a812dc04.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/376-en-a812dc04.png"
       },
       "__DESCRIPTION__": {
-        "zh": " 两种大小 size=\"small\" 表示小号开关。"
+        "zh": " 两种大小 size=\"small\" 表示小号开关。",
+        "en": " Two sizes size=\"small\" represents a small sized switch."
       }
     },
     {
@@ -10497,10 +10549,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/377-zh-76620db0.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/377-zh-76620db0.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/377-en-76620db0.png"
       },
       "__DESCRIPTION__": {
-        "zh": "开 0 文字和图标 带有文字和图标。"
+        "zh": "开 0 文字和图标 带有文字和图标。",
+        "en": "开 0 Text & icon With text and icon."
       }
     },
     {
@@ -10523,10 +10577,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/378-zh-fbfb38cb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/378-zh-fbfb38cb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/378-en-fbfb38cb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Gender Email Alexandra Fletcher female alexandra.fletcher@example.com Clara Dumas female clara.dumas@example.com Emma Maunu female emma.maunu@example.com Deborah Fox female deborah.fox@example.com نيما مرادی male nym.mrdy@example.com بهار سلطانی نژاد female bhr.sltnynjd@example.com Eduardo Crespo male eduardo.crespo@example.com Francoise Hinz female francoise.hinz@example.com Celina Meunier female celina.meunier@example.com Leo Brown male leo.brown@example.com 1 2 3 4 5 ••• 20 10 条/页 远程加载数据 这个例子通过简单的 ajax 读取方式，演示了如何从服务端读取并展现数据，具有筛选、排序等功能以及页面 loading 效果。开发者可以自行接入其他数据处理方式。 另外，本例也展示了筛选排序功能如何交给服务端实现，列不需要指定具体的 onFilter 和 sorter 函数，而是在把筛选和排序的参数发到服务端来处理。 注意，此示例使用 模拟接口，展示数据可能不准确，请打开网络面板查看请求。"
+        "zh": "Name Gender Email Alexandra Fletcher female alexandra.fletcher@example.com Clara Dumas female clara.dumas@example.com Emma Maunu female emma.maunu@example.com Deborah Fox female deborah.fox@example.com نيما مرادی male nym.mrdy@example.com بهار سلطانی نژاد female bhr.sltnynjd@example.com Eduardo Crespo male eduardo.crespo@example.com Francoise Hinz female francoise.hinz@example.com Celina Meunier female celina.meunier@example.com Leo Brown male leo.brown@example.com 1 2 3 4 5 ••• 20 10 条/页 远程加载数据 这个例子通过简单的 ajax 读取方式，演示了如何从服务端读取并展现数据，具有筛选、排序等功能以及页面 loading 效果。开发者可以自行接入其他数据处理方式。 另外，本例也展示了筛选排序功能如何交给服务端实现，列不需要指定具体的 onFilter 和 sorter 函数，而是在把筛选和排序的参数发到服务端来处理。 注意，此示例使用 模拟接口，展示数据可能不准确，请打开网络面板查看请求。",
+        "en": "Name Gender Email Patrick Morin male patrick.morin@example.com یلدا حسینی female yld.hsyny@example.com Lilly Chen female lilly.chen@example.com Felix Christensen male felix.christensen@example.com Emma Kauppi female emma.kauppi@example.com Elsa Duval female elsa.duval@example.com Aada Aro female aada.aro@example.com Jimi Aho male jimi.aho@example.com Encarnacion Herrero female encarnacion.herrero@example.com Nilzete da Rosa female nilzete.darosa@example.com 1 2 3 4 5 ••• 20 10 / page Ajax This example shows how to fetch and present data from a remote server, and how to implement filtering and sorting in server side by sending related parameters to server. Note, this example use Mock API that you can look up in Network Console."
       }
     },
     {
@@ -10549,10 +10605,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/379-zh-739dafc3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/379-zh-739dafc3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/379-en-739dafc3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Header Name Cash Assets Address John Brown ￥300,000.00 New York No. 1 Lake Park Jim Green ￥1,256,000.00 London No. 1 Lake Park Joe Black ￥120,000.00 Sidney No. 1 Lake Park Footer 1 带边框 添加表格边框线，页头和页脚。"
+        "zh": "Header Name Cash Assets Address John Brown ￥300,000.00 New York No. 1 Lake Park Jim Green ￥1,256,000.00 London No. 1 Lake Park Joe Black ￥120,000.00 Sidney No. 1 Lake Park Footer 1 带边框 添加表格边框线，页头和页脚。",
+        "en": "Header Name Cash Assets Address John Brown ￥300,000.00 New York No. 1 Lake Park Jim Green ￥1,256,000.00 London No. 1 Lake Park Joe Black ￥120,000.00 Sidney No. 1 Lake Park Footer 1 border, title and footer Add border, title and footer for table."
       }
     },
     {
@@ -10575,10 +10633,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/380-zh-867b9386.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/380-zh-867b9386.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/380-en-867b9386.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Home phone Address John Brown 32 0571-22098909 18889898989 New York No. 1 Lake Park Jim Green 42 0571-22098333 18889898888 London No. 1 Lake Park Joe Black 32 0575-22098909 18900010002 Sidney No. 1 Lake Park Jim Red 18 18900010002 London No. 2 Lake Park Jake White 1 表格行/列合并 表头只支持列合并，使用 column 里的 colSpan 进行设置。 表格支持行/列合并，使用 render 里的单元格属性 colSpan 或者 rowSpan 设值为 0 时，设置的表格不会渲染。"
+        "zh": "Name Age Home phone Address John Brown 32 0571-22098909 18889898989 New York No. 1 Lake Park Jim Green 42 0571-22098333 18889898888 London No. 1 Lake Park Joe Black 32 0575-22098909 18900010002 Sidney No. 1 Lake Park Jim Red 18 18900010002 London No. 2 Lake Park Jake White 1 表格行/列合并 表头只支持列合并，使用 column 里的 colSpan 进行设置。 表格支持行/列合并，使用 render 里的单元格属性 colSpan 或者 rowSpan 设值为 0 时，设置的表格不会渲染。",
+        "en": "Name Age Home phone Address John Brown 32 0571-22098909 18889898989 New York No. 1 Lake Park Jim Green 42 0571-22098333 18889898888 London No. 1 Lake Park Joe Black 32 0575-22098909 18900010002 Sidney No. 1 Lake Park Jim Red 18 18900010002 London No. 2 Lake Park Jake White 1 colSpan and rowSpan Table column title supports colSpan that set in column. Table cell supports colSpan and rowSpan that set in render return object. When each of them is set to 0, the cell will not be rendered."
       }
     },
     {
@@ -10601,10 +10661,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/381-zh-70a5e5ee.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/381-zh-70a5e5ee.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/381-en-70a5e5ee.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Joe Black 42 London No. 1 Lake Park Jim Green 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 自定义筛选菜单 通过 filterDropdown 自定义的列筛选功能，并实现一个搜索列的示例。"
+        "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Joe Black 42 London No. 1 Lake Park Jim Green 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 自定义筛选菜单 通过 filterDropdown 自定义的列筛选功能，并实现一个搜索列的示例。",
+        "en": "Name Age Address John Brown 32 New York No. 1 Lake Park Joe Black 42 London No. 1 Lake Park Jim Green 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Customized filter panel Implement a customized column search example via filterDropdown."
       }
     },
     {
@@ -10627,10 +10689,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/382-zh-fd7c4c3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/382-zh-fd7c4c3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/382-en-fd7c4c3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 拖拽排序 使用自定义元素，我们可以集成 react-dnd 来实现拖拽排序。"
+        "zh": "Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 拖拽排序 使用自定义元素，我们可以集成 react-dnd 来实现拖拽排序。",
+        "en": "Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Drag sorting By using custom components, we can integrate table with react-dnd to implement drag sorting."
       }
     },
     {
@@ -10653,10 +10717,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/383-zh-326c22d8.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/383-zh-326c22d8.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/383-en-326c22d8.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 动态控制表格属性 选择不同配置组合查看效果。"
+        "zh": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 动态控制表格属性 选择不同配置组合查看效果。",
+        "en": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 Dynamic Settings Select different settings to see the result."
       }
     },
     {
@@ -10679,10 +10745,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/384-zh-c7e3c74d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/384-zh-c7e3c74d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/384-en-c7e3c74d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。"
+        "zh": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。",
+        "en": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 Editable Cells Table with editable cells."
       }
     },
     {
@@ -10705,10 +10773,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/385-zh-a330a99f.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/385-zh-a330a99f.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/385-en-a330a99f.png"
       },
       "__DESCRIPTION__": {
-        "zh": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 条/页 可编辑行 带行编辑功能的表格。"
+        "zh": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 条/页 可编辑行 带行编辑功能的表格。",
+        "en": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 / page Editable Rows Table with editable rows."
       }
     },
     {
@@ -10731,10 +10801,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/386-zh-784f8b61.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/386-zh-784f8b61.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/386-en-784f8b61.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 单元格自动省略 设置 column.ellipsis 可以让单元格内容根据宽度自动省略。 列头缩略暂不支持和排序筛选一起使用。"
+        "zh": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 单元格自动省略 设置 column.ellipsis 可以让单元格内容根据宽度自动省略。 列头缩略暂不支持和排序筛选一起使用。",
+        "en": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 ellipsis column Ellipsis cell content via setting column.ellipsis. Cannot ellipsis table header with sorters and filters for now."
       }
     },
     {
@@ -10757,10 +10829,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/387-zh-fbd72e21.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/387-zh-fbd72e21.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/387-en-fbd72e21.png"
       },
       "__DESCRIPTION__": {
-        "zh": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 树形数据展示 表格支持树形数据的展示，当数据中有 children 字段时会自动展示为树形表格，如果不需要或配置为其他字段可以用 childrenColumnName 进行配置。 可以通过设置 indentSize 以控制每一层的缩进宽度。 注：暂不支持父子数据递归关联选择。"
+        "zh": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 树形数据展示 表格支持树形数据的展示，当数据中有 children 字段时会自动展示为树形表格，如果不需要或配置为其他字段可以用 childrenColumnName 进行配置。 可以通过设置 indentSize 以控制每一层的缩进宽度。 注：暂不支持父子数据递归关联选择。",
+        "en": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Tree data Display tree structure data in Table when there is field key children in dataSource, try to customize childrenColumnName property to avoid tree table structure. You can control the indent width by setting indentSize. Note, no support for recursive selection of tree structure data table yet."
       }
     },
     {
@@ -10783,10 +10857,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/388-zh-f961b624.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/388-zh-f961b624.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/388-en-f961b624.png"
       },
       "__DESCRIPTION__": {
-        "zh": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 可展开 当表格内容较多不能一次性完全展示时。"
+        "zh": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 可展开 当表格内容较多不能一次性完全展示时。",
+        "en": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 Expandable Row When there's too much information to show and the table can't display all at once."
       }
     },
     {
@@ -10809,10 +10885,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/389-zh-b722cc11.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/389-zh-b722cc11.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/389-en-b722cc11.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 条/页 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。"
+        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 条/页 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。",
+        "en": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 / page Fixed Columns and Header A Solution for displaying large amounts of data with long columns. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x."
       }
     },
     {
@@ -10835,10 +10913,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/390-zh-7d28e011.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/390-zh-7d28e011.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/390-en-7d28e011.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。"
+        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。",
+        "en": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 Fixed Columns To fix some columns and scroll inside other columns, and you must set scroll.x meanwhile. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x. Note: v4 using sticky to implement fixed effect. IE 11 will downgrade to horizontal scroll."
       }
     },
     {
@@ -10861,10 +10941,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/391-zh-b18eca6.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/391-zh-b18eca6.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/391-en-b18eca6.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 条/页 固定表头 方便一页内展示大量数据。 需要指定 column 的 width 属性，否则列头和内容可能不对齐。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。"
+        "zh": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 条/页 固定表头 方便一页内展示大量数据。 需要指定 column 的 width 属性，否则列头和内容可能不对齐。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。",
+        "en": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 / page Fixed Header Display large amounts of data in scrollable view. Specify width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout."
       }
     },
     {
@@ -10887,10 +10969,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/392-zh-11c362e0.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/392-zh-11c362e0.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/392-en-11c362e0.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 条/页 表头分组 columns[n] 可以内嵌 children，以渲染分组表头。"
+        "zh": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 条/页 表头分组 columns[n] 可以内嵌 children，以渲染分组表头。",
+        "en": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 / page Grouping table head Group table head with columns[n].children."
       }
     },
     {
@@ -10913,10 +10997,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/393-zh-ba9be722.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/393-zh-ba9be722.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/393-en-ba9be722.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 筛选和排序 对某一列数据进行筛选，使用列的 filters 属性来指定需要筛选菜单的列，onFilter 用于筛选当前数据，filterMultiple 用于指定多选和单选。 对某一列数据进行排序，通过指定列的 sorter 函数即可启动排序按钮。sorter: function(rowA, rowB) { ... }， rowA、rowB 为比较的两个行数据。 sortDirections: ['ascend' | 'descend']改变每列可用的排序方式，切换排序时按数组内容依次切换，设置在 table props 上时对所有列生效。 使用 defaultSortOrder 属性，设置列的默认排序顺序。"
+        "zh": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 筛选和排序 对某一列数据进行筛选，使用列的 filters 属性来指定需要筛选菜单的列，onFilter 用于筛选当前数据，filterMultiple 用于指定多选和单选。 对某一列数据进行排序，通过指定列的 sorter 函数即可启动排序按钮。sorter: function(rowA, rowB) { ... }， rowA、rowB 为比较的两个行数据。 sortDirections: ['ascend' | 'descend']改变每列可用的排序方式，切换排序时按数组内容依次切换，设置在 table props 上时对所有列生效。 使用 defaultSortOrder 属性，设置列的默认排序顺序。",
+        "en": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Filter and sorter Use filters to generate filter menu in columns, onFilter to determine filtered result, and filterMultiple to indicate whether it's multiple or single selection. Uses defaultFilteredValue to make a column filtered by default. Use sorter to make a column sortable. sorter can be a function of the type function(a, b) { ... } for sorting data locally. sortDirections: ['ascend' | 'descend'] defines available sort methods for each columns, effective for all columns when set on table props. Uses defaultSortOrder to make a column sorted by default. If a sortOrder or defaultSortOrder is specified with the value ascend or descend, you can access this value from within the function passed to the sorter as explained above. Such a function can take the form: function(a, b, sortOrder) { ... }."
       }
     },
     {
@@ -10939,10 +11025,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/394-zh-d18ca097.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/394-zh-d18ca097.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/394-en-d18ca097.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。"
+        "zh": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。",
+        "en": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX style API Using JSX style API (introduced in 2.5.0) Since this is just a syntax sugar for the prop columns, you can't compose Column and ColumnGroup with other Components."
       }
     },
     {
@@ -10965,10 +11053,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/395-zh-550f1bfd.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/395-zh-550f1bfd.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/395-en-550f1bfd.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 多列排序 column.sorter 支持 multiple 字段以配置多列排序优先级。通过 sorter.compare 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。"
+        "zh": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 多列排序 column.sorter 支持 multiple 字段以配置多列排序优先级。通过 sorter.compare 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。",
+        "en": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 Multiple sorter column.sorter support multiple to config the priority of sort columns. Though sorter.compare to customize compare function. You can also leave it empty to use the interactive only."
       }
     },
     {
@@ -10991,10 +11081,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/396-zh-6ed1dd58.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/396-zh-6ed1dd58.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/396-en-6ed1dd58.png"
       },
       "__DESCRIPTION__": {
-        "zh": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 嵌套子表格 展示每行数据更详细的信息。"
+        "zh": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 嵌套子表格 展示每行数据更详细的信息。",
+        "en": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 Nested tables Showing more detailed info of every row."
       }
     },
     {
@@ -11017,10 +11109,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/397-zh-214cf01e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/397-zh-214cf01e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/397-en-214cf01e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 可控的筛选和排序 使用受控属性对筛选和排序状态进行控制。 columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。 务必指定 column.key。"
+        "zh": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 可控的筛选和排序 使用受控属性对筛选和排序状态进行控制。 columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。 务必指定 column.key。",
+        "en": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 Reset filters and sorters Control filters and sorters by filteredValue and sortOrder. Defining filteredValue or sortOrder means that it is in the controlled mode. Make sure sortOrder is assigned for only one column. column.key is required."
       }
     },
     {
@@ -11043,10 +11137,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/398-zh-466f939d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/398-zh-466f939d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/398-en-466f939d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 可伸缩列 集成 react-resizable 来实现可伸缩列。"
+        "zh": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 可伸缩列 集成 react-resizable 来实现可伸缩列。",
+        "en": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 Resizable column Implement resizable column by integrate with react-resizable."
       }
     },
     {
@@ -11069,10 +11165,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/399-zh-3779546e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/399-zh-3779546e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/399-en-3779546e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。"
+        "zh": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。",
+        "en": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 Selection and operation To perform operations and clear selections after selecting some rows, use rowSelection.selectedRowKeys to control selected rows."
       }
     },
     {
@@ -11095,10 +11193,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/400-zh-ef6593c7.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/400-zh-ef6593c7.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/400-en-ef6593c7.png"
       },
       "__DESCRIPTION__": {
-        "zh": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 自定义选择项 通过 rowSelection.selections 自定义选择项，默认不显示下拉选项，设为 true 时显示默认选择项。"
+        "zh": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 自定义选择项 通过 rowSelection.selections 自定义选择项，默认不显示下拉选项，设为 true 时显示默认选择项。",
+        "en": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 Custom selection Use rowSelection.selections custom selections, default no select dropdown, show default selections via setting to true."
       }
     },
     {
@@ -11121,10 +11221,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/401-zh-2c769e9e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/401-zh-2c769e9e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/401-en-2c769e9e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 紧凑型 两种紧凑型的列表，小型列表只用于对话框内。"
+        "zh": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 紧凑型 两种紧凑型的列表，小型列表只用于对话框内。",
+        "en": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 size There are two compacted table sizes: middle and small. The small size is used in Modals only."
       }
     },
     {
@@ -11147,10 +11249,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/402-zh-d3128edb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/402-zh-d3128edb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/402-en-d3128edb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 总结栏 通过 summary 设置总结栏。"
+        "zh": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 总结栏 通过 summary 设置总结栏。",
+        "en": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 Summary Set summary content by summary prop."
       }
     },
     {
@@ -11173,10 +11277,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/403-zh-1c5b64c3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/403-zh-1c5b64c3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/403-en-1c5b64c3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。"
+        "zh": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。",
+        "en": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 Virtual list Integrate virtual scroll with react-window to achieve a high performance table of 100,000 data."
       }
     },
     {
@@ -11199,10 +11305,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/404-zh-8a830da9.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/404-zh-8a830da9.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/404-en-8a830da9.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。"
+        "zh": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。",
+        "en": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 Container of card type Tab Should be used at the top of container, needs to override styles."
       }
     },
     {
@@ -11225,10 +11333,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/405-zh-fbf674b3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/405-zh-fbf674b3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/405-en-fbf674b3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。"
+        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。",
+        "en": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Card type tab Another type of Tabs, which doesn't support vertical mode."
       }
     },
     {
@@ -11251,10 +11361,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/406-zh-10f4a8.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/406-zh-10f4a8.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/406-en-10f4a8.png"
       },
       "__DESCRIPTION__": {
-        "zh": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。"
+        "zh": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。",
+        "en": "ADD Tab 1 Tab 2 Content of Tab Pane 1 Customized trigger of new tab Hide default plus icon, and bind event for customized trigger."
       }
     },
     {
@@ -11277,10 +11389,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/407-zh-a02645fc.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/407-zh-a02645fc.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/407-en-a02645fc.png"
       },
       "__DESCRIPTION__": {
-        "zh": "tab 1tab 2tab 3 Content of Tab Pane 1 可拖拽标签 使用 react-dnd 实现标签可拖拽。"
+        "zh": "tab 1tab 2tab 3 Content of Tab Pane 1 可拖拽标签 使用 react-dnd 实现标签可拖拽。",
+        "en": "tab 1tab 2tab 3 Content of Tab Pane 1 Draggable Tabs Use react-dnd to make tabs draggable."
       }
     },
     {
@@ -11303,10 +11417,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/408-zh-86c96acb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/408-zh-86c96acb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/408-en-86c96acb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。"
+        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。",
+        "en": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Customized bar of tab Use react-sticky."
       }
     },
     {
@@ -11329,10 +11445,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/409-zh-40408300.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/409-zh-40408300.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/409-en-40408300.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。"
+        "zh": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。",
+        "en": "Tab 1Tab 2Tab 3 Tab 1 Disabled Disabled a tab."
       }
     },
     {
@@ -11355,10 +11473,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/410-zh-a0da5e64.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/410-zh-a0da5e64.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/410-en-a0da5e64.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。"
+        "zh": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。",
+        "en": "Tab 1 Tab 2 Tab 3 Content of Tab 1 Add & close tab Only card type Tabs support adding & closable. +Use closable={false} to disable close."
       }
     },
     {
@@ -11381,10 +11501,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/411-zh-9d9c9ceb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/411-zh-9d9c9ceb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/411-en-9d9c9ceb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。"
+        "zh": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。",
+        "en": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 Extra content You can add extra actions to the right of Tabs."
       }
     },
     {
@@ -11407,10 +11529,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/412-zh-215894b8.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/412-zh-215894b8.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/412-en-215894b8.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab 1Tab 2 Tab 2 图标 有图标的标签。"
+        "zh": "Tab 1Tab 2 Tab 2 图标 有图标的标签。",
+        "en": "Tab 1Tab 2 Tab 2 Icon The Tab with Icon."
       }
     },
     {
@@ -11433,10 +11557,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/413-zh-1a187801.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/413-zh-1a187801.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/413-en-1a187801.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。"
+        "zh": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。",
+        "en": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 Position Tab's position: left, right, top or bottom."
       }
     },
     {
@@ -11459,10 +11585,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/414-zh-1775b07c.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/414-zh-1775b07c.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/414-en-1775b07c.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。"
+        "zh": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。",
+        "en": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 Size Large size tabs are usually used in page header, and small size could be used in Modal."
       }
     },
     {
@@ -11485,10 +11613,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/415-zh-d90f34a3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/415-zh-d90f34a3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/415-en-d90f34a3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。"
+        "zh": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。",
+        "en": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 Slide In order to fit in more tabs, they can slide left and right (or up and down)."
       }
     },
     {
@@ -11511,10 +11641,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/416-zh-e881cf7c.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/416-zh-e881cf7c.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/416-en-e881cf7c.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。"
+        "zh": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。",
+        "en": "Tag 1Tag 2Tag 3 New Tag Animate Animating the Tag by using rc-tween-one."
       }
     },
     {
@@ -11537,10 +11669,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/417-zh-ff2885e0.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/417-zh-ff2885e0.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/417-en-ff2885e0.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。"
+        "zh": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。",
+        "en": "Tag 1LinkTag 2Prevent Default Basic Usage of basic Tag, and it could be closable by set closable property. Closable Tag supports onClose events."
       }
     },
     {
@@ -11563,10 +11697,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/418-zh-2bd57888.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/418-zh-2bd57888.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/418-en-2bd57888.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。"
+        "zh": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。",
+        "en": "Tag1Tag2Tag3 Checkable CheckableTag works like Checkbox, click it to toggle checked state. it is an absolute controlled component and has no uncontrolled mode."
       }
     },
     {
@@ -11589,10 +11725,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/419-zh-3f487850.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/419-zh-3f487850.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/419-en-3f487850.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
+        "zh": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。",
+        "en": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 Colorful Tag We preset a series of colorful tag styles for use in different situations. You can also set it to a hex color string for custom color."
       }
     },
     {
@@ -11615,10 +11753,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/420-zh-eaeead19.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/420-zh-eaeead19.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/420-en-eaeead19.png"
       },
       "__DESCRIPTION__": {
-        "zh": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。"
+        "zh": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。",
+        "en": "UnremovableTag 2Tag 3 New Tag Add & Remove Dynamically Generating a set of Tags by array, you can add and remove dynamically."
       }
     },
     {
@@ -11641,10 +11781,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/421-zh-2b97097f.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/421-zh-2b97097f.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/421-en-2b97097f.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。"
+        "zh": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。",
+        "en": "Movies Toggle Controlled By using the visible prop, you can control the close state of Tag."
       }
     },
     {
@@ -11667,10 +11809,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/422-zh-82e8b7d9.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/422-zh-82e8b7d9.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/422-en-82e8b7d9.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。"
+        "zh": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。",
+        "en": "Categories:MoviesBooksMusicSports Hot Tags Select your favourite topics."
       }
     },
     {
@@ -11693,10 +11837,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/423-zh-199feea3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/423-zh-199feea3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/423-en-199feea3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。"
+        "zh": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。",
+        "en": "successprocessingerrordefaultwarning Status Tag We preset five different colors, you can set color property such as success,processing,error,default and warning to indicate specific status."
       }
     },
     {
@@ -11719,10 +11865,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/424-zh-6431bc8e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/424-zh-6431bc8e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/424-en-6431bc8e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。"
+        "zh": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。",
+        "en": "12 hours TimePicker of 12 hours format, with default format h:mm:ss a."
       }
     },
     {
@@ -11745,10 +11893,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/425-zh-e585d37c.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/425-zh-e585d37c.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/425-en-e585d37c.png"
       },
       "__DESCRIPTION__": {
-        "zh": "附加内容 在 TimePicker 选择框底部显示自定义的内容。"
+        "zh": "附加内容 在 TimePicker 选择框底部显示自定义的内容。",
+        "en": "Addon Render addon contents to time picker panel's bottom."
       }
     },
     {
@@ -11771,10 +11921,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/426-zh-bcf0af7.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/426-zh-bcf0af7.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/426-en-bcf0af7.png"
       },
       "__DESCRIPTION__": {
-        "zh": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。"
+        "zh": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。",
+        "en": "Basic Click TimePicker, and then we could select or input a time in panel."
       }
     },
     {
@@ -11797,10 +11949,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/427-zh-d7f6a10e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/427-zh-d7f6a10e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/427-en-d7f6a10e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "禁用 禁用时间选择。"
+        "zh": "禁用 禁用时间选择。",
+        "en": "disabled A disabled state of the TimePicker."
       }
     },
     {
@@ -11823,10 +11977,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/428-zh-4b040a09.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/428-zh-4b040a09.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/428-en-4b040a09.png"
       },
       "__DESCRIPTION__": {
-        "zh": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。"
+        "zh": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。",
+        "en": "Hour and minute While part of format is omitted, the corresponding column in panel will disappear, too."
       }
     },
     {
@@ -11849,10 +12005,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/429-zh-9bae5f3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/429-zh-9bae5f3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/429-en-9bae5f3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。"
+        "zh": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。",
+        "en": "interval option Show stepped options by hourStep minuteStep secondStep."
       }
     },
     {
@@ -11875,10 +12033,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/430-zh-916f79bd.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/430-zh-916f79bd.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/430-en-916f79bd.png"
       },
       "__DESCRIPTION__": {
-        "zh": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。"
+        "zh": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。",
+        "en": "→ Range Picker Use time range picker with RangePicker."
       }
     },
     {
@@ -11901,10 +12061,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/431-zh-55233927.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/431-zh-55233927.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/431-en-55233927.png"
       },
       "__DESCRIPTION__": {
-        "zh": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。"
+        "zh": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。",
+        "en": "Three Sizes The input box comes in three sizes. large is used in the form, while the medium size is the default."
       }
     },
     {
@@ -11927,10 +12089,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/432-zh-30d9a2a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/432-zh-30d9a2a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/432-en-30d9a2a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "受控组件 value 和 onChange 需要配合使用。"
+        "zh": "受控组件 value 和 onChange 需要配合使用。",
+        "en": "Under Control value and onChange should be used together,"
       }
     },
     {
@@ -11953,10 +12117,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/433-zh-463078f4.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/433-zh-463078f4.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/433-en-463078f4.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。"
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。",
+        "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 Alternate Alternate timeline."
       }
     },
     {
@@ -11979,10 +12145,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/434-zh-6158a00a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/434-zh-6158a00a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/434-en-6158a00a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。"
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。",
+        "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Basic Basic timeline."
       }
     },
     {
@@ -12005,10 +12173,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/435-zh-7a588173.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/435-zh-7a588173.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/435-en-7a588173.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。"
+        "zh": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。",
+        "en": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Color Set the color of circles. green means completed or success status, red means warning or error, and blue means ongoing or other default status, gray for unfinished or disabled status."
       }
     },
     {
@@ -12031,10 +12201,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/436-zh-4e000b31.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/436-zh-4e000b31.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/436-en-4e000b31.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。"
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。",
+        "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Custom Set a node as an icon or other custom element."
       }
     },
     {
@@ -12057,10 +12229,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/437-zh-71f7fe26.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/437-zh-71f7fe26.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/437-en-71f7fe26.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。"
+        "zh": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。",
+        "en": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved Label Use label show time alone."
       }
     },
     {
@@ -12083,10 +12257,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/438-zh-6b828079.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/438-zh-6b828079.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/438-en-6b828079.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。"
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。",
+        "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse Last node and Reversing When the timeline is incomplete and ongoing, put a ghost node at last. Set pending as truthy value to enable displaying pending item. You can customize the pending content by passing a React Element. Meanwhile, pendingDot={a React Element} is used to customize the dot of the pending item. reverse={true} is used for reversing nodes."
       }
     },
     {
@@ -12109,10 +12285,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/439-zh-17f31333.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/439-zh-17f31333.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/439-en-17f31333.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。"
+        "zh": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。",
+        "en": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Right alternate Right alternate timeline."
       }
     },
     {
@@ -12135,10 +12313,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/440-zh-a944fff3.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/440-zh-a944fff3.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/440-en-a944fff3.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+        "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。",
+        "en": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 Arrow pointing at the center By specifying arrowPointAtCenter prop, the arrow will point to the center of the target element."
       }
     },
     {
@@ -12161,10 +12341,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/441-zh-8dd54de5.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/441-zh-8dd54de5.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/441-en-8dd54de5.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Tooltip will show on mouse enter. 基本 最简单的用法。"
+        "zh": "Tooltip will show on mouse enter. 基本 最简单的用法。",
+        "en": "Tooltip will show on mouse enter. Basic The simplest usage."
       }
     },
     {
@@ -12187,10 +12369,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/442-zh-582c6865.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/442-zh-582c6865.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/442-en-582c6865.png"
       },
       "__DESCRIPTION__": {
-        "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。"
+        "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。",
+        "en": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available."
       }
     },
     {
@@ -12213,10 +12397,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/443-zh-f0e4ee7e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/443-zh-f0e4ee7e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/443-en-f0e4ee7e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "10 项 content1-description of content1 content2-description of content2 content3-description of content3 content9-description of content9 content13-description of content13 content14-description of content14 content15-description of content15 content16-description of content16 content18-description of content18 content19-description of content19 reload to right to left 10 项 content4-description of content4 content5-description of content5 content6-description of content6 content7-description of content7 content8-description of content8 content10-description of content10 content11-description of content11 content12-description of content12 content17-description of content17 content20-description of content20 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。"
+        "zh": "10 项 content1-description of content1 content2-description of content2 content3-description of content3 content9-description of content9 content13-description of content13 content14-description of content14 content15-description of content15 content16-description of content16 content18-description of content18 content19-description of content19 reload to right to left 10 项 content4-description of content4 content5-description of content5 content6-description of content6 content7-description of content7 content8-description of content8 content10-description of content10 content11-description of content11 content12-description of content12 content17-description of content17 content20-description of content20 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。",
+        "en": "11 items content4-description of content4 content5-description of content5 content6-description of content6 content8-description of content8 content11-description of content11 content13-description of content13 content14-description of content14 content16-description of content16 content17-description of content17 content18-description of content18 content19-description of content19 reload to right to left 9 items content1-description of content1 content2-description of content2 content3-description of content3 content7-description of content7 content9-description of content9 content10-description of content10 content12-description of content12 content15-description of content15 content20-description of content20 reload Advanced Advanced Usage of Transfer. You can customize the labels of the transfer buttons, the width and height of the columns, and what should be displayed in the footer."
       }
     },
     {
@@ -12239,10 +12425,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/444-zh-fb9ceaee.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/444-zh-fb9ceaee.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/444-en-fb9ceaee.png"
       },
       "__DESCRIPTION__": {
-        "zh": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。"
+        "zh": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。",
+        "en": "14 items Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 items Target content3 content6 content9 content12 content15 content18 disabled Basic The most basic usage of Transfer involves providing the source data and target keys arrays, plus the rendering and some callback functions."
       }
     },
     {
@@ -12265,10 +12453,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/445-zh-ab77f203.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/445-zh-ab77f203.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/445-en-ab77f203.png"
       },
       "__DESCRIPTION__": {
-        "zh": "10 项 content1 - description of content1 content6 - description of content6 content8 - description of content8 content9 - description of content9 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content18 - description of content18 content19 - description of content19 10 项 content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content10 - description of content10 content11 - description of content11 content13 - description of content13 content17 - description of content17 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。"
+        "zh": "10 项 content1 - description of content1 content6 - description of content6 content8 - description of content8 content9 - description of content9 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content18 - description of content18 content19 - description of content19 10 项 content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content10 - description of content10 content11 - description of content11 content13 - description of content13 content17 - description of content17 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。",
+        "en": "11 items content2 - description of content2 content3 - description of content3 content4 - description of content4 content5 - description of content5 content7 - description of content7 content9 - description of content9 content11 - description of content11 content12 - description of content12 content15 - description of content15 content17 - description of content17 content19 - description of content19 9 items content1 - description of content1 content6 - description of content6 content8 - description of content8 content10 - description of content10 content13 - description of content13 content14 - description of content14 content16 - description of content16 content18 - description of content18 content20 - description of content20 Custom datasource Custom each Transfer Item, and in this way you can render a complex datasource."
       }
     },
     {
@@ -12291,10 +12481,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/446-zh-3fa5c10e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/446-zh-3fa5c10e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/446-en-3fa5c10e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "12 项 content1 content2 content3 content5 content6 content9 content10 content11 content15 content16 content17 content19 8 项 content4 content7 content8 content12 content13 content14 content18 content20 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。"
+        "zh": "12 项 content1 content2 content3 content5 content6 content9 content10 content11 content15 content16 content17 content19 8 项 content4 content7 content8 content12 content13 content14 content18 content20 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。",
+        "en": "12 items content2 content3 content5 content6 content9 content10 content11 content14 content15 content18 content19 content20 8 items content1 content4 content7 content8 content12 content13 content16 content17 Search Transfer with a search box."
       }
     },
     {
@@ -12317,10 +12509,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/447-zh-3fbd95d0.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/447-zh-3fbd95d0.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/447-en-3fbd95d0.png"
       },
       "__DESCRIPTION__": {
-        "zh": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。"
+        "zh": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。",
+        "en": "14 items Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 items Name content3 content6 content9 content12 content15 content18 1 disabled showSearch Table Transfer Customize render list with Table component."
       }
     },
     {
@@ -12343,10 +12537,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/448-zh-1e8849be.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/448-zh-1e8849be.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/448-en-1e8849be.png"
       },
       "__DESCRIPTION__": {
-        "zh": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。"
+        "zh": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。",
+        "en": "5 items 0-0 0-1 0-1-0 0-1-1 0-3 0 item No Data Tree Transfer Customize render list with Tree component."
       }
     },
     {
@@ -12369,10 +12565,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/449-zh-f125cbe9.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/449-zh-f125cbe9.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/449-en-f125cbe9.png"
       },
       "__DESCRIPTION__": {
-        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例"
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例",
+        "en": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 Controlled Tree Controlled mode lets parent nodes reflect the status of child nodes more intelligently."
       }
     },
     {
@@ -12395,10 +12593,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/450-zh-992ade0e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/450-zh-992ade0e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/450-en-992ade0e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。"
+        "zh": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。",
+        "en": "parent 1 parent 1-0 leaf leaf parent 1-1 sss Basic The most basic usage, tell you how to use checkable, selectable, disabled, defaultExpandKeys, and etc."
       }
     },
     {
@@ -12421,10 +12621,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/451-zh-4f5d80dd.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/451-zh-4f5d80dd.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/451-en-4f5d80dd.png"
       },
       "__DESCRIPTION__": {
-        "zh": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。"
+        "zh": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。",
+        "en": "parent 1 leaf leaf Customize Icon You can customize icons for different nodes."
       }
     },
     {
@@ -12447,10 +12649,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/452-zh-6d1f0a59.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/452-zh-6d1f0a59.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/452-en-6d1f0a59.png"
       },
       "__DESCRIPTION__": {
-        "zh": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。"
+        "zh": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。",
+        "en": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 directory Built-in directory tree. multiple support ctrl(Windows) / command(Mac) selection."
       }
     },
     {
@@ -12473,10 +12677,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/453-zh-a0668ca6.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/453-zh-a0668ca6.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/453-en-a0668ca6.png"
       },
       "__DESCRIPTION__": {
-        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。"
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。",
+        "en": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 draggable Drag treeNode to insert after the other treeNode or insert into the other parent TreeNode."
       }
     },
     {
@@ -12499,10 +12705,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/454-zh-3761c5f9.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/454-zh-3761c5f9.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/454-en-3761c5f9.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。"
+        "zh": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。",
+        "en": "Expand to load Expand to load Tree Node load data asynchronously To load data asynchronously when click to expand a treeNode."
       }
     },
     {
@@ -12525,10 +12733,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/455-zh-98ca6a07.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/455-zh-98ca6a07.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/455-en-98ca6a07.png"
       },
       "__DESCRIPTION__": {
-        "zh": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。"
+        "zh": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。",
+        "en": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Tree with line Tree with connected line between nodes, turn on by showLine, customize the preseted icon by switcherIcon."
       }
     },
     {
@@ -12551,10 +12761,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/456-zh-410317f6.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/456-zh-410317f6.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/456-en-410317f6.png"
       },
       "__DESCRIPTION__": {
-        "zh": "0-0 0-1 0-2 可搜索 可搜索的树。"
+        "zh": "0-0 0-1 0-2 可搜索 可搜索的树。",
+        "en": "0-0 0-1 0-2 Searchable Searchable Tree."
       }
     },
     {
@@ -12577,10 +12789,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/457-zh-28ce5026.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/457-zh-28ce5026.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/457-en-28ce5026.png"
       },
       "__DESCRIPTION__": {
-        "zh": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。"
+        "zh": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。",
+        "en": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Customize collapse/expand icon customize collapse/expand icon of tree node"
       }
     },
     {
@@ -12603,10 +12817,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/458-zh-af5ccb24.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/458-zh-af5ccb24.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/458-en-af5ccb24.png"
       },
       "__DESCRIPTION__": {
-        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。"
+        "zh": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。",
+        "en": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 Virtual scroll Use virtual list through height prop."
       }
     },
     {
@@ -12629,10 +12845,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/459-zh-8f4ee8ab.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/459-zh-8f4ee8ab.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/459-en-8f4ee8ab.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Please select 异步加载 异步加载树节点。"
+        "zh": "Please select 异步加载 异步加载树节点。",
+        "en": "Please select Asynchronous loading Asynchronous loading tree node."
       }
     },
     {
@@ -12655,10 +12873,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/460-zh-a1c44771.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/460-zh-a1c44771.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/460-en-a1c44771.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Please select 基本 最简单的用法。"
+        "zh": "Please select 基本 最简单的用法。",
+        "en": "Please select Basic The most basic usage."
       }
     },
     {
@@ -12681,10 +12901,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/461-zh-f55a3658.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/461-zh-f55a3658.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/461-en-f55a3658.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Node1 可勾选 使用勾选框实现多选功能。"
+        "zh": "Node1 可勾选 使用勾选框实现多选功能。",
+        "en": "Node1 Checkable Multiple and checkable."
       }
     },
     {
@@ -12707,10 +12929,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/462-zh-dda3bec4.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/462-zh-dda3bec4.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/462-en-dda3bec4.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Please select 多选 多选的树选择。"
+        "zh": "Please select 多选 多选的树选择。",
+        "en": "Please select Multiple Selection Multiple selection usage."
       }
     },
     {
@@ -12733,10 +12957,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/463-zh-5df008e1.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/463-zh-5df008e1.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/463-en-5df008e1.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。"
+        "zh": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。",
+        "en": "Please select Generate from tree data The tree structure can be populated using treeData property. This is a quick and easy way to provide the tree content."
       }
     },
     {
@@ -12759,10 +12985,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/464-zh-7e79fa2d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/464-zh-7e79fa2d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/464-en-7e79fa2d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。"
+        "zh": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。",
+        "en": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 Basic Display the document sample."
       }
     },
     {
@@ -12785,10 +13013,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/465-zh-5773ee12.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/465-zh-5773ee12.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/465-en-5773ee12.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refi...展开 省略号 多行文本省略。"
+        "zh": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refi...展开 省略号 多行文本省略。",
+        "en": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is r...Expand Ellipsis Multiple line ellipsis support."
       }
     },
     {
@@ -12811,10 +13041,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/466-zh-9f00d33a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/466-zh-9f00d33a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/466-en-9f00d33a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。"
+        "zh": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。",
+        "en": "This is an editable text. This is a copyable text. Replace copy text. Interactive Provide additional interactive capacity of editable and copyable."
       }
     },
     {
@@ -12837,10 +13069,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/467-zh-e69a6e75.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/467-zh-e69a6e75.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/467-en-e69a6e75.png"
       },
       "__DESCRIPTION__": {
-        "zh": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. The s...--William Shakespeare展开 后缀 添加后缀的省略。"
+        "zh": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. The s...--William Shakespeare展开 后缀 添加后缀的省略。",
+        "en": "To be, or not to be, that is a question: Whether it is nobler in the mind to suffer. Th...--William ShakespeareExpand suffix add suffix ellipsis support."
       }
     },
     {
@@ -12863,10 +13097,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/468-zh-a88e7f6b.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/468-zh-a88e7f6b.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/468-en-a88e7f6b.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。"
+        "zh": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。",
+        "en": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Text Component Provides multiple types of text."
       }
     },
     {
@@ -12889,10 +13125,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/469-zh-c831849a.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/469-zh-c831849a.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/469-en-c831849a.png"
       },
       "__DESCRIPTION__": {
-        "zh": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。"
+        "zh": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。",
+        "en": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design Title Component Display title in different level."
       }
     },
     {
@@ -12915,10 +13153,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/470-zh-9f150c0d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/470-zh-9f150c0d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/470-en-9f150c0d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
+        "zh": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。",
+        "en": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
       }
     },
     {
@@ -12941,10 +13181,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/471-zh-8469c71e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/471-zh-8469c71e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/471-en-8469c71e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。"
+        "zh": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。",
+        "en": "Upload xxx.png yyy.png zzz.png Default Files Use defaultFileList for uploaded files when page init."
       }
     },
     {
@@ -12967,10 +13209,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/472-zh-99499bdb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/472-zh-99499bdb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/472-en-99499bdb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。"
+        "zh": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。",
+        "en": "Upload Directory Upload directory You can select and upload a whole directory."
       }
     },
     {
@@ -12993,10 +13237,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/473-zh-4c0fb5cb.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/473-zh-4c0fb5cb.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/473-en-4c0fb5cb.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。"
+        "zh": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。",
+        "en": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files Drag and Drop You can drag files to a specific area, to upload. Alternatively, you can also upload by selecting. We can upload serveral files at once in modern browsers by giving the input the multiple attribute."
       }
     },
     {
@@ -13019,10 +13265,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/474-zh-85b51653.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/474-zh-85b51653.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/474-en-85b51653.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。"
+        "zh": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。",
+        "en": "Upload xxx.png Complete control over file list You can gain full control over filelist by configuring fileList. You can accomplish all kinds of customed functions. The following shows two circumstances: limit the number of uploaded files. read from response and show file link."
       }
     },
     {
@@ -13045,10 +13293,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/475-zh-3ae005cc.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/475-zh-3ae005cc.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/475-en-3ae005cc.png"
       },
       "__DESCRIPTION__": {
-        "zh": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。"
+        "zh": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。",
+        "en": "image.png Upload Pictures Wall After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation."
       }
     },
     {
@@ -13071,10 +13321,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/476-zh-d34b9aea.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/476-zh-d34b9aea.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/476-en-d34b9aea.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。"
+        "zh": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。",
+        "en": "Upload xxx.png yyy.png Upload xxx.png yyy.png Pictures with list style If uploaded file is a picture, the thumbnail can be shown. IE8/9 do not support local thumbnail show. Please use thumbUrl instead."
       }
     },
     {
@@ -13097,10 +13349,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/477-zh-98d4988d.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/477-zh-98d4988d.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/477-en-98d4988d.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。"
+        "zh": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。",
+        "en": "Upload Customize preview file Customize local preview. Can handle with non-image format files such as video."
       }
     },
     {
@@ -13123,10 +13377,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/478-zh-d988857e.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/478-zh-d988857e.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/478-en-d988857e.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。"
+        "zh": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。",
+        "en": "Upload Transform file before request Use transformFile for transform file before request such as add a watermark."
       }
     },
     {
@@ -13149,10 +13405,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/479-zh-444b2f07.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/479-zh-444b2f07.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/479-en-444b2f07.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。"
+        "zh": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。",
+        "en": "Upload xxx.png download yyy.png download zzz.png custom action icon Use showUploadList for custom action icons of files."
       }
     },
     {
@@ -13175,10 +13433,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/480-zh-9d0550b1.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/480-zh-9d0550b1.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/480-en-9d0550b1.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。"
+        "zh": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。",
+        "en": "Select File Start Upload Upload manually Upload files manually after beforeUpload returns false."
       }
     },
     {
@@ -13201,10 +13461,12 @@ export default {
         "antd"
       ],
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/antd/481-zh-4012f7fe.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/481-zh-4012f7fe.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/481-en-4012f7fe.png"
       },
       "__DESCRIPTION__": {
-        "zh": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例."
+        "zh": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例.",
+        "en": "Photos Click to Upload Aliyun OSS Use Aliyun OSS upload example."
       }
     }
   ]

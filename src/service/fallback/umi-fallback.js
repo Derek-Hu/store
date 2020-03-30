@@ -15,10 +15,12 @@ export default {
       ],
       "previewUrl": "https://preview.pro.ant.design",
       "__HASH__": {
-        "en": "https://derek-hu.github.io/store/screenshots/umijs/0-en-a7c581ac.png"
+        "en": "https://derek-hu.github.io/store/screenshots/umijs/0-en-a7c581ac.png",
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/0-zh-a7c581ac.png"
       },
       "__DESCRIPTION__": {
-        "en": "Total Sales ¥ 126,560 WoW Change12%DoD Change11% Daily Sales￥12,423 Visits 8,846 Daily Visits1,234 Payments 6,560 Conversion Rate60% Operational Effect 78% WoW Change12%DoD Change11% All dayAll WeekAll MonthAll Year → SalesVisits Stores Sales Trend Sales Ranking 1 Gongzhuan No.0 shop 323,234 2 Gongzhuan No.1 shop 323,234 3 Gongzhuan No.2 shop 323,234 4 Gongzhuan No.3 shop 323,234 5 Gongzhuan No.4 shop 323,234 6 Gongzhuan No.5 shop 323,234 7 Gongzhuan No.6 shop 323,234 Online Top Search Search Users 12,32117.1 Per Capita Search 2.726.2 Rank Keyword Users Weekly Range 1 搜索关键词-0 596 56% 2 搜索关键词-1 647 47% 3 搜索关键词-2 260 16% 4 搜索关键词-3 97 16% 5 搜索关键词-4 582 52% 1 2 3 4 5 ••• 10 The Proportion Of Sales ALL Online Stores Sales Sales ¥ 15,781 家用电器28.79% ¥ 4,544 食用酒水21.04% ¥ 3,321 个护健康19.73% ¥ 3,113 服饰箱包14.83% ¥ 2,341 母婴产品7.80% ¥ 1,231 其他7.80% ¥ 1,231 Stores 0 Conversion Rate 40% Stores 1 Conversion Rate 70% Stores 2 Conversion Rate 10% Stores 3 Conversion Rate 30% Stores 4 Conversion Rate 30% Stores 5 Conversion Rate 10% Stores 6 Conversion Rate 60% Stores 7 Conversion Rate 80% Stores 8 Conversion Rate 90% Stores 9 Conversion Rate 40%"
+        "en": "Total Sales ¥ 126,560 WoW Change12%DoD Change11% Daily Sales￥12,423 Visits 8,846 Daily Visits1,234 Payments 6,560 Conversion Rate60% Operational Effect 78% WoW Change12%DoD Change11% All dayAll WeekAll MonthAll Year → SalesVisits Stores Sales Trend Sales Ranking 1 Gongzhuan No.0 shop 323,234 2 Gongzhuan No.1 shop 323,234 3 Gongzhuan No.2 shop 323,234 4 Gongzhuan No.3 shop 323,234 5 Gongzhuan No.4 shop 323,234 6 Gongzhuan No.5 shop 323,234 7 Gongzhuan No.6 shop 323,234 Online Top Search Search Users 12,32117.1 Per Capita Search 2.726.2 Rank Keyword Users Weekly Range 1 搜索关键词-0 596 56% 2 搜索关键词-1 647 47% 3 搜索关键词-2 260 16% 4 搜索关键词-3 97 16% 5 搜索关键词-4 582 52% 1 2 3 4 5 ••• 10 The Proportion Of Sales ALL Online Stores Sales Sales ¥ 15,781 家用电器28.79% ¥ 4,544 食用酒水21.04% ¥ 3,321 个护健康19.73% ¥ 3,113 服饰箱包14.83% ¥ 2,341 母婴产品7.80% ¥ 1,231 其他7.80% ¥ 1,231 Stores 0 Conversion Rate 40% Stores 1 Conversion Rate 70% Stores 2 Conversion Rate 10% Stores 3 Conversion Rate 30% Stores 4 Conversion Rate 30% Stores 5 Conversion Rate 10% Stores 6 Conversion Rate 60% Stores 7 Conversion Rate 80% Stores 8 Conversion Rate 90% Stores 9 Conversion Rate 40%",
+        "zh": "Total Sales ¥ 126,560 WoW Change12%DoD Change11% Daily Sales￥12,423 Visits 8,846 Daily Visits1,234 Payments 6,560 Conversion Rate60% Operational Effect 78% WoW Change12%DoD Change11% All dayAll WeekAll MonthAll Year → SalesVisits Stores Sales Trend Sales Ranking 1 Gongzhuan No.0 shop 323,234 2 Gongzhuan No.1 shop 323,234 3 Gongzhuan No.2 shop 323,234 4 Gongzhuan No.3 shop 323,234 5 Gongzhuan No.4 shop 323,234 6 Gongzhuan No.5 shop 323,234 7 Gongzhuan No.6 shop 323,234 Online Top Search Search Users 12,32117.1 Per Capita Search 2.726.2 Rank Keyword Users Weekly Range 1 搜索关键词-0 596 56% 2 搜索关键词-1 647 47% 3 搜索关键词-2 260 16% 4 搜索关键词-3 97 16% 5 搜索关键词-4 582 52% 1 2 3 4 5 ••• 10 The Proportion Of Sales ALL Online Stores Sales Sales ¥ 15,781 家用电器28.79% ¥ 4,544 食用酒水21.04% ¥ 3,321 个护健康19.73% ¥ 3,113 服饰箱包14.83% ¥ 2,341 母婴产品7.80% ¥ 1,231 其他7.80% ¥ 1,231 Stores 0 Conversion Rate 40% Stores 1 Conversion Rate 70% Stores 2 Conversion Rate 10% Stores 3 Conversion Rate 30% Stores 4 Conversion Rate 30% Stores 5 Conversion Rate 10% Stores 6 Conversion Rate 60% Stores 7 Conversion Rate 80% Stores 8 Conversion Rate 90% Stores 9 Conversion Rate 40%"
       }
     },
     {
@@ -272,10 +274,12 @@ export default {
       ],
       "previewUrl": "https://preview.pro.ant.design/exception/500",
       "__HASH__": {
-        "zh": "https://derek-hu.github.io/store/screenshots/umijs/11-zh-a50d87f6.png"
+        "zh": "https://derek-hu.github.io/store/screenshots/umijs/11-zh-a50d87f6.png",
+        "en": "https://derek-hu.github.io/store/screenshots/umijs/11-en-a50d87f6.png"
       },
       "__DESCRIPTION__": {
-        "zh": "500 Sorry, the server is reporting an error. Back Home"
+        "zh": "500 Sorry, the server is reporting an error. Back Home",
+        "en": "500 Sorry, the server is reporting an error. Back Home"
       }
     },
     {
