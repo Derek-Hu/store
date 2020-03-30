@@ -6496,8 +6496,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "234_17216b5b",
-      "__DESCRIPTION__": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/234-zh-17216b5b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Customized display duration 修改延时 自定义时长 10s，默认时长为 3s。"
+      }
     },
     {
       "title": "message-普通提示",
@@ -6518,8 +6522,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "235_afe926b0",
-      "__DESCRIPTION__": "Display normal message 普通提示 信息提醒反馈。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/235-zh-afe926b0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Display normal message 普通提示 信息提醒反馈。"
+      }
     },
     {
       "title": "message-加载中",
@@ -6540,8 +6548,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "236_f428797b",
-      "__DESCRIPTION__": "Display a loading indicator 加载中 进行全局 loading，异步自行移除。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/236-zh-f428797b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Display a loading indicator 加载中 进行全局 loading，异步自行移除。"
+      }
     },
     {
       "title": "message-其他提示类型",
@@ -6562,8 +6574,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "237_6587d487",
-      "__DESCRIPTION__": "SuccessErrorWarning 其他提示类型 包括成功、失败、警告。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/237-zh-6587d487.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "SuccessErrorWarning 其他提示类型 包括成功、失败、警告。"
+      }
     },
     {
       "title": "message-Promise 接口",
@@ -6584,8 +6600,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "238_52e630cb",
-      "__DESCRIPTION__": "Display sequential messages Promise 接口 可以通过 then 接口在关闭后运行 callback 。以上用例将在每个 message 将要结束时通过 then 显示新的 message 。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/238-zh-52e630cb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Display sequential messages Promise 接口 可以通过 then 接口在关闭后运行 callback 。以上用例将在每个 message 将要结束时通过 then 显示新的 message 。"
+      }
     },
     {
       "title": "message-更新消息内容",
@@ -6606,8 +6626,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "239_2af0583d",
-      "__DESCRIPTION__": "Open the message box 更新消息内容 可以通过唯一的 key 来更新内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/239-zh-2af0583d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the message box 更新消息内容 可以通过唯一的 key 来更新内容。"
+      }
     },
     {
       "title": "modal-异步关闭",
@@ -6628,8 +6652,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "240_d2ca31e3",
-      "__DESCRIPTION__": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/240-zh-d2ca31e3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。"
+      }
     },
     {
       "title": "modal-自定义页脚按钮属性",
@@ -6650,8 +6678,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "241_76c864a6",
-      "__DESCRIPTION__": "Open Modal with customized button props 自定义页脚按钮属性 传入 okButtonProps 和 cancelButtonProps 可分别自定义确定按钮和取消按钮的 props。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/241-zh-76c864a6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open Modal with customized button props 自定义页脚按钮属性 传入 okButtonProps 和 cancelButtonProps 可分别自定义确定按钮和取消按钮的 props。"
+      }
     },
     {
       "title": "modal-确认对话框",
@@ -6672,8 +6704,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "242_53121286",
-      "__DESCRIPTION__": "Confirm 确认对话框 使用 confirm() 可以快捷地弹出确认框。onCancel/onOk 返回 promise 可以延迟关闭。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/242-zh-53121286.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Confirm 确认对话框 使用 confirm() 可以快捷地弹出确认框。onCancel/onOk 返回 promise 可以延迟关闭。"
+      }
     },
     {
       "title": "modal-销毁确认对话框",
@@ -6694,8 +6730,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "243_fd1f8023",
-      "__DESCRIPTION__": "Confirm 销毁确认对话框 使用 Modal.destroyAll() 可以销毁弹出的确认窗。通常用于路由监听当中，处理路由前进、后退不能销毁确认对话框的问题。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/243-zh-fd1f8023.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Confirm 销毁确认对话框 使用 Modal.destroyAll() 可以销毁弹出的确认窗。通常用于路由监听当中，处理路由前进、后退不能销毁确认对话框的问题。"
+      }
     },
     {
       "title": "modal-确认对话框",
@@ -6716,8 +6756,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "244_78b49705",
-      "__DESCRIPTION__": "ConfirmDeleteWith extra props 确认对话框 使用 confirm() 可以快捷地弹出确认框。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/244-zh-78b49705.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "ConfirmDeleteWith extra props 确认对话框 使用 confirm() 可以快捷地弹出确认框。"
+      }
     },
     {
       "title": "modal-自定义页脚",
@@ -6738,8 +6782,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "245_d3df123d",
-      "__DESCRIPTION__": "Open Modal with customized footer 自定义页脚 更复杂的例子，自定义了页脚的按钮，点击提交后进入 loading 状态，完成后关闭。 不需要默认确定取消按钮时，你可以把 footer 设为 null。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/245-zh-d3df123d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open Modal with customized footer 自定义页脚 更复杂的例子，自定义了页脚的按钮，点击提交后进入 loading 状态，完成后关闭。 不需要默认确定取消按钮时，你可以把 footer 设为 null。"
+      }
     },
     {
       "title": "modal-使用 hooks 获得上下文",
@@ -6760,8 +6808,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "246_c934b280",
-      "__DESCRIPTION__": "ConfirmWarningInfoError 使用 hooks 获得上下文 通过 Modal.useModal 创建支持读取 context 的 contextHolder。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/246-zh-c934b280.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "ConfirmWarningInfoError 使用 hooks 获得上下文 通过 Modal.useModal 创建支持读取 context 的 contextHolder。"
+      }
     },
     {
       "title": "modal-信息提示",
@@ -6782,8 +6834,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "247_c9af2f69",
-      "__DESCRIPTION__": "InfoSuccessErrorWarning 信息提示 各种类型的信息提示，只提供一个按钮用于关闭。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/247-zh-c9af2f69.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "InfoSuccessErrorWarning 信息提示 各种类型的信息提示，只提供一个按钮用于关闭。"
+      }
     },
     {
       "title": "modal-国际化",
@@ -6804,8 +6860,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "248_38daf956",
-      "__DESCRIPTION__": "Modal Confirm 国际化 设置 okText 与 cancelText 以自定义按钮文字。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/248-zh-38daf956.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Modal Confirm 国际化 设置 okText 与 cancelText 以自定义按钮文字。"
+      }
     },
     {
       "title": "modal-手动更新和移除",
@@ -6826,8 +6886,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "249_873ca79d",
-      "__DESCRIPTION__": "Open modal to close in 5s 手动更新和移除 手动更新和关闭 Modal.method 方式创建的对话框。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/249-zh-873ca79d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open modal to close in 5s 手动更新和移除 手动更新和关闭 Modal.method 方式创建的对话框。"
+      }
     },
     {
       "title": "modal-自定义位置",
@@ -6848,8 +6912,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "250_17ad76a1",
-      "__DESCRIPTION__": "Display a modal dialog at 20px to Top Vertically centered modal dialog 自定义位置 使用 centered 或类似 style.top 的样式来设置对话框位置。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/250-zh-17ad76a1.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Display a modal dialog at 20px to Top Vertically centered modal dialog 自定义位置 使用 centered 或类似 style.top 的样式来设置对话框位置。"
+      }
     },
     {
       "title": "notification-基本",
@@ -6870,8 +6938,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "251_ed1aacb6",
-      "__DESCRIPTION__": "Open the notification box 基本 最简单的用法，4.5 秒后自动关闭。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/251-zh-ed1aacb6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 基本 最简单的用法，4.5 秒后自动关闭。"
+      }
     },
     {
       "title": "notification-自定义图标",
@@ -6892,8 +6964,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "252_e29f1cf0",
-      "__DESCRIPTION__": "Open the notification box 自定义图标 图标可以被自定义。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/252-zh-e29f1cf0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 自定义图标 图标可以被自定义。"
+      }
     },
     {
       "title": "notification-自定义样式",
@@ -6914,8 +6990,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "253_f7a87634",
-      "__DESCRIPTION__": "Open the notification box 自定义样式 使用 style 和 className 来定义样式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/253-zh-f7a87634.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 自定义样式 使用 style 和 className 来定义样式。"
+      }
     },
     {
       "title": "notification-自动关闭的延时",
@@ -6936,8 +7016,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "254_d2b0597b",
-      "__DESCRIPTION__": "Open the notification box 自动关闭的延时 自定义通知框自动关闭的延时，默认4.5s，取消自动关闭只要将该值设为 0 即可。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/254-zh-d2b0597b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 自动关闭的延时 自定义通知框自动关闭的延时，默认4.5s，取消自动关闭只要将该值设为 0 即可。"
+      }
     },
     {
       "title": "notification-通过 Hooks 获取上下文",
@@ -6958,8 +7042,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "255_18903e85",
-      "__DESCRIPTION__": "topLefttopRight bottomLeftbottomRight 通过 Hooks 获取上下文 通过 notification.useNotification 创建支持读取 context 的 contextHolder。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/255-zh-18903e85.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "topLefttopRight bottomLeftbottomRight 通过 Hooks 获取上下文 通过 notification.useNotification 创建支持读取 context 的 contextHolder。"
+      }
     },
     {
       "title": "notification-位置",
@@ -6980,8 +7068,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "256_ce5ac3",
-      "__DESCRIPTION__": "topLefttopRight bottomLeftbottomRight 位置 通知从右上角、右下角、左下角、左上角弹出。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/256-zh-ce5ac3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "topLefttopRight bottomLeftbottomRight 位置 通知从右上角、右下角、左下角、左上角弹出。"
+      }
     },
     {
       "title": "notification-更新消息内容",
@@ -7002,8 +7094,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "257_64e40c9",
-      "__DESCRIPTION__": "Open the notification box 更新消息内容 可以通过唯一的 key 来更新内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/257-zh-64e40c9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 更新消息内容 可以通过唯一的 key 来更新内容。"
+      }
     },
     {
       "title": "notification-自定义按钮",
@@ -7024,8 +7120,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "258_63bf13c1",
-      "__DESCRIPTION__": "Open the notification box 自定义按钮 自定义关闭按钮的样式和文字。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/258-zh-63bf13c1.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Open the notification box 自定义按钮 自定义关闭按钮的样式和文字。"
+      }
     },
     {
       "title": "notification-带有图标的通知提醒框",
@@ -7046,8 +7146,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "259_6a5b8f2a",
-      "__DESCRIPTION__": "SuccessInfoWarningError 带有图标的通知提醒框 通知提醒框左侧有图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/259-zh-6a5b8f2a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "SuccessInfoWarningError 带有图标的通知提醒框 通知提醒框左侧有图标。"
+      }
     },
     {
       "title": "page-header-多种形态的 PageHeader",
@@ -7068,8 +7172,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "260_3059c768",
-      "__DESCRIPTION__": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 多种形态的 PageHeader 使用操作区，并自定义子节点，适合使用在需要展示一些复杂的信息，帮助用户快速了解这个页面的信息和操作。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/260-zh-3059c768.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 多种形态的 PageHeader 使用操作区，并自定义子节点，适合使用在需要展示一些复杂的信息，帮助用户快速了解这个页面的信息和操作。"
+      }
     },
     {
       "title": "page-header-标准样式",
@@ -7090,8 +7198,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "261_9b5bbf",
-      "__DESCRIPTION__": "Title This is a subtitle 标准样式 标准页头，适合使用在需要简单描述的场景。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/261-zh-9b5bbf.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Title This is a subtitle 标准样式 标准页头，适合使用在需要简单描述的场景。"
+      }
     },
     {
       "title": "page-header-带面包屑页头",
@@ -7112,8 +7224,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "262_901c5a79",
-      "__DESCRIPTION__": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle 带面包屑页头 带面包屑页头，适合层级比较深的页面，让用户可以快速导航。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/262-zh-901c5a79.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle 带面包屑页头 带面包屑页头，适合层级比较深的页面，让用户可以快速导航。"
+      }
     },
     {
       "title": "page-header-组合示例",
@@ -7134,8 +7250,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "263_2442ce38",
-      "__DESCRIPTION__": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc 组合示例 使用了 PageHeader 提供的所有能力。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/263-zh-2442ce38.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc 组合示例 使用了 PageHeader 提供的所有能力。"
+      }
     },
     {
       "title": "page-header-白底模式",
@@ -7156,8 +7276,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "264_bbb4bbe5",
-      "__DESCRIPTION__": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China 白底模式 默认 PageHeader 是透明底色的。在某些情况下，PageHeader 需要自己的背景颜色。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/264-zh-bbb4bbe5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China 白底模式 默认 PageHeader 是透明底色的。在某些情况下，PageHeader 需要自己的背景颜色。"
+      }
     },
     {
       "title": "page-header-响应式",
@@ -7178,8 +7302,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "265_bb71c269",
-      "__DESCRIPTION__": "响应式 在不同大小的屏幕下，应该有不同的表现"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/265-zh-bb71c269.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "响应式 在不同大小的屏幕下，应该有不同的表现"
+      }
     },
     {
       "title": "pagination-基本",
@@ -7200,8 +7328,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "266_2c107f74",
-      "__DESCRIPTION__": "1 2 3 4 5 基本 基础分页。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/266-zh-2c107f74.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 5 基本 基础分页。"
+      }
     },
     {
       "title": "pagination-改变",
@@ -7222,8 +7354,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "267_7473c8b5",
-      "__DESCRIPTION__": "1 2 3 4 5 ••• 50 10 条/页 1 2 3 4 5 ••• 50 10 条/页 改变 改变每页显示条目数。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/267-zh-7473c8b5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 5 ••• 50 10 条/页 1 2 3 4 5 ••• 50 10 条/页 改变 改变每页显示条目数。"
+      }
     },
     {
       "title": "pagination-受控",
@@ -7244,8 +7380,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "268_5f12ea3d",
-      "__DESCRIPTION__": "1 2 3 4 5 受控 受控制的页码。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/268-zh-5f12ea3d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 5 受控 受控制的页码。"
+      }
     },
     {
       "title": "pagination-上一步和下一步",
@@ -7266,8 +7406,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "269_48319955",
-      "__DESCRIPTION__": "Previous 1 2 3 4 5 ••• 50 Next 上一步和下一步 修改上一步和下一步为文字链接。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/269-zh-48319955.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Previous 1 2 3 4 5 ••• 50 Next 10 条/页 上一步和下一步 修改上一步和下一步为文字链接。"
+      }
     },
     {
       "title": "pagination-跳转",
@@ -7288,8 +7432,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "270_6af08669",
-      "__DESCRIPTION__": "1 2 3 4 5 ••• 50 跳至页 1 2 3 4 5 ••• 50 跳至页 跳转 快速跳转到某一页。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/270-zh-6af08669.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 5 ••• 50 10 条/页 跳至页 1 2 3 4 5 ••• 50 10 条/页 跳至页 跳转 快速跳转到某一页。"
+      }
     },
     {
       "title": "pagination-迷你",
@@ -7310,8 +7458,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "271_451f5c40",
-      "__DESCRIPTION__": "1 2 3 4 5 1 2 3 4 5 10 条/页 跳至页 Total 50 items 1 2 3 4 5 迷你 迷你版本。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/271-zh-451f5c40.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 2 3 4 5 1 2 3 4 5 10 条/页 跳至页 Total 50 items 1 2 3 4 5 迷你 迷你版本。"
+      }
     },
     {
       "title": "pagination-更多",
@@ -7332,8 +7484,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "272_134be805",
-      "__DESCRIPTION__": "1 ••• 4 5 6 7 8 ••• 50 更多 更多分页。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/272-zh-134be805.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1 ••• 4 5 6 7 8 ••• 50 10 条/页 更多 更多分页。"
+      }
     },
     {
       "title": "pagination-简洁",
@@ -7354,8 +7510,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "273_b385a56",
-      "__DESCRIPTION__": "/5 简洁 简单的翻页。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/273-zh-b385a56.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "/5 简洁 简单的翻页。"
+      }
     },
     {
       "title": "pagination-总数",
@@ -7376,8 +7536,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "274_5890b520",
-      "__DESCRIPTION__": "Total 85 items 1 2 3 4 5 1-20 of 85 items 1 2 3 4 5 总数 通过设置 showTotal 展示总共有多少数据。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/274-zh-5890b520.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Total 85 items 1 2 3 4 5 20 条/页 1-20 of 85 items 1 2 3 4 5 20 条/页 总数 通过设置 showTotal 展示总共有多少数据。"
+      }
     },
     {
       "title": "popconfirm-基本",
@@ -7398,8 +7562,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "275_557c70",
-      "__DESCRIPTION__": "Delete 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/275-zh-557c70.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Delete 基本 最简单的用法。"
+      }
     },
     {
       "title": "popconfirm-条件触发",
@@ -7420,8 +7588,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "276_29b6670b",
-      "__DESCRIPTION__": "Delete a task Whether directly execute： 条件触发 可以判断是否需要弹出。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/276-zh-29b6670b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Delete a task Whether directly execute： 条件触发 可以判断是否需要弹出。"
+      }
     },
     {
       "title": "popconfirm-自定义 Icon 图标",
@@ -7442,8 +7614,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "277_1f4848e9",
-      "__DESCRIPTION__": "Delete 自定义 Icon 图标 自定义提示 icon。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/277-zh-1f4848e9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Delete 自定义 Icon 图标 自定义提示 icon。"
+      }
     },
     {
       "title": "popconfirm-国际化",
@@ -7464,8 +7640,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "278_d2d92af",
-      "__DESCRIPTION__": "Delete 国际化 使用 okText 和 cancelText 自定义按钮文字。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/278-zh-d2d92af.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Delete 国际化 使用 okText 和 cancelText 自定义按钮文字。"
+      }
     },
     {
       "title": "popconfirm-位置",
@@ -7486,8 +7666,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "279_8e5bfd1f",
-      "__DESCRIPTION__": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。如需箭头指向目标元素中心，可以设置 arrowPointAtCenter。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/279-zh-8e5bfd1f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。如需箭头指向目标元素中心，可以设置 arrowPointAtCenter。"
+      }
     },
     {
       "title": "popover-箭头指向",
@@ -7508,8 +7692,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "280_46ad0a87",
-      "__DESCRIPTION__": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/280-zh-46ad0a87.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+      }
     },
     {
       "title": "popover-基本",
@@ -7530,8 +7718,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "281_879f9bf5",
-      "__DESCRIPTION__": "Hover me 基本 最简单的用法，浮层的大小由内容区域决定。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/281-zh-879f9bf5.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hover me 基本 最简单的用法，浮层的大小由内容区域决定。"
+      }
     },
     {
       "title": "popover-从浮层内关闭",
@@ -7552,8 +7744,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "282_b902f1df",
-      "__DESCRIPTION__": "Click me 从浮层内关闭 使用 visible 属性控制浮层显示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/282-zh-b902f1df.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Click me 从浮层内关闭 使用 visible 属性控制浮层显示。"
+      }
     },
     {
       "title": "popover-悬停点击弹出窗口",
@@ -7574,8 +7770,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "283_19708cd4",
-      "__DESCRIPTION__": "Hover and click / 悬停并单击 悬停点击弹出窗口 以下示例显示如何创建可悬停和单击的弹出窗口。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/283-zh-19708cd4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hover and click / 悬停并单击 悬停点击弹出窗口 以下示例显示如何创建可悬停和单击的弹出窗口。"
+      }
     },
     {
       "title": "popover-位置",
@@ -7596,8 +7796,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "284_4f39a24b",
-      "__DESCRIPTION__": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/284-zh-4f39a24b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。"
+      }
     },
     {
       "title": "popover-三种触发方式",
@@ -7618,8 +7822,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "285_907b72c4",
-      "__DESCRIPTION__": "Hover meFocus meClick me 三种触发方式 鼠标移入、聚集、点击。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/285-zh-907b72c4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hover meFocus meClick me 三种触发方式 鼠标移入、聚集、点击。"
+      }
     },
     {
       "title": "progress-进度圈动态展示",
@@ -7640,8 +7848,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "286_c0ce787b",
-      "__DESCRIPTION__": "0% 进度圈动态展示 会动的进度条才是好进度条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/286-zh-c0ce787b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0% 进度圈动态展示 会动的进度条才是好进度条。"
+      }
     },
     {
       "title": "progress-小型进度圈",
@@ -7662,8 +7874,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "287_35f816ac",
-      "__DESCRIPTION__": "30% 小型进度圈 小一号的圈形进度。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/287-zh-35f816ac.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "30% 小型进度圈 小一号的圈形进度。"
+      }
     },
     {
       "title": "progress-进度圈",
@@ -7684,8 +7900,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "288_27c5e946",
-      "__DESCRIPTION__": "75% 进度圈 圈形的进度。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/288-zh-27c5e946.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "75% 进度圈 圈形的进度。"
+      }
     },
     {
       "title": "progress-仪表盘",
@@ -7706,8 +7926,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "289_844d158",
-      "__DESCRIPTION__": "75% 75% 仪表盘 通过设置 type=dashboard，可以很方便地实现仪表盘样式的进度条。若想要修改缺口的角度，可以设置 gapDegree 为你想要的值。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/289-zh-844d158.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "75% 75% 仪表盘 通过设置 type=dashboard，可以很方便地实现仪表盘样式的进度条。若想要修改缺口的角度，可以设置 gapDegree 为你想要的值。"
+      }
     },
     {
       "title": "progress-动态展示",
@@ -7728,8 +7952,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "290_3d2f6bb4",
-      "__DESCRIPTION__": "0% 动态展示 会动的进度条才是好进度条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/290-zh-3d2f6bb4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0% 动态展示 会动的进度条才是好进度条。"
+      }
     },
     {
       "title": "progress-自定义文字格式",
@@ -7750,8 +7978,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "291_16609683",
-      "__DESCRIPTION__": "75 Days Done 自定义文字格式 format 属性指定格式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/291-zh-16609683.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "75 Days Done 自定义文字格式 format 属性指定格式。"
+      }
     },
     {
       "title": "progress-自定义进度条渐变色",
@@ -7772,8 +8004,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "292_a6de8598",
-      "__DESCRIPTION__": "99.9% 99.9% 90% 自定义进度条渐变色 linear-gradient 的封装。推荐只传两种颜色。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/292-zh-a6de8598.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "99.9% 99.9% 90% 自定义进度条渐变色 linear-gradient 的封装。推荐只传两种颜色。"
+      }
     },
     {
       "title": "progress-小型进度条",
@@ -7794,8 +8030,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "293_3e9bddeb",
-      "__DESCRIPTION__": "30% 50% 小型进度条 适合放在较狭窄的区域内。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/293-zh-3e9bddeb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "30% 50% 小型进度条 适合放在较狭窄的区域内。"
+      }
     },
     {
       "title": "progress-进度条",
@@ -7816,8 +8056,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "294_6d6fe4e9",
-      "__DESCRIPTION__": "30% 50% 进度条 标准的进度条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/294-zh-6d6fe4e9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "30% 50% 进度条 标准的进度条。"
+      }
     },
     {
       "title": "progress-圆角/方角边缘",
@@ -7838,8 +8082,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "295_68e12ce",
-      "__DESCRIPTION__": "75% 75% 75% 圆角/方角边缘 通过设定 strokeLinecap=\"square|round\" 可以调整进度条边缘的形状。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/295-zh-68e12ce.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "75% 75% 75% 圆角/方角边缘 通过设定 strokeLinecap=\"square|round\" 可以调整进度条边缘的形状。"
+      }
     },
     {
       "title": "progress-分段进度条",
@@ -7860,8 +8108,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "296_ef23f22f",
-      "__DESCRIPTION__": "60% 60% 60% 分段进度条 标准的进度条。type=\"circle|dashboard\" 时不支持分段颜色。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/296-zh-ef23f22f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "60% 60% 60% 分段进度条 标准的进度条。type=\"circle|dashboard\" 时不支持分段颜色。"
+      }
     },
     {
       "title": "progress-步骤进度条",
@@ -7882,8 +8134,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "297_a4e95de8",
-      "__DESCRIPTION__": "50% 30% 步骤进度条 带步骤的进度条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/297-zh-a4e95de8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "50% 30% 步骤进度条 带步骤的进度条。"
+      }
     },
     {
       "title": "radio-基本",
@@ -7904,8 +8160,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "298_1bcc3783",
-      "__DESCRIPTION__": "Radio 基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/298-zh-1bcc3783.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Radio 基本 最简单的用法。"
+      }
     },
     {
       "title": "radio-不可用",
@@ -7926,8 +8186,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "299_73fa7f06",
-      "__DESCRIPTION__": "Disabled Disabled Toggle disabled 不可用 Radio 不可用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/299-zh-73fa7f06.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Disabled Disabled Toggle disabled 不可用 Radio 不可用。"
+      }
     },
     {
       "title": "radio-填底的按钮样式",
@@ -7948,8 +8212,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "300_5632ac20",
-      "__DESCRIPTION__": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 填底的按钮样式 实色填底的单选按钮样式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/300-zh-5632ac20.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 填底的按钮样式 实色填底的单选按钮样式。"
+      }
     },
     {
       "title": "radio-按钮样式",
@@ -7970,8 +8238,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "301_e702328c",
-      "__DESCRIPTION__": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 按钮样式 按钮样式的单选组合。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/301-zh-e702328c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 按钮样式 按钮样式的单选组合。"
+      }
     },
     {
       "title": "radio-Radio.Group 垂直",
@@ -7992,8 +8264,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "302_2e7fd8e6",
-      "__DESCRIPTION__": "Option A Option B Option C More... Radio.Group 垂直 垂直的 Radio.Group，配合更多输入框选项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/302-zh-2e7fd8e6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Option A Option B Option C More... Radio.Group 垂直 垂直的 Radio.Group，配合更多输入框选项。"
+      }
     },
     {
       "title": "radio-Radio.Group 组合 - 配置方式",
@@ -8014,8 +8290,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "303_c1416e9b",
-      "__DESCRIPTION__": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group 组合 - 配置方式 通过配置 options 参数来渲染单选框。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/303-zh-c1416e9b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group 组合 - 配置方式 通过配置 options 参数来渲染单选框。"
+      }
     },
     {
       "title": "radio-单选组合 - 配合 name 使用",
@@ -8036,8 +8316,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "304_7226db47",
-      "__DESCRIPTION__": "A B C D 单选组合 - 配合 name 使用 可以为 Radio.Group 配置 name 参数，为组合内的 input 元素赋予相同的 name 属性，使浏览器把 Radio.Group 下的 Radio 真正看作是一组（例如可以通过方向键始终在同一组内更改选项）。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/304-zh-7226db47.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "A B C D 单选组合 - 配合 name 使用 可以为 Radio.Group 配置 name 参数，为组合内的 input 元素赋予相同的 name 属性，使浏览器把 Radio.Group 下的 Radio 真正看作是一组（例如可以通过方向键始终在同一组内更改选项）。"
+      }
     },
     {
       "title": "radio-单选组合",
@@ -8058,8 +8342,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "305_bb6d71e3",
-      "__DESCRIPTION__": "A B C D 单选组合 一组互斥的 Radio 配合使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/305-zh-bb6d71e3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "A B C D 单选组合 一组互斥的 Radio 配合使用。"
+      }
     },
     {
       "title": "radio-大小",
@@ -8080,8 +8368,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "306_4fc5488e",
-      "__DESCRIPTION__": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 大小 大中小三种组合，可以和表单输入框进行对应配合。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/306-zh-4fc5488e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 大小 大中小三种组合，可以和表单输入框进行对应配合。"
+      }
     },
     {
       "title": "rate-基本",
@@ -8102,8 +8394,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "307_4a9b206a",
-      "__DESCRIPTION__": "基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/307-zh-4a9b206a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 最简单的用法。"
+      }
     },
     {
       "title": "rate-其他字符",
@@ -8124,8 +8420,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "308_dba0d7b9",
-      "__DESCRIPTION__": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 其他字符 可以将星星替换为其他字符，比如字母，数字，字体图标甚至中文。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/308-zh-dba0d7b9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 其他字符 可以将星星替换为其他字符，比如字母，数字，字体图标甚至中文。"
+      }
     },
     {
       "title": "rate-清除",
@@ -8146,8 +8446,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "309_a9bb5dbf",
-      "__DESCRIPTION__": "allowClear: true allowClear: false 清除 支持允许或者禁用清除。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/309-zh-a9bb5dbf.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "allowClear: true allowClear: false 清除 支持允许或者禁用清除。"
+      }
     },
     {
       "title": "rate-只读",
@@ -8168,8 +8472,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "310_33da76cd",
-      "__DESCRIPTION__": "只读 只读，无法进行鼠标交互。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/310-zh-33da76cd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "只读 只读，无法进行鼠标交互。"
+      }
     },
     {
       "title": "rate-半星",
@@ -8190,8 +8498,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "311_aa8f3f4b",
-      "__DESCRIPTION__": "半星 支持选中半星。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/311-zh-aa8f3f4b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "半星 支持选中半星。"
+      }
     },
     {
       "title": "rate-文案展现",
@@ -8212,8 +8524,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "312_77437d46",
-      "__DESCRIPTION__": "normal 文案展现 给评分组件加上文案展示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/312-zh-77437d46.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "normal 文案展现 给评分组件加上文案展示。"
+      }
     },
     {
       "title": "result-403",
@@ -8300,8 +8616,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "316_7748bcc7",
-      "__DESCRIPTION__": "Great, we have done all the operations! Next 自定义 icon 自定义 icon。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/316-zh-7748bcc7.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Great, we have done all the operations! Next 自定义 icon 自定义 icon。"
+      }
     },
     {
       "title": "result-Error",
@@ -8344,8 +8664,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "318_3da78e0b",
-      "__DESCRIPTION__": "Your operation has been executed Go Console Info 展示处理结果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/318-zh-3da78e0b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Your operation has been executed Go Console Info 展示处理结果。"
+      }
     },
     {
       "title": "result-Success",
@@ -8366,8 +8690,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "319_a14d545b",
-      "__DESCRIPTION__": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success 成功的结果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/319-zh-a14d545b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success 成功的结果。"
+      }
     },
     {
       "title": "result-Warning",
@@ -8388,8 +8716,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "320_f1bf0634",
-      "__DESCRIPTION__": "There are some problems with your operation. Go Console Warning 警告类型的结果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/320-zh-f1bf0634.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "There are some problems with your operation. Go Console Warning 警告类型的结果。"
+      }
     },
     {
       "title": "select-自动分词",
@@ -8410,8 +8742,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "321_4b2fce18",
-      "__DESCRIPTION__": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/321-zh-4b2fce18.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。"
+      }
     },
     {
       "title": "select-大数据",
@@ -8432,8 +8768,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "322_eee6f0db",
-      "__DESCRIPTION__": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/322-zh-eee6f0db.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。"
+      }
     },
     {
       "title": "select-无边框",
@@ -8454,8 +8794,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "323_56b9b1d3",
-      "__DESCRIPTION__": "Lucy Lucy 无边框 无边框样式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/323-zh-56b9b1d3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Lucy Lucy 无边框 无边框样式。"
+      }
     },
     {
       "title": "select-联动",
@@ -8476,8 +8820,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "324_f79d413",
-      "__DESCRIPTION__": "Zhejiang Hangzhou 联动 省市联动是典型的例子。 推荐使用 Cascader 组件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/324-zh-f79d413.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Zhejiang Hangzhou 联动 省市联动是典型的例子。 推荐使用 Cascader 组件。"
+      }
     },
     {
       "title": "select-扩展菜单",
@@ -8498,8 +8846,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "325_771c5f84",
-      "__DESCRIPTION__": "custom dropdown render 扩展菜单 使用 dropdownRender 对下拉菜单进行自由扩展。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/325-zh-771c5f84.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "custom dropdown render 扩展菜单 使用 dropdownRender 对下拉菜单进行自由扩展。"
+      }
     },
     {
       "title": "select-自定义选择标签",
@@ -8520,8 +8872,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "326_b95a5ce6",
-      "__DESCRIPTION__": "gold cyan 自定义选择标签 允许自定义选择标签的样式"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/326-zh-b95a5ce6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "gold cyan 自定义选择标签 允许自定义选择标签的样式"
+      }
     },
     {
       "title": "select-隐藏已选择选项",
@@ -8542,8 +8898,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "327_c210e575",
-      "__DESCRIPTION__": "Inserted are removed 隐藏已选择选项 隐藏下拉列表中已选择的选项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/327-zh-c210e575.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Inserted are removed 隐藏已选择选项 隐藏下拉列表中已选择的选项。"
+      }
     },
     {
       "title": "select-获得选项的文本",
@@ -8564,8 +8924,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "328_602dd1f",
-      "__DESCRIPTION__": "Lucy (101) 获得选项的文本 默认情况下 onChange 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 labelInValue 属性。 选中项的 label 会被包装到 value 中传递给 onChange 等函数，此时 value 是一个对象。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/328-zh-602dd1f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Lucy (101) 获得选项的文本 默认情况下 onChange 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 labelInValue 属性。 选中项的 label 会被包装到 value 中传递给 onChange 等函数，此时 value 是一个对象。"
+      }
     },
     {
       "title": "select-多选",
@@ -8586,8 +8950,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "329_8c7a169d",
-      "__DESCRIPTION__": "a10 c12 多选 多选，从已有条目中选择。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/329-zh-8c7a169d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "a10 c12 多选 多选，从已有条目中选择。"
+      }
     },
     {
       "title": "select-分组",
@@ -8608,8 +8976,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "330_6318541",
-      "__DESCRIPTION__": "Lucy 分组 用 OptGroup 进行选项分组。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/330-zh-6318541.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Lucy 分组 用 OptGroup 进行选项分组。"
+      }
     },
     {
       "title": "select-定制回填内容",
@@ -8630,8 +9002,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "331_bd73a61e",
-      "__DESCRIPTION__": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/331-zh-bd73a61e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。"
+      }
     },
     {
       "title": "select-搜索框",
@@ -8652,8 +9028,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "332_154ec393",
-      "__DESCRIPTION__": "input search text 搜索框 搜索和远程数据结合。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/332-zh-154ec393.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "input search text 搜索框 搜索和远程数据结合。"
+      }
     },
     {
       "title": "select-搜索用户",
@@ -8674,8 +9054,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "333_df993a90",
-      "__DESCRIPTION__": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/333-zh-df993a90.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。"
+      }
     },
     {
       "title": "select-三种大小",
@@ -8696,8 +9080,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "334_d09e7ee3",
-      "__DESCRIPTION__": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/334-zh-d09e7ee3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
+      }
     },
     {
       "title": "select-标签",
@@ -8718,8 +9106,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "335_fb6d0f7b",
-      "__DESCRIPTION__": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/335-zh-fb6d0f7b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）"
+      }
     },
     {
       "title": "skeleton-动画效果",
@@ -8740,8 +9132,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "336_1d0c49ce",
-      "__DESCRIPTION__": "动画效果 显示动画效果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/336-zh-1d0c49ce.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "动画效果 显示动画效果。"
+      }
     },
     {
       "title": "skeleton-基本",
@@ -8762,8 +9158,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "337_d44475f4",
-      "__DESCRIPTION__": "基本 最简单的占位效果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/337-zh-d44475f4.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 最简单的占位效果。"
+      }
     },
     {
       "title": "skeleton-包含子组件",
@@ -8784,8 +9184,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "338_e5b1489f",
-      "__DESCRIPTION__": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/338-zh-e5b1489f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。"
+      }
     },
     {
       "title": "skeleton-复杂的组合",
@@ -8806,8 +9210,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "339_2d2a399d",
-      "__DESCRIPTION__": " 复杂的组合 更复杂的组合。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/339-zh-2d2a399d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 复杂的组合 更复杂的组合。"
+      }
     },
     {
       "title": "skeleton-骨架按钮、头像和输入框。",
@@ -8828,8 +9236,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "340_50f74e32",
-      "__DESCRIPTION__": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/340-zh-50f74e32.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。"
+      }
     },
     {
       "title": "skeleton-列表",
@@ -8850,8 +9262,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "341_2f8ac494",
-      "__DESCRIPTION__": " 列表 在列表组件中使用加载占位符。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/341-zh-2f8ac494.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 列表 在列表组件中使用加载占位符。"
+      }
     },
     {
       "title": "slider-基本",
@@ -8872,8 +9288,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "342_abb2f83f",
-      "__DESCRIPTION__": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/342-zh-abb2f83f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。"
+      }
     },
     {
       "title": "slider-事件",
@@ -8894,8 +9314,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "343_d97a7d91",
-      "__DESCRIPTION__": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/343-zh-d97a7d91.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。"
+      }
     },
     {
       "title": "slider-带 icon 的滑块",
@@ -8916,8 +9340,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "344_8602af8b",
-      "__DESCRIPTION__": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/344-zh-8602af8b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。"
+      }
     },
     {
       "title": "slider-带输入框的滑块",
@@ -8938,8 +9366,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "345_2ddd1c32",
-      "__DESCRIPTION__": "带输入框的滑块 和 数字输入框 组件保持同步。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/345-zh-2ddd1c32.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "带输入框的滑块 和 数字输入框 组件保持同步。"
+      }
     },
     {
       "title": "slider-带标签的滑块",
@@ -8960,8 +9392,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "346_30c933ec",
-      "__DESCRIPTION__": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/346-zh-30c933ec.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。"
+      }
     },
     {
       "title": "slider-反向",
@@ -8982,8 +9418,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "347_e97e9981",
-      "__DESCRIPTION__": "Reversed: 反向 设置 reverse 可以将滑动条置反。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/347-zh-e97e9981.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Reversed: 反向 设置 reverse 可以将滑动条置反。"
+      }
     },
     {
       "title": "slider-控制 ToolTip 的显示",
@@ -9004,8 +9444,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "348_70447d61",
-      "__DESCRIPTION__": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/348-zh-70447d61.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。"
+      }
     },
     {
       "title": "slider-自定义提示",
@@ -9026,8 +9470,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "349_691867f1",
-      "__DESCRIPTION__": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/349-zh-691867f1.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。"
+      }
     },
     {
       "title": "slider-垂直",
@@ -9048,8 +9496,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "350_a83e249c",
-      "__DESCRIPTION__": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/350-zh-a83e249c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。"
+      }
     },
     {
       "title": "spin-基本用法",
@@ -9070,8 +9522,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "351_1cf35a3a",
-      "__DESCRIPTION__": "基本用法 一个简单的 loading 状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/351-zh-1cf35a3a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本用法 一个简单的 loading 状态。"
+      }
     },
     {
       "title": "spin-自定义指示符",
@@ -9092,8 +9548,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "352_13617b58",
-      "__DESCRIPTION__": "自定义指示符 使用自定义指示符。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/352-zh-13617b58.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "自定义指示符 使用自定义指示符。"
+      }
     },
     {
       "title": "spin-延迟",
@@ -9114,8 +9574,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "353_1334a485",
-      "__DESCRIPTION__": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/353-zh-1334a485.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。"
+      }
     },
     {
       "title": "spin-容器",
@@ -9136,8 +9600,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "354_779fd7b3",
-      "__DESCRIPTION__": "容器 放入一个容器中。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/354-zh-779fd7b3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "容器 放入一个容器中。"
+      }
     },
     {
       "title": "spin-卡片加载中",
@@ -9158,8 +9626,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "355_3cdd11fa",
-      "__DESCRIPTION__": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/355-zh-3cdd11fa.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。"
+      }
     },
     {
       "title": "spin-各种大小",
@@ -9180,8 +9652,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "356_97117ce",
-      "__DESCRIPTION__": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/356-zh-97117ce.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。"
+      }
     },
     {
       "title": "spin-自定义描述文案",
@@ -9202,8 +9678,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "357_47778d70",
-      "__DESCRIPTION__": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/357-zh-47778d70.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。"
+      }
     },
     {
       "title": "statistic-基本",
@@ -9224,8 +9704,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "358_6e2d0f40",
-      "__DESCRIPTION__": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/358-zh-6e2d0f40.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
+      }
     },
     {
       "title": "statistic-在卡片中使用",
@@ -9246,8 +9730,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "359_564aebc3",
-      "__DESCRIPTION__": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/359-zh-564aebc3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。"
+      }
     },
     {
       "title": "statistic-倒计时",
@@ -9268,8 +9756,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "360_59d32920",
-      "__DESCRIPTION__": "Countdown 48:00:28 Million Seconds 48:00:28:652 Day Level 2 天 0 时 0 分 28 秒 倒计时 倒计时组件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/360-zh-59d32920.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Countdown 48:00:23 Million Seconds 48:00:23:720 Day Level 2 天 0 时 0 分 23 秒 倒计时 倒计时组件。"
+      }
     },
     {
       "title": "statistic-单位",
@@ -9290,8 +9782,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "361_1d466181",
-      "__DESCRIPTION__": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/361-zh-1d466181.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。"
+      }
     },
     {
       "title": "steps-可点击",
@@ -9312,8 +9808,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "362_23ae3992",
-      "__DESCRIPTION__": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/362-zh-23ae3992.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。"
+      }
     },
     {
       "title": "steps-自定义点状步骤条",
@@ -9334,8 +9834,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "363_f17a9ef",
-      "__DESCRIPTION__": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/363-zh-f17a9ef.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。"
+      }
     },
     {
       "title": "steps-步骤运行错误",
@@ -9356,8 +9860,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "364_305afede",
-      "__DESCRIPTION__": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/364-zh-305afede.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。"
+      }
     },
     {
       "title": "steps-带图标的步骤条",
@@ -9378,8 +9886,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "365_6c6625db",
-      "__DESCRIPTION__": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/365-zh-6c6625db.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。"
+      }
     },
     {
       "title": "steps-导航步骤",
