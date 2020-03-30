@@ -19,7 +19,10 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": {},
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png",
+        "en": "https://derek-hu.github.io/store/screenshots/antd/0-en-5db07ce7.png"
+      },
       "__DESCRIPTION__": {
         "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
         "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
@@ -45,6 +48,7 @@ export default {
         "antd"
       ],
       "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
       },
       "__DESCRIPTION__": {
         "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。",
