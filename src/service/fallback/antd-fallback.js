@@ -10000,8 +10000,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "370_de36ba4d",
-      "__DESCRIPTION__": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/370-zh-de36ba4d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。"
+      }
     },
     {
       "title": "steps-竖直方向的小型步骤条",
@@ -10022,8 +10026,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "371_41bf1c70",
-      "__DESCRIPTION__": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/371-zh-41bf1c70.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。"
+      }
     },
     {
       "title": "steps-竖直方向的步骤条",
@@ -10044,8 +10052,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "372_6421630b",
-      "__DESCRIPTION__": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/372-zh-6421630b.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。"
+      }
     },
     {
       "title": "switch-基本",
@@ -10066,8 +10078,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "373_29efd97a",
-      "__DESCRIPTION__": "基本 最简单的用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/373-zh-29efd97a.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 最简单的用法。"
+      }
     },
     {
       "title": "switch-不可用",
@@ -10088,8 +10104,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "374_8c3d267",
-      "__DESCRIPTION__": " Toggle disabled 不可用 Switch 失效状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/374-zh-8c3d267.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Toggle disabled 不可用 Switch 失效状态。"
+      }
     },
     {
       "title": "switch-加载中",
@@ -10110,8 +10130,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "375_e9a4de58",
-      "__DESCRIPTION__": " 加载中 标识开关操作仍在执行中。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/375-zh-e9a4de58.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 加载中 标识开关操作仍在执行中。"
+      }
     },
     {
       "title": "switch-两种大小",
@@ -10132,8 +10156,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "376_a812dc04",
-      "__DESCRIPTION__": " 两种大小 size=\"small\" 表示小号开关。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/376-zh-a812dc04.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 两种大小 size=\"small\" 表示小号开关。"
+      }
     },
     {
       "title": "switch-文字和图标",
@@ -10154,8 +10182,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "377_76620db0",
-      "__DESCRIPTION__": "开 0 文字和图标 带有文字和图标。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/377-zh-76620db0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "开 0 文字和图标 带有文字和图标。"
+      }
     },
     {
       "title": "table-远程加载数据",
@@ -10286,8 +10318,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "383_326c22d8",
-      "__DESCRIPTION__": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 动态控制表格属性 选择不同配置组合查看效果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/383-zh-326c22d8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Bordered loading Title Column Header Footer Expandable Checkbox Fixed Header Has Data Ellipsis Size Default Middle Small Table Scroll Unset Scroll Fixed Columns Table Layout Unset Fixed Pagination Top Bottom Both None Name Age Address Action John Brown 12 New York No. 1 Lake Park DeleteMore actions John Brown 22 New York No. 2 Lake Park DeleteMore actions John Brown 32 New York No. 3 Lake Park DeleteMore actions John Brown 42 New York No. 4 Lake Park DeleteMore actions John Brown 52 New York No. 5 Lake Park DeleteMore actions John Brown 62 New York No. 6 Lake Park DeleteMore actions John Brown 72 New York No. 7 Lake Park DeleteMore actions John Brown 82 New York No. 8 Lake Park DeleteMore actions John Brown 92 New York No. 9 Lake Park DeleteMore actions John Brown 102 New York No. 10 Lake Park DeleteMore actions Here is footer 1 动态控制表格属性 选择不同配置组合查看效果。"
+      }
     },
     {
       "title": "table-可编辑单元格",
@@ -10308,8 +10344,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "384_c7e3c74d",
-      "__DESCRIPTION__": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/384-zh-c7e3c74d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。"
+      }
     },
     {
       "title": "table-可编辑行",
@@ -10330,8 +10370,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "385_a330a99f",
-      "__DESCRIPTION__": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 可编辑行 带行编辑功能的表格。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/385-zh-a330a99f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "name age address operation Edrward 0 32 London Park no. 0 Edit Edrward 1 32 London Park no. 1 Edit Edrward 2 32 London Park no. 2 Edit Edrward 3 32 London Park no. 3 Edit Edrward 4 32 London Park no. 4 Edit Edrward 5 32 London Park no. 5 Edit Edrward 6 32 London Park no. 6 Edit Edrward 7 32 London Park no. 7 Edit Edrward 8 32 London Park no. 8 Edit Edrward 9 32 London Park no. 9 Edit 1 2 3 4 5 ••• 10 10 条/页 可编辑行 带行编辑功能的表格。"
+      }
     },
     {
       "title": "table-单元格自动省略",
@@ -10352,8 +10396,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "386_784f8b61",
-      "__DESCRIPTION__": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 单元格自动省略 设置 column.ellipsis 可以让单元格内容根据宽度自动省略。 列头缩略暂不支持和排序筛选一起使用。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/386-zh-784f8b61.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Age Address Long Column Long Column Long Column Long Column Long Column Long Column John Brown 32 New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park New York No. 1 Lake Park, New York No. 1 Lake Park Jim Green 42 London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park London No. 2 Lake Park, London No. 2 Lake Park Joe Black 32 Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park Sidney No. 1 Lake Park, Sidney No. 1 Lake Park 1 单元格自动省略 设置 column.ellipsis 可以让单元格内容根据宽度自动省略。 列头缩略暂不支持和排序筛选一起使用。"
+      }
     },
     {
       "title": "table-树形数据展示",
@@ -10374,8 +10422,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "387_fbd72e21",
-      "__DESCRIPTION__": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 树形数据展示 表格支持树形数据的展示，当数据中有 children 字段时会自动展示为树形表格，如果不需要或配置为其他字段可以用 childrenColumnName 进行配置。 可以通过设置 indentSize 以控制每一层的缩进宽度。 注：暂不支持父子数据递归关联选择。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/387-zh-fbd72e21.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Name Age Address John Brown sr. 60 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 树形数据展示 表格支持树形数据的展示，当数据中有 children 字段时会自动展示为树形表格，如果不需要或配置为其他字段可以用 childrenColumnName 进行配置。 可以通过设置 indentSize 以控制每一层的缩进宽度。 注：暂不支持父子数据递归关联选择。"
+      }
     },
     {
       "title": "table-可展开",
@@ -10396,8 +10448,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "388_f961b624",
-      "__DESCRIPTION__": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 可展开 当表格内容较多不能一次性完全展示时。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/388-zh-f961b624.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Name Age Address Action John Brown 32 New York No. 1 Lake Park Delete Jim Green 42 London No. 1 Lake Park Delete Not Expandable 29 Jiangsu No. 1 Lake Park Delete Joe Black 32 Sidney No. 1 Lake Park Delete 1 可展开 当表格内容较多不能一次性完全展示时。"
+      }
     },
     {
       "title": "table-固定头和列",
@@ -10418,8 +10474,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "389_b722cc11",
-      "__DESCRIPTION__": " Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/389-zh-b722cc11.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 条/页 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。"
+      }
     },
     {
       "title": "table-固定列",
@@ -10440,8 +10500,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "390_7d28e011",
-      "__DESCRIPTION__": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/390-zh-7d28e011.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。"
+      }
     },
     {
       "title": "table-固定表头",
@@ -10462,8 +10526,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "391_b18eca6",
-      "__DESCRIPTION__": " Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 固定表头 方便一页内展示大量数据。 需要指定 column 的 width 属性，否则列头和内容可能不对齐。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/391-zh-b18eca6.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 Edward King 10 32 London, Park Lane no. 10 Edward King 11 32 London, Park Lane no. 11 Edward King 12 32 London, Park Lane no. 12 Edward King 13 32 London, Park Lane no. 13 Edward King 14 32 London, Park Lane no. 14 Edward King 15 32 London, Park Lane no. 15 Edward King 16 32 London, Park Lane no. 16 Edward King 17 32 London, Park Lane no. 17 Edward King 18 32 London, Park Lane no. 18 Edward King 19 32 London, Park Lane no. 19 Edward King 20 32 London, Park Lane no. 20 Edward King 21 32 London, Park Lane no. 21 Edward King 22 32 London, Park Lane no. 22 Edward King 23 32 London, Park Lane no. 23 Edward King 24 32 London, Park Lane no. 24 Edward King 25 32 London, Park Lane no. 25 Edward King 26 32 London, Park Lane no. 26 Edward King 27 32 London, Park Lane no. 27 Edward King 28 32 London, Park Lane no. 28 Edward King 29 32 London, Park Lane no. 29 Edward King 30 32 London, Park Lane no. 30 Edward King 31 32 London, Park Lane no. 31 Edward King 32 32 London, Park Lane no. 32 Edward King 33 32 London, Park Lane no. 33 Edward King 34 32 London, Park Lane no. 34 Edward King 35 32 London, Park Lane no. 35 Edward King 36 32 London, Park Lane no. 36 Edward King 37 32 London, Park Lane no. 37 Edward King 38 32 London, Park Lane no. 38 Edward King 39 32 London, Park Lane no. 39 Edward King 40 32 London, Park Lane no. 40 Edward King 41 32 London, Park Lane no. 41 Edward King 42 32 London, Park Lane no. 42 Edward King 43 32 London, Park Lane no. 43 Edward King 44 32 London, Park Lane no. 44 Edward King 45 32 London, Park Lane no. 45 Edward King 46 32 London, Park Lane no. 46 Edward King 47 32 London, Park Lane no. 47 Edward King 48 32 London, Park Lane no. 48 Edward King 49 32 London, Park Lane no. 49 1 2 50 条/页 固定表头 方便一页内展示大量数据。 需要指定 column 的 width 属性，否则列头和内容可能不对齐。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。"
+      }
     },
     {
       "title": "table-表头分组",
@@ -10484,8 +10552,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "392_11c362e0",
-      "__DESCRIPTION__": " John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 表头分组 columns[n] 可以内嵌 children，以渲染分组表头。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/392-zh-11c362e0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Other Company Gender Age Address Company Address Company Name Street Block Building Door No. John Brown 1 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 2 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 3 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 4 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 5 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 6 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 7 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 8 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 9 Lake Park C 2035 Lake Street 42 SoftLake Co M John Brown 10 Lake Park C 2035 Lake Street 42 SoftLake Co M 1 2 3 4 5 ••• 10 10 条/页 表头分组 columns[n] 可以内嵌 children，以渲染分组表头。"
+      }
     },
     {
       "title": "table-筛选和排序",
@@ -10506,8 +10578,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "393_ba9be722",
-      "__DESCRIPTION__": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 筛选和排序 对某一列数据进行筛选，使用列的 filters 属性来指定需要筛选菜单的列，onFilter 用于筛选当前数据，filterMultiple 用于指定多选和单选。 对某一列数据进行排序，通过指定列的 sorter 函数即可启动排序按钮。sorter: function(rowA, rowB) { ... }， rowA、rowB 为比较的两个行数据。 sortDirections: ['ascend' | 'descend']改变每列可用的排序方式，切换排序时按数组内容依次切换，设置在 table props 上时对所有列生效。 使用 defaultSortOrder 属性，设置列的默认排序顺序。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/393-zh-ba9be722.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Age Address Jim Green 42 London No. 1 Lake Park John Brown 32 New York No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 筛选和排序 对某一列数据进行筛选，使用列的 filters 属性来指定需要筛选菜单的列，onFilter 用于筛选当前数据，filterMultiple 用于指定多选和单选。 对某一列数据进行排序，通过指定列的 sorter 函数即可启动排序按钮。sorter: function(rowA, rowB) { ... }， rowA、rowB 为比较的两个行数据。 sortDirections: ['ascend' | 'descend']改变每列可用的排序方式，切换排序时按数组内容依次切换，设置在 table props 上时对所有列生效。 使用 defaultSortOrder 属性，设置列的默认排序顺序。"
+      }
     },
     {
       "title": "table-JSX 风格的 API",
@@ -10528,8 +10604,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "394_d18ca097",
-      "__DESCRIPTION__": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/394-zh-d18ca097.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。"
+      }
     },
     {
       "title": "table-多列排序",
@@ -10550,8 +10630,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "395_550f1bfd",
-      "__DESCRIPTION__": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 多列排序 column.sorter 支持 multiple 字段以配置多列排序优先级。通过 sorter.compare 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/395-zh-550f1bfd.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Chinese Score Math Score English Score John Brown 98 60 70 Jim Green 98 66 89 Joe Black 98 90 70 Jim Red 88 99 89 1 多列排序 column.sorter 支持 multiple 字段以配置多列排序优先级。通过 sorter.compare 配置排序逻辑，你可以通过不设置该函数只启动多列排序的交互形式。"
+      }
     },
     {
       "title": "table-嵌套子表格",
@@ -10572,8 +10656,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "396_6ed1dd58",
-      "__DESCRIPTION__": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 嵌套子表格 展示每行数据更详细的信息。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/396-zh-6ed1dd58.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Name Platform Version Upgraded Creator Date Action Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish Screem iOS 10.3.4.5654 500 Jack 2014-12-24 23:12:00 Publish 1 嵌套子表格 展示每行数据更详细的信息。"
+      }
     },
     {
       "title": "table-可控的筛选和排序",
@@ -10594,8 +10682,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "397_214cf01e",
-      "__DESCRIPTION__": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 可控的筛选和排序 使用受控属性对筛选和排序状态进行控制。 columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。 务必指定 column.key。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/397-zh-214cf01e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Sort ageClear filtersClear filters and sorters Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park Jim Red 32 London No. 2 Lake Park 1 可控的筛选和排序 使用受控属性对筛选和排序状态进行控制。 columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。 务必指定 column.key。"
+      }
     },
     {
       "title": "table-可伸缩列",
@@ -10616,8 +10708,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "398_466f939d",
-      "__DESCRIPTION__": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 可伸缩列 集成 react-resizable 来实现可伸缩列。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/398-zh-466f939d.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Date Amount Type Note Action 2018-02-11 120 income transfer Delete 2018-03-11 243 income transfer Delete 2018-04-11 98 income transfer Delete 1 可伸缩列 集成 react-resizable 来实现可伸缩列。"
+      }
     },
     {
       "title": "table-选择和操作",
@@ -10638,8 +10734,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "399_3779546e",
-      "__DESCRIPTION__": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/399-zh-3779546e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。"
+      }
     },
     {
       "title": "table-自定义选择项",
@@ -10660,8 +10760,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "400_ef6593c7",
-      "__DESCRIPTION__": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 自定义选择项 通过 rowSelection.selections 自定义选择项，默认不显示下拉选项，设为 true 时显示默认选择项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/400-zh-ef6593c7.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 自定义选择项 通过 rowSelection.selections 自定义选择项，默认不显示下拉选项，设为 true 时显示默认选择项。"
+      }
     },
     {
       "title": "table-紧凑型",
@@ -10682,8 +10786,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "401_2c769e9e",
-      "__DESCRIPTION__": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 紧凑型 两种紧凑型的列表，小型列表只用于对话框内。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/401-zh-2c769e9e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Middle size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 Small size table Name Age Address John Brown 32 New York No. 1 Lake Park Jim Green 42 London No. 1 Lake Park Joe Black 32 Sidney No. 1 Lake Park 1 紧凑型 两种紧凑型的列表，小型列表只用于对话框内。"
+      }
     },
     {
       "title": "table-总结栏",
@@ -10704,8 +10812,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "402_d3128edb",
-      "__DESCRIPTION__": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 总结栏 通过 summary 设置总结栏。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/402-zh-d3128edb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Name Borrow Repayment John Brown 10 33 Jim Green 100 0 Joe Black 10 10 Jim Red 75 45 Total 195 88 Balance 107 总结栏 通过 summary 设置总结栏。"
+      }
     },
     {
       "title": "table-虚拟列表",
@@ -10726,8 +10838,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "403_1c5b64c3",
-      "__DESCRIPTION__": "A B C D E F 0 0 0 0 0 0 1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/403-zh-1c5b64c3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。"
+      }
     },
     {
       "title": "tabs-卡片式页签容器",
@@ -10748,8 +10864,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "404_8a830da9",
-      "__DESCRIPTION__": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/404-zh-8a830da9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。"
+      }
     },
     {
       "title": "tabs-卡片式页签",
@@ -10770,8 +10890,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "405_fbf674b3",
-      "__DESCRIPTION__": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/405-zh-fbf674b3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。"
+      }
     },
     {
       "title": "tabs-自定义新增页签触发器",
@@ -10792,8 +10916,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "406_10f4a8",
-      "__DESCRIPTION__": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/406-zh-10f4a8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。"
+      }
     },
     {
       "title": "tabs-可拖拽标签",
@@ -10814,8 +10942,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "407_a02645fc",
-      "__DESCRIPTION__": "tab 1tab 2tab 3 Content of Tab Pane 1 可拖拽标签 使用 react-dnd 实现标签可拖拽。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/407-zh-a02645fc.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "tab 1tab 2tab 3 Content of Tab Pane 1 可拖拽标签 使用 react-dnd 实现标签可拖拽。"
+      }
     },
     {
       "title": "tabs-自定义页签头",
@@ -10836,8 +10968,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "408_86c96acb",
-      "__DESCRIPTION__": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/408-zh-86c96acb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。"
+      }
     },
     {
       "title": "tabs-禁用",
@@ -10858,8 +10994,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "409_40408300",
-      "__DESCRIPTION__": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/409-zh-40408300.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。"
+      }
     },
     {
       "title": "tabs-新增和关闭页签",
@@ -10880,8 +11020,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "410_a0da5e64",
-      "__DESCRIPTION__": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/410-zh-a0da5e64.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。"
+      }
     },
     {
       "title": "tabs-附加内容",
@@ -10902,8 +11046,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "411_9d9c9ceb",
-      "__DESCRIPTION__": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/411-zh-9d9c9ceb.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。"
+      }
     },
     {
       "title": "tabs-图标",
@@ -10924,8 +11072,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "412_215894b8",
-      "__DESCRIPTION__": "Tab 1Tab 2 Tab 2 图标 有图标的标签。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/412-zh-215894b8.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1Tab 2 Tab 2 图标 有图标的标签。"
+      }
     },
     {
       "title": "tabs-位置",
@@ -10946,8 +11098,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "413_1a187801",
-      "__DESCRIPTION__": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/413-zh-1a187801.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。"
+      }
     },
     {
       "title": "tabs-大小",
@@ -10968,8 +11124,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "414_1775b07c",
-      "__DESCRIPTION__": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/414-zh-1775b07c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。"
+      }
     },
     {
       "title": "tabs-滑动",
@@ -10990,8 +11150,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "415_d90f34a3",
-      "__DESCRIPTION__": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/415-zh-d90f34a3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。"
+      }
     },
     {
       "title": "tag-添加动画",
@@ -11012,8 +11176,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "416_e881cf7c",
-      "__DESCRIPTION__": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/416-zh-e881cf7c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。"
+      }
     },
     {
       "title": "tag-基本",
@@ -11034,8 +11202,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "417_ff2885e0",
-      "__DESCRIPTION__": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/417-zh-ff2885e0.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。"
+      }
     },
     {
       "title": "tag-可选择",
@@ -11056,8 +11228,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "418_2bd57888",
-      "__DESCRIPTION__": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/418-zh-2bd57888.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。"
+      }
     },
     {
       "title": "tag-多彩标签",
@@ -11078,8 +11254,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "419_3f487850",
-      "__DESCRIPTION__": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/419-zh-3f487850.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
+      }
     },
     {
       "title": "tag-动态添加和删除",
@@ -11100,8 +11280,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "420_eaeead19",
-      "__DESCRIPTION__": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/420-zh-eaeead19.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。"
+      }
     },
     {
       "title": "tag-控制关闭状态",
@@ -11122,8 +11306,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "421_2b97097f",
-      "__DESCRIPTION__": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/421-zh-2b97097f.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。"
+      }
     },
     {
       "title": "tag-热门标签",
@@ -11144,8 +11332,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "422_82e8b7d9",
-      "__DESCRIPTION__": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/422-zh-82e8b7d9.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。"
+      }
     },
     {
       "title": "tag-预设状态的标签",
@@ -11166,8 +11358,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "423_199feea3",
-      "__DESCRIPTION__": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/423-zh-199feea3.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。"
+      }
     },
     {
       "title": "time-picker-12 小时制",
@@ -11188,8 +11384,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "424_6431bc8e",
-      "__DESCRIPTION__": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/424-zh-6431bc8e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。"
+      }
     },
     {
       "title": "time-picker-附加内容",
@@ -11210,8 +11410,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "425_e585d37c",
-      "__DESCRIPTION__": "附加内容 在 TimePicker 选择框底部显示自定义的内容。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/425-zh-e585d37c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "附加内容 在 TimePicker 选择框底部显示自定义的内容。"
+      }
     },
     {
       "title": "time-picker-基本",
@@ -11232,8 +11436,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "426_bcf0af7",
-      "__DESCRIPTION__": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/426-zh-bcf0af7.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。"
+      }
     },
     {
       "title": "time-picker-禁用",
@@ -11254,8 +11462,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": "427_d7f6a10e",
-      "__DESCRIPTION__": "禁用 禁用时间选择。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/427-zh-d7f6a10e.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "禁用 禁用时间选择。"
+      }
     },
     {
       "title": "time-picker-选择时分",
