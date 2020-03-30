@@ -19,9 +19,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/0-zh-5db07ce7.png"
+      },
       "__DESCRIPTION__": {
         "en": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。",
         "zh": "E-mail Password Confirm Password Nickname Habitual Residence Zhejiang / Hangzhou / West Lake Phone Number +86 Website website Captcha Get captcha We must make sure that your are a human. I have read the agreement Register 注册新用户 用户填写必须的信息以注册新用户。"
@@ -46,11 +46,11 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/1-zh-9688d9db.png"
+      },
       "__DESCRIPTION__": {
-        "zh": "PrimaryDefaultDashedLink Type There are primary button, default button, dashed button and link button in antd."
+        "zh": "PrimaryDefaultDashedLink 按钮类型 按钮有四种类型：主按钮、次按钮、虚线按钮和链接按钮。主按钮在同一个操作区域最多出现一次。"
       }
     },
     {
@@ -72,9 +72,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/2-zh-f02d731a.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/2-zh-f02d731a.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Lucy Lucy Lucy Lucy 基本使用 基本使用。"
       }
@@ -98,11 +98,11 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/3-zh-68a11f95.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/3-zh-68a11f95.png"
+      },
       "__DESCRIPTION__": {
-        "zh": "Open Modal Basic Basic modal."
+        "zh": "Open Modal 基本 第一个对话框。"
       }
     },
     {
@@ -124,9 +124,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/4_846fcc04.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/4-zh-846fcc04.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Name Age Address Tags Action John Brown 32 New York No. 1 Lake Park NICEDEVELOPER Invite John BrownDelete Jim Green 42 London No. 1 Lake Park LOSER Invite Jim GreenDelete Joe Black 32 Sidney No. 1 Lake Park COOLTEACHER Invite Joe BlackDelete 1 基本用法 简单的表格，最后一列是各种操作。"
       }
@@ -150,9 +150,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/5_513c99aa.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/5-zh-513c99aa.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Remember me Forgot password Log inOr register now! 登录框 普通的登录框，可以容纳更多的元素。"
       }
@@ -176,9 +176,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/6_99bde7b7.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/6-zh-99bde7b7.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Log in 内联登录栏 内联登录栏，常用在顶部导航栏中。"
       }
@@ -202,9 +202,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/7_ce94fe8c.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/7-zh-ce94fe8c.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Plain Text China Select Please select a country Select[multiple] Please select favourite colors InputNumber machines Switch Slider A B C D E F Radio.Group item 1 item 2 item 3 Radio.Button item 1 item 2 item 3 Checkbox.Group A B C D E F Rate Upload Click to upload longgggggggggggggggggggggggggggggggggg Dragger Click or drag file to this area to upload Support for a single or bulk upload. Submit 校验其他组件 以上演示没有出现的表单控件对应的校验演示。"
       }
@@ -228,9 +228,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/8_29114c0.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/8-zh-29114c0.png"
+      },
       "__DESCRIPTION__": {
         "zh": "Large Default Small PrimaryDefaultDashed Link DownloadDownload 按钮尺寸 按钮有大、中、小三种尺寸。 通过设置 size 为 large small 分别把按钮设为大、小尺寸。若不设置 size，则尺寸为中。"
       }
@@ -254,9 +254,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/9_e680f2f4.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/9-zh-e680f2f4.png"
+      },
       "__DESCRIPTION__": {
         "zh": "基本使用 基本使用。"
       }
@@ -280,9 +280,9 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/10_98d497c7.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/10-zh-98d497c7.png"
+      },
       "__DESCRIPTION__": {
         "zh": " Search 搜索框 带有搜索按钮的输入框。"
       }
@@ -306,11 +306,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/11_8b17d49b.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/11-zh-8b17d49b.png"
+      },
       "__DESCRIPTION__": {
-        "en": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。"
+        "en": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。",
+        "zh": "col col-12 col-12 col-8 col-8 col-8 col-6 col-6 col-6 col-6 基础栅格 从堆叠到水平排列。 使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统，所有列（Col）必须放在 Row 内。"
       }
     },
     {
@@ -332,11 +333,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/12_4679a3e0.png"
-      ],
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/12-zh-4679a3e0.png"
+      },
       "__DESCRIPTION__": {
-        "en": "Select a person 带搜索框 展开后可对选项进行搜索。"
+        "en": "Select a person 带搜索框 展开后可对选项进行搜索。",
+        "zh": "Select a person 带搜索框 展开后可对选项进行搜索。"
       }
     },
     {
@@ -358,10 +360,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/13_b475160.png"
-      ],
-      "__DESCRIPTION__": "Fail Should be combination of numbers & alphabets Warning Validating The information is being validated... Success Warning Fail Should be combination of numbers & alphabets Success Warning Error Validating The information is being validated... inline Please select the correct date - Success Success Warning Error 自定义校验 我们提供了 validateStatus help hasFeedback 等属性，你可以不通过 Form 自己定义校验的时机和内容。 validateStatus: 校验状态，可选 'success', 'warning', 'error', 'validating'。 hasFeedback：用于给输入框添加反馈图标。 help：设置校验文案。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/13-zh-b475160.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Fail Should be combination of numbers & alphabets Warning Validating The information is being validated... Success Warning Fail Should be combination of numbers & alphabets Success Warning Error Validating The information is being validated... inline Please select the correct date - Success Success Warning Error 自定义校验 我们提供了 validateStatus help hasFeedback 等属性，你可以不通过 Form 自己定义校验的时机和内容。 validateStatus: 校验状态，可选 'success', 'warning', 'error', 'validating'。 hasFeedback：用于给输入框添加反馈图标。 help：设置校验文案。"
+      }
     },
     {
       "title": "date-picker-基本",
@@ -382,10 +386,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/14_7531a55c.png"
-      ],
-      "__DESCRIPTION__": " 基本 最简单的用法，在浮层中可以选择或者输入日期。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/14-zh-7531a55c.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": " 基本 最简单的用法，在浮层中可以选择或者输入日期。"
+      }
     },
     {
       "title": "tabs-基本",
@@ -406,10 +412,12 @@ export default {
       "features": [
         "antd"
       ],
-      "__HASH__": [
-        "https://derek-hu.github.io/store/screenshots/antd/15_28580c43.png"
-      ],
-      "__DESCRIPTION__": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 基本 默认选中第一项。"
+      "__HASH__": {
+        "zh": "https://derek-hu.github.io/store/screenshots/antd/15-zh-28580c43.png"
+      },
+      "__DESCRIPTION__": {
+        "zh": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 基本 默认选中第一项。"
+      }
     },
     {
       "title": "checkbox-基本用法",
