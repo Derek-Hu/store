@@ -9,12 +9,13 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms * 1000));
 }
 
+const isObject = val => Object.prototype.toString.call(val) !== '[object Object]'
 const isHeadless = process.env.HEADLESS !== 'false';
 const saveFolder = 'screenshots';
 const { homepage } = pkg;
 const baseUrl = homepage? (/\/$/.test(homepage)? homepage : homepage+ '/') : './';
 
-export default (async ({ name, viewport,preload, locale, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
+export default (async ({ name, viewport,preload, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
 
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
@@ -25,9 +26,13 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
     const height = viewport && typeof viewport.height === 'number' ?viewport.height: 900;
     try {
         await asyncForEach(blockData[attribute], async (item, index) => {
-            const hashEmpty = item && !Array.isArray(item.__HASH__); // item maybe null
-            const hasDescription = item && (locale in item.__DESCRIPTION__);
-            if (item && (forceUpdate || hashEmpty || !hasDescription)) {
+            if(!item){
+                return;
+            }
+            const screenEmpty = !isObject(item.__HASH__) || item.__HASH__[locale]===undefined
+            const descriptionEmpty = !isObject(item.__DESCRIPTION__) || item.__DESCRIPTION__[locale]===undefined;
+
+            if (forceUpdate || screenEmpty || descriptionEmpty) {
                 const page = await browser.newPage();
                 await page.evaluateOnNewDocument(preload);
                 try {
@@ -38,6 +43,15 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
                     });
                     const url = item.previewUrl;
                     await page.goto(url, { waitUntil: 'networkidle0' });
+                    await page.evaluate(({ runBeforeWaitForSelector, locale }) => {
+                        debugger;
+                        if(runBeforeWaitForSelector){
+                            (eval(runBeforeWaitForSelector))(locale);
+                        }
+                    }, {
+                        locale,
+                        runBeforeWaitForSelector: typeof runBeforeWaitForSelector === 'function'? `(${runBeforeWaitForSelector.toString()})`: null
+                    });
                     await page.waitForSelector(selector);
                     await sleep(delay);
                     const clip = await page.evaluate(({ selector, runInBrowser }) => {
@@ -55,7 +69,7 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
                         runInBrowser: typeof runInBrowser === 'function'? `(${runInBrowser.toString()})`: null
                     });
                     
-                    const hash = index + '_' + XXH.h32([
+                    const hash = `${index}-${locale}-` + XXH.h32([
                         item.title,
                         item.key,
                         item.value,
@@ -70,7 +84,7 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
 
                     item.__HASH__ = [`${baseUrl}${saveFolder}/${name}/${hash}.png`];
-                    if(Object.prototype.toString.call(item.__DESCRIPTION__) !== '[object Object]'){
+                    if(isObject(item.__DESCRIPTION__)){
                         item.__DESCRIPTION__ = {};
                     }
                     item.__DESCRIPTION__[locale] = clip.text;
@@ -81,25 +95,19 @@ export default (async ({ name, viewport,preload, locale, blockData, delay, attri
                     });
 
                     writeFallback(Service[name].name, blockData);
-                    await page.close();
                 } catch (e) {
                     console.error(e);
-                    if (page) {
-                        await page.close();
-                    }
                 }
-            }
-            if (index === blockData[attribute].length - 1) {
-                if (browser) {
-                    await browser.close();
+                if (page) {
+                    await page.close();
                 }
             }
         });
     } catch (e) {
         console.error(e);
-        if (browser) {
-            await browser.close();
-        }
+    }
+    if (browser) {
+        await browser.close();
     }
 
 });

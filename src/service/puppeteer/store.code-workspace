@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "/Users/hubenlv/workspaces/site-pages"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/github/benlv"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/antd-pro"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/github/store"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/frontend-business/packages/mcah5-react"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/rc-frontend"
+		},
+		{
+			"path": "/Users/hubenlv/workspaces/ms-frontend"
+		}
+	],
+	"settings": {
+		"deepscan.ignoreConfirmWarning": true
+	}
+}

@@ -15,6 +15,12 @@ export const Service = {
         selector: {
            blocks: '.code-box:target'
         },
+        runBeforeWaitForSelector: function(locale){
+            const cacheLocale = localStorage.getItem('locale');
+            if(cacheLocale !== locale){
+                document.querySelector('.header-lang-button').click();
+            }
+        }
     },
     // [LIB_MATERIAL_ICEWORK]: {
     //     url: 'https://ice.alicdn.com/assets/react-materials.json',
