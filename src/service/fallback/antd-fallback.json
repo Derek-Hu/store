@@ -5204,7 +5204,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "c0057517"
+      "__ID__": "c0057517",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/193-en-c0057517.png",
+          "description": "nav 1nav 2nav 3 subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Home/List/App Content 顶部-侧边布局-通栏 同样拥有顶部导航及侧边栏，区别是两边未留边距，多用于应用型的网站。"
+        }
+      ]
     },
     {
       "title": "layout-顶部-侧边布局",
@@ -5225,7 +5231,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "f850fea4"
+      "__ID__": "f850fea4",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/194-en-f850fea4.png",
+          "description": "nav 1nav 2nav 3 Home/List/App subnav 1 option1 option2 option3 option4 subnav 2 subnav 3 Content Ant Design ©2018 Created by Ant UED Header-Sider Both the top navigation and the sidebar, commonly used in documentation site."
+        }
+      ]
     },
     {
       "title": "layout-上中下布局",
@@ -5246,7 +5258,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "5869604d"
+      "__ID__": "5869604d",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/195-en-5869604d.png",
+          "description": "nav 1nav 2nav 3 Home/List/App Content Ant Design ©2018 Created by Ant UED Header-Content-Footer The most basic \"header-content-footer\" layout. Generally, the mainnav is placed at the top of the page, and includes the logo, the first level navigation, and the secondary menu (users, settings, notifications) from left to right in it. We always put contents in a fixed size navigation (eg: 1200px), the layout of the whole page is stable, it's not affected by viewing area. Top-bottom structure is conform with the top-bottom viewing habit, it's a classical navigation pattern of websites. This pattern demonstrates efficiency in the main workarea, while using some vertical space. And because the horizontal space of the navigation is limited, this pattern is not suitable for cases when the first level navigation contains many elements or links"
+        }
+      ]
     },
     {
       "title": "input-number-基本",
@@ -5267,7 +5285,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "dece605"
+      "__ID__": "dece605",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/196-en-dece605.png",
+          "description": "Basic Numeric-only input box."
+        }
+      ]
     },
     {
       "title": "input-number-小数",
@@ -5288,7 +5312,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "b818a0ad"
+      "__ID__": "b818a0ad",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/197-en-b818a0ad.png",
+          "description": "Decimals A numeric-only input box whose values can be increased or decreased using a decimal step. The number of decimals (also known as precision) is determined by the step prop."
+        }
+      ]
     },
     {
       "title": "input-number-不可用",
@@ -5309,7 +5339,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "448d27db"
+      "__ID__": "448d27db",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/198-en-448d27db.png",
+          "description": "Toggle disabled Disabled Click the button to toggle between available and disabled states."
+        }
+      ]
     },
     {
       "title": "input-number-格式化展示",
@@ -5330,7 +5366,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "179ef5f5"
+      "__ID__": "179ef5f5",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/199-en-179ef5f5.png",
+          "description": "Formatter Display value within it's situation with formatter, and we usually use parser at the same time."
+        }
+      ]
     },
     {
       "title": "input-number-三种大小",
@@ -5351,7 +5393,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "321fb55f"
+      "__ID__": "321fb55f",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/200-en-321fb55f.png",
+          "description": "Sizes There are three sizes available to a numeric input box. By default, the size is 32px. The two additional sizes are large and small which means 40px and 24px, respectively."
+        }
+      ]
     },
     {
       "title": "list-基础列表",
@@ -5372,7 +5420,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "174e1f2f"
+      "__ID__": "174e1f2f",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/201-en-174e1f2f.png",
+          "description": "Ant Design Title 1 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 2 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 3 Ant Design, a design language for background applications, is refined by Ant UED Team Ant Design Title 4 Ant Design, a design language for background applications, is refined by Ant UED Team 基础列表 基础列表。"
+        }
+      ]
     },
     {
       "title": "list-栅格列表",
@@ -5393,7 +5447,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "f745dd79"
+      "__ID__": "f745dd79",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/202-en-f745dd79.png",
+          "description": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content Grid Create a grid layout by setting the grid property of List."
+        }
+      ]
     },
     {
       "title": "list-滚动加载",
@@ -5414,7 +5474,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "a8081907"
+      "__ID__": "a8081907",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/203-en-a8081907.png",
+          "description": "Lima ibralina.lima@example.com Content حسینی thn.hsyny@example.com Content Frøysa diana.froysa@example.com Content Karadaş ozkan.karadas@example.com Content Andersen ella.andersen@example.com Content Scrolling loaded The example of infinite load with react-infinite-scroller."
+        }
+      ]
     },
     {
       "title": "list-滚动加载无限长列表",
@@ -5435,7 +5501,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "87fc03a0"
+      "__ID__": "87fc03a0",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/204-en-87fc03a0.png",
+          "description": "نجاتی dnyl.njty@example.com Content Klein nikolas.klein@example.com Content حیدری arsyn.hydry@example.com Content Abadan kaya.abadan@example.com Content Gallardo arturo.gallardo@example.com Content Mathieu kenzo.mathieu@example.com Content Smith hudson.smith@example.com Content Blanc marin.blanc@example.com Content Kelly alicia.kelly@example.com Content Fletcher ida.fletcher@example.com Content Uluhan deniz.uluhan@example.com Content Fortin malik.fortin@example.com Content Carrasco alicia.carrasco@example.com Content Reynolds jeanne.reynolds@example.com Content Madsen mikkel.madsen@example.com Content Infinite & virtualized An example of infinite list & virtualized loading using react-virtualized. Learn more. Virtualized rendering is a technique to mount big sets of data. It reduces the amount of rendered DOM nodes by tracking and hiding whatever isn't currently visible."
+        }
+      ]
     },
     {
       "title": "list-加载更多",
@@ -5456,7 +5528,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "e4472444"
+      "__ID__": "e4472444",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/205-en-e4472444.png",
+          "description": "das Neves Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Önür Ant Design, a design language for background applications, is refined by Ant UED Team content edit more Berntsen Ant Design, a design language for background applications, is refined by Ant UED Team content edit more loading more Load more Load more list with loadMore property."
+        }
+      ]
     },
     {
       "title": "list-响应式的栅格列表",
@@ -5477,7 +5555,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "59c4cd7c"
+      "__ID__": "59c4cd7c",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/206-en-59c4cd7c.png",
+          "description": "Title 1 Card content Title 2 Card content Title 3 Card content Title 4 Card content Title 5 Card content Title 6 Card content Responsive grid list Responsive grid list. The size property the is as same as Layout Grid."
+        }
+      ]
     },
     {
       "title": "list-简单列表",
@@ -5498,7 +5582,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "718f4f43"
+      "__ID__": "718f4f43",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/207-en-718f4f43.png",
+          "description": "Default Size Header [ITEM] Racing car sprays burning fuel into crowd. [ITEM] Japanese princess to wed commoner. [ITEM] Australian walks 100km after outback crash. [ITEM] Man charged over missing wedding girl. [ITEM] Los Angeles battles huge wildfires. Footer Small Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer Large Size Header Racing car sprays burning fuel into crowd. Japanese princess to wed commoner. Australian walks 100km after outback crash. Man charged over missing wedding girl. Los Angeles battles huge wildfires. Footer Simple list Ant Design supports a default list size as well as a large and small size. If a large or small list is desired, set the size property to either large or small respectively. Omit the size property for a list with the default size. Customizing the header and footer of list by setting header and footer property."
+        }
+      ]
     },
     {
       "title": "list-竖排列表样式",
@@ -5519,7 +5609,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "5dba3795"
+      "__ID__": "5dba3795",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/208-en-5dba3795.png",
+          "description": "ant design part 0 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 1 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design part 2 Ant Design, a design language for background applications, is refined by Ant UED Team. We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. 156 156 2 ant design footer part 1 2 3 4 5 ••• 8 Vertical Set the itemLayout property to vertical to create a vertical list."
+        }
+      ]
     },
     {
       "title": "mentions-异步加载",
@@ -5540,7 +5636,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "26d8c650"
+      "__ID__": "26d8c650",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/209-en-26d8c650.png",
+          "description": "Asynchronous loading async"
+        }
+      ]
     },
     {
       "title": "mentions-基本使用",
@@ -5561,7 +5663,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "296c20e0"
+      "__ID__": "296c20e0",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/210-en-296c20e0.png",
+          "description": "Basic Basic usage."
+        }
+      ]
     },
     {
       "title": "mentions-配合 Form 使用",
@@ -5582,7 +5690,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "15920352"
+      "__ID__": "15920352",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/211-en-15920352.png",
+          "description": "Top coders Bio Submit Reset With Form Controlled mode, for example, to work with Form."
+        }
+      ]
     },
     {
       "title": "mentions-向上展开",
@@ -5603,7 +5717,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "9685b24d"
+      "__ID__": "9685b24d",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/212-en-9685b24d.png",
+          "description": "Placement Change the suggestions placement."
+        }
+      ]
     },
     {
       "title": "mentions-自定义触发字符",
@@ -5624,7 +5744,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "ee941bb3"
+      "__ID__": "ee941bb3",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/213-en-ee941bb3.png",
+          "description": "Customize Trigger Token Customize Trigger Token by prefix props. Default to @, Array<string> also supported."
+        }
+      ]
     },
     {
       "title": "mentions-无效或只读",
@@ -5645,7 +5771,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "13702988"
+      "__ID__": "13702988",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/214-en-13702988.png",
+          "description": "disabled or readOnly Configurate disabled and readOnly."
+        }
+      ]
     },
     {
       "title": "menu-顶部导航",
@@ -5666,7 +5798,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "2c6c61b4"
+      "__ID__": "2c6c61b4",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/215-en-2c6c61b4.png",
+          "description": "Navigation OneNavigation Two Navigation Three - Submenu ··· Top Navigation Horizontal top navigation menu."
+        }
+      ]
     },
     {
       "title": "menu-缩起内嵌菜单",
@@ -5687,7 +5825,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "1ebea994"
+      "__ID__": "1ebea994",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/216-en-1ebea994.png",
+          "description": "Option 1 Option 2 Option 3 Navigation One Option 5 Option 6 Option 7 Option 8 Navigation Two Collapsed inline menu Inline menu could be collapsed. Here is a complete demo with sider layout."
+        }
+      ]
     },
     {
       "title": "menu-内嵌菜单",
@@ -5708,7 +5852,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "673d702b"
+      "__ID__": "673d702b",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/217-en-673d702b.png",
+          "description": "Navigation One Item 1 Option 1 Option 2 Item 2 Option 3 Option 4 Navigation Two Navigation Three Inline menu Vertical menu with inline submenus."
+        }
+      ]
     },
     {
       "title": "menu-只展开当前父级菜单",
@@ -5729,7 +5879,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "534d6482"
+      "__ID__": "534d6482",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/218-en-534d6482.png",
+          "description": "Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three Open current submenu only Click the menu and you will see that all the other menus gets collapsed to keep the entire menu compact."
+        }
+      ]
     },
     {
       "title": "menu-切换菜单类型",
@@ -5750,7 +5906,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "2c0b6e80"
+      "__ID__": "2c0b6e80",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/219-en-2c0b6e80.png",
+          "description": " Change Mode Change Style Navigation One Navigation Two Navigation Three Option 3 Option 4 Submenu Navigation Four Switch the menu type Show the dynamic switching mode (between 'inline' and 'vertical')."
+        }
+      ]
     },
     {
       "title": "menu-主题",
@@ -5771,7 +5933,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "19f49edd"
+      "__ID__": "19f49edd",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/220-en-19f49edd.png",
+          "description": "Dark Navigation One Option 1 Option 2 Option 3 Option 4 Navigation Two Navigation Three Menu Themes There are two built-in themes: 'light' and 'dark'. The default value is 'light'."
+        }
+      ]
     },
     {
       "title": "menu-垂直菜单",
@@ -5792,7 +5960,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "35bb1a38"
+      "__ID__": "35bb1a38",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/221-en-35bb1a38.png",
+          "description": "Navigation One Navigation Two Navigation Three Vertical menu Submenus open as pop-ups."
+        }
+      ]
     },
     {
       "title": "message-修改延时",
@@ -5813,7 +5987,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "17216b5b"
+      "__ID__": "17216b5b",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/222-en-17216b5b.png",
+          "description": "Customized display duration Customize duration Customize message display duration from default 3s to 10s."
+        }
+      ]
     },
     {
       "title": "message-普通提示",
@@ -5834,7 +6014,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "afe926b0"
+      "__ID__": "afe926b0",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/223-en-afe926b0.png",
+          "description": "Display normal message Normal prompt Normal message for information."
+        }
+      ]
     },
     {
       "title": "message-加载中",
@@ -5855,7 +6041,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "f428797b"
+      "__ID__": "f428797b",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/224-en-f428797b.png",
+          "description": "Display a loading indicator Message with loading indicator Display a global loading indicator, which is dismissed by itself asynchronously."
+        }
+      ]
     },
     {
       "title": "message-其他提示类型",
@@ -5876,7 +6068,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "6587d487"
+      "__ID__": "6587d487",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/225-en-6587d487.png",
+          "description": "SuccessErrorWarning Other types of message Messages of success, error and warning types."
+        }
+      ]
     },
     {
       "title": "message-Promise 接口",
@@ -5897,7 +6095,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "52e630cb"
+      "__ID__": "52e630cb",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/226-en-52e630cb.png",
+          "description": "Display sequential messages Promise interface message provides a promise interface for onClose. The above example will display a new message when the old message is about to close."
+        }
+      ]
     },
     {
       "title": "message-更新消息内容",
@@ -5918,7 +6122,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "2af0583d"
+      "__ID__": "2af0583d",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/227-en-2af0583d.png",
+          "description": "Open the message box Update Message Content Update message content with unique key."
+        }
+      ]
     },
     {
       "title": "modal-异步关闭",

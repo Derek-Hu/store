@@ -4,9 +4,9 @@ export const LIB_ICEWORK = 'icework';
 export const LIB_UMIBLOCK = 'umijs';
 export const LIB_UMICOMP = 'umijscomp';
 export const LIB_ICESCA = 'icework-sca';
-export const LIB_MATERIAL_ICECOMP = 'LIB_MATERIAL_ICECOMP';
-export const LIB_MATERIAL_ICEWORK = 'LIB_MATERIAL_ICEWORK';
-export const LIB_MATERIAL_ICESCA = 'LIB_MATERIAL_ICESCA';
+export const LIB_MATERIAL_ICECOMP = 'icework-material-comp';
+export const LIB_MATERIAL_ICEWORK = 'icework-material-block';
+export const LIB_MATERIAL_ICESCA = 'icework-material-sca';
 
 export const ATTR_ID = '__ID__';
 export const ATTR_SNAPSHOT_EN = '__SNAPSHOTS_EN__';
