@@ -6616,5 +6616,37 @@
     "updateTime": "2019-06-27T05:33:52.951Z",
     "__ID__": "13d23c2a",
     "__SNAPSHOTS__": []
+  },
+  {
+    "name": "user-info-card",
+    "title": "用户信息展示",
+    "description": "",
+    "homepage": "https://unpkg.com/@icedesign/user-info-card-block/build/index.html",
+    "categories": [
+      "信息展示"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/blocks/UserInfoCard",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/user-info-card-block",
+      "version": "0.1.8",
+      "registry": "http://registry.npmjs.com",
+      "version-0.x": "2.0.1",
+      "sourceCodeDirectory": "src/"
+    },
+    "dependencies": {
+      "@icedesign/container": "^1.x",
+      "prop-types": "^15.5.8",
+      "@alifd/next": "^1.x"
+    },
+    "screenshot": "https://unpkg.com/@icedesign/user-info-card-block/screenshot.png",
+    "screenshots": [
+      "https://unpkg.com/@icedesign/user-info-card-block/screenshot.png"
+    ],
+    "customConfig": null,
+    "publishTime": "2018-01-16T14:15:12.645Z",
+    "updateTime": "2019-06-27T05:34:24.695Z",
+    "__ID__": "2a1ea9e6",
+    "__SNAPSHOTS__": []
   }
 ]
