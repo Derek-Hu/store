@@ -4154,6 +4154,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/127-en-97c7f88f.png",
           "description": "Open Basic Basic drawer."
         }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/127-zh-97c7f88f.png",
+          "description": "Open 基础抽屉 基础抽屉，点击触发按钮抽屉从右滑出，点击遮罩区关闭"
+        }
       ]
     },
     {
@@ -4213,6 +4219,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/129-en-60977b7f.png",
           "description": "Open drawer Multi-level drawer Open a new drawer on top of an existing drawer to handle multi branch tasks."
+        }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/129-zh-60977b7f.png",
+          "description": "Open drawer 多层抽屉 在抽屉内打开新的抽屉，用以解决多分支任务的复杂状况。"
         }
       ]
     },

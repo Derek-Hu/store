@@ -1024,5 +1024,39 @@
     "__ID__": "214cf01e",
     "__SNAPSHOTS__": [],
     "__SNAPSHOTS_EN__": []
+  },
+  "75271f65": {
+    "name": "masonry",
+    "title": "瀑布流",
+    "description": "自适应的动态瀑布流效果",
+    "homepage": "https://unpkg.com/@icedesign/masonry-block/build/index.html",
+    "categories": [
+      "瀑布流"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/blocks/Masonry",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/masonry-block",
+      "version": "1.0.3",
+      "registry": "http://registry.npmjs.com",
+      "version-0.x": "2.0.1",
+      "sourceCodeDirectory": "src/"
+    },
+    "dependencies": {
+      "@icedesign/container": "^1.x",
+      "react-masonry-component": "^6.2.1",
+      "@alifd/next": "^1.x",
+      "prop-types": "^15.5.8",
+      "react": "^16.2.0",
+      "react-dom": "^16.x"
+    },
+    "screenshot": "https://unpkg.com/@icedesign/masonry-block/screenshot.png",
+    "screenshots": [
+      "https://unpkg.com/@icedesign/masonry-block/screenshot.png"
+    ],
+    "customConfig": null,
+    "publishTime": "2018-07-19T06:56:38.497Z",
+    "updateTime": "2019-06-27T05:31:34.648Z",
+    "__ID__": "75271f65"
   }
 }
