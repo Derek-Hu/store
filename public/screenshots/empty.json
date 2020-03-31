@@ -362,5 +362,145 @@
       }
     ],
     "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/157-en-bf308658.png"
+  },
+  {
+    "title": "form-时间类控件",
+    "value": "form-time-related-controls",
+    "key": "form-time-related-controls",
+    "description": "时间类组件的 `value` 类型为 `moment` 对象，所以在提交服务器前需要预处理。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-time-related-controls",
+    "type": "block",
+    "path": "form-time-related-controls",
+    "isPage": false,
+    "defaultPath": "/form-time-related-controls",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-time-related-controls/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-时间类控件",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-time-related-controls",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "532c15c6",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/161-en-532c15c6.png",
+        "description": "DatePicker DatePicker[showTime] MonthPicker RangePicker → RangePicker[showTime] → TimePicker Submit Time-related Controls The value of time-related components is a moment object, which we need to pre-process it before we submit to server."
+      }
+    ],
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/161-en-532c15c6.png"
+  },
+  {
+    "title": "form-自行处理表单数据",
+    "value": "form-without-form-create",
+    "key": "form-without-form-create",
+    "description": "`Form` 具有自动收集数据并校验的功能，但如果您不需要这个功能，或者默认的行为无法满足业务需求，可以选择自行处理数据。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-without-form-create",
+    "type": "block",
+    "path": "form-without-form-create",
+    "isPage": false,
+    "defaultPath": "/form-without-form-create",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-without-form-create/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-自行处理表单数据",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-without-form-create",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "64164b65",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/162-en-64164b65.png",
+        "description": "Prime between 8 & 12 A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself. Handle Form Data Manually Form will collect and validate form data automatically. But if you don't need this feature or the default behavior cannot satisfy your business, you can handle form data manually."
+      }
+    ],
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/162-en-64164b65.png"
+  },
+  {
+    "title": "grid-对齐",
+    "value": "grid-flex-align",
+    "key": "grid-flex-align",
+    "description": "子元素垂直对齐。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/grid-flex-align",
+    "type": "block",
+    "path": "grid-flex-align",
+    "isPage": false,
+    "defaultPath": "/grid-flex-align",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/grid-flex-align/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "grid-对齐",
+    "previewUrl": "https://ant.design/components/grid-cn/#components-grid-demo-flex-align",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "555064d4",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/163-en-555064d4.png",
+        "description": "Align Top col-4 col-4 col-4 col-4 Align Middle col-4 col-4 col-4 col-4 Align Bottom col-4 col-4 col-4 col-4 Alignment Child elements vertically aligned."
+      }
+    ],
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/163-en-555064d4.png"
+  },
+  {
+    "title": "grid-排序",
+    "value": "grid-flex-order",
+    "key": "grid-flex-order",
+    "description": "通过 Order 来改变元素的排序。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/grid-flex-order",
+    "type": "block",
+    "path": "grid-flex-order",
+    "isPage": false,
+    "defaultPath": "/grid-flex-order",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/grid-flex-order/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "grid-排序",
+    "previewUrl": "https://ant.design/components/grid-cn/#components-grid-demo-flex-order",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "ff631682",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/164-en-ff631682.png",
+        "description": "1 col-order-4 2 col-order-3 3 col-order-2 4 col-order-1 Order To change the element sort by order."
+      }
+    ],
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/164-en-ff631682.png"
+  },
+  {
+    "title": "grid-Flex 填充",
+    "value": "grid-flex-stretch",
+    "key": "grid-flex-stretch",
+    "description": "Col 提供 `flex` 属性以支持填充。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/grid-flex-stretch",
+    "type": "block",
+    "path": "grid-flex-stretch",
+    "isPage": false,
+    "defaultPath": "/grid-flex-stretch",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/grid-flex-stretch/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "grid-Flex 填充",
+    "previewUrl": "https://ant.design/components/grid-cn/#components-grid-demo-flex-stretch",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "804c6c1a",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/165-en-804c6c1a.png",
+        "description": "Percentage columns 2 / 5 3 / 5 Fill rest 100px Fill Rest Raw flex style 1 1 200px 0 1 300px Flex Stretch Col provides flex prop to support fill rest."
+      }
+    ],
+    "__EMPTY__": "/Users/hubenlv/workspaces/github/store/public/screenshots/antd/165-en-804c6c1a.png"
   }
 ]

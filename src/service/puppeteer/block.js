@@ -115,10 +115,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
 
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
 
-                    item[localAttr][0] = {
-                        url: `${baseUrl}${subPath}`,
-                        description: clip.text
-                    };
+                    
 
                     const imagePath = `./public/${subPath}`;
                     const absolutePath = path.resolve(process.cwd(), imagePath);
@@ -129,11 +126,14 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                         });
                         const isEmpty = await isImageEmpty(imageBuffer);
                         if (isEmpty) {
-                            emptyImages.push({
-                                ...item,
-                                __EMPTY__: absolutePath
-                            });
+                            emptyImages.push(item);
+                            fs.unlinkSync(absolutePath);
                             writeSync(emtpyPath, JSON.stringify(emptyImages, null, 2));
+                        }else{
+                            item[localAttr][0] = {
+                                url: `${baseUrl}${subPath}`,
+                                description: clip.text
+                            };
                         }
                     } catch (e) {
                         console.error(e);
