@@ -725,5 +725,304 @@
         "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 404 Sorry, the page you visited does not exist. Back Home Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
       }
     ]
+  },
+  "557c70": {
+    "title": "popconfirm-基本",
+    "value": "popconfirm-basic",
+    "key": "popconfirm-basic",
+    "description": "最简单的用法。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/popconfirm-basic",
+    "type": "block",
+    "path": "popconfirm-basic",
+    "isPage": false,
+    "defaultPath": "/popconfirm-basic",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/popconfirm-basic/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "popconfirm-基本",
+    "previewUrl": "https://ant.design/components/popconfirm-cn/#components-popconfirm-demo-basic",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "557c70",
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/257-zh-557c70.png",
+        "description": "Delete 基本 最简单的用法。"
+      }
+    ]
+  },
+  "29b6670b": {
+    "title": "popconfirm-条件触发",
+    "value": "popconfirm-dynamic-trigger",
+    "key": "popconfirm-dynamic-trigger",
+    "description": "可以判断是否需要弹出。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/popconfirm-dynamic-trigger",
+    "type": "block",
+    "path": "popconfirm-dynamic-trigger",
+    "isPage": false,
+    "defaultPath": "/popconfirm-dynamic-trigger",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/popconfirm-dynamic-trigger/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "popconfirm-条件触发",
+    "previewUrl": "https://ant.design/components/popconfirm-cn/#components-popconfirm-demo-dynamic-trigger",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "29b6670b",
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/258-zh-29b6670b.png",
+        "description": "Delete a task Whether directly execute： 条件触发 可以判断是否需要弹出。"
+      }
+    ]
+  },
+  "1f4848e9": {
+    "title": "popconfirm-自定义 Icon 图标",
+    "value": "popconfirm-icon",
+    "key": "popconfirm-icon",
+    "description": "自定义提示 `icon`。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/popconfirm-icon",
+    "type": "block",
+    "path": "popconfirm-icon",
+    "isPage": false,
+    "defaultPath": "/popconfirm-icon",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/popconfirm-icon/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "popconfirm-自定义 Icon 图标",
+    "previewUrl": "https://ant.design/components/popconfirm-cn/#components-popconfirm-demo-icon",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "1f4848e9",
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/259-zh-1f4848e9.png",
+        "description": "Delete 自定义 Icon 图标 自定义提示 icon。"
+      }
+    ]
+  },
+  "d2d92af": {
+    "title": "popconfirm-国际化",
+    "value": "popconfirm-locale",
+    "key": "popconfirm-locale",
+    "description": "使用 `okText` 和 `cancelText` 自定义按钮文字。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/popconfirm-locale",
+    "type": "block",
+    "path": "popconfirm-locale",
+    "isPage": false,
+    "defaultPath": "/popconfirm-locale",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/popconfirm-locale/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "popconfirm-国际化",
+    "previewUrl": "https://ant.design/components/popconfirm-cn/#components-popconfirm-demo-locale",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "d2d92af",
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/260-zh-d2d92af.png",
+        "description": "Delete 国际化 使用 okText 和 cancelText 自定义按钮文字。"
+      }
+    ]
+  },
+  "f70442c6": {
+    "title": "affix-固定状态改变的回调",
+    "value": "affix-on-change",
+    "key": "affix-on-change",
+    "description": "可以获得是否固定的状态。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/affix-on-change",
+    "type": "block",
+    "path": "affix-on-change",
+    "isPage": false,
+    "defaultPath": "/affix-on-change",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/affix-on-change/snapshot.png",
+    "tags": [
+      "导航"
+    ],
+    "name": "affix-固定状态改变的回调",
+    "previewUrl": "https://ant.design/components/affix-cn/#components-affix-demo-on-change",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "f70442c6",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/30-en-f70442c6.png",
+        "description": "120px to affix top Callback Callback with affixed state."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "ff631682": {
+    "title": "grid-排序",
+    "value": "grid-flex-order",
+    "key": "grid-flex-order",
+    "description": "通过 Order 来改变元素的排序。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/grid-flex-order",
+    "type": "block",
+    "path": "grid-flex-order",
+    "isPage": false,
+    "defaultPath": "/grid-flex-order",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/grid-flex-order/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "grid-排序",
+    "previewUrl": "https://ant.design/components/grid-cn/#components-grid-demo-flex-order",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "ff631682",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/164-en-ff631682.png",
+        "description": "1 col-order-4 2 col-order-3 3 col-order-2 4 col-order-1 Order To change the element sort by order."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "804c6c1a": {
+    "title": "grid-Flex 填充",
+    "value": "grid-flex-stretch",
+    "key": "grid-flex-stretch",
+    "description": "Col 提供 `flex` 属性以支持填充。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/grid-flex-stretch",
+    "type": "block",
+    "path": "grid-flex-stretch",
+    "isPage": false,
+    "defaultPath": "/grid-flex-stretch",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/grid-flex-stretch/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "grid-Flex 填充",
+    "previewUrl": "https://ant.design/components/grid-cn/#components-grid-demo-flex-stretch",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "804c6c1a",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/165-en-804c6c1a.png",
+        "description": "Percentage columns 2 / 5 3 / 5 Fill rest 100px Fill Rest Raw flex style 1 1 200px 0 1 300px Flex Stretch Col provides flex prop to support fill rest."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "b92cea86": {
+    "title": "layout-自定义触发器",
+    "value": "layout-custom-trigger",
+    "key": "layout-custom-trigger",
+    "description": "要使用自定义触发器，可以设置 `trigger={null}` 来隐藏默认设定。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/layout-custom-trigger",
+    "type": "block",
+    "path": "layout-custom-trigger",
+    "isPage": false,
+    "defaultPath": "/layout-custom-trigger",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/layout-custom-trigger/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "layout-自定义触发器",
+    "previewUrl": "https://ant.design/components/layout-cn/#components-layout-demo-custom-trigger",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "b92cea86",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/188-en-b92cea86.png",
+        "description": "nav 1 nav 2 nav 3 Content Custom trigger If you want to use a customized trigger, you can hide the default one by setting trigger={null}."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "4d762fde": {
+    "title": "layout-固定侧边栏",
+    "value": "layout-fixed-sider",
+    "key": "layout-fixed-sider",
+    "description": "当内容较长时，使用固定侧边栏可以提供更好的体验。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/layout-fixed-sider",
+    "type": "block",
+    "path": "layout-fixed-sider",
+    "isPage": false,
+    "defaultPath": "/layout-fixed-sider",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/layout-fixed-sider/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "layout-固定侧边栏",
+    "previewUrl": "https://ant.design/components/layout-cn/#components-layout-demo-fixed-sider",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "4d762fde",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/189-en-4d762fde.png",
+        "description": "Fixed Sider When dealing with long content, a fixed sider can provide a better user experience."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "a88640ef": {
+    "title": "layout-固定头部",
+    "value": "layout-fixed",
+    "key": "layout-fixed",
+    "description": "一般用于固定顶部导航，方便页面切换。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/layout-fixed",
+    "type": "block",
+    "path": "layout-fixed",
+    "isPage": false,
+    "defaultPath": "/layout-fixed",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/layout-fixed/snapshot.png",
+    "tags": [
+      "布局"
+    ],
+    "name": "layout-固定头部",
+    "previewUrl": "https://ant.design/components/layout-cn/#components-layout-demo-fixed",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "a88640ef",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/190-en-a88640ef.png",
+        "description": "Fixed Header Fixed Header is generally used to fix the top navigation to facilitate page switching."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "214cf01e": {
+    "title": "table-可控的筛选和排序",
+    "value": "table-reset-filter",
+    "key": "table-reset-filter",
+    "description": "使用受控属性对筛选和排序状态进行控制。\n\n> 1. columns 中定义了 filteredValue 和 sortOrder 属性即视为受控模式。\n> 2. 只支持同时对一列进行排序，请保证只有一列的 sortOrder 属性是生效的。\n> 3. 务必指定 `column.key`。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/table-reset-filter",
+    "type": "block",
+    "path": "table-reset-filter",
+    "isPage": false,
+    "defaultPath": "/table-reset-filter",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/table-reset-filter/snapshot.png",
+    "tags": [
+      "表格"
+    ],
+    "name": "table-可控的筛选和排序",
+    "previewUrl": "https://ant.design/components/table-cn/#components-table-demo-reset-filter",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "214cf01e",
+    "__SNAPSHOTS__": [],
+    "__SNAPSHOTS_EN__": []
   }
 }

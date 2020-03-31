@@ -4802,7 +4802,8 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/147-en-d9e5c084.png",
           "description": "Field 0 Field 1 Field 2 Field 3 Field 4 Field 5 SearchClear Collapse Search Result List Advanced search Three columns layout is often used for advanced searching of data table. Because the width of label is not fixed, you may need to adjust it by customizing its style."
         }
-      ]
+      ],
+      "__SNAPSHOTS__": []
     },
     {
       "title": "form-基本使用",
@@ -4828,6 +4829,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/148-en-201df937.png",
           "description": "Username Password Remember me Submit Basic Usage Basic Form data control. Includes layout, initial values, validation and submit."
+        }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/148-zh-201df937.png",
+          "description": "Username Password Remember me Submit 基本使用 基本的表单数据域控制展示，包含布局、初始化、验证、提交。"
         }
       ]
     },
@@ -4856,6 +4863,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/149-en-f335740b.png",
           "description": "Username Need Help? Address Select province BirthDate Submit complex form control This demo show how to use Form.Item with multiple controls. <Form.Item name=\"field\" /> will only bind control(Input/Select) which is the only children of it. Image this case, you add some text description after Input, then you have to wrap Input by a extra <Form.item name=\"field\">. style property of Form.Item could be useful to modify the nested form item layout, or <Form.Item noStyle /> turn it into a pure form bind component(like getFieldDecorator in 3.x). - <Form.Item label=\"Field\" name=\"field\"> - <Input /> - </Form.Item> + <Form.Item label=\"Field\"> + <Form.Item name=\"field\" noStyle><Input /></Form.Item> // that will bind input + <span>description</span> + </Form.Item> This demo show three typical usages: Username: extra elements after control, using <Form.Item name=\"field\" noStyle /> inside Form.Item to bind Input. Address: two controls in one line, using two <Form.Item name=\"field\" noStyle /> to bind each control. BirthDate：two controls in one line with indeptent error message, using two <Form.Item name=\"field\" noStyle /> to bind each control, make layout inline by customizing style property. Note, in this case, no more name property should be left in Form.Item with label. See Customized Form Controls demo below for further advanced usage."
         }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/149-zh-f335740b.png",
+          "description": "Username Need Help? Address Select province BirthDate Submit 复杂一点的控件 这里演示 Form.Item 内有多个元素的使用方式。<Form.Item name=\"field\" /> 只会对它的直接子元素绑定表单功能，例如直接包裹了 Input/Select。如果控件前后还有一些文案或样式装点，或者一个表单项内有多个控件，你可以使用内嵌的 Form.Item 完成。你可以给 Form.Item 自定义 style 进行内联布局，或者添加 noStyle 作为纯粹的无样式绑定组件（类似 3.x 中的 getFieldDecorator）。 - <Form.Item label=\"Field\" name=\"field\"> - <Input /> - </Form.Item> + <Form.Item label=\"Field\"> + <Form.Item name=\"field\" noStyle><Input /></Form.Item> // 直接包裹才会绑定表单 + <span>description</span> + </Form.Item> 这里展示了三种典型场景： Username：输入框后面有描述文案或其他组件，在 Form.Item 内使用 <Form.Item name=\"field\" noStyle /> 去绑定对应子控件。 Address：有两个控件，在 Form.Item 内使用两个 <Form.Item name=\"field\" noStyle /> 分别绑定对应控件。 BirthDate：有两个内联控件，错误信息展示各自控件下，使用两个 <Form.Item name=\"field\" /> 分别绑定对应控件，并修改 style 使其内联布局。 注意，在 label 对应的 Form.Item 上不要在指定 name 属性，这个 Item 只作为布局作用。 更复杂的封装复用方式可以参考下面的 自定义表单控件 演示。"
+        }
       ]
     },
     {
@@ -4883,6 +4896,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/150-en-f19f7f0c.png",
           "description": "Note Gender Select a option and change input text above SubmitResetFill form Form methods Call form method with Form.useForm. Note that useForm is a React Hooks that only works in functional component."
         }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/150-zh-f19f7f0c.png",
+          "description": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用 通过 Form.useForm 对表单数据域进行交互。 注意 useForm 是 React Hooks 的实现，只能用于函数组件，class 组件请查看下面的例子。"
+        }
       ]
     },
     {
@@ -4909,6 +4928,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/151-en-f020facd.png",
           "description": "Note Gender Select a option and change input text above SubmitResetFill form Form methods (Class component) We recommend use Form.useForm to create data control. If you are using class component, you can get it by ref."
+        }
+      ],
+      "__SNAPSHOTS__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/151-zh-f020facd.png",
+          "description": "Note Gender Select a option and change input text above SubmitResetFill form 表单方法调用（Class component） 我们推荐使用 Form.useForm 创建表单数据域进行控制。如果是在 class component 下，你也可以通过 ref 获取数据域。"
         }
       ]
     },
@@ -5026,7 +5051,8 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/155-en-27ab0a68.png",
           "description": "Group Name User List ( No user yet. ) SubmitAdd User Control between forms Use Form.Provider to process data between forms. In this case, submit button is in the Modal which is out of Form. You can use form.submit to submit form. Besides, we recommend native <Button htmlType=\"submit\" /> to submit a form."
         }
-      ]
+      ],
+      "__SNAPSHOTS__": []
     },
     {
       "title": "form-弹出层中的新建表单",
@@ -5053,7 +5079,8 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/156-en-6f3ae92a.png",
           "description": "New Collection Form in Modal to Create When user visit a page with a list of items, and want to create a new item. The page can popup a form in Modal, then let user fill in the form to create an item."
         }
-      ]
+      ],
+      "__SNAPSHOTS__": []
     },
     {
       "title": "form-表单数据存储于上层组件",
@@ -7818,6 +7845,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/243-zh-18903e85.png",
           "description": "topLefttopRight bottomLeftbottomRight 通过 Hooks 获取上下文 通过 notification.useNotification 创建支持读取 context 的 contextHolder。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/243-en-18903e85.png",
+          "description": "topLefttopRight bottomLeftbottomRight 通过 Hooks 获取上下文 通过 notification.useNotification 创建支持读取 context 的 contextHolder。"
+        }
       ]
     },
     {
@@ -7843,6 +7876,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/244-zh-ce5ac3.png",
+          "description": "topLefttopRight bottomLeftbottomRight 位置 通知从右上角、右下角、左下角、左上角弹出。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/244-en-ce5ac3.png",
           "description": "topLefttopRight bottomLeftbottomRight 位置 通知从右上角、右下角、左下角、左上角弹出。"
         }
       ]
@@ -7872,6 +7911,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/245-zh-64e40c9.png",
           "description": "Open the notification box 更新消息内容 可以通过唯一的 key 来更新内容。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/245-en-64e40c9.png",
+          "description": "Open the notification box Update Message Content Update content with unique key."
+        }
       ]
     },
     {
@@ -7898,6 +7943,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/246-zh-63bf13c1.png",
           "description": "Open the notification box 自定义按钮 自定义关闭按钮的样式和文字。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/246-en-63bf13c1.png",
+          "description": "Open the notification box Custom close button To customize the style or font of the close button."
         }
       ]
     },
@@ -7926,6 +7977,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/247-zh-6a5b8f2a.png",
           "description": "SuccessInfoWarningError 带有图标的通知提醒框 通知提醒框左侧有图标。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/247-en-6a5b8f2a.png",
+          "description": "SuccessInfoWarningError Notification with icon A notification box with a icon at the left side."
+        }
       ]
     },
     {
@@ -7952,6 +8009,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/248-zh-2c107f74.png",
           "description": "1 2 3 4 5 基本 基础分页。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/248-en-2c107f74.png",
+          "description": "1 2 3 4 5 Basic Basic pagination."
         }
       ]
     },
@@ -7980,6 +8043,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/249-zh-7473c8b5.png",
           "description": "1 2 3 4 5 ••• 50 10 条/页 1 2 3 4 5 ••• 50 10 条/页 改变 改变每页显示条目数。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/249-en-7473c8b5.png",
+          "description": "1 2 3 4 5 ••• 50 10 / page 1 2 3 4 5 ••• 50 10 / page Changer Change pageSize."
+        }
       ]
     },
     {
@@ -8006,6 +8075,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/250-zh-5f12ea3d.png",
           "description": "1 2 3 4 5 受控 受控制的页码。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/250-en-5f12ea3d.png",
+          "description": "1 2 3 4 5 Controlled Controlled page number."
         }
       ]
     },
@@ -8034,6 +8109,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/251-zh-48319955.png",
           "description": "Previous 1 2 3 4 5 ••• 50 Next 10 条/页 上一步和下一步 修改上一步和下一步为文字链接。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/251-en-48319955.png",
+          "description": "Previous 1 2 3 4 5 ••• 50 Next 10 / page Prev and next Use text link for prev and next button."
+        }
       ]
     },
     {
@@ -8060,6 +8141,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/252-zh-6af08669.png",
           "description": "1 2 3 4 5 ••• 50 10 条/页 跳至页 1 2 3 4 5 ••• 50 10 条/页 跳至页 跳转 快速跳转到某一页。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/252-en-6af08669.png",
+          "description": "1 2 3 4 5 ••• 50 10 / page Go to 1 2 3 4 5 ••• 50 10 / page Go to Jumper Jump to a page directly."
         }
       ]
     },
@@ -8088,6 +8175,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/253-zh-451f5c40.png",
           "description": "1 2 3 4 5 1 2 3 4 5 10 条/页 跳至页 Total 50 items 1 2 3 4 5 迷你 迷你版本。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/253-en-451f5c40.png",
+          "description": "1 2 3 4 5 1 2 3 4 5 10 / page Go to Total 50 items 1 2 3 4 5 Mini size Mini size pagination."
+        }
       ]
     },
     {
@@ -8114,6 +8207,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/254-zh-134be805.png",
           "description": "1 ••• 4 5 6 7 8 ••• 50 10 条/页 更多 更多分页。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/254-en-134be805.png",
+          "description": "1 ••• 4 5 6 7 8 ••• 50 10 / page More More pages."
         }
       ]
     },
@@ -8142,6 +8241,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/255-zh-b385a56.png",
           "description": "/5 简洁 简单的翻页。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/255-en-b385a56.png",
+          "description": "/5 Simple mode Simple mode."
+        }
       ]
     },
     {
@@ -8169,6 +8274,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/256-zh-5890b520.png",
           "description": "Total 85 items 1 2 3 4 5 20 条/页 1-20 of 85 items 1 2 3 4 5 20 条/页 总数 通过设置 showTotal 展示总共有多少数据。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/256-en-5890b520.png",
+          "description": "Total 85 items 1 2 3 4 5 20 / page 1-20 of 85 items 1 2 3 4 5 20 / page Total number You can show the total number of data by setting showTotal."
+        }
       ]
     },
     {
@@ -8194,6 +8305,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/257-zh-557c70.png",
+          "description": "Delete 基本 最简单的用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/257-en-557c70.png",
           "description": "Delete 基本 最简单的用法。"
         }
       ]
@@ -8223,6 +8340,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/258-zh-29b6670b.png",
           "description": "Delete a task Whether directly execute： 条件触发 可以判断是否需要弹出。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/258-en-29b6670b.png",
+          "description": "Delete a task Whether directly execute： Conditional trigger Make it pop up under some conditions."
+        }
       ]
     },
     {
@@ -8249,6 +8372,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/259-zh-1f4848e9.png",
           "description": "Delete 自定义 Icon 图标 自定义提示 icon。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/259-en-1f4848e9.png",
+          "description": "Delete Customize icon Set icon props to customize the icon."
         }
       ]
     },
@@ -8277,6 +8406,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/260-zh-d2d92af.png",
           "description": "Delete 国际化 使用 okText 和 cancelText 自定义按钮文字。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/260-en-d2d92af.png",
+          "description": "Delete Locale text Set okText and cancelText props to customize the button's labels."
+        }
       ]
     },
     {
@@ -8304,6 +8439,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/261-zh-8e5bfd1f.png",
           "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。如需箭头指向目标元素中心，可以设置 arrowPointAtCenter。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/261-en-8e5bfd1f.png",
+          "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available. Use arrowPointAtCenter if you want the arrow to point at the center of target."
+        }
       ]
     },
     {
@@ -8329,6 +8470,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/262-zh-3059c768.png",
+          "description": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 多种形态的 PageHeader 使用操作区，并自定义子节点，适合使用在需要展示一些复杂的信息，帮助用户快速了解这个页面的信息和操作。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/262-en-3059c768.png",
           "description": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China Title This is a subtitle Running OperationOperationPrimary Status Pending Price $568.08 Balance $3,345.08 多种形态的 PageHeader 使用操作区，并自定义子节点，适合使用在需要展示一些复杂的信息，帮助用户快速了解这个页面的信息和操作。"
         }
       ]
@@ -8358,6 +8505,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/263-zh-9b5bbf.png",
           "description": "Title This is a subtitle 标准样式 标准页头，适合使用在需要简单描述的场景。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/263-en-9b5bbf.png",
+          "description": "Title This is a subtitle Basic Page Header Standard header, suitable for use in scenarios that require a brief description."
+        }
       ]
     },
     {
@@ -8384,6 +8537,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/264-zh-901c5a79.png",
           "description": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle 带面包屑页头 带面包屑页头，适合层级比较深的页面，让用户可以快速导航。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/264-en-901c5a79.png",
+          "description": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Use with breadcrumbs With breadcrumbs, it is suitable for deeper pages, allowing users to navigate quickly."
         }
       ]
     },
@@ -8412,6 +8571,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/265-zh-2442ce38.png",
           "description": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc 组合示例 使用了 PageHeader 提供的所有能力。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/265-en-2442ce38.png",
+          "description": "First-level Menu/Second-level Menu/Third-level Menu Title This is a subtitle Running OperationOperationPrimary Ant Design interprets the color system into two levels: a system-level color system and a product-level color system. Ant Design's design team preferred to design with the HSB color model, which makes it easier for designers to have a clear psychological expectation of color when adjusting colors, as well as facilitate communication in teams. Quick Start Product InfoProduct Doc Complete example Show all props provided by PageHeader."
+        }
       ]
     },
     {
@@ -8438,6 +8603,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/266-zh-bbb4bbe5.png",
           "description": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China 白底模式 默认 PageHeader 是透明底色的。在某些情况下，PageHeader 需要自己的背景颜色。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/266-en-bbb4bbe5.png",
+          "description": "Title This is a subtitle OperationOperationPrimary CreatedLili Qu Association421421 Creation Time2017-01-10 Effective Time2017-10-10 RemarksGonghu Road, Xihu District, Hangzhou, Zhejiang, China white background mode The default PageHeader is a transparent background. In some cases, PageHeader needs its own background color."
         }
       ]
     },
@@ -8466,6 +8637,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/267-zh-bb71c269.png",
           "description": "响应式 在不同大小的屏幕下，应该有不同的表现"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/267-en-bb71c269.png",
+          "description": "responsive Under different screen sizes, there should be different performance"
+        }
       ]
     },
     {
@@ -8492,6 +8669,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/268-zh-46ad0a87.png",
           "description": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/268-en-46ad0a87.png",
+          "description": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 Arrow pointing The arrow points to the center of the target element, which set arrowPointAtCenter."
         }
       ]
     },
@@ -8520,6 +8703,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/269-zh-879f9bf5.png",
           "description": "Hover me 基本 最简单的用法，浮层的大小由内容区域决定。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/269-en-879f9bf5.png",
+          "description": "Hover me Basic The most basic example. The size of the floating layer depends on the contents region."
+        }
       ]
     },
     {
@@ -8546,6 +8735,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/270-zh-b902f1df.png",
           "description": "Click me 从浮层内关闭 使用 visible 属性控制浮层显示。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/270-en-b902f1df.png",
+          "description": "Click me Controlling the close of the dialog Use visible prop to control the display of the card."
         }
       ]
     },
@@ -8574,6 +8769,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/271-zh-19708cd4.png",
           "description": "Hover and click / 悬停并单击 悬停点击弹出窗口 以下示例显示如何创建可悬停和单击的弹出窗口。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/271-en-19708cd4.png",
+          "description": "Hover and click / 悬停并单击 Hover with click popover The following example shows how to create a popover which can be hovered and clicked."
+        }
       ]
     },
     {
@@ -8600,6 +8801,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/272-zh-4f39a24b.png",
           "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有十二个方向。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/272-en-4f39a24b.png",
+          "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available."
         }
       ]
     },
@@ -8628,6 +8835,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/273-zh-907b72c4.png",
           "description": "Hover meFocus meClick me 三种触发方式 鼠标移入、聚集、点击。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/273-en-907b72c4.png",
+          "description": "Hover meFocus meClick me Three ways to trigger Mouse to click, focus and move in."
+        }
       ]
     },
     {
@@ -8654,6 +8867,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/274-zh-c0ce787b.png",
           "description": "0% 进度圈动态展示 会动的进度条才是好进度条。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/274-en-c0ce787b.png",
+          "description": "0% Dynamic circular progress bar A dynamic progress bar is better."
         }
       ]
     },
@@ -8682,6 +8901,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/275-zh-35f816ac.png",
           "description": "30% 小型进度圈 小一号的圈形进度。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/275-en-35f816ac.png",
+          "description": "30% Mini size circular progress bar A smaller circular progress bar."
+        }
       ]
     },
     {
@@ -8708,6 +8933,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/276-zh-27c5e946.png",
           "description": "75% 进度圈 圈形的进度。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/276-en-27c5e946.png",
+          "description": "75% Circular progress bar A circular progress bar."
         }
       ]
     },
@@ -8736,6 +8967,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/277-zh-844d158.png",
           "description": "75% 75% 仪表盘 通过设置 type=dashboard，可以很方便地实现仪表盘样式的进度条。若想要修改缺口的角度，可以设置 gapDegree 为你想要的值。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/277-en-844d158.png",
+          "description": "75% 75% Dashboard By setting type=dashboard, you can get a dashboard style of progress easily. Modify gapDegree to set the degree of gap."
+        }
       ]
     },
     {
@@ -8762,6 +8999,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/278-zh-3d2f6bb4.png",
           "description": "0% 动态展示 会动的进度条才是好进度条。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/278-en-3d2f6bb4.png",
+          "description": "0% Dynamic A dynamic progress bar is better."
         }
       ]
     },
@@ -8790,6 +9033,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/279-zh-16609683.png",
           "description": "75 Days Done 自定义文字格式 format 属性指定格式。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/279-en-16609683.png",
+          "description": "75 Days Done Custom text format You can set a custom text by setting the format prop."
+        }
       ]
     },
     {
@@ -8816,6 +9065,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/280-zh-a6de8598.png",
           "description": "99.9% 99.9% 90% 自定义进度条渐变色 linear-gradient 的封装。推荐只传两种颜色。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/280-en-a6de8598.png",
+          "description": "99.9% 99.9% 90% Custom line gradient A package of linear-gradient. It is recommended to only pass two colors."
         }
       ]
     },
@@ -8844,6 +9099,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/281-zh-3e9bddeb.png",
           "description": "30% 50% 小型进度条 适合放在较狭窄的区域内。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/281-en-3e9bddeb.png",
+          "description": "30% 50% Mini size progress bar Appropriate for a narrow area."
+        }
       ]
     },
     {
@@ -8870,6 +9131,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/282-zh-6d6fe4e9.png",
           "description": "30% 50% 进度条 标准的进度条。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/282-en-6d6fe4e9.png",
+          "description": "30% 50% Progress bar A standard progress bar."
         }
       ]
     },
@@ -8898,6 +9165,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/283-zh-68e12ce.png",
           "description": "75% 75% 75% 圆角/方角边缘 通过设定 strokeLinecap=\"square|round\" 可以调整进度条边缘的形状。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/283-en-68e12ce.png",
+          "description": "75% 75% 75% Square linecaps By setting strokeLinecap=\"square\", you can change the linecaps from round to square."
+        }
       ]
     },
     {
@@ -8924,6 +9197,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/284-zh-ef23f22f.png",
           "description": "60% 60% 60% 分段进度条 标准的进度条。type=\"circle|dashboard\" 时不支持分段颜色。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/284-en-ef23f22f.png",
+          "description": "60% 60% 60% Progress bar with success segment A standard progress bar. Doesn't support trail color when type=\"circle|dashboard\"."
         }
       ]
     },
@@ -8952,6 +9231,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/285-zh-a4e95de8.png",
           "description": "50% 30% 步骤进度条 带步骤的进度条。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/285-en-a4e95de8.png",
+          "description": "50% 30% Progress bar with steps A progress bar with steps."
+        }
       ]
     },
     {
@@ -8978,6 +9263,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/286-zh-1bcc3783.png",
           "description": "Radio 基本 最简单的用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/286-en-1bcc3783.png",
+          "description": "Radio Basic The simplest use."
         }
       ]
     },
@@ -9006,6 +9297,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/287-zh-73fa7f06.png",
           "description": "Disabled Disabled Toggle disabled 不可用 Radio 不可用。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/287-en-73fa7f06.png",
+          "description": "Disabled Disabled Toggle disabled disabled Radio unavailable."
+        }
       ]
     },
     {
@@ -9032,6 +9329,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/288-zh-5632ac20.png",
           "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 填底的按钮样式 实色填底的单选按钮样式。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/288-en-5632ac20.png",
+          "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Solid radio button Solid radio button style."
         }
       ]
     },
@@ -9060,6 +9363,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/289-zh-e702328c.png",
           "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 按钮样式 按钮样式的单选组合。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/289-en-e702328c.png",
+          "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu radio style The combination of radio button style."
+        }
       ]
     },
     {
@@ -9086,6 +9395,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/290-zh-2e7fd8e6.png",
           "description": "Option A Option B Option C More... Radio.Group 垂直 垂直的 Radio.Group，配合更多输入框选项。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/290-en-2e7fd8e6.png",
+          "description": "Option A Option B Option C More... Vertical Radio.Group Vertical Radio.Group, with more radios."
         }
       ]
     },
@@ -9114,6 +9429,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/291-zh-c1416e9b.png",
           "description": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group 组合 - 配置方式 通过配置 options 参数来渲染单选框。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/291-en-c1416e9b.png",
+          "description": "Apple Pear Orange Apple Pear Orange Apple Pear Orange Radio.Group group - optional Render radios by configuring options."
+        }
       ]
     },
     {
@@ -9140,6 +9461,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/292-zh-7226db47.png",
           "description": "A B C D 单选组合 - 配合 name 使用 可以为 Radio.Group 配置 name 参数，为组合内的 input 元素赋予相同的 name 属性，使浏览器把 Radio.Group 下的 Radio 真正看作是一组（例如可以通过方向键始终在同一组内更改选项）。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/292-en-7226db47.png",
+          "description": "A B C D Radio.Group with name Passing the name property to all input[type=\"radio\"] that are in the same Radio.Group. It is usually used to let the browser see your Radio.Group as a real \"group\" and keep the default behavior. For example, using left/right keyboard arrow to change your selection that in the same Radio.Group."
         }
       ]
     },
@@ -9168,6 +9495,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/293-zh-bb6d71e3.png",
           "description": "A B C D 单选组合 一组互斥的 Radio 配合使用。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/293-en-bb6d71e3.png",
+          "description": "A B C D Radio Group A group of radio components."
+        }
       ]
     },
     {
@@ -9194,6 +9527,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/294-zh-4fc5488e.png",
           "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu 大小 大中小三种组合，可以和表单输入框进行对应配合。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/294-en-4fc5488e.png",
+          "description": "Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Hangzhou Shanghai Beijing Chengdu Size There are three sizes available: large, medium, and small. It can coordinate with input box."
         }
       ]
     },
@@ -9222,6 +9561,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/295-zh-4a9b206a.png",
           "description": "基本 最简单的用法。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/295-en-4a9b206a.png",
+          "description": "Basic The simplest usage."
+        }
       ]
     },
     {
@@ -9248,6 +9593,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/296-zh-dba0d7b9.png",
           "description": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 其他字符 可以将星星替换为其他字符，比如字母，数字，字体图标甚至中文。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/296-en-dba0d7b9.png",
+          "description": " A A A A A A A A A A 好 好 好 好 好 好 好 好 好 好 Other Character Replace the default star to other character like alphabet, digit, iconfont or even Chinese word."
         }
       ]
     },
@@ -9276,6 +9627,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/297-zh-a9bb5dbf.png",
           "description": "allowClear: true allowClear: false 清除 支持允许或者禁用清除。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/297-en-a9bb5dbf.png",
+          "description": "allowClear: true allowClear: false Clear star Support set allow to clear star when click again."
+        }
       ]
     },
     {
@@ -9302,6 +9659,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/298-zh-33da76cd.png",
           "description": "只读 只读，无法进行鼠标交互。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/298-en-33da76cd.png",
+          "description": "Read only Read only, can't use mouse to interact."
         }
       ]
     },
@@ -9330,6 +9693,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/299-zh-aa8f3f4b.png",
           "description": "半星 支持选中半星。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/299-en-aa8f3f4b.png",
+          "description": "Half star Support select half star."
+        }
       ]
     },
     {
@@ -9356,6 +9725,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/300-zh-77437d46.png",
           "description": "normal 文案展现 给评分组件加上文案展示。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/300-en-77437d46.png",
+          "description": "normal Show copywriting Add copywriting in rate components."
         }
       ]
     },
@@ -9384,6 +9759,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/301-zh-9e5899cc.png",
           "description": "403 Sorry, you are not authorized to access this page. Back Home 403 你没有此页面的访问权限。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/301-en-9e5899cc.png",
+          "description": "403 Sorry, you are not authorized to access this page. Back Home 403 you are not authorized to access this page."
+        }
       ]
     },
     {
@@ -9410,6 +9791,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/302-zh-c1b362be.png",
           "description": "404 Sorry, the page you visited does not exist. Back Home 404 此页面未找到。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/302-en-c1b362be.png",
+          "description": "404 Sorry, the page you visited does not exist. Back Home 404 The page you visited does not exist."
         }
       ]
     },
@@ -9438,6 +9825,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/303-zh-37b35e84.png",
           "description": "500 Sorry, the server is wrong. Back Home 500 服务器发生了错误。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/303-en-37b35e84.png",
+          "description": "500 Sorry, the server is wrong. Back Home 500 The server is wrong."
+        }
       ]
     },
     {
@@ -9460,7 +9853,8 @@
         "antd"
       ],
       "__ID__": "7748bcc7",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "result-Error",
@@ -9482,7 +9876,8 @@
         "antd"
       ],
       "__ID__": "e66af751",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "result-Info",
@@ -9508,6 +9903,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/306-zh-3da78e0b.png",
           "description": "Your operation has been executed Go Console Info 展示处理结果。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/306-en-3da78e0b.png",
+          "description": "Your operation has been executed Go Console Info Show processing results."
         }
       ]
     },
@@ -9536,6 +9937,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/307-zh-a14d545b.png",
           "description": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success 成功的结果。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/307-en-a14d545b.png",
+          "description": "Successfully Purchased Cloud Server ECS! Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait. Go ConsoleBuy Again Success Show successful results."
+        }
       ]
     },
     {
@@ -9563,6 +9970,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/308-zh-f1bf0634.png",
           "description": "There are some problems with your operation. Go Console Warning 警告类型的结果。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/308-en-f1bf0634.png",
+          "description": "There are some problems with your operation. Go Console Warning The result of the warning."
+        }
       ]
     },
     {
@@ -9588,6 +10001,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/309-zh-4b2fce18.png",
+          "description": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/309-en-4b2fce18.png",
           "description": "自动分词 试下复制 露西,杰克 到输入框里。只在 tags 和 multiple 模式下可用。"
         }
       ]
@@ -9617,6 +10036,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/310-zh-eee6f0db.png",
           "description": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/310-en-eee6f0db.png",
+          "description": "Ant Design 4.0 100000 Items a10 c12 Ant Design 3.0 大数据 Select 使用了虚拟滚动技术，因而获得了比 3.0 更好的性能。"
+        }
       ]
     },
     {
@@ -9643,6 +10068,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/311-zh-56b9b1d3.png",
           "description": "Lucy Lucy 无边框 无边框样式。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/311-en-56b9b1d3.png",
+          "description": "Lucy Lucy Bordered-less Bordered-less style component."
         }
       ]
     },
@@ -9671,6 +10102,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/312-zh-f79d413.png",
           "description": "Zhejiang Hangzhou 联动 省市联动是典型的例子。 推荐使用 Cascader 组件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/312-en-f79d413.png",
+          "description": "Zhejiang Hangzhou coordinate Coordinating the selection of provinces and cities is a common use case and demonstrates how selection can be coordinated. Using the Cascader component is strongly recommended instead as it is more flexible and capable."
+        }
       ]
     },
     {
@@ -9696,6 +10133,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/313-zh-771c5f84.png",
+          "description": "custom dropdown render 扩展菜单 使用 dropdownRender 对下拉菜单进行自由扩展。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/313-en-771c5f84.png",
           "description": "custom dropdown render 扩展菜单 使用 dropdownRender 对下拉菜单进行自由扩展。"
         }
       ]
@@ -9725,6 +10168,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/314-zh-b95a5ce6.png",
           "description": "gold cyan 自定义选择标签 允许自定义选择标签的样式"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/314-en-b95a5ce6.png",
+          "description": "gold cyan Custom Tag Render Allows for custom rendering of tags"
+        }
       ]
     },
     {
@@ -9751,6 +10200,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/315-zh-c210e575.png",
           "description": "Inserted are removed 隐藏已选择选项 隐藏下拉列表中已选择的选项。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/315-en-c210e575.png",
+          "description": "Inserted are removed Hide Already Selected Hide already selected options in the dropdown."
         }
       ]
     },
@@ -9779,6 +10234,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/316-zh-602dd1f.png",
           "description": "Lucy (101) 获得选项的文本 默认情况下 onChange 里只能拿到 value，如果需要拿到选中的节点文本 label，可以使用 labelInValue 属性。 选中项的 label 会被包装到 value 中传递给 onChange 等函数，此时 value 是一个对象。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/316-en-602dd1f.png",
+          "description": "Lucy (101) Get value of selected item As a default behavior, the onChange callback can only get the value of the selected item. The labelInValue prop can be used to get the label property of the selected item. The label of the selected item will be packed as an object for passing to the onChange callback."
+        }
       ]
     },
     {
@@ -9805,6 +10266,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/317-zh-8c7a169d.png",
           "description": "a10 c12 多选 多选，从已有条目中选择。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/317-en-8c7a169d.png",
+          "description": "a10 c12 multiple selection Multiple selection, selecting from existing items."
         }
       ]
     },
@@ -9833,6 +10300,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/318-zh-6318541.png",
           "description": "Lucy 分组 用 OptGroup 进行选项分组。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/318-en-6318541.png",
+          "description": "Lucy Option Group Using OptGroup to group the options."
+        }
       ]
     },
     {
@@ -9860,6 +10333,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/319-zh-bd73a61e.png",
           "description": "China 定制回填内容 使用 optionLabelProp 指定回填到选择框的 Option 属性。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/319-en-bd73a61e.png",
+          "description": "China Custom selection render Spacified the prop name of Option which will be rendered in select box."
+        }
       ]
     },
     {
@@ -9885,6 +10364,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/320-zh-154ec393.png",
+          "description": "input search text 搜索框 搜索和远程数据结合。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/320-en-154ec393.png",
           "description": "input search text 搜索框 搜索和远程数据结合。"
         }
       ]
@@ -9914,6 +10399,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/321-zh-df993a90.png",
           "description": "Select users 搜索用户 一个带有远程搜索，防抖控制，请求时序控制，加载状态的多选示例。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/321-en-df993a90.png",
+          "description": "Select users Search and Select Users A complete multiple select sample with remote search, debounce fetch, ajax callback order flow, and loading state."
+        }
       ]
     },
     {
@@ -9939,6 +10430,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/322-zh-d09e7ee3.png",
+          "description": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/322-en-d09e7ee3.png",
           "description": "Large Default Small a1 a10 c12 a10 c12 三种大小 三种大小的选择框，当 size 分别为 large 和 small 时，输入框高度为 40px 和 24px ，默认高度为 32px。"
         }
       ]
@@ -9968,6 +10465,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/323-zh-fb6d0f7b.png",
           "description": "Tags Mode 标签 tags select，随意输入的内容（scroll the menu）"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/323-en-fb6d0f7b.png",
+          "description": "Tags Mode Tags Select with tags, transform input to tag (scroll the menu)"
+        }
       ]
     },
     {
@@ -9994,6 +10497,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/324-zh-abb2f83f.png",
           "description": "Disabled: 基本 基本滑动条。当 range 为 true 时，渲染为双滑块。当 disabled 为 true 时，滑块处于不可用状态。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/324-en-abb2f83f.png",
+          "description": "Disabled: Basic Basic slider. When range is true, display as dual thumb mode. When disable is true, the slider will not be interactable."
         }
       ]
     },
@@ -10022,6 +10531,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/325-zh-d97a7d91.png",
           "description": "事件 当 Slider 的值发生改变时，会触发 onChange 事件，并把改变后的值作为参数传入。在 onmouseup 时，会触发 onAfterChange 事件，并把当前值作为参数传入。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/325-en-d97a7d91.png",
+          "description": "Event The onChange callback function will fire when the user changes the slider's value. The onAfterChange callback function will fire when onmouseup fired."
+        }
       ]
     },
     {
@@ -10048,6 +10563,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/326-zh-8602af8b.png",
           "description": "带 icon 的滑块 滑块左右可以设置图标来表达业务含义。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/326-en-8602af8b.png",
+          "description": "Slider with icon You can add an icon beside the slider to make it meaningful."
         }
       ]
     },
@@ -10076,6 +10597,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/327-zh-2ddd1c32.png",
           "description": "带输入框的滑块 和 数字输入框 组件保持同步。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/327-en-2ddd1c32.png",
+          "description": "Slider with InputNumber Synchronize with InputNumber component."
+        }
       ]
     },
     {
@@ -10102,6 +10629,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/328-zh-30c933ec.png",
           "description": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C 带标签的滑块 使用 marks 属性标注分段式滑块，使用 value / defaultValue 指定滑块位置。当 included=false 时，表明不同标记间为并列关系。当 step=null 时，Slider 的可选值仅有 marks 标出来的部分。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/328-en-30c933ec.png",
+          "description": "included=true 0°C 26°C 37°C 100°C 0°C 26°C 37°C 100°C included=false 0°C 26°C 37°C 100°C marks & step 0°C 26°C 37°C 100°C step=null 0°C 26°C 37°C 100°C Graduated slider Using marks property to mark a graduated slider, use value or defaultValue to specify the position of thumb. When included is false, means that different thumbs are coordinative. when step is null, users can only slide the thumbs onto marks."
         }
       ]
     },
@@ -10130,6 +10663,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/329-zh-e97e9981.png",
           "description": "Reversed: 反向 设置 reverse 可以将滑动条置反。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/329-en-e97e9981.png",
+          "description": "Reversed: Reverse Using reverse to render slider reversely."
+        }
       ]
     },
     {
@@ -10156,6 +10695,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/330-zh-70447d61.png",
           "description": "控制 ToolTip 的显示 当 tooltipVisible 为 true 时，将始终显示 ToolTip；反之则始终不显示，即使在拖动、移入时也是如此。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/330-en-70447d61.png",
+          "description": "Control visible of ToolTip When tooltipVisible is true, ToolTip will show always, or ToolTip will not show anyway, even if dragging or hovering."
         }
       ]
     },
@@ -10184,6 +10729,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/331-zh-691867f1.png",
           "description": "自定义提示 使用 tipFormatter 可以格式化 Tooltip 的内容，设置 tipFormatter={null}，则隐藏 Tooltip。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/331-en-691867f1.png",
+          "description": "Customize tooltip Use tipFormatter to format content of Tooltip. If tipFormatter is null, hide it."
+        }
       ]
     },
     {
@@ -10210,6 +10761,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/332-zh-a83e249c.png",
           "description": "0°C 26°C 37°C 100°C 垂直 垂直方向的 Slider。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/332-en-a83e249c.png",
+          "description": "0°C 26°C 37°C 100°C Vertical The vertical Slider."
         }
       ]
     },
@@ -10238,6 +10795,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/333-zh-1d0c49ce.png",
           "description": "动画效果 显示动画效果。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/333-en-1d0c49ce.png",
+          "description": "Active Animation Display active animation."
+        }
       ]
     },
     {
@@ -10264,6 +10827,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/334-zh-d44475f4.png",
           "description": "基本 最简单的占位效果。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/334-en-d44475f4.png",
+          "description": "Basic Simplest Skeleton usage."
         }
       ]
     },
@@ -10292,6 +10861,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/335-zh-e5b1489f.png",
           "description": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton 包含子组件 加载占位图包含子组件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/335-en-e5b1489f.png",
+          "description": "Ant Design, a design language We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Show Skeleton Contains sub component Skeleton contains sub component."
+        }
       ]
     },
     {
@@ -10318,6 +10893,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/336-zh-2d2a399d.png",
           "description": " 复杂的组合 更复杂的组合。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/336-en-2d2a399d.png",
+          "description": " Complex combination Complex combination with avatar and multiple paragraphs."
         }
       ]
     },
@@ -10346,6 +10927,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/337-zh-50f74e32.png",
           "description": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small 骨架按钮、头像和输入框。 骨架按钮、头像和输入框。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/337-en-50f74e32.png",
+          "description": "ButtonActive ButtonSize Default Large Small ButtonShape Default Round Circle AvatarActive AvatarSize Default Large Small AvatarShape Square Circle InputActive InputSize Default Large Small Skeleton button and avatar Skeleton button, avatar and input."
+        }
       ]
     },
     {
@@ -10372,6 +10959,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/338-zh-2f8ac494.png",
           "description": " 列表 在列表组件中使用加载占位符。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/338-en-2f8ac494.png",
+          "description": " List Use skeleton in list component."
         }
       ]
     },
@@ -10400,6 +10993,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/339-zh-6e2d0f40.png",
           "description": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge 基本 简单的展示。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/339-en-6e2d0f40.png",
+          "description": "Active Users 112,893 Account Balance (CNY) 112,893.00 Recharge Basic Simplest Usage."
+        }
       ]
     },
     {
@@ -10426,6 +11025,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/340-zh-564aebc3.png",
           "description": "Active 11.28% Idle 9.30% 在卡片中使用 在卡片中展示统计数值。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/340-en-564aebc3.png",
+          "description": "Active 11.28% Idle 9.30% In Card Display statistic data in Card."
         }
       ]
     },
@@ -10454,6 +11059,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/341-zh-59d32920.png",
           "description": "Countdown 48:00:23 Million Seconds 48:00:23:335 Day Level 2 天 0 时 0 分 23 秒 倒计时 倒计时组件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/341-en-59d32920.png",
+          "description": "Countdown 48:00:25 Million Seconds 48:00:25:182 Day Level 2 天 0 时 0 分 25 秒 Countdown Countdown component."
+        }
       ]
     },
     {
@@ -10480,6 +11091,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/342-zh-1d466181.png",
           "description": "Feedback 1,128 Unmerged 93/ 100 单位 通过前缀和后缀添加单位。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/342-en-1d466181.png",
+          "description": "Feedback 1,128 Unmerged 93/ 100 Unit Add unit through prefix and suffix."
         }
       ]
     },
@@ -10508,6 +11125,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/343-zh-1cf35a3a.png",
           "description": "基本用法 一个简单的 loading 状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/343-en-1cf35a3a.png",
+          "description": "basic Usage A simple loading status."
+        }
       ]
     },
     {
@@ -10530,7 +11153,13 @@
         "antd"
       ],
       "__ID__": "13617b58",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/344-en-13617b58.png",
+          "description": "Custom spinning indicator Use custom loading indicator."
+        }
+      ]
     },
     {
       "title": "spin-延迟",
@@ -10557,6 +11186,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/345-zh-1334a485.png",
           "description": "Alert message title Further details about the context of this alert. Loading state： 延迟 延迟显示 loading 效果。当 spinning 状态在 delay 时间内结束，则不显示 loading 状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/345-en-1334a485.png",
+          "description": "Alert message title Further details about the context of this alert. Loading state： delay Specifies a delay for loading state. If spinning ends during delay, loading status won't appear."
+        }
       ]
     },
     {
@@ -10579,7 +11214,8 @@
         "antd"
       ],
       "__ID__": "779fd7b3",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "spin-卡片加载中",
@@ -10605,6 +11241,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/347-zh-3cdd11fa.png",
           "description": "Alert message title Further details about the context of this alert. Loading state： 卡片加载中 可以直接把内容内嵌到 Spin 中，将现有容器变为加载状态。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/347-en-3cdd11fa.png",
+          "description": "Alert message title Further details about the context of this alert. Loading state： Embedded mode Embedding content into Spin will set it into loading state."
         }
       ]
     },
@@ -10633,6 +11275,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/348-zh-97117ce.png",
           "description": "各种大小 小的用于文本加载，默认用于卡片容器级加载，大的用于页面级加载。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/348-en-97117ce.png",
+          "description": "Size A small Spin is used for loading text, default sized Spin for loading a card-level block, and large Spin used for loading a page."
+        }
       ]
     },
     {
@@ -10659,6 +11307,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/349-zh-47778d70.png",
           "description": "Loading... Alert message title Further details about the context of this alert. 自定义描述文案 自定义描述文案。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/349-en-47778d70.png",
+          "description": "Loading... Alert message title Further details about the context of this alert. Customized description Customized description content."
         }
       ]
     },
@@ -10687,6 +11341,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/350-zh-23ae3992.png",
           "description": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. 可点击 设置 onChange 后，Steps 变为可点击状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/350-en-23ae3992.png",
+          "description": "1Step 1 This is a description. 2Step 2 This is a description. 3Step 3 This is a description. 1 Step 1 This is a description. 2 Step 2 This is a description. 3 Step 3 This is a description. Clickable Setting onChange makes Steps clickable."
+        }
       ]
     },
     {
@@ -10713,6 +11373,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/351-zh-f17a9ef.png",
           "description": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. 自定义点状步骤条 为点状步骤条增加自定义展示。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/351-en-f17a9ef.png",
+          "description": "Finished You can hover on the dot. In Progress You can hover on the dot. Waiting You can hover on the dot. Waiting You can hover on the dot. Customized Dot Style You can customize the display for Steps with progress dot style."
         }
       ]
     },
@@ -10741,6 +11407,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/352-zh-305afede.png",
           "description": "Finished This is a description In Process This is a description 3Waiting This is a description 步骤运行错误 使用 Steps 的 status 属性来指定当前步骤的状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/352-en-305afede.png",
+          "description": "Finished This is a description In Process This is a description 3Waiting This is a description Error status By using status of Steps, you can specify the state for current step."
+        }
       ]
     },
     {
@@ -10767,6 +11439,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/353-zh-6c6625db.png",
           "description": "Login Verification Pay Done 带图标的步骤条 通过设置 Steps.Step 的 icon 属性，可以启用自定义图标。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/353-en-6c6625db.png",
+          "description": "Login Verification Pay Done With icon You can use your own custom icons by setting the property icon for Steps.Step."
         }
       ]
     },
@@ -10795,6 +11473,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/354-zh-3ff7aafa.png",
           "description": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait 导航步骤 导航类型的步骤条。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/354-en-3ff7aafa.png",
+          "description": "Step 100:00:05 This is a description. 2Step 200:01:02 This is a description. 3Step 3waiting for longlong time This is a description. Step 1 2Step 2 3Step 3 4Step 4 finish 1 finish 2 3current process 4wait Navigation Steps Navigation steps."
+        }
       ]
     },
     {
@@ -10821,6 +11505,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/355-zh-28e2243d.png",
           "description": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. 点状步骤条 包含步骤点的进度条。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/355-en-28e2243d.png",
+          "description": "Finished This is a description. In Progress This is a description. Waiting This is a description. Finished This is a description. This is a description. Finished This is a description. This is a description. In Progress This is a description. This is a description. Waiting This is a description. Waiting This is a description. Dot Style Steps with progress dot style."
         }
       ]
     },
@@ -10849,6 +11539,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/356-zh-ba0065aa.png",
           "description": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. 基本用法 简单的步骤条。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/356-en-ba0065aa.png",
+          "description": "Finished This is a description. 2In ProgressLeft 00:00:08 This is a description. 3Waiting This is a description. Basic The most basic step bar."
+        }
       ]
     },
     {
@@ -10875,6 +11571,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/357-zh-936bed24.png",
           "description": "Finished 2In Progress 3Waiting 迷你版 迷你版的步骤条，通过设置 <Steps size=\"small\"> 启用."
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/357-en-936bed24.png",
+          "description": "Finished 2In Progress 3Waiting Mini version By setting like this: <Steps size=\"small\">, you can get a mini version."
         }
       ]
     },
@@ -10903,6 +11605,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/358-zh-de36ba4d.png",
           "description": "1First 2Second 3Last First-content Next 步骤切换 通常配合内容及按钮使用，表示一个流程的处理进度。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/358-en-de36ba4d.png",
+          "description": "1First 2Second 3Last First-content Next Switch Step Cooperate with the content and buttons, to represent the progress of a process."
+        }
       ]
     },
     {
@@ -10929,6 +11637,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/359-zh-41bf1c70.png",
           "description": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的小型步骤条 简单的竖直方向的小型步骤条。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/359-en-41bf1c70.png",
+          "description": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical mini version A simple mini version step bar in the vertical direction."
         }
       ]
     },
@@ -10957,6 +11671,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/360-zh-6421630b.png",
           "description": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. 竖直方向的步骤条 简单的竖直方向的步骤条。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/360-en-6421630b.png",
+          "description": "Finished This is a description. 2 In Progress This is a description. 3 Waiting This is a description. Vertical A simple step bar in the vertical direction."
+        }
       ]
     },
     {
@@ -10983,6 +11703,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/361-zh-29efd97a.png",
           "description": "基本 最简单的用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/361-en-29efd97a.png",
+          "description": "Basic The most basic usage."
         }
       ]
     },
@@ -11011,6 +11737,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/362-zh-8c3d267.png",
           "description": " Toggle disabled 不可用 Switch 失效状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/362-en-8c3d267.png",
+          "description": " Toggle disabled Disabled Disabled state of Switch."
+        }
       ]
     },
     {
@@ -11037,6 +11769,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/363-zh-e9a4de58.png",
           "description": " 加载中 标识开关操作仍在执行中。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/363-en-e9a4de58.png",
+          "description": " Loading Mark a pending state of switch."
         }
       ]
     },
@@ -11065,6 +11803,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/364-zh-a812dc04.png",
           "description": " 两种大小 size=\"small\" 表示小号开关。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/364-en-a812dc04.png",
+          "description": " Two sizes size=\"small\" represents a small sized switch."
+        }
       ]
     },
     {
@@ -11091,6 +11835,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/365-zh-76620db0.png",
           "description": "开 0 文字和图标 带有文字和图标。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/365-en-76620db0.png",
+          "description": "开 0 Text & icon With text and icon."
         }
       ]
     },
@@ -11119,6 +11869,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/366-zh-8a830da9.png",
           "description": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 卡片式页签容器 用于容器顶部，需要一点额外的样式覆盖。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/366-en-8a830da9.png",
+          "description": "Tab Title 1Tab Title 2Tab Title 3 Content of Tab Pane 1 Content of Tab Pane 1 Content of Tab Pane 1 Container of card type Tab Should be used at the top of container, needs to override styles."
+        }
       ]
     },
     {
@@ -11145,6 +11901,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/367-zh-fbf674b3.png",
           "description": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 卡片式页签 另一种样式的页签，不提供对应的垂直样式。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/367-en-fbf674b3.png",
+          "description": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Card type tab Another type of Tabs, which doesn't support vertical mode."
         }
       ]
     },
@@ -11173,6 +11935,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/368-zh-10f4a8.png",
           "description": "ADD Tab 1 Tab 2 Content of Tab Pane 1 自定义新增页签触发器 隐藏默认的页签增加图标，给自定义触发器绑定事件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/368-en-10f4a8.png",
+          "description": "ADD Tab 1 Tab 2 Content of Tab Pane 1 Customized trigger of new tab Hide default plus icon, and bind event for customized trigger."
+        }
       ]
     },
     {
@@ -11195,7 +11963,8 @@
         "antd"
       ],
       "__ID__": "a02645fc",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "tabs-自定义页签头",
@@ -11221,6 +11990,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/370-zh-86c96acb.png",
           "description": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 自定义页签头 使用 react-sticky 组件实现吸顶效果。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/370-en-86c96acb.png",
+          "description": "Tab 1Tab 2Tab 3 Content of Tab Pane 1 Customized bar of tab Use react-sticky."
         }
       ]
     },
@@ -11249,6 +12024,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/371-zh-40408300.png",
           "description": "Tab 1Tab 2Tab 3 Tab 1 禁用 禁用某一项。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/371-en-40408300.png",
+          "description": "Tab 1Tab 2Tab 3 Tab 1 Disabled Disabled a tab."
+        }
       ]
     },
     {
@@ -11275,6 +12056,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/372-zh-a0da5e64.png",
           "description": "Tab 1 Tab 2 Tab 3 Content of Tab 1 新增和关闭页签 只有卡片样式的页签支持新增和关闭选项。使用 closable={false} 禁止关闭。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/372-en-a0da5e64.png",
+          "description": "Tab 1 Tab 2 Tab 3 Content of Tab 1 Add & close tab Only card type Tabs support adding & closable. +Use closable={false} to disable close."
         }
       ]
     },
@@ -11303,6 +12090,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/373-zh-9d9c9ceb.png",
           "description": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 附加内容 可以在页签右边添加附加操作。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/373-en-9d9c9ceb.png",
+          "description": "Extra Action Tab 1Tab 2Tab 3 Content of tab 1 Extra content You can add extra actions to the right of Tabs."
+        }
       ]
     },
     {
@@ -11329,6 +12122,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/374-zh-215894b8.png",
           "description": "Tab 1Tab 2 Tab 2 图标 有图标的标签。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/374-en-215894b8.png",
+          "description": "Tab 1Tab 2 Tab 2 Icon The Tab with Icon."
         }
       ]
     },
@@ -11357,6 +12156,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/375-zh-1a187801.png",
           "description": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 位置 有四个位置，tabPosition=\"left|right|top|bottom\"。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/375-en-1a187801.png",
+          "description": "Tab position： top Tab 1Tab 2Tab 3 Content of Tab 1 Position Tab's position: left, right, top or bottom."
+        }
       ]
     },
     {
@@ -11383,6 +12188,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/376-zh-1775b07c.png",
           "description": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 大小 大号页签用在页头区域，小号用在弹出框等较狭窄的容器内。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/376-en-1775b07c.png",
+          "description": "Small Default Large Tab 1Tab 2Tab 3 Content of tab 1 Size Large size tabs are usually used in page header, and small size could be used in Modal."
         }
       ]
     },
@@ -11411,6 +12222,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/377-zh-d90f34a3.png",
           "description": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 滑动 可以左右、上下滑动，容纳更多标签。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/377-en-d90f34a3.png",
+          "description": "Horizontal Vertical Tab-0Tab-1Tab-2Tab-3Tab-4Tab-5Tab-6Tab-7Tab-8Tab-9Tab-10Tab-11Tab-12Tab-13Tab-14Tab-15Tab-16Tab-17Tab-18Tab-19Tab-20Tab-21Tab-22Tab-23Tab-24Tab-25Tab-26Tab-27Tab-28Tab-29 Content of tab 1 Slide In order to fit in more tabs, they can slide left and right (or up and down)."
+        }
       ]
     },
     {
@@ -11437,6 +12254,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/378-zh-e881cf7c.png",
           "description": "Tag 1Tag 2Tag 3 New Tag 添加动画 使用 rc-tween-one 给标签增加添加或删除动画。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/378-en-e881cf7c.png",
+          "description": "Tag 1Tag 2Tag 3 New Tag Animate Animating the Tag by using rc-tween-one."
         }
       ]
     },
@@ -11465,6 +12288,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/379-zh-ff2885e0.png",
           "description": "Tag 1LinkTag 2Prevent Default 基本 基本标签的用法，可以通过添加 closable 变为可关闭标签。可关闭标签具有 onClose 事件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/379-en-ff2885e0.png",
+          "description": "Tag 1LinkTag 2Prevent Default Basic Usage of basic Tag, and it could be closable by set closable property. Closable Tag supports onClose events."
+        }
       ]
     },
     {
@@ -11491,6 +12320,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/380-zh-2bd57888.png",
           "description": "Tag1Tag2Tag3 可选择 可通过 CheckableTag 实现类似 Checkbox 的效果，点击切换选中效果。 该组件为完全受控组件，不支持非受控用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/380-en-2bd57888.png",
+          "description": "Tag1Tag2Tag3 Checkable CheckableTag works like Checkbox, click it to toggle checked state. it is an absolute controlled component and has no uncontrolled mode."
         }
       ]
     },
@@ -11519,6 +12354,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/381-zh-3f487850.png",
           "description": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 多彩标签 我们添加了多种预设色彩的标签样式，用作不同场景使用。如果预设值不能满足你的需求，可以设置为具体的色值。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/381-en-3f487850.png",
+          "description": "Presets: magentaredvolcanoorangegoldlimegreencyanbluegeekbluepurple Custom: #f50#2db7f5#87d068#108ee9 Colorful Tag We preset a series of colorful tag styles for use in different situations. You can also set it to a hex color string for custom color."
+        }
       ]
     },
     {
@@ -11545,6 +12386,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/382-zh-eaeead19.png",
           "description": "UnremovableTag 2Tag 3 New Tag 动态添加和删除 用数组生成一组标签，可以动态添加和删除。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/382-en-eaeead19.png",
+          "description": "UnremovableTag 2Tag 3 New Tag Add & Remove Dynamically Generating a set of Tags by array, you can add and remove dynamically."
         }
       ]
     },
@@ -11573,6 +12420,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/383-zh-2b97097f.png",
           "description": "Movies Toggle 控制关闭状态 通过 visible 属性控制关闭状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/383-en-2b97097f.png",
+          "description": "Movies Toggle Controlled By using the visible prop, you can control the close state of Tag."
+        }
       ]
     },
     {
@@ -11599,6 +12452,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/384-zh-82e8b7d9.png",
           "description": "Categories:MoviesBooksMusicSports 热门标签 选择你感兴趣的话题。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/384-en-82e8b7d9.png",
+          "description": "Categories:MoviesBooksMusicSports Hot Tags Select your favourite topics."
         }
       ]
     },
@@ -11627,6 +12486,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/385-zh-199feea3.png",
           "description": "successprocessingerrordefaultwarning 预设状态的标签 预设五种状态颜色，可以通过设置 color 为 success、 processing、error、default、warning 来代表不同的状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/385-en-199feea3.png",
+          "description": "successprocessingerrordefaultwarning Status Tag We preset five different colors, you can set color property such as success,processing,error,default and warning to indicate specific status."
+        }
       ]
     },
     {
@@ -11653,6 +12518,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/386-zh-6431bc8e.png",
           "description": "12 小时制 12 小时制的时间选择器，默认的 format 为 h:mm:ss a。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/386-en-6431bc8e.png",
+          "description": "12 hours TimePicker of 12 hours format, with default format h:mm:ss a."
         }
       ]
     },
@@ -11681,6 +12552,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/387-zh-e585d37c.png",
           "description": "附加内容 在 TimePicker 选择框底部显示自定义的内容。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/387-en-e585d37c.png",
+          "description": "Addon Render addon contents to time picker panel's bottom."
+        }
       ]
     },
     {
@@ -11707,6 +12584,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/388-zh-bcf0af7.png",
           "description": "基本 点击 TimePicker，然后可以在浮层中选择或者输入某一时间。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/388-en-bcf0af7.png",
+          "description": "Basic Click TimePicker, and then we could select or input a time in panel."
         }
       ]
     },
@@ -11735,6 +12618,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/389-zh-d7f6a10e.png",
           "description": "禁用 禁用时间选择。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/389-en-d7f6a10e.png",
+          "description": "disabled A disabled state of the TimePicker."
+        }
       ]
     },
     {
@@ -11761,6 +12650,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/390-zh-4b040a09.png",
           "description": "选择时分 TimePicker 浮层中的列会随着 format 变化，当略去 format 中的某部分时，浮层中对应的列也会消失。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/390-en-4b040a09.png",
+          "description": "Hour and minute While part of format is omitted, the corresponding column in panel will disappear, too."
         }
       ]
     },
@@ -11789,6 +12684,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/391-zh-9bae5f3.png",
           "description": "步长选项 可以使用 hourStep minuteStep secondStep 按步长展示可选的时分秒。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/391-en-9bae5f3.png",
+          "description": "interval option Show stepped options by hourStep minuteStep secondStep."
+        }
       ]
     },
     {
@@ -11815,6 +12716,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/392-zh-916f79bd.png",
           "description": "→ 范围选择器 通过 RangePicker 使用时间范围选择器。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/392-en-916f79bd.png",
+          "description": "→ Range Picker Use time range picker with RangePicker."
         }
       ]
     },
@@ -11843,6 +12750,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/393-zh-55233927.png",
           "description": "三种大小 三种大小的输入框，大的用在表单中，中的为默认。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/393-en-55233927.png",
+          "description": "Three Sizes The input box comes in three sizes. large is used in the form, while the medium size is the default."
+        }
       ]
     },
     {
@@ -11869,6 +12782,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/394-zh-30d9a2a.png",
           "description": "受控组件 value 和 onChange 需要配合使用。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/394-en-30d9a2a.png",
+          "description": "Under Control value and onChange should be used together,"
         }
       ]
     },
@@ -11897,6 +12816,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/395-zh-463078f4.png",
           "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 交替展现 内容在时间轴两侧轮流出现。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/395-en-463078f4.png",
+          "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Network problems being solved 2015-09-01 Create a services site 2015-09-01 Technical testing 2015-09-01 Alternate Alternate timeline."
+        }
       ]
     },
     {
@@ -11923,6 +12848,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/396-zh-6158a00a.png",
           "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 基本用法 基本的时间轴。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/396-en-6158a00a.png",
+          "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Basic Basic timeline."
         }
       ]
     },
@@ -11951,6 +12882,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/397-zh-7a588173.png",
           "description": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 圆圈颜色 圆圈颜色，绿色用于已完成、成功状态，红色表示告警或错误状态，蓝色可表示正在进行或其他默认状态，灰色表示未完成或失效状态。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/397-en-7a588173.png",
+          "description": "Create a services site 2015-09-01 Create a services site 2015-09-01 Solve initial network problems 1 Solve initial network problems 2 Solve initial network problems 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Technical testing 1 Technical testing 2 Technical testing 3 2015-09-01 Color Set the color of circles. green means completed or success status, red means warning or error, and blue means ongoing or other default status, gray for unfinished or disabled status."
+        }
       ]
     },
     {
@@ -11977,6 +12914,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/398-zh-4e000b31.png",
           "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 自定义时间轴点 可以设置为图标或其他自定义元素。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/398-en-4e000b31.png",
+          "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Custom Set a node as an icon or other custom element."
         }
       ]
     },
@@ -12005,6 +12948,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/399-zh-71f7fe26.png",
           "description": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved 标签 使用 label 标签单独展示时间。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/399-en-71f7fe26.png",
+          "description": "Left Right Alternate 2015-09-01 Create a services 2015-09-01 09:12:11 Solve initial network problems Technical testing 2015-09-01 09:12:11 Network problems being solved Label Use label show time alone."
+        }
       ]
     },
     {
@@ -12031,6 +12980,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/400-zh-6b828079.png",
           "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse 最后一个及排序 当任务状态正在发生，还在记录过程中，可用幽灵节点来表示当前的时间节点，当 pending 为真值时展示幽灵节点，如果 pending 是 React 元素可用于定制该节点内容，同时 pendingDot 将可以用于定制其轴点。reverse 属性用于控制节点排序，为 false 时按正序排列，为 true 时按倒序排列。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/400-en-6b828079.png",
+          "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Recording... Toggle Reverse Last node and Reversing When the timeline is incomplete and ongoing, put a ghost node at last. Set pending as truthy value to enable displaying pending item. You can customize the pending content by passing a React Element. Meanwhile, pendingDot={a React Element} is used to customize the dot of the pending item. reverse={true} is used for reversing nodes."
         }
       ]
     },
@@ -12059,6 +13014,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/401-zh-17f31333.png",
           "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 右侧时间轴点 时间轴点可以在内容的右边。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/401-en-17f31333.png",
+          "description": "Create a services site 2015-09-01 Solve initial network problems 2015-09-01 Technical testing 2015-09-01 Network problems being solved 2015-09-01 Right alternate Right alternate timeline."
+        }
       ]
     },
     {
@@ -12085,6 +13046,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/402-zh-a944fff3.png",
           "description": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 箭头指向 设置了 arrowPointAtCenter 后，箭头将指向目标元素的中心。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/402-en-a944fff3.png",
+          "description": "Align edge / 边缘对齐Arrow points to center / 箭头指向中心 Arrow pointing at the center By specifying arrowPointAtCenter prop, the arrow will point to the center of the target element."
         }
       ]
     },
@@ -12113,6 +13080,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/403-zh-8dd54de5.png",
           "description": "Tooltip will show on mouse enter. 基本 最简单的用法。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/403-en-8dd54de5.png",
+          "description": "Tooltip will show on mouse enter. Basic The simplest usage."
+        }
       ]
     },
     {
@@ -12139,6 +13112,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/404-zh-582c6865.png",
           "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR 位置 位置有 12 个方向。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/404-en-582c6865.png",
+          "description": "TLTopTR LTLeftLB RTRightRB BLBottomBR Placement There are 12 placement options available."
         }
       ]
     },
@@ -12167,6 +13146,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/405-zh-f0e4ee7e.png",
           "description": "12 项 content2-description of content2 content3-description of content3 content6-description of content6 content7-description of content7 content8-description of content8 content10-description of content10 content11-description of content11 content12-description of content12 content13-description of content13 content18-description of content18 content19-description of content19 content20-description of content20 reload to right to left 8 项 content1-description of content1 content4-description of content4 content5-description of content5 content9-description of content9 content14-description of content14 content15-description of content15 content16-description of content16 content17-description of content17 reload 高级用法 穿梭框高级用法，可配置操作文案，可定制宽高，可对底部进行自定义渲染。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/405-en-f0e4ee7e.png",
+          "description": "11 items content1-description of content1 content2-description of content2 content4-description of content4 content5-description of content5 content6-description of content6 content7-description of content7 content12-description of content12 content15-description of content15 content17-description of content17 content18-description of content18 content20-description of content20 reload to right to left 9 items content3-description of content3 content8-description of content8 content9-description of content9 content10-description of content10 content11-description of content11 content13-description of content13 content14-description of content14 content16-description of content16 content19-description of content19 reload Advanced Advanced Usage of Transfer. You can customize the labels of the transfer buttons, the width and height of the columns, and what should be displayed in the footer."
+        }
       ]
     },
     {
@@ -12193,6 +13178,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/406-zh-fb9ceaee.png",
           "description": "14 项 Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 项 Target content3 content6 content9 content12 content15 content18 disabled 基本用法 最基本的用法，展示了 dataSource、targetKeys、每行的渲染函数 render 以及回调函数 onChange onSelectChange onScroll 的用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/406-en-fb9ceaee.png",
+          "description": "14 items Source content1 content2 content4 content5 content7 content8 content10 content11 content13 content14 content16 content17 content19 content20 6 items Target content3 content6 content9 content12 content15 content18 disabled Basic The most basic usage of Transfer involves providing the source data and target keys arrays, plus the rendering and some callback functions."
         }
       ]
     },
@@ -12221,6 +13212,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/407-zh-ab77f203.png",
           "description": "4 项 content1 - description of content1 content4 - description of content4 content8 - description of content8 content15 - description of content15 16 项 content2 - description of content2 content3 - description of content3 content5 - description of content5 content6 - description of content6 content7 - description of content7 content9 - description of content9 content10 - description of content10 content11 - description of content11 content12 - description of content12 content13 - description of content13 content14 - description of content14 content16 - description of content16 content17 - description of content17 content18 - description of content18 content19 - description of content19 content20 - description of content20 自定义渲染行数据 自定义渲染每一个 Transfer Item，可用于渲染复杂数据。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/407-en-ab77f203.png",
+          "description": "13 items content1 - description of content1 content3 - description of content3 content5 - description of content5 content6 - description of content6 content7 - description of content7 content9 - description of content9 content12 - description of content12 content14 - description of content14 content15 - description of content15 content16 - description of content16 content17 - description of content17 content18 - description of content18 content19 - description of content19 7 items content2 - description of content2 content4 - description of content4 content8 - description of content8 content10 - description of content10 content11 - description of content11 content13 - description of content13 content20 - description of content20 Custom datasource Custom each Transfer Item, and in this way you can render a complex datasource."
+        }
       ]
     },
     {
@@ -12247,6 +13244,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/408-zh-3fa5c10e.png",
           "description": "13 项 content1 content2 content3 content4 content9 content10 content13 content14 content16 content17 content18 content19 content20 7 项 content5 content6 content7 content8 content11 content12 content15 带搜索框 带搜索框的穿梭框，可以自定义搜索函数。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/408-en-3fa5c10e.png",
+          "description": "12 items content1 content2 content3 content6 content9 content11 content12 content14 content15 content17 content19 content20 8 items content4 content5 content7 content8 content10 content13 content16 content18 Search Transfer with a search box."
         }
       ]
     },
@@ -12275,6 +13278,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/409-zh-3fbd95d0.png",
           "description": "14 项 Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 项 Name content3 content6 content9 content12 content15 content18 1 disabled showSearch 表格穿梭框 使用 Table 组件作为自定义渲染列表。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/409-en-3fbd95d0.png",
+          "description": "14 items Name Tag Description content1 cat description of content1 content2 dog description of content2 content4 cat description of content4 content5 dog description of content5 content7 cat description of content7 content8 dog description of content8 content10 cat description of content10 content11 dog description of content11 content13 cat description of content13 content14 dog description of content14 1 2 6 items Name content3 content6 content9 content12 content15 content18 1 disabled showSearch Table Transfer Customize render list with Table component."
+        }
       ]
     },
     {
@@ -12301,6 +13310,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/410-zh-1e8849be.png",
           "description": "5 项 0-0 0-1 0-1-0 0-1-1 0-3 0 项 暂无数据 树穿梭框 使用 Tree 组件作为自定义渲染列表。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/410-en-1e8849be.png",
+          "description": "5 items 0-0 0-1 0-1-0 0-1-1 0-3 0 item No Data Tree Transfer Customize render list with Tree component."
         }
       ]
     },
@@ -12329,6 +13344,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/411-zh-f125cbe9.png",
           "description": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 受控操作示例 受控操作示例"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/411-en-f125cbe9.png",
+          "description": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-1-0 0-0-1-1 0-0-1-2 0-0-2 0-1 0-2 Controlled Tree Controlled mode lets parent nodes reflect the status of child nodes more intelligently."
+        }
       ]
     },
     {
@@ -12355,6 +13376,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/412-zh-992ade0e.png",
           "description": "parent 1 parent 1-0 leaf leaf parent 1-1 sss 基本 最简单的用法，展示可勾选，可选中，禁用，默认展开等功能。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/412-en-992ade0e.png",
+          "description": "parent 1 parent 1-0 leaf leaf parent 1-1 sss Basic The most basic usage, tell you how to use checkable, selectable, disabled, defaultExpandKeys, and etc."
         }
       ]
     },
@@ -12383,6 +13410,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/413-zh-4f5d80dd.png",
           "description": "parent 1 leaf leaf 自定义图标 可以针对不同的节点定制图标。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/413-en-4f5d80dd.png",
+          "description": "parent 1 leaf leaf Customize Icon You can customize icons for different nodes."
+        }
       ]
     },
     {
@@ -12409,6 +13442,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/414-zh-6d1f0a59.png",
           "description": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 目录 内置的目录树，multiple 模式支持 ctrl(Windows) / command(Mac) 复选。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/414-en-6d1f0a59.png",
+          "description": "parent 0 leaf 0-0 leaf 0-1 parent 1 leaf 1-0 leaf 1-1 directory Built-in directory tree. multiple support ctrl(Windows) / command(Mac) selection."
         }
       ]
     },
@@ -12437,6 +13476,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/415-zh-a0668ca6.png",
           "description": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 拖动示例 将节点拖拽到其他节点内部或前后。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/415-en-a0668ca6.png",
+          "description": "0-0 0-0-0 0-0-0-0 0-0-0-1 0-0-0-2 0-0-1 0-0-2 0-1 0-2 draggable Drag treeNode to insert after the other treeNode or insert into the other parent TreeNode."
+        }
       ]
     },
     {
@@ -12463,6 +13508,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/416-zh-3761c5f9.png",
           "description": "Expand to load Expand to load Tree Node 异步数据加载 点击展开节点，动态加载数据。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/416-en-3761c5f9.png",
+          "description": "Expand to load Expand to load Tree Node load data asynchronously To load data asynchronously when click to expand a treeNode."
         }
       ]
     },
@@ -12491,6 +13542,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/417-zh-98ca6a07.png",
           "description": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 连接线 节点之间带连接线的树，常用于文件目录结构展示。使用 showLine 开启，可以用 switcherIcon 修改默认图标。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/417-en-98ca6a07.png",
+          "description": "showLine: showIcon: parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Tree with line Tree with connected line between nodes, turn on by showLine, customize the preseted icon by switcherIcon."
+        }
       ]
     },
     {
@@ -12517,6 +13574,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/418-zh-410317f6.png",
           "description": "0-0 0-1 0-2 可搜索 可搜索的树。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/418-en-410317f6.png",
+          "description": "0-0 0-1 0-2 Searchable Searchable Tree."
         }
       ]
     },
@@ -12545,6 +13608,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/419-zh-28ce5026.png",
           "description": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 自定义展开/折叠图标 自定义展开/折叠图标。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/419-en-28ce5026.png",
+          "description": "parent 1 parent 1-0 leaf leaf leaf parent 1-1 parent 1-2 Customize collapse/expand icon customize collapse/expand icon of tree node"
+        }
       ]
     },
     {
@@ -12571,6 +13640,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/420-zh-af5ccb24.png",
           "description": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 虚拟滚动 使用 height 属性则切换为虚拟滚动。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/420-en-af5ccb24.png",
+          "description": "0-0 0-0-0 0-0-0-0 0-0-0-0-0 0-0-0-0-1 0-0-0-0-2 0-0-0-0-3 0-0-0-0-4 0-0-0-0-5 0-0-0-0-6 0-0-0-0-7 0-0-0-0-8 0-0-0-0-9 Virtual scroll Use virtual list through height prop."
         }
       ]
     },
@@ -12599,6 +13674,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/421-zh-8f4ee8ab.png",
           "description": "Please select 异步加载 异步加载树节点。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/421-en-8f4ee8ab.png",
+          "description": "Please select Asynchronous loading Asynchronous loading tree node."
+        }
       ]
     },
     {
@@ -12625,6 +13706,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/422-zh-a1c44771.png",
           "description": "Please select 基本 最简单的用法。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/422-en-a1c44771.png",
+          "description": "Please select Basic The most basic usage."
         }
       ]
     },
@@ -12653,6 +13740,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/423-zh-f55a3658.png",
           "description": "Node1 可勾选 使用勾选框实现多选功能。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/423-en-f55a3658.png",
+          "description": "Node1 Checkable Multiple and checkable."
+        }
       ]
     },
     {
@@ -12679,6 +13772,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/424-zh-dda3bec4.png",
           "description": "Please select 多选 多选的树选择。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/424-en-dda3bec4.png",
+          "description": "Please select Multiple Selection Multiple selection usage."
         }
       ]
     },
@@ -12707,6 +13806,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/425-zh-5df008e1.png",
           "description": "Please select 从数据直接生成 使用 treeData 把 JSON 数据直接生成树结构。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/425-en-5df008e1.png",
+          "description": "Please select Generate from tree data The tree structure can be populated using treeData property. This is a quick and easy way to provide the tree content."
+        }
       ]
     },
     {
@@ -12733,6 +13838,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/426-zh-7e79fa2d.png",
           "description": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 基本 展示文档样例。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/426-en-7e79fa2d.png",
+          "description": "Introduction In the process of internal desktop applications development, many different design specs and implementations would be involved, which might cause designers and developers difficulties and duplication and reduce the efficiency of development. After massive project practice and summaries, Ant Design, a design language for background applications, is refined by Ant UED Team, which aims touniform the user interface specs for internal background projects, lower the unnecessary cost of design differences and implementation and liberate the resources of design and front-end development. Guidelines and Resources We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently. Principles Patterns Resource Download 介绍 蚂蚁的企业级产品是一个庞大且复杂的体系。这类产品不仅量级巨大且功能复杂，而且变动和并发频繁，常常需要设计与开发能够快速的做出响应。同时这类产品中有存在很多类似的页面以及组件，可以通过抽象得到一些稳定且高复用性的内容。 随着商业化的趋势，越来越多的企业级产品对更好的用户体验有了进一步的要求。带着这样的一个终极目标，我们（蚂蚁金服体验技术部）经过大量的项目实践和总结，逐步打磨出一个服务于企业级产品的设计体系 Ant Design。基于『确定』和『自然』的设计价值观，通过模块化的解决方案，降低冗余的生产成本，让设计者专注于更好的用户体验。 设计资源 我们提供完善的设计原则、最佳实践和设计资源文件（Sketch 和Axure），来帮助业务快速设计出高质量的产品原型。 设计原则 设计模式 设计资源 Basic Display the document sample."
         }
       ]
     },
@@ -12761,6 +13872,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/427-zh-5773ee12.png",
           "description": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refi...展开 省略号 多行文本省略。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/427-en-5773ee12.png",
+          "description": "Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is r...Expand Ellipsis Multiple line ellipsis support."
+        }
       ]
     },
     {
@@ -12788,6 +13905,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/428-zh-9f00d33a.png",
           "description": "This is an editable text. This is a copyable text. Replace copy text. 可交互 提供可编辑和可复制等额外的交互能力。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/428-en-9f00d33a.png",
+          "description": "This is an editable text. This is a copyable text. Replace copy text. Interactive Provide additional interactive capacity of editable and copyable."
+        }
       ]
     },
     {
@@ -12810,7 +13933,8 @@
         "antd"
       ],
       "__ID__": "e69a6e75",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "typography-文本组件",
@@ -12836,6 +13960,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/430-zh-a88e7f6b.png",
           "description": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design 文本组件 内置不同样式的文本。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/430-en-a88e7f6b.png",
+          "description": "Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Ant Design Text Component Provides multiple types of text."
         }
       ]
     },
@@ -12864,6 +13994,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/431-zh-c831849a.png",
           "description": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design 标题组件 展示不同级别的标题。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/431-en-c831849a.png",
+          "description": "h1. Ant Design h2. Ant Design h3. Ant Design h4. Ant Design Title Component Display title in different level."
+        }
       ]
     },
     {
@@ -12889,6 +14025,12 @@
       "__SNAPSHOTS__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/432-zh-9f150c0d.png",
+          "description": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/432-en-9f150c0d.png",
           "description": "Click to Upload 点击上传 经典款式，用户点击按钮弹出文件选择框。"
         }
       ]
@@ -12918,6 +14060,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/433-zh-8469c71e.png",
           "description": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/433-en-8469c71e.png",
+          "description": "Upload xxx.png yyy.png zzz.png 已上传的文件列表 使用 defaultFileList 设置已上传的内容。"
+        }
       ]
     },
     {
@@ -12944,6 +14092,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/434-zh-99499bdb.png",
           "description": "Upload Directory 文件夹上传 支持上传一个文件夹里的所有文件。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/434-en-99499bdb.png",
+          "description": "Upload Directory Upload directory You can select and upload a whole directory."
         }
       ]
     },
@@ -12972,6 +14126,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/435-zh-4c0fb5cb.png",
           "description": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files 拖拽上传 把文件拖入指定区域，完成上传，同样支持点击上传。 设置 multiple 后，在 IE10+ 可以一次上传多个文件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/435-en-4c0fb5cb.png",
+          "description": "Click or drag file to this area to upload Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files Drag and Drop You can drag files to a specific area, to upload. Alternatively, you can also upload by selecting. We can upload serveral files at once in modern browsers by giving the input the multiple attribute."
+        }
       ]
     },
     {
@@ -12998,6 +14158,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/436-zh-85b51653.png",
           "description": "Upload xxx.png 完全控制的上传列表 使用 fileList 对列表进行完全控制，可以实现各种自定义功能，以下演示二种情况： 上传列表数量的限制。 读取远程路径并显示链接。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/436-en-85b51653.png",
+          "description": "Upload xxx.png Complete control over file list You can gain full control over filelist by configuring fileList. You can accomplish all kinds of customed functions. The following shows two circumstances: limit the number of uploaded files. read from response and show file link."
         }
       ]
     },
@@ -13026,6 +14192,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/437-zh-3ae005cc.png",
           "description": "image.png Upload 照片墙 用户可以上传图片并在列表中显示缩略图。当上传照片数到达限制后，上传按钮消失。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/437-en-3ae005cc.png",
+          "description": "image.png Upload Pictures Wall After users upload picture, the thumbnail will be shown in list. The upload button will disappear when count meets limitation."
+        }
       ]
     },
     {
@@ -13052,6 +14224,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/438-zh-d34b9aea.png",
           "description": "Upload xxx.png yyy.png Upload xxx.png yyy.png 图片列表样式 上传文件为图片，可展示本地缩略图。IE8/9 不支持浏览器本地缩略图展示（Ref），可以写 thumbUrl 属性来代替。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/438-en-d34b9aea.png",
+          "description": "Upload xxx.png yyy.png Upload xxx.png yyy.png Pictures with list style If uploaded file is a picture, the thumbnail can be shown. IE8/9 do not support local thumbnail show. Please use thumbUrl instead."
         }
       ]
     },
@@ -13080,6 +14258,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/439-zh-98d4988d.png",
           "description": "Upload 自定义预览 自定义本地预览，用于处理非图片格式文件（例如视频文件）。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/439-en-98d4988d.png",
+          "description": "Upload Customize preview file Customize local preview. Can handle with non-image format files such as video."
+        }
       ]
     },
     {
@@ -13106,6 +14290,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/440-zh-d988857e.png",
           "description": "Upload 上传前转换文件 使用 transformFile 转换上传的文件（例如添加水印）。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/440-en-d988857e.png",
+          "description": "Upload Transform file before request Use transformFile for transform file before request such as add a watermark."
         }
       ]
     },
@@ -13134,6 +14324,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/441-zh-444b2f07.png",
           "description": "Upload xxx.png download yyy.png download zzz.png 自定义交互图标 使用 showUploadList 设置列表交互图标。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/441-en-444b2f07.png",
+          "description": "Upload xxx.png download yyy.png download zzz.png custom action icon Use showUploadList for custom action icons of files."
+        }
       ]
     },
     {
@@ -13160,6 +14356,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/442-zh-9d0550b1.png",
           "description": "Select File Start Upload 手动上传 beforeUpload 返回 false 后，手动上传文件。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/442-en-9d0550b1.png",
+          "description": "Select File Start Upload Upload manually Upload files manually after beforeUpload returns false."
         }
       ]
     },
@@ -13188,6 +14390,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/443-zh-4012f7fe.png",
           "description": "Photos Click to Upload 阿里云 OSS 使用阿里云 OSS 上传示例."
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/443-en-4012f7fe.png",
+          "description": "Photos Click to Upload Aliyun OSS Use Aliyun OSS upload example."
+        }
       ]
     },
     {
@@ -13210,7 +14418,8 @@
         "antd"
       ],
       "__ID__": "fbfb38cb",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-带边框",
@@ -13232,7 +14441,8 @@
         "antd"
       ],
       "__ID__": "739dafc3",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-表格行/列合并",
@@ -13254,7 +14464,8 @@
         "antd"
       ],
       "__ID__": "867b9386",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-自定义筛选菜单",
@@ -13276,7 +14487,8 @@
         "antd"
       ],
       "__ID__": "70a5e5ee",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-拖拽排序",
@@ -13298,7 +14510,8 @@
         "antd"
       ],
       "__ID__": "fd7c4c3",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-动态控制表格属性",
@@ -13320,7 +14533,8 @@
         "antd"
       ],
       "__ID__": "326c22d8",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-可编辑单元格",
@@ -13347,6 +14561,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/450-zh-c7e3c74d.png",
           "description": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 可编辑单元格 带单元格编辑功能的表格。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/450-en-c7e3c74d.png",
+          "description": "Add a row name age address operation Edward King 0 32 London, Park Lane no. 0 Delete Edward King 1 32 London, Park Lane no. 1 Delete 1 Editable Cells Table with editable cells."
+        }
       ]
     },
     {
@@ -13369,7 +14589,8 @@
         "antd"
       ],
       "__ID__": "a330a99f",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-单元格自动省略",
@@ -13391,7 +14612,8 @@
         "antd"
       ],
       "__ID__": "784f8b61",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-树形数据展示",
@@ -13413,7 +14635,8 @@
         "antd"
       ],
       "__ID__": "fbd72e21",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-可展开",
@@ -13435,7 +14658,8 @@
         "antd"
       ],
       "__ID__": "f961b624",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-固定头和列",
@@ -13461,6 +14685,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/455-zh-b722cc11.png",
           "description": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 条/页 固定头和列 适合同时展示有大量数据和数据列。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/455-en-b722cc11.png",
+          "description": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action Edrward 0 32 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 London Park no. 0 action Edrward 1 32 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 London Park no. 1 action Edrward 2 32 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 London Park no. 2 action Edrward 3 32 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 London Park no. 3 action Edrward 4 32 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 London Park no. 4 action Edrward 5 32 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 London Park no. 5 action Edrward 6 32 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 London Park no. 6 action Edrward 7 32 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 London Park no. 7 action Edrward 8 32 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 London Park no. 8 action Edrward 9 32 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 London Park no. 9 action 1 2 3 4 5 ••• 10 10 / page Fixed Columns and Header A Solution for displaying large amounts of data with long columns. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x."
         }
       ]
     },
@@ -13489,6 +14719,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/456-zh-7d28e011.png",
           "description": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 固定列 对于列数很多的数据，可以固定前后的列，横向滚动查看其它数据，需要和 scroll.x 配合使用。 若列头与内容不对齐或出现列重复，请指定固定列的宽度 width。如果指定 width 不生效或出现白色垂直空隙，请尝试建议留一列不设宽度以适应弹性布局，或者检查是否有超长连续字段破坏布局。 建议指定 scroll.x 为大于表格宽度的固定值或百分比。注意，且非固定列宽度之和不要超过 scroll.x。 注意：v4 版本固定列通过 sticky 实现，IE 11 会降级成横向滚动。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/456-en-7d28e011.png",
+          "description": "Full Name Age Column 1 Column 2 Column 3 Column 4 Column 5 Column 6 Column 7 Column 8 Action John Brown 32 New York Park New York Park New York Park New York Park New York Park New York Park New York Park New York Park action Jim Green 40 London Park London Park London Park London Park London Park London Park London Park London Park action 1 Fixed Columns To fix some columns and scroll inside other columns, and you must set scroll.x meanwhile. Specify the width of columns if header and cell do not align properly. If specified width is not working or have gutter between columns, please try to leave one column at least without width to fit fluid layout, or make sure no long word to break table layout. A fixed value which is greater than table width for scroll.x is recommended. The sum of unfixed columns should not greater than scroll.x. Note: v4 using sticky to implement fixed effect. IE 11 will downgrade to horizontal scroll."
+        }
       ]
     },
     {
@@ -13511,7 +14747,8 @@
         "antd"
       ],
       "__ID__": "b18eca6",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-表头分组",
@@ -13533,7 +14770,8 @@
         "antd"
       ],
       "__ID__": "11c362e0",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-筛选和排序",
@@ -13555,7 +14793,8 @@
         "antd"
       ],
       "__ID__": "ba9be722",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-JSX 风格的 API",
@@ -13582,6 +14821,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/460-zh-d18ca097.png",
           "description": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX 风格的 API 使用 JSX 风格的 API（2.5.0 以后引入） 这个只是一个描述 columns 的语法糖，所以你不能用其他组件去包裹 Column 和 ColumnGroup。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/460-en-d18ca097.png",
+          "description": "Name Age Address Tags Action First Name Last Name John Brown 32 New York No. 1 Lake Park nicedeveloper Invite BrownDelete Jim Green 42 London No. 1 Lake Park loser Invite GreenDelete Joe Black 32 Sidney No. 1 Lake Park coolteacher Invite BlackDelete 1 JSX style API Using JSX style API (introduced in 2.5.0) Since this is just a syntax sugar for the prop columns, you can't compose Column and ColumnGroup with other Components."
+        }
       ]
     },
     {
@@ -13604,7 +14849,8 @@
         "antd"
       ],
       "__ID__": "550f1bfd",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-嵌套子表格",
@@ -13626,7 +14872,8 @@
         "antd"
       ],
       "__ID__": "6ed1dd58",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-可控的筛选和排序",
@@ -13648,7 +14895,8 @@
         "antd"
       ],
       "__ID__": "214cf01e",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-可伸缩列",
@@ -13670,7 +14918,8 @@
         "antd"
       ],
       "__ID__": "466f939d",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-选择和操作",
@@ -13697,6 +14946,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/465-zh-3779546e.png",
           "description": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 选择和操作 选择后进行操作，完成后清空选择，通过 rowSelection.selectedRowKeys 来控制选中项。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/465-en-3779546e.png",
+          "description": "Reload Name Age Address Edward King 0 32 London, Park Lane no. 0 Edward King 1 32 London, Park Lane no. 1 Edward King 2 32 London, Park Lane no. 2 Edward King 3 32 London, Park Lane no. 3 Edward King 4 32 London, Park Lane no. 4 Edward King 5 32 London, Park Lane no. 5 Edward King 6 32 London, Park Lane no. 6 Edward King 7 32 London, Park Lane no. 7 Edward King 8 32 London, Park Lane no. 8 Edward King 9 32 London, Park Lane no. 9 1 2 3 4 5 Selection and operation To perform operations and clear selections after selecting some rows, use rowSelection.selectedRowKeys to control selected rows."
+        }
       ]
     },
     {
@@ -13719,7 +14974,8 @@
         "antd"
       ],
       "__ID__": "ef6593c7",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-紧凑型",
@@ -13741,7 +14997,8 @@
         "antd"
       ],
       "__ID__": "2c769e9e",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-总结栏",
@@ -13763,7 +15020,8 @@
         "antd"
       ],
       "__ID__": "d3128edb",
-      "__SNAPSHOTS__": []
+      "__SNAPSHOTS__": [],
+      "__SNAPSHOTS_EN__": []
     },
     {
       "title": "table-虚拟列表",
@@ -13789,6 +15047,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/469-zh-1c5b64c3.png",
           "description": "A B C D E F 0 0 0 0 0 0 1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 虚拟列表 通过 react-window 引入虚拟滚动方案，实现 100000 条数据的高性能表格。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/469-en-1c5b64c3.png",
+          "description": "A B C D E F 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5 6 6 6 6 6 Virtual list Integrate virtual scroll with react-window to achieve a high performance table of 100,000 data."
         }
       ]
     },
@@ -13817,6 +15081,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/470-zh-90e30038.png",
           "description": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props 基本 最简单的用法。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/470-en-90e30038.png",
+          "description": "Basic demo Static demo Basic demo with Target API Anchor Props Link Props Basic The simplest usage."
+        }
       ]
     },
     {
@@ -13843,6 +15113,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/471-zh-ba35af2e.png",
           "description": "Basic demo Static demo API Anchor Props Link Props 自定义锚点高亮 自定义锚点高亮。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/471-en-ba35af2e.png",
+          "description": "Basic demo Static demo API Anchor Props Link Props Customize the anchor highlight Customize the anchor highlight."
         }
       ]
     },
@@ -13871,6 +15147,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/472-zh-b5be1cdd.png",
           "description": "Basic demo Static demo API Anchor Props Link Props 监听锚点链接改变 监听锚点链接改变"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/472-en-b5be1cdd.png",
+          "description": "Basic demo Static demo API Anchor Props Link Props Listening for anchor link change Listening for anchor link change."
+        }
       ]
     },
     {
@@ -13897,6 +15179,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/473-zh-291661ad.png",
           "description": "Basic demo Static demo API Anchor Props Link Props 自定义 onClick 事件 点击锚点不记录历史。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/473-en-291661ad.png",
+          "description": "Basic demo Static demo API Anchor Props Link Props Customize the onClick event Clicking on an anchor does not record history."
         }
       ]
     },
@@ -13925,6 +15213,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/474-zh-e226123.png",
           "description": "Basic demo Static demo API Anchor Props Link Props 静态位置 不浮动，状态不随页面滚动变化。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/474-en-e226123.png",
+          "description": "Basic demo Static demo API Anchor Props Link Props Static Anchor Do not change state when page is scrolling."
+        }
       ]
     },
     {
@@ -13951,6 +15245,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/475-zh-a4454af5.png",
           "description": "Basic demo Static demo API Anchor Props Link Props 设置锚点滚动偏移量 锚点目标滚动到屏幕正中间。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/475-en-a4454af5.png",
+          "description": "Basic demo Static demo API Anchor Props Link Props Set Anchor scroll offset Anchor target scroll to screen center."
         }
       ]
     },
@@ -13979,6 +15279,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/476-zh-4aed2c74.png",
           "description": "input here control mode 基本使用 基本使用。通过 options 设置自动完成的数据源"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/476-en-4aed2c74.png",
+          "description": "input here control mode Basic Usage Basic Usage, set data source of autocomplete with options property."
+        }
       ]
     },
     {
@@ -14005,6 +15311,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/477-zh-2190f86e.png",
           "description": "查询模式 - 确定类目 查询模式: 确定类目 示例。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/477-en-2190f86e.png",
+          "description": "Lookup-Patterns - Certain Category Demonstration of Lookup Patterns: Certain Category. Basic Usage, set options of autocomplete with options property."
         }
       ]
     },
@@ -14033,6 +15345,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/478-zh-fc3c40a7.png",
           "description": "自定义输入组件 自定义输入组件。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/478-en-fc3c40a7.png",
+          "description": "Customize Input Component Customize Input Component"
+        }
       ]
     },
     {
@@ -14059,6 +15377,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/479-zh-b5a48cb0.png",
           "description": "try to type `b` 不区分大小写 不区分大小写的 AutoComplete"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/479-en-b5a48cb0.png",
+          "description": "try to type `b` Non-case-sensitive AutoComplete A non-case-sensitive AutoComplete"
         }
       ]
     },
@@ -14087,6 +15411,12 @@
           "url": "https://derek-hu.github.io/store/screenshots/antd/480-zh-d27f83e0.png",
           "description": "input here 自定义选项 也可以直接传 AutoComplete.Option 作为 AutoComplete 的 children，而非使用 options。"
         }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/480-en-d27f83e0.png",
+          "description": "input here Customized You could pass AutoComplete.Option as children of AutoComplete, instead of using options。"
+        }
       ]
     },
     {
@@ -14113,6 +15443,12 @@
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/481-zh-e2302f06.png",
           "description": "查询模式 - 不确定类目 查询模式: 不确定类目 示例。"
+        }
+      ],
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/481-en-e2302f06.png",
+          "description": "Lookup-Patterns - Uncertain Category Demonstration of Lookup Patterns: Uncertain Category."
         }
       ]
     }
