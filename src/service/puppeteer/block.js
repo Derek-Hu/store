@@ -35,12 +35,23 @@ const WaitUntilMap = {
     networkidle2: 'networkidle2',
     networkidle0: 'networkidle0'
 }
+
+
 export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWaitForSelector, blockData, delay, attribute, forceUpdate, selector: normalSelector, runInBrowser }) => {
     const folder = `./public/${saveFolder}/${name}`;
-
+    
+    
     createFolderIfNotExists(path.resolve(process.cwd(), folder, 'sample.png'));
-
+    
     const browser = await puppeteer.launch({ headless: isHeadless, args: ['--no-sandbox'] });
+    
+    ['SIGINT', 'SIGTERM'].forEach(function (sig) {
+        process.on(sig, async () => {
+            if(browser){
+                await browser.close();
+            }
+        });
+    });
 
     const width = viewport && typeof viewport.width === 'number' ? viewport.width : 1300;
     const height = viewport && typeof viewport.height === 'number' ? viewport.height : 900;
@@ -49,18 +60,18 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
             if (!item) {
                 return;
             }
-            if(!item[ATTR_ID]){
+            if (!item[ATTR_ID]) {
                 item[ATTR_ID] = hashVal(item);
             }
-            
-            const localAttr = locale === LOCALE_ZH? ATTR_SNAPSHOT_ZH: ATTR_SNAPSHOT_EN;
+
+            const localAttr = locale === LOCALE_ZH ? ATTR_SNAPSHOT_ZH : ATTR_SNAPSHOT_EN;
             const isSnapshotsEmpty = !Array.isArray(item[localAttr]) || !item[localAttr][0] || !item[localAttr][0].url;
 
             if (forceUpdate || isSnapshotsEmpty) {
                 const page = await browser.newPage();
                 await page.evaluateOnNewDocument(preload);
                 try {
-                    console.log(`${locale.toUpperCase()}: ${index+1}/${blockData[attribute].length}`, item.title || item.name);
+                    console.log(`${locale.toUpperCase()}: ${index + 1}/${blockData[attribute].length}`, item.title || item.name);
                     await page.setViewport({
                         width,
                         height
@@ -115,7 +126,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
 
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
 
-                    
+
 
                     const imagePath = `./public/${subPath}`;
                     const absolutePath = path.resolve(process.cwd(), imagePath);
@@ -129,7 +140,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                             emptyImages.push(item);
                             fs.unlinkSync(absolutePath);
                             writeSync(emtpyPath, JSON.stringify(emptyImages, null, 2));
-                        }else{
+                        } else {
                             item[localAttr][0] = {
                                 url: `${baseUrl}${subPath}`,
                                 description: clip.text
