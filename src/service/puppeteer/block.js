@@ -60,7 +60,7 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
                 const page = await browser.newPage();
                 await page.evaluateOnNewDocument(preload);
                 try {
-                    console.log(`${locale.toUpperCase()}: ${index}/${blockData[attribute].length}`, item.title || item.name);
+                    console.log(`${locale.toUpperCase()}: ${index+1}/${blockData[attribute].length}`, item.title || item.name);
                     await page.setViewport({
                         width,
                         height

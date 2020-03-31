@@ -347,7 +347,7 @@
       "__SNAPSHOTS_EN__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/12-en-4679a3e0.png",
-          "description": "Select a person Select with search field Search the options while expanded."
+          "description": "Select a person 带搜索框 展开后可对选项进行搜索。"
         }
       ]
     },
@@ -3831,7 +3831,7 @@
       "__SNAPSHOTS_EN__": [
         {
           "url": "https://derek-hu.github.io/store/screenshots/antd/142-en-16c462b2.png",
-          "description": "No Data Basic Simplest Usage."
+          "description": "暂无数据 基本 简单的展示。"
         }
       ]
     },
@@ -6149,7 +6149,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "d2ca31e3"
+      "__ID__": "d2ca31e3",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/228-en-d2ca31e3.png",
+          "description": "Open Modal with async logic 异步关闭 点击确定后异步关闭对话框，例如提交表单。"
+        }
+      ]
     },
     {
       "title": "modal-自定义页脚按钮属性",
@@ -6170,7 +6176,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "76c864a6"
+      "__ID__": "76c864a6",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/229-en-76c864a6.png",
+          "description": "Open Modal with customized button props Customize footer buttons props Passing okButtonProps and cancelButtonProps will customize the OK button and cancel button props."
+        }
+      ]
     },
     {
       "title": "modal-确认对话框",
@@ -6191,7 +6203,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "53121286"
+      "__ID__": "53121286",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/230-en-53121286.png",
+          "description": "Confirm Confirmation modal dialog Use confirm() to show a confirmation modal dialog. Let onCancel/onOk function return a promise object to delay closing the dialog."
+        }
+      ]
     },
     {
       "title": "modal-销毁确认对话框",
@@ -6212,7 +6230,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "fd1f8023"
+      "__ID__": "fd1f8023",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/231-en-fd1f8023.png",
+          "description": "Confirm destroy confirmation modal dialog Modal.destroyAll() will destroy all confirmation modal dialogs. Usually, you can use it in router change event to destroy confirm modal dialog automatically."
+        }
+      ]
     },
     {
       "title": "modal-确认对话框",
@@ -6233,7 +6257,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "78b49705"
+      "__ID__": "78b49705",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/232-en-78b49705.png",
+          "description": "ConfirmDeleteWith extra props Confirmation modal dialog Use confirm() to show a confirmation modal dialog."
+        }
+      ]
     },
     {
       "title": "modal-自定义页脚",
@@ -6254,7 +6284,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "d3df123d"
+      "__ID__": "d3df123d",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/233-en-d3df123d.png",
+          "description": "Open Modal with customized footer Customized Footer A more complex example which define a customized footer button bar. The dialog will change to loading state after clicking the submit button, and when the loading is done, the modal dialog will be closed. You could set footer to null if you don't need default footer buttons."
+        }
+      ]
     },
     {
       "title": "modal-使用 hooks 获得上下文",
@@ -6275,7 +6311,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "c934b280"
+      "__ID__": "c934b280",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/234-en-c934b280.png",
+          "description": "ConfirmWarningInfoError Use hooks to get context Use Modal.useModal to get contextHolder with context accessible issue."
+        }
+      ]
     },
     {
       "title": "modal-信息提示",
@@ -6296,7 +6338,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "c9af2f69"
+      "__ID__": "c9af2f69",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/235-en-c9af2f69.png",
+          "description": "InfoSuccessErrorWarning Information modal dialog In the various types of information modal dialog, only one button to close dialog is provided."
+        }
+      ]
     },
     {
       "title": "modal-国际化",
@@ -6317,7 +6365,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "38daf956"
+      "__ID__": "38daf956",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/236-en-38daf956.png",
+          "description": "Modal Confirm Internationalization To customize the text of the buttons, you need to set okText and cancelText props."
+        }
+      ]
     },
     {
       "title": "modal-手动更新和移除",
@@ -6338,7 +6392,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "873ca79d"
+      "__ID__": "873ca79d",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/237-en-873ca79d.png",
+          "description": "Open modal to close in 5s Manual to update destroy Manually updating and destroying a modal from Modal.method."
+        }
+      ]
     },
     {
       "title": "modal-自定义位置",
@@ -6359,7 +6419,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "17ad76a1"
+      "__ID__": "17ad76a1",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/238-en-17ad76a1.png",
+          "description": "Display a modal dialog at 20px to Top Vertically centered modal dialog To customize the position of modal You can use centered,style.top or other styles to set position of modal dialog."
+        }
+      ]
     },
     {
       "title": "notification-基本",
@@ -6380,7 +6446,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "ed1aacb6"
+      "__ID__": "ed1aacb6",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/239-en-ed1aacb6.png",
+          "description": "Open the notification box Basic The simplest usage that close the notification box after 4.5s."
+        }
+      ]
     },
     {
       "title": "notification-自定义图标",
@@ -6401,7 +6473,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "e29f1cf0"
+      "__ID__": "e29f1cf0",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/240-en-e29f1cf0.png",
+          "description": "Open the notification box Customized Icon The icon can be customized to any react node."
+        }
+      ]
     },
     {
       "title": "notification-自定义样式",
@@ -6422,7 +6500,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "f7a87634"
+      "__ID__": "f7a87634",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/241-en-f7a87634.png",
+          "description": "Open the notification box Customized style The style and className are available to customize Notification."
+        }
+      ]
     },
     {
       "title": "notification-自动关闭的延时",
@@ -6443,7 +6527,13 @@
       "features": [
         "antd"
       ],
-      "__ID__": "d2b0597b"
+      "__ID__": "d2b0597b",
+      "__SNAPSHOTS_EN__": [
+        {
+          "url": "https://derek-hu.github.io/store/screenshots/antd/242-en-d2b0597b.png",
+          "description": "Open the notification box Duration after which the notification box is closed Duration can be used to specify how long the notification stays open. After the duration time elapses, the notification closes automatically. If not specified, default value is 4.5 seconds. If you set the value to 0, the notification box will never close automatically."
+        }
+      ]
     },
     {
       "title": "notification-通过 Hooks 获取上下文",
