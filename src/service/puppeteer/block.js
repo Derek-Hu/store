@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
 import { ATTR_ID, Service, LOCALE_EN, LOCALE_ZH, ATTR_SNAPSHOT_EN, ATTR_SNAPSHOT_ZH } from '../constant';
-import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists, sleep, hashVal } from './utils/index';
+import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists, sleep, hashVal, isHeadless } from './utils/index';
 import path from 'path';
 import fs from 'fs';
 import pkg from '../../../package.json';
@@ -10,7 +10,6 @@ const saveFolder = 'screenshots';
 const emtpyPath = path.resolve(process.cwd(), `./public/${saveFolder}/empty.json`);
 const errorPath = path.resolve(process.cwd(), `./public/${saveFolder}/error.json`);
 
-const isHeadless = process.env.HEADLESS !== 'false';
 const { homepage } = pkg;
 const baseUrl = homepage ? (/\/$/.test(homepage) ? homepage : homepage + '/') : './';
 

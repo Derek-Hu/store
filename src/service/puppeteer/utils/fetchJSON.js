@@ -1,9 +1,9 @@
 import puppeteer from 'puppeteer';
-import { writeFallback, readFallback, isObject, hashVal } from './index';
+import { writeFallback, readFallback, isObject, hashVal, isHeadless } from './index';
 import { ATTR_ID, ATTR_SNAPSHOT_EN, ATTR_SNAPSHOT_ZH, DATA_ATTRBUITES_SELECTOR } from '../../constant';
 
 export default (async (url, name) => {
-  const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
+  const browser = await puppeteer.launch({ headless: isHeadless, args: ['--no-sandbox'] });
   const page = await browser.newPage();
 
   let response = null;
