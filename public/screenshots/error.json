@@ -1,0 +1,729 @@
+{
+  "513c99aa": {
+    "title": "form-登录框",
+    "value": "form-normal-login",
+    "key": "form-normal-login",
+    "description": "普通的登录框，可以容纳更多的元素。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-normal-login",
+    "type": "block",
+    "path": "form-normal-login",
+    "isPage": false,
+    "defaultPath": "/form-normal-login",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-normal-login/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-登录框",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-normal-login",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "513c99aa",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/5-en-513c99aa.png",
+        "description": "Remember me Forgot password Log inOr register now! Login Form Normal login form which can contain more elements."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "99bde7b7": {
+    "title": "form-内联登录栏",
+    "value": "form-inline-login",
+    "key": "form-inline-login",
+    "description": "内联登录栏，常用在顶部导航栏中。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-inline-login",
+    "type": "block",
+    "path": "form-inline-login",
+    "isPage": false,
+    "defaultPath": "/form-inline-login",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-inline-login/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-内联登录栏",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-inline-login",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "99bde7b7",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/6-en-99bde7b7.png",
+        "description": "Log in Inline Login Form Inline login form is often used in navigation bar."
+      }
+    ],
+    "__SNAPSHOTS__": []
+  },
+  "e680f2f4": {
+    "title": "input-基本使用",
+    "value": "input-basic",
+    "key": "input-basic",
+    "description": "基本使用。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/input-basic",
+    "type": "block",
+    "path": "input-basic",
+    "isPage": false,
+    "defaultPath": "/input-basic",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/input-basic/snapshot.png",
+    "tags": [
+      "数据录入"
+    ],
+    "name": "input-基本使用",
+    "previewUrl": "https://ant.design/components/input-cn/#components-input-demo-basic",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "e680f2f4",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/9-en-e680f2f4.png",
+        "description": "Basic usage Basic usage example."
+      }
+    ],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/9-zh-e680f2f4.png",
+        "description": "基本使用 基本使用。"
+      }
+    ]
+  },
+  "97c7f88f": {
+    "title": "drawer-基础抽屉",
+    "value": "drawer-basic-right",
+    "key": "drawer-basic-right",
+    "description": "基础抽屉，点击触发按钮抽屉从右滑出，点击遮罩区关闭",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/drawer-basic-right",
+    "type": "block",
+    "path": "drawer-basic-right",
+    "isPage": false,
+    "defaultPath": "/drawer-basic-right",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/drawer-basic-right/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "drawer-基础抽屉",
+    "previewUrl": "https://ant.design/components/drawer-cn/#components-drawer-demo-basic-right",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "97c7f88f",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/127-en-97c7f88f.png",
+        "description": "Open Basic Basic drawer."
+      }
+    ]
+  },
+  "60977b7f": {
+    "title": "drawer-多层抽屉",
+    "value": "drawer-multi-level-drawer",
+    "key": "drawer-multi-level-drawer",
+    "description": "在抽屉内打开新的抽屉，用以解决多分支任务的复杂状况。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/drawer-multi-level-drawer",
+    "type": "block",
+    "path": "drawer-multi-level-drawer",
+    "isPage": false,
+    "defaultPath": "/drawer-multi-level-drawer",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/drawer-multi-level-drawer/snapshot.png",
+    "tags": [
+      "反馈"
+    ],
+    "name": "drawer-多层抽屉",
+    "previewUrl": "https://ant.design/components/drawer-cn/#components-drawer-demo-multi-level-drawer",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "60977b7f",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/129-en-60977b7f.png",
+        "description": "Open drawer Multi-level drawer Open a new drawer on top of an existing drawer to handle multi branch tasks."
+      }
+    ]
+  },
+  "d9e5c084": {
+    "title": "form-高级搜索",
+    "value": "form-advanced-search",
+    "key": "form-advanced-search",
+    "description": "三列栅格式的表单排列方式，常用于数据表格的高级搜索。\n\n有部分定制的样式代码，由于输入标签长度不确定，需要根据具体情况自行调整。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-advanced-search",
+    "type": "block",
+    "path": "form-advanced-search",
+    "isPage": false,
+    "defaultPath": "/form-advanced-search",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-advanced-search/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-高级搜索",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-advanced-search",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "d9e5c084",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/147-en-d9e5c084.png",
+        "description": "Field 0 Field 1 Field 2 Field 3 Field 4 Field 5 SearchClear Collapse Search Result List Advanced search Three columns layout is often used for advanced searching of data table. Because the width of label is not fixed, you may need to adjust it by customizing its style."
+      }
+    ]
+  },
+  "201df937": {
+    "title": "form-基本使用",
+    "value": "form-basic",
+    "key": "form-basic",
+    "description": "基本的表单数据域控制展示，包含布局、初始化、验证、提交。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-basic",
+    "type": "block",
+    "path": "form-basic",
+    "isPage": false,
+    "defaultPath": "/form-basic",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-basic/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-基本使用",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-basic",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "201df937",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/148-en-201df937.png",
+        "description": "Username Password Remember me Submit Basic Usage Basic Form data control. Includes layout, initial values, validation and submit."
+      }
+    ]
+  },
+  "f335740b": {
+    "title": "form-复杂一点的控件",
+    "value": "form-complex-form-control",
+    "key": "form-complex-form-control",
+    "description": "这里演示 `Form.Item` 内有多个元素的使用方式。`<Form.Item name=\"field\" />` 只会对它的直接子元素绑定表单功能，例如直接包裹了 Input/Select。如果控件前后还有一些文案或样式装点，或者一个表单项内有多个控件，你可以使用内嵌的 `Form.Item` 完成。你可以给 `Form.Item` 自定义 `style` 进行内联布局，或者添加 `noStyle` 作为纯粹的无样式绑定组件（类似 3.x 中的 `getFieldDecorator`）。\n\n```diff\n- <Form.Item label=\"Field\" name=\"field\">\n-   <Input />\n- </Form.Item>\n+ <Form.Item label=\"Field\">\n+   <Form.Item name=\"field\" noStyle><Input /></Form.Item> // 直接包裹才会绑定表单\n+   <span>description</span>\n+ </Form.Item>\n```\n\n这里展示了三种典型场景：\n\n- `Username`：输入框后面有描述文案或其他组件，在 `Form.Item` 内使用 `<Form.Item name=\"field\" noStyle />` 去绑定对应子控件。\n- `Address`：有两个控件，在 `Form.Item` 内使用两个 `<Form.Item name=\"field\" noStyle />` 分别绑定对应控件。\n- `BirthDate`：有两个内联控件，错误信息展示各自控件下，使用两个 `<Form.Item name=\"field\" />` 分别绑定对应控件，并修改 `style` 使其内联布局。\n\n> 注意，在 label 对应的 Form.Item 上不要在指定 `name` 属性，这个 Item 只作为布局作用。\n\n更复杂的封装复用方式可以参考下面的 `自定义表单控件` 演示。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-complex-form-control",
+    "type": "block",
+    "path": "form-complex-form-control",
+    "isPage": false,
+    "defaultPath": "/form-complex-form-control",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-complex-form-control/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-复杂一点的控件",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-complex-form-control",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "f335740b",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/149-en-f335740b.png",
+        "description": "Username Need Help? Address Select province BirthDate Submit complex form control This demo show how to use Form.Item with multiple controls. <Form.Item name=\"field\" /> will only bind control(Input/Select) which is the only children of it. Image this case, you add some text description after Input, then you have to wrap Input by a extra <Form.item name=\"field\">. style property of Form.Item could be useful to modify the nested form item layout, or <Form.Item noStyle /> turn it into a pure form bind component(like getFieldDecorator in 3.x). - <Form.Item label=\"Field\" name=\"field\"> - <Input /> - </Form.Item> + <Form.Item label=\"Field\"> + <Form.Item name=\"field\" noStyle><Input /></Form.Item> // that will bind input + <span>description</span> + </Form.Item> This demo show three typical usages: Username: extra elements after control, using <Form.Item name=\"field\" noStyle /> inside Form.Item to bind Input. Address: two controls in one line, using two <Form.Item name=\"field\" noStyle /> to bind each control. BirthDate：two controls in one line with indeptent error message, using two <Form.Item name=\"field\" noStyle /> to bind each control, make layout inline by customizing style property. Note, in this case, no more name property should be left in Form.Item with label. See Customized Form Controls demo below for further advanced usage."
+      }
+    ]
+  },
+  "f19f7f0c": {
+    "title": "form-表单方法调用",
+    "value": "form-control-hooks",
+    "key": "form-control-hooks",
+    "description": "通过 `Form.useForm` 对表单数据域进行交互。\n\n> 注意 `useForm` 是 [React Hooks](https://reactjs.org/docs/hooks-intro.html) 的实现，只能用于函数组件，class 组件请查看下面的例子。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-control-hooks",
+    "type": "block",
+    "path": "form-control-hooks",
+    "isPage": false,
+    "defaultPath": "/form-control-hooks",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-control-hooks/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-表单方法调用",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-control-hooks",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "f19f7f0c",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/150-en-f19f7f0c.png",
+        "description": "Note Gender Select a option and change input text above SubmitResetFill form Form methods Call form method with Form.useForm. Note that useForm is a React Hooks that only works in functional component."
+      }
+    ]
+  },
+  "f020facd": {
+    "title": "form-表单方法调用（Class component）",
+    "value": "form-control-ref",
+    "key": "form-control-ref",
+    "description": "我们推荐使用 `Form.useForm` 创建表单数据域进行控制。如果是在 class component 下，你也可以通过 `ref` 获取数据域。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-control-ref",
+    "type": "block",
+    "path": "form-control-ref",
+    "isPage": false,
+    "defaultPath": "/form-control-ref",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-control-ref/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-表单方法调用（Class component）",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-control-ref",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "f020facd",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/151-en-f020facd.png",
+        "description": "Note Gender Select a option and change input text above SubmitResetFill form Form methods (Class component) We recommend use Form.useForm to create data control. If you are using class component, you can get it by ref."
+      }
+    ]
+  },
+  "27ab0a68": {
+    "title": "form-多表单联动",
+    "value": "form-form-context",
+    "key": "form-form-context",
+    "description": "通过 `Form.Provider` 在表单间处理数据。本例子中，Modal 的确认按钮在 Form 之外，通过 `form.submit` 方法调用表单提交功能。反之，则推荐使用 `<Button htmlType=\"submit\" />` 调用 web 原生提交逻辑。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-form-context",
+    "type": "block",
+    "path": "form-form-context",
+    "isPage": false,
+    "defaultPath": "/form-form-context",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-form-context/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-多表单联动",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-form-context",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "27ab0a68",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/155-en-27ab0a68.png",
+        "description": "Group Name User List ( No user yet. ) SubmitAdd User Control between forms Use Form.Provider to process data between forms. In this case, submit button is in the Modal which is out of Form. You can use form.submit to submit form. Besides, we recommend native <Button htmlType=\"submit\" /> to submit a form."
+      }
+    ]
+  },
+  "6f3ae92a": {
+    "title": "form-弹出层中的新建表单",
+    "value": "form-form-in-modal",
+    "key": "form-form-in-modal",
+    "description": "当用户访问一个展示了某个列表的页面，想新建一项但又不想跳转页面时，可以用 Modal 弹出一个表单，用户填写必要信息后创建新的项。",
+    "url": "https://github.com/ant-design/ant-design-blocks/tree/master/form-form-in-modal",
+    "type": "block",
+    "path": "form-form-in-modal",
+    "isPage": false,
+    "defaultPath": "/form-form-in-modal",
+    "img": "https://raw.githubusercontent.com/ant-design/ant-design-blocks/master/form-form-in-modal/snapshot.png",
+    "tags": [
+      "表单"
+    ],
+    "name": "form-弹出层中的新建表单",
+    "previewUrl": "https://ant.design/components/form-cn/#components-form-demo-form-in-modal",
+    "features": [
+      "antd"
+    ],
+    "__ID__": "6f3ae92a",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/antd/156-en-6f3ae92a.png",
+        "description": "New Collection Form in Modal to Create When user visit a page with a list of items, and want to create a new item. The page can popup a form in Modal, then let user fill in the form to create an item."
+      }
+    ]
+  },
+  "6c458060": {
+    "name": "complex-tab-table",
+    "title": "复杂 Tab 筛选表格",
+    "description": "附带复杂的 Tab 多级筛选项的表格",
+    "homepage": "https://unpkg.com/@icedesign/complex-tab-table-block/build/index.html",
+    "categories": [
+      "表格"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/blocks/ComplexTabTable",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/complex-tab-table-block",
+      "version": "0.1.14",
+      "registry": "http://registry.npmjs.com",
+      "version-0.x": "2.0.1",
+      "sourceCodeDirectory": "src/"
+    },
+    "dependencies": {
+      "@icedesign/container": "^1.x",
+      "@icedesign/data-binder": "^1.x",
+      "@icedesign/img": "^0.1.0",
+      "@icedesign/label": "^1.x",
+      "@icedesign/theme": "^0.x",
+      "enquire-js": "^0.1.2",
+      "prop-types": "^15.5.8",
+      "@alifd/next": "^1.x"
+    },
+    "screenshot": "https://unpkg.com/@icedesign/complex-tab-table-block/screenshot.png",
+    "screenshots": [
+      "https://unpkg.com/@icedesign/complex-tab-table-block/screenshot.png"
+    ],
+    "customConfig": null,
+    "publishTime": "2018-01-02T12:15:25.701Z",
+    "updateTime": "2019-06-27T05:29:10.286Z",
+    "__ID__": "6c458060"
+  },
+  "ee5ad079": {
+    "name": "data-binder",
+    "title": "ICE 前后端数据绑定、交互方案",
+    "description": "ICE 前后端数据绑定、交互方案",
+    "homepage": "https://unpkg.com/@icedesign/data-binder@1.0.5/build/index.html",
+    "categories": [],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/components/data-binder",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/data-binder",
+      "version": "1.0.5",
+      "registry": "http://registry.npmjs.com"
+    },
+    "dependencies": {
+      "@alifd/next": "^1.11.7",
+      "axios": "^0.18.0",
+      "deepmerge": "^2.0.1",
+      "pure-render-decorator": "^1.2.1"
+    },
+    "screenshots": [
+      null
+    ],
+    "customConfig": null,
+    "publishTime": "2017-12-26T06:49:09.722Z",
+    "updateTime": "2019-06-27T05:29:20.585Z",
+    "__ID__": "ee5ad079"
+  },
+  "7b5cfde6": {
+    "name": "dynamic-icon",
+    "title": "动态 Icon 组件",
+    "description": "动态 Icon 组件",
+    "homepage": "https://unpkg.com/@icedesign/data-binder@latest/build/index.html",
+    "categories": [],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/components/dynamic-icon",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/dynamic-icon",
+      "version": "0.1.8",
+      "registry": "http://registry.npmjs.com"
+    },
+    "dependencies": {
+      "classnames": "^2.2.5",
+      "prop-types": "^15.5.8"
+    },
+    "screenshots": [
+      null
+    ],
+    "customConfig": null,
+    "publishTime": "2018-11-21T04:38:17.491Z",
+    "updateTime": "2019-06-27T05:29:33.915Z",
+    "__ID__": "7b5cfde6"
+  },
+  "c569ccf0": {
+    "name": "ice-scroll-screen-homepage",
+    "title": "云栖极客派官网",
+    "description": "全屏展示的首页模板，支持锚点跳转定位和内置多种动画效果",
+    "homepage": "https://unpkg.com/@icedesign/scroll-screen-homepage-scaffold@latest/build/index.html",
+    "categories": [
+      "官网模板"
+    ],
+    "repository": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-scroll-screen-homepage",
+    "source": {
+      "type": "npm",
+      "npm": "@icedesign/scroll-screen-homepage-scaffold",
+      "version": "2.0.8",
+      "registry": "http://registry.npmjs.com"
+    },
+    "dependencies": {
+      "@alifd/next": "^1.x",
+      "@icedesign/theme": "^1.x",
+      "@icedesign/container": "^1.x",
+      "@icedesign/foundation-symbol": "^1.x",
+      "@icedesign/layout": "^1.x",
+      "classnames": "^2.2.5",
+      "moment": "^2.23.0",
+      "prop-types": "^15.5.8",
+      "rc-animate": "^2.4.4",
+      "rc-queue-anim": "^1.6.5",
+      "rc-scroll-anim": "^2.5.5",
+      "rc-texty": "^0.1.1",
+      "rc-tween-one": "^2.2.3",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-router-dom": "^4.2.2",
+      "react-slick": "^0.23.1",
+      "slick-carousel": "^1.8.1"
+    },
+    "screenshot": "https://img.alicdn.com/tfs/TB1A0bMtRsmBKNjSZFsXXaXSVXa-2840-1596.png",
+    "screenshots": [
+      "https://img.alicdn.com/tfs/TB1A0bMtRsmBKNjSZFsXXaXSVXa-2840-1596.png",
+      "https://img.alicdn.com/tfs/TB1O05aJpzqK1RjSZFvXXcB7VXa-2860-1580.png",
+      "https://img.alicdn.com/tfs/TB1DxX7JCzqK1RjSZFLXXcn2XXa-2860-1580.png"
+    ],
+    "builder": "ice-scripts",
+    "customConfig": null,
+    "publishTime": "2018-08-30T11:00:41.957Z",
+    "updateTime": "2019-07-05T09:22:00.646Z",
+    "__ID__": "c569ccf0"
+  },
+  "3584e26b": {
+    "name": "个人设置",
+    "key": "AccountSettings",
+    "description": "通常是用于用户设置名称、头像、用途、私密性等信息。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/AccountSettings",
+    "path": "AccountSettings",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/AccountSettings/snapshot.png?raw=true",
+    "tags": [
+      "个人设置"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/account/settings",
+    "__ID__": "3584e26b",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/2-zh-3584e26b.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "4c6cf9d7": {
+    "name": "监控页",
+    "key": "DashboardMonitor",
+    "description": "常用于数据报表细节信息的展示，根据业务诉求可配置文本、列表、可视化图表等。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/DashboardMonitor",
+    "path": "DashboardMonitor",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/DashboardMonitor/snapshot.png?raw=true",
+    "tags": [
+      "dashboard"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/dashboard/monitor",
+    "__ID__": "4c6cf9d7",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/4-zh-4c6cf9d7.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "16660e61": {
+    "name": "工作台",
+    "key": "DashboardWorkplace",
+    "description": "工作台将应用中每个部分最关键的数据提取出来，在一个页面呈现，便于全局分析和决策。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/DashboardWorkplace",
+    "path": "DashboardWorkplace",
+    "features": [
+      "antd",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/DashboardWorkplace/snapshot.png?raw=true",
+    "tags": [
+      "dashboard"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/dashboard/workplace",
+    "__ID__": "16660e61",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/5-zh-16660e61.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "7aaaa24b": {
+    "name": "搜索列表（应用）",
+    "key": "ListSearchApplications",
+    "description": "常用于陈列某一主题下的大量条目，并提供丰富的数据筛选功能帮助用户匹配出需要的数据自己。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/ListSearchApplications",
+    "path": "ListSearchApplications",
+    "features": [
+      "antd",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/ListSearchApplications/snapshot.png?raw=true",
+    "tags": [
+      "列表",
+      "搜索"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/list/search/applications",
+    "__ID__": "7aaaa24b",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/18-zh-7aaaa24b.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "bf8d9b10": {
+    "name": "高级详情页",
+    "key": "ProfileAdvanced",
+    "description": "一个复杂的详情页，可以展示一个对象的基本信息和其相关的新息和操作。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/ProfileAdvanced",
+    "path": "ProfileAdvanced",
+    "features": [
+      "antd",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/ProfileAdvanced/snapshot.png?raw=true",
+    "tags": [
+      "详情",
+      "高级"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/profile/advanced",
+    "__ID__": "bf8d9b10",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/22-zh-bf8d9b10.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "e728b2cd": {
+    "name": "基础详情页",
+    "key": "ProfileBasic",
+    "description": "详情页可以向用户展示一个对象完整的描述信息,并且可以对一个对象进行编辑操作。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/ProfileBasic",
+    "path": "ProfileBasic",
+    "features": [
+      "antd",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/ProfileBasic/snapshot.png?raw=true",
+    "tags": [
+      "详情",
+      "基本"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/profile/basic",
+    "__ID__": "e728b2cd",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/23-zh-e728b2cd.png",
+        "description": "Ant Design"
+      }
+    ]
+  },
+  "107f0845": {
+    "name": "成功页",
+    "key": "ResultSuccess",
+    "description": "告知用户操作后所产生的成功结果，引导用户接下来的行动。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/ResultSuccess",
+    "path": "ResultSuccess",
+    "features": [
+      "antd",
+      "i18n"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/ResultSuccess/snapshot.png?raw=true",
+    "tags": [
+      "结果"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/result/success",
+    "__ID__": "107f0845",
+    "__SNAPSHOTS_EN__": [],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/25-zh-107f0845.png",
+        "description": "Submission Success The submission results page is used to feed back the results of a series of operational tasks. If it is a simple operation, use the Message global prompt feedback. This text area can show a simple supplementary explanation. If there is a similar requirement for displaying “documents”, the following gray area can present more complicated content. Project Name Project ID23421 PrincipalQu Lili Effective time2016-12-12 ~ 2017-12-12 Create project Qu Lili 2016-12-12 12:32 Departmental preliminary review Zhou MaomaoUrge Financial review Finish Back ListView ProjectPrint"
+      }
+    ]
+  },
+  "e7050bce": {
+    "name": "登录页",
+    "key": "UserLogin",
+    "description": "用户登录界面，支持用户名密码和手机号登录。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserLogin",
+    "path": "UserLogin",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserLogin/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "登录"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/login",
+    "__ID__": "e7050bce",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/26-en-e7050bce.png",
+        "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 账户密码登录手机号登录 自动登录 忘记密码 登 录 其他登录方式 注册账户 Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+      }
+    ],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/26-zh-e7050bce.png",
+        "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 账户密码登录手机号登录 自动登录 忘记密码 登 录 其他登录方式 注册账户 Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+      }
+    ]
+  },
+  "5d0a3854": {
+    "name": "注册页",
+    "key": "UserRegister",
+    "description": "用户注册是使用，用于填写基本的账号信息。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserRegister",
+    "path": "UserRegister",
+    "features": [
+      "antd",
+      "i18n",
+      "dva"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserRegister/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "注册"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/register",
+    "__ID__": "5d0a3854",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/27-en-5d0a3854.png",
+        "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 Register +86 Get code Register Already have an account? Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+      }
+    ],
+    "__SNAPSHOTS__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/27-zh-5d0a3854.png",
+        "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 Register +86 Get code Register Already have an account? Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+      }
+    ]
+  },
+  "8ae6eecb": {
+    "name": "注册结果页",
+    "key": "UserRegisterResult",
+    "description": "用于展示注册的结果。",
+    "url": "https://github.com/ant-design/pro-blocks/tree/master/UserRegisterResult",
+    "path": "UserRegisterResult",
+    "features": [
+      "antd",
+      "i18n"
+    ],
+    "img": "https://raw.githubusercontent.com/ant-design/pro-blocks/master/UserRegisterResult/snapshot.png?raw=true",
+    "tags": [
+      "用户",
+      "注册",
+      "结果"
+    ],
+    "previewUrl": "https://preview.pro.ant.design/user/register/result",
+    "__ID__": "8ae6eecb",
+    "__SNAPSHOTS_EN__": [
+      {
+        "url": "https://derek-hu.github.io/store/screenshots/umijs/28-en-8ae6eecb.png",
+        "description": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范 404 Sorry, the page you visited does not exist. Back Home Ant Design ProAnt Design Copyright 2019 蚂蚁金服体验技术部出品"
+      }
+    ]
+  }
+}
