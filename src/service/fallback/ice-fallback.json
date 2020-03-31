@@ -1,4 +1,4 @@
-export default {
+{
   "template": "@icedesign/react-ts-material-template",
   "type": "react",
   "fusion-site": {

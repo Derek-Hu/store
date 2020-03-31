@@ -16,7 +16,15 @@ export const writeSync = function (outputFilePath, content) {
 }
 
 export const writeFallback = (name, content) => {
-    writeSync(path.resolve(__dirname, '../../fallback', name + '.js'), `export default ${JSON.stringify(content, null, 2)}`);
+    writeSync(path.resolve(__dirname, '../../fallback', name + '.json'), `${JSON.stringify(content, null, 2)}`);
+}
+
+export const readFallback = (name) => {
+    try{
+        return JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../fallback', name + '.json'), 'UTF8'));
+    }catch(e){
+        return null;
+    }
 }
 
 export const asyncForEach = async (array, callback) => {

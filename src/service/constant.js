@@ -8,6 +8,17 @@ export const LIB_MATERIAL_ICECOMP = 'LIB_MATERIAL_ICECOMP';
 export const LIB_MATERIAL_ICEWORK = 'LIB_MATERIAL_ICEWORK';
 export const LIB_MATERIAL_ICESCA = 'LIB_MATERIAL_ICESCA';
 
+export const ATTR_ID = '__ID__';
+export const ATTR_SNAPSHOT_EN = '__SNAPSHOTS_EN__';
+export const ATTR_SNAPSHOT_ZH = '__SNAPSHOTS__';
+
+export const DATA_ATTRBUITES_SELECTOR = {
+    blocks: 'html',
+    components: 'html',
+    scaffolds: 'html',
+    list: 'html',
+}
+
 export const LOCALE_ZH = 'zh';
 export const LOCALE_EN = 'en';
 
@@ -18,6 +29,7 @@ export const Service = {
         selector: {
             blocks: '.code-box:target'
         },
+        languages: [LOCALE_ZH, LOCALE_EN], 
         waitUntil: 'networkidle2',
         runBeforeWaitForSelector: function (currentLocale, settings) {
             const element = document.querySelector('.header-lang-button');
@@ -57,6 +69,7 @@ export const Service = {
             width: 1000,
             height: 800
         },
+        languages: [LOCALE_ZH, LOCALE_EN], 
         waitUntil: 'networkidle0',
         runInBrowser: function () {
             const sideMenu = document.querySelector('section.ant-layout aside.ant-layout-sider');

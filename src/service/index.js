@@ -2,7 +2,7 @@ import * as AntdService from './AntdService';
 import * as IceWorkService from './IceWorkService';
 import * as UmiService from './UmiService';
 import * as MaterialService from './IceMaterialService';
-import { LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA, LIB_ANTD, LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
+import { ATTR_ID, LIB_ICECOMP, LIB_ICEWORK, LIB_ICESCA, LIB_ANTD, LIB_MATERIAL_ICECOMP, LIB_MATERIAL_ICEWORK, LIB_MATERIAL_ICESCA, LIB_UMIBLOCK, LIB_UMICOMP, SEPERATOR } from './constant';
 
 export const loadBlocks = async () => {
 
@@ -28,7 +28,7 @@ export const loadBlocks = async () => {
     Object.keys(datas).forEach(lib => {
         if (datas[lib]) {
             datas[lib].forEach((item, index) => {
-                item.__id__ = `${lib}${SEPERATOR}${index}`;
+                item[ATTR_ID] = `${lib}${SEPERATOR}${index}`;
             })
         }
     })

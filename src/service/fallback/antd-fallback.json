@@ -1,4 +1,4 @@
-export default {
+{
   "blocks": [
     {
       "title": "form-注册新用户",

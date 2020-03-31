@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Select } from 'antd';
-import { Libs } from '../service/constant';
+import { Libs, ATTR_ID } from '../service/constant';
 import styles from './store.module.less';
 
 const { Option } = Select;
@@ -76,7 +76,7 @@ export default class Sider extends React.Component {
           style={{ height: '100%', width: '100%', textAlign: 'left', paddingTop: '46px'}}
         >
           {
-            items ? items.map(item => <Menu.Item key={item.__id__}>{item.title}</Menu.Item>) : null
+            items ? items.map(item => <Menu.Item key={item[ATTR_ID]}>{item.title}</Menu.Item>) : null
           }
         </SubMenu>
       </Menu>

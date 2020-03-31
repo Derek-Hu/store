@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer';
-import { Service, LOCALE_EN, LOCALE_ZH } from '../constant';
-import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists, sleep, hashVal, isObject } from './utils/index';
+import { ATTR_ID, Service, LOCALE_EN, LOCALE_ZH, ATTR_SNAPSHOT_EN, ATTR_SNAPSHOT_ZH } from '../constant';
+import { writeFallback, writeSync, asyncForEach, createFolderIfNotExists, sleep, hashVal } from './utils/index';
 import path from 'path';
 import fs from 'fs';
 import pkg from '../../../package.json';
@@ -28,7 +28,7 @@ try {
 }
 
 const saveErrors = (item) => {
-    errorItems[item.__ID__] = item;
+    errorItems[item[ATTR_ID]] = item;
     writeSync(errorPath, JSON.stringify(errorItems, null, 2));
 }
 
@@ -50,11 +50,14 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
             if (!item) {
                 return;
             }
-            item.__ID__ = hashVal(item);
-            const screenEmpty = !isObject(item.__HASH__) || !item.__HASH__[locale]
-            const descriptionEmpty = !isObject(item.__DESCRIPTION__) || item.__DESCRIPTION__[locale] === undefined || item.__DESCRIPTION__[locale] === null;
+            if(!item[ATTR_ID]){
+                item[ATTR_ID] = hashVal(item);
+            }
+            
+            const localAttr = locale === LOCALE_ZH? ATTR_SNAPSHOT_ZH: ATTR_SNAPSHOT_EN;
+            const isSnapshotsEmpty = !Array.isArray(item[localAttr]) || !item[localAttr][0] || !item[localAttr][0].url;
 
-            if (forceUpdate || screenEmpty || descriptionEmpty) {
+            if (forceUpdate || isSnapshotsEmpty) {
                 const page = await browser.newPage();
                 await page.evaluateOnNewDocument(preload);
                 try {
@@ -107,16 +110,16 @@ export default (async ({ name, viewport, preload, waitUntil, locale, runBeforeWa
 
                     const hash = `${index}-${locale}-${hashVal(item)}`;
 
-                    if (!isObject(item.__DESCRIPTION__)) {
-                        item.__DESCRIPTION__ = {};
+                    if (!Array.isArray(item[localAttr])) {
+                        item[localAttr] = [];
                     }
-                    if (!isObject(item.__HASH__)) {
-                        item.__HASH__ = {};
-                    }
+
                     const subPath = `${saveFolder}/${name}/${hash}.png`;
 
-                    item.__HASH__[locale] = `${baseUrl}${subPath}`;
-                    item.__DESCRIPTION__[locale] = clip.text;
+                    item[localAttr][0] = {
+                        url: `${baseUrl}${subPath}`,
+                        description: clip.text
+                    };
 
                     const imagePath = `./public/${subPath}`;
                     const absolutePath = path.resolve(process.cwd(), imagePath);
