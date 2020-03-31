@@ -23,9 +23,14 @@ Environment Variables:
 `FORCE_UPDATE=true` Re-Generate all component snapshots. Default `false`.
 
 ```sh
+npm run fetchJSON
 npm run snapshots
 # or
+npm run fetchJSON:debug
 npm run snapshots:debug
+# or
+npm run puppeteer:all
+
 ```
 
 Images generated in folder `public/screenshots`. 

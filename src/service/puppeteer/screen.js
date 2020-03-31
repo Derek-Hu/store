@@ -10,7 +10,7 @@ const preloadZhFile = fs.readFileSync(path.resolve(__dirname, './preload/preload
 
 asyncForEach(keys, async name => {
     const lib = Service[name];
-    const blockData = require(`../fallback/${lib.name}`).default;
+    const blockData = require(`../fallback/${lib.name}`);
     if (!lib.selector) {
         lib.selector = DATA_ATTRBUITES_SELECTOR;
     }
@@ -26,6 +26,9 @@ asyncForEach(keys, async name => {
         if (lib.runInBrowser && typeof lib.runInBrowser !== 'function') {
             throw new Error('runInBrowser为函数类型，运行在浏览器中');
         }
+        if (!blockData[attribute]) {
+            return;
+        }
         const params = {
             selector: lib.selector[attribute],
             name,
@@ -37,12 +40,23 @@ asyncForEach(keys, async name => {
             runBeforeWaitForSelector: lib.runBeforeWaitForSelector,
             waitUntil: lib.waitUntil
         }
-        let languages = lib.languages;
-        if (!languages || (!languages.includes(LOCALE_EN) && !languages.includes(LOCALE_ZH))) {
-            languages = [LOCALE_ZH];
+        const languages = lib.languages;
+        const valids = [];
+        if (languages) {
+            if (languages.includes(LOCALE_EN)) {
+                valids.push(LOCALE_EN);
+            } 
+            
+            if (languages.includes(LOCALE_ZH)) {
+                valids.push(LOCALE_ZH);
+            }
         }
+        if (!valids.length) {
+            valids.push(LOCALE_ZH);
+        }
+
         debugger;
-        await asyncForEach(languages, async language => {
+        await asyncForEach(valids, async language => {
             await downScreen({
                 ...params,
                 locale: language,
