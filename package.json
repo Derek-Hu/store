@@ -46,7 +46,7 @@
     "markdown": "^0.5.0",
     "markdown-it": "^10.0.0",
     "markdown-it-front-matter": "^0.2.1",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "moment-locales-webpack-plugin": "^1.1.2",
     "pngjs": "^3.4.0",
     "preval.macro": "^4.0.0",
